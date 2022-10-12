@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Rules</title>
+	<subtitle>Game rules for quick reference on the go</subtitle>
+	
+	<link href="https://nathan-long.com/rules/feed/feed.xml" rel="self"/>
+	<link href="https://nathan-long.com/rules"/>
+	<updated>2022-10-11T00:00:00Z</updated>
+	<id>https://example.com/</id>
+	<author>
+		<name>Nathan Long</name>
+		<email>youremailaddress@example.com</email>
+	</author>
+	
+	<entry>
+		<title>Scoundrel</title>
+		<link href="https://nathan-long.com/rules/posts/scoundrel/"/>
+		<updated>2022-10-11T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/posts/scoundrel/</id>
+		<content type="html">&lt;h2 id=&quot;setup:&quot; tabindex=&quot;-1&quot;&gt;Setup: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/scoundrel/#setup:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Scoundrel is played with a standard deck of playing cards.&lt;/p&gt;
+&lt;p&gt;Search through the deck and remove all Jokers, Red Face Cards and Red Aces. Place them off to the side, they are not used in this game.&lt;/p&gt;
+&lt;p&gt;Shuffle the remaining cards and place the pile face down on your left. This deck is called the &lt;strong&gt;Dungeon&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Take out a piece of paper and pen (or use your memory). Mark down 20 on the piece of paper, this is your starting &lt;strong&gt;Health&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;rules:&quot; tabindex=&quot;-1&quot;&gt;Rules: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/scoundrel/#rules:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The 26 &lt;strong&gt;Clubs ♣︎&lt;/strong&gt; and &lt;strong&gt;Spades ♠︎&lt;/strong&gt; in the deck are &lt;strong&gt;Monsters&lt;/strong&gt;. Their damage is equal to their ordered value. (e.g. 10 is 10, Jack is 11, Queen is 12, King is 13, and Ace is 14)&lt;/p&gt;
+&lt;p&gt;The 9 &lt;strong&gt;Diamonds ♦︎&lt;/strong&gt; in the deck are &lt;strong&gt;Weapons&lt;/strong&gt;. Each weapon does as much damage as its value. All weapons in Scoundrel are binding, meaning if you pick one up, you must equip it, and discard your previous weapon.&lt;/p&gt;
+&lt;p&gt;The 9 &lt;strong&gt;Hearts ♥︎&lt;/strong&gt; in the deck are &lt;strong&gt;Health Potions&lt;/strong&gt;. You may only use one health potion each turn, even if you pull two. The second potion you pull is simply discarded. You may not restore your life beyond your starting 20 health.&lt;/p&gt;
+&lt;p&gt;You may locate the discard deck (any discarded cards) anywhere you wish, though I recommend to the right of the &lt;strong&gt;Room&lt;/strong&gt;. Cards are discarded face down.&lt;/p&gt;
+&lt;p&gt;The Game ends when either your life reaches 0 or you make your way through the entire &lt;strong&gt;Dungeon&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;svg version=&quot;1.1&quot; id=&quot;Layer_1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; x=&quot;0&quot; y=&quot;0&quot; viewBox=&quot;0 0 600 349&quot; xml:space=&quot;preserve&quot; style=&quot;max-width: 600px; margin: 0 auto; display: block;&quot;&gt;&lt;style&gt;.st0{fill:#7f7f7f}.st1{fill:#db4242}.st2{fill:#9ba033}.st3{fill:#1e9917}.st4{font-family:&amp;quot;Roboto&amp;quot;;}.st5{font-size:18.6274px}.st6{fill:#613ece}&lt;/style&gt;&lt;path class=&quot;st0&quot; d=&quot;M88.449 24.142H30.604c-1.65 0-3 1.35-3 3v81.376H21.67c-1.103 0-2-.897-2-2v-88.69c0-1.103.897-2 2-2h57.845c1.103 0 2 .897 2 2V24h2v-6.172c0-2.206-1.794-4-4-4H21.67c-2.206 0-4 1.794-4 4v88.689c0 2.206 1.794 4 4 4h5.934v5.313c0 1.65 1.35 3 3 3h57.845c1.65 0 3-1.35 3-3V27.142c0-1.65-1.35-3-3-3zm1 91.689c0 .542-.458 1-1 1H30.604c-.542 0-1-.458-1-1V27.142c0-.542.458-1 1-1h57.845c.542 0 1 .458 1 1v88.689z&quot;&gt;&lt;/path&gt;&lt;path class=&quot;st1&quot; d=&quot;M156 281.415h-6.556c-2.206 0-4-1.794-4-4v-88.689c0-2.206 1.794-4 4-4h57.845c2.206 0 4 1.794 4 4V220h-2v-31.274c0-1.103-.897-2-2-2h-57.845c-1.103 0-2 .897-2 2v88.689c0 1.103.897 2 2 2H156v2z&quot;&gt;&lt;/path&gt;&lt;path class=&quot;st2&quot; d=&quot;M216.241 219.902h-57.845c-2.206 0-4 1.794-4 4v107.63c0 2.206 1.794 4 4 4h57.845c2.206 0 4-1.794 4-4v-107.63c0-2.206-1.795-4-4-4zm-57.845 2h57.845c1.103 0 2 .897 2 2v6.526a3.959 3.959 0 00-2-.556h-57.845c-.732 0-1.409.212-2 .556v-6.526c0-1.102.897-2 2-2zm59.845 17.497a3.959 3.959 0 00-2-.556h-57.845c-.732 0-1.409.212-2 .556v-5.527c0-1.103.897-2 2-2h57.845c1.103 0 2 .897 2 2v5.527zm0 27.601v64.532c0 1.103-.897 2-2 2h-57.845c-1.103 0-2-.897-2-2v-88.689c0-1.103.897-2 2-2h57.845c1.103 0 2 .897 2 2V267z&quot;&gt;&lt;/path&gt;&lt;path class=&quot;st3&quot; d=&quot;M207.244 26.142c.542 0 1 .458 1 1v88.689c0 .542-.458 1-1 1H149.4c-.542 0-1-.458-1-1V27.142c0-.542.458-1 1-1h57.844m0-2H149.4c-1.65 0-3 1.35-3 3v88.689c0 1.65 1.35 3 3 3h57.845c1.65 0 3-1.35 3-3V27.142a3.01 3.01 0 00-3.001-3zM285.6 26.142c.542 0 1 .458 1 1v88.689c0 .542-.458 1-1 1h-57.845c-.542 0-1-.458-1-1V27.142c0-.542.458-1 1-1H285.6m0-2h-57.845c-1.65 0-3 1.35-3 3v88.689c0 1.65 1.35 3 3 3H285.6c1.65 0 3-1.35 3-3V27.142c0-1.65-1.35-3-3-3zM363.955 26.142c.542 0 1 .458 1 1v88.689c0 .542-.458 1-1 1H306.11c-.542 0-1-.458-1-1V27.142c0-.542.458-1 1-1h57.845m0-2H306.11c-1.65 0-3 1.35-3 3v88.689c0 1.65 1.35 3 3 3h57.845c1.65 0 3-1.35 3-3V27.142c0-1.65-1.35-3-3-3zM442.31 26.142c.542 0 1 .458 1 1v88.689c0 .542-.458 1-1 1h-57.845c-.542 0-1-.458-1-1V27.142c0-.542.458-1 1-1h57.845m0-2h-57.845c-1.65 0-3 1.35-3 3v88.689c0 1.65 1.35 3 3 3h57.845c1.65 0 3-1.35 3-3V27.142c0-1.65-1.35-3-3-3z&quot;&gt;&lt;/path&gt;&lt;text transform=&quot;matrix(.9348 0 0 1 16.615 146.09)&quot; class=&quot;st0 st4 st5&quot;&gt;DUNGEON&lt;/text&gt;&lt;path class=&quot;st6&quot; d=&quot;M571.449 24.142h-57.845c-1.65 0-3 1.35-3 3v81.376h-5.934c-1.103 0-2-.897-2-2v-88.69c0-1.103.897-2 2-2h57.845c1.103 0 2 .897 2 2V24h2v-6.172c0-2.206-1.794-4-4-4H504.67c-2.206 0-4 1.794-4 4v88.689c0 2.206 1.794 4 4 4h5.934v5.313c0 1.65 1.35 3 3 3h57.845c1.65 0 3-1.35 3-3V27.142c0-1.65-1.35-3-3-3zm1 91.689c0 .542-.458 1-1 1h-57.845c-.542 0-1-.458-1-1V27.142c0-.542.458-1 1-1h57.845c.542 0 1 .458 1 1v88.689z&quot;&gt;&lt;/path&gt;&lt;text transform=&quot;matrix(.9348 0 0 1 504.589 146.09)&quot; class=&quot;st6 st4 st5&quot;&gt;DISCARD&lt;/text&gt;&lt;text transform=&quot;matrix(.9348 0 0 1 268.315 146.09)&quot; class=&quot;st3 st4 st5&quot;&gt;ROOM&lt;/text&gt;&lt;text transform=&quot;matrix(.9348 0 0 1 235.524 200.567)&quot; class=&quot;st1 st4 st5&quot;&gt;EQUIPPED WEAPON&lt;/text&gt;&lt;text transform=&quot;matrix(.9348 0 0 1 235.524 235.281)&quot; class=&quot;st2 st4 st5&quot;&gt;MONSTERS SLAIN BY THIS WEAPON&lt;/text&gt;&lt;/svg&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;gameplay:&quot; tabindex=&quot;-1&quot;&gt;Gameplay: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/scoundrel/#gameplay:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;On your first and every turn, flip over cards off the top of the deck, one by one, until you have 4 cards face up in front of you to make a &lt;strong&gt;Room&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;You may avoid the &lt;strong&gt;Room&lt;/strong&gt; if you wish. If you chose to do so, scoop up all four cards in one motion and place them at the bottom of the Dungeon. While you may avoid as many &lt;strong&gt;Rooms&lt;/strong&gt; as you want, you may not avoid two &lt;strong&gt;Rooms&lt;/strong&gt; in a row.&lt;/p&gt;
+&lt;p&gt;If you choose not to avoid the &lt;strong&gt;Room&lt;/strong&gt;, one by one, you must face 3 of the four cards it contains.&lt;/p&gt;
+&lt;p&gt;Take them one at a time.&lt;/p&gt;
+&lt;p&gt;Once you have chosen 3 cards (such that only one remains), your turn is complete. Leave the fourth card face up in front of you as part of the next Room.&lt;/p&gt;
+&lt;h3 id=&quot;if-you-chose-a-weapon...&quot; tabindex=&quot;-1&quot;&gt;If you chose a Weapon... &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/scoundrel/#if-you-chose-a-weapon...&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;You must equip it. Do this by placing it face up between you and the remaining &lt;strong&gt;Room&lt;/strong&gt; cards. If you had a previous &lt;strong&gt;Weapon&lt;/strong&gt; equipped, move it and any &lt;strong&gt;Monsters&lt;/strong&gt; on it to the discard deck.&lt;/p&gt;
+&lt;h3 id=&quot;if-you-chose-a-health-potion...&quot; tabindex=&quot;-1&quot;&gt;If you chose a Health Potion... &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/scoundrel/#if-you-chose-a-health-potion...&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Add its number to your health, and than discard it. Your health may not exceed 20, and you may not use more than one &lt;strong&gt;Health Potion&lt;/strong&gt; per turn. If you take two &lt;strong&gt;Health Potions&lt;/strong&gt; on a single turn, the second is simply discarded, adding nothing to your health.&lt;/p&gt;
+&lt;h3 id=&quot;if-you-chose-a-monster...&quot; tabindex=&quot;-1&quot;&gt;If you chose a Monster... &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/scoundrel/#if-you-chose-a-monster...&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;You may either fight it &lt;strong&gt;barehanded&lt;/strong&gt; or with an equipped &lt;strong&gt;Weapon&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;If you choose to fight the Monster &lt;strong&gt;barehanded&lt;/strong&gt;, subtract its full value from your Health, and move the Monster to the discard deck.&lt;/p&gt;
+&lt;p&gt;If you choose to fight the Monster with your equipped &lt;strong&gt;Weapon&lt;/strong&gt;, place the monster face up on top of the weapon (and on top of any other Monsters on the Weapon. Be sure to stagger the placement of the Monster so that the Weapon&#39;s number is still showing. subtract the Weapon&#39;s value from the Monster&#39;s value and subtract any remaining value from your health.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For example, if your Weapon is a 5, and you place a 3 Monster on it, you take no damage. ( 3-5 &amp;lt; 0). If your Weapon is a 5 and you place a Jack Monster on it, you take 6 damage. ( 11 - 5 = 5 dmg)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It is important to note that although you retain your weapons until they are replaced, once a Weapon is used on a monster, the Weapon can then only be used to slay Monsters of a lower value (less than equal) than the previous Monster it had slain.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For example, if your 5 Weapon has killed a Queen Monster and you then choose a 6 Monster, you may use your Weapon on the 6 Monster, as 6 is less than 12. But, if you have used your 5 Weapon on a 6 Monster, and you then choose a Queen Monster, you must fight the Queen barehanded as Queen,12, is greater than 6. Despite this, the Weapon is not discarded, as it could still be used against Monsters weaker than a 6.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;scoring&quot; tabindex=&quot;-1&quot;&gt;Scoring &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/scoundrel/#scoring&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If your life has reached zero, find all the remaining monsters in the Dungeon, and subtract their values from your life, this negative value is your score.&lt;/p&gt;
+&lt;p&gt;If you have made your way through the entire dungeon, your score is your positive life, or if your life is 20, and your last card was a health potion, your life + the value of that potion.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Lamarckian Poker</title>
+		<link href="https://nathan-long.com/rules/posts/lamarckian-poker/"/>
+		<updated>2022-10-11T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/posts/lamarckian-poker/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;h2 id=&quot;story:&quot; tabindex=&quot;-1&quot;&gt;Story: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/lamarckian-poker/#story:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Jean-Baptiste Pierre Antoine de Monet, Chevalier de la Marck, known to his friends as “Lamarck,” was a precursor of Charles Darwin, and a proponent of “soft inheritance.” This is the evolutionary theory that a parent animal could produce evolved offspring by changing its own behavior, as exemplified by the case of a giraffe who stretches her own neck, and later gives birth to a longer necked calf.&lt;/p&gt;
+&lt;p&gt;In Lamarckian Poker, you will start with a hand of random cards resembling primordial ooze, and then attempt through successive generations to evolve it into something more useful, such as mud or slime. Or perhaps the rats and giraffes of Lamarck’s colorful imagination.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;to-begin:&quot; tabindex=&quot;-1&quot;&gt;To Begin: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/lamarckian-poker/#to-begin:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Shuffle the deck, and deal each player a starting hand of four cards.&lt;/p&gt;
+&lt;h2 id=&quot;on-each-turn:&quot; tabindex=&quot;-1&quot;&gt;On Each Turn: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/lamarckian-poker/#on-each-turn:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Deal four cards face up in the center of the table. These cards are called the “pool.” Each player plays one card from his hand face down on the table. This card is called the “mark.” When all the marks are down, reveal them. They will then be played one at a time, in descending order. Suit determines the order between cards of the same rank, with clubs at the bottom, then diamonds, hearts, and spades.&lt;/p&gt;
+&lt;p&gt;When played, each mark can capture cards from the pool. When you play a mark, you pick up all the cards which match it, either by suit or by rank. The mark itself falls into the pool. For example, if a Queen of spades is your play, you will pick up all the spades, and all the Queens, and then put the Queen of spades into the pool.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2 id=&quot;another-example:&quot; tabindex=&quot;-1&quot;&gt;Another Example: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/lamarckian-poker/#another-example:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;On the first round of a three-player game, the following cards are dealt into the pool: A♥, Q♣, 9♠, 5♥. Each player plays a mark face down, and then the cards are revealed to be the A♠, 10♣, and 9♥. The marks are now played from highest to lowest, so the A♠ goes first, capturing the A♥ and the 9♠, and then falling in. The new pool contains the A♠, Q♣, and 5♥. Then, the 10♣ takes the Q♣, and falls into the pool. Last, the 9♥ takes the 5♥, and falls in.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;After the last mark is played, discard whatever is left in the pool, and deal four new cards into the pool, starting a new round.&lt;/p&gt;
+&lt;p&gt;Play continues until the deck is empty. After the last round, there is a showdown, and the player with the best poker hand wins.&lt;/p&gt;
+&lt;p&gt;It’s possible, especially with a large number of players, for people’s hands to empty. This is just a result of natural selection. If your hand is ever empty at the end of a turn, you go extinct and are out of the game.&lt;/p&gt;
+&lt;h2 id=&quot;strategy:&quot; tabindex=&quot;-1&quot;&gt;Strategy: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/lamarckian-poker/#strategy:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You don’t want to run out of cards, so in the early stages of the game you must try to pick up more cards than you play, regardless of how well they build your poker hand. At some point you will have to start tuning your hand with more precise plays, but only when you no longer run the risk of running out of cards. Just to be clear, straights and flushes require five cards.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;the-poker-hands:&quot; tabindex=&quot;-1&quot;&gt;The Poker Hands: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/lamarckian-poker/#the-poker-hands:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You probably don’t need a reminder, but in case you do, here is the list of poker hands from best to worst.&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;Five of a Kind:&lt;/dt&gt;
+&lt;dd&gt;Five cards of the same rank, such as AAAAA. This hand is impossible without wild cards.&lt;/dd&gt;
+&lt;dt&gt;Royal Flush:&lt;/dt&gt;
+&lt;dd&gt;This is merely an Ace-high straight flush. It has its own name because it is so awesome.&lt;/dd&gt;
+&lt;dt&gt;Straight Flush:&lt;/dt&gt;
+&lt;dd&gt;Five cards in sequence that are also all the same suit, such as 3d-4d-5d-6d-7d.&lt;/dd&gt;
+&lt;dt&gt;Four of a Kind&lt;/dt&gt;
+&lt;dd&gt;Four cards of the same rank, such as four Jacks.&lt;/dd&gt;
+&lt;dt&gt;Full House:&lt;/dt&gt;
+&lt;dd&gt;Three of one kind and two of another, such as QQQ-33 (Queens full of threes). The rank of the set of three determines the rank of the hand in comparison other full houses.&lt;/dd&gt;
+&lt;dt&gt;Flush:&lt;/dt&gt;
+&lt;dd&gt;Five cards of the same suit. The highest card in the set determines the value of the hand, when comparing with other flushes.&lt;/dd&gt;
+&lt;dt&gt;Straight:&lt;/dt&gt;
+&lt;dd&gt;Five cards in sequence, such as 8-9-T-J-Q. Straights are compared by their highest card. Aces can be used as high or low in a straight. A-2-3-4-5 is a 5-high straight.&lt;/dd&gt;
+&lt;dt&gt;Three of a Kind:&lt;/dt&gt;
+&lt;dd&gt;Three cards of the same rank, such as three Kings.&lt;/dd&gt;
+&lt;dt&gt;Two Pair:&lt;/dt&gt;
+&lt;dd&gt;Two pairs, such as KK-66.&lt;/dd&gt;
+&lt;dt&gt;One Pair:&lt;/dt&gt;
+&lt;dd&gt;Two cards of the same rank, such as QQ.&lt;/dd&gt;
+&lt;dt&gt;High Card:&lt;/dt&gt;
+&lt;dd&gt;If you have nothing else on this list, you have “high card.” Ranked by its highest card.&lt;/dd&gt;
+&lt;/dl&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The Bogey</title>
+		<link href="https://nathan-long.com/rules/posts/bogey/"/>
+		<updated>2022-10-11T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/posts/bogey/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Fey creatures, called bogeys, are creatures of mischief. Be wary of where you put things or you may find something else in its place!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;set-up&quot; tabindex=&quot;-1&quot;&gt;Set up &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/bogey/#set-up&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Shuffle the deck and deal yourself an opening hand of 5 cards.&lt;/p&gt;
+&lt;h2 id=&quot;how-to-win&quot; tabindex=&quot;-1&quot;&gt;How to Win &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/bogey/#how-to-win&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The aim of the game is to play all the cards in as few columns as you can, despite the Bogey&#39;s intervention. The win criterion, in terms of number of columns, is as follows:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;Level&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;Columns&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;novice&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;12 columns&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;normal&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;11 columns&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;advanced&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;10 columns&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;legendary&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;9 columns&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;epic&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;8 columns&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;how-to-play-a-card-to-the-table&quot; tabindex=&quot;-1&quot;&gt;How to play a card to the table &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/bogey/#how-to-play-a-card-to-the-table&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Over the course of the game, columns of cards are built. In each column, the cards are of the same suit, and the cards must be decreasing in value (K, Q, J, 10, 9, 8, 7, 6, 5, 4, 3, 2, A) but may skip values. To play a card to the table it must be either added to the bottom of a column of the same suit containing only cards of a higher value, or placed to start a new column.&lt;/p&gt;
+&lt;h2 id=&quot;gameplay&quot; tabindex=&quot;-1&quot;&gt;Gameplay &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/bogey/#gameplay&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The game starts with an empty board. Play alternates between you and the bogie, starting with you.&lt;/p&gt;
+&lt;p&gt;On your turn you first draw enough cards to bring your hand to five cards. For each card in your hand you must decide whether to play it to the table, discard it, or to hold on to it for the next turn.&lt;/p&gt;
+&lt;p&gt;The bogey then takes his turn. He plays the next card in the deck either adding to an existing column or starting a new one. You may choose where the card is played. If it cannot be played legally the game is lost. Remember there is a limit of twelve columns.&lt;/p&gt;
+&lt;p&gt;You can also choose to pass your turn, letting the bogey play multiple times in a row, in effect choosing to &#39;hold on&#39; to all your cards (not discarding or playing any of them).&lt;/p&gt;
+&lt;p&gt;When the deck has run out the discards are shuffled and become the deck.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A more difficult variant&lt;/strong&gt;: A more difficult version of the game is to change the hand size to 4 (instead of 5). This means the bogey plays cards a higher proportion of the time.&lt;/p&gt;
+&lt;p&gt;&amp;quot;&amp;quot;&amp;quot;&lt;br /&gt;
+//Designer: Katharine Turner//&lt;br /&gt;
+//Year: 2016//&lt;br /&gt;
+//[[BGG Entry|https://boardgamegeek.com/boardgame/202723/bogey]]//&lt;br /&gt;
+&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Abandon Ship</title>
+		<link href="https://nathan-long.com/rules/posts/abandon-ship/"/>
+		<updated>2022-10-11T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/posts/abandon-ship/</id>
+		<content type="html">&lt;p&gt;&lt;small&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; This game was a freely distributed game designed by James Ernest, distributed by Cheapass Games as a part of their Cheapass Games Poker Suite (no longer in publication)&lt;/small&gt;&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;blockquote&gt;
+&lt;h2 id=&quot;story:&quot; tabindex=&quot;-1&quot;&gt;Story: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/abandon-ship/#story:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The rats are gone, but you’re still here. You and your greedy pals are hustling around the deck of a sinking pirate ship, trying to scoop up as much treasure as you can carry. You’ll need to collect plenty of loot, so you can buy your way into a lifeboat, and the best lifeboats are the ones with the most treasure already in them. It’s complicated. Or maybe you’re just not very smart.&lt;/p&gt;
+&lt;p&gt;In this game, Aces are worth 1 point, Jacks 11, Queens 12, and Kings 13. All other cards are worth their face value.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;overview&quot; tabindex=&quot;-1&quot;&gt;Overview &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/abandon-ship/#overview&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The game consists of several hands, or “rounds,” each of which ends when the last card is drawn from the deck, and the ship sinks. At the end of each round, players will compete to get on the lifeboats in a showdown, and they score points based on which lifeboat they board. If you board no lifeboat, you get no points for the round. The first player to earn 200 points wins.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;play&quot; tabindex=&quot;-1&quot;&gt;Play &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/abandon-ship/#play&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;to-begin-each-round:&quot; tabindex=&quot;-1&quot;&gt;To Begin Each Round: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/abandon-ship/#to-begin-each-round:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Shuffle the deck and deal five cards to each player. If there are only two players, deal five more cards and set them aside, face down. These cards will not be used. Play starts with the dealer, and the deal moves to the left after each round.&lt;/p&gt;
+&lt;h3 id=&quot;on-your-turn&quot; tabindex=&quot;-1&quot;&gt;On Your Turn &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/abandon-ship/#on-your-turn&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;If you do not have five cards in your hand, draw back up to five. If you draw the last card off the deck, the ship sinks immediately, &#39;&#39;and you do not take the rest of your turn&#39;&#39;. After you draw, you have two options: you may &#39;&#39;discard one card&#39;&#39;, or &#39;&#39;pick a fight&#39;&#39;.&lt;/p&gt;
+&lt;h4 id=&quot;discarding:&quot; tabindex=&quot;-1&quot;&gt;Discarding: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/abandon-ship/#discarding:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;There are four discard piles, one for each suit. These represent lifeboats. When you discard a card, place it into the lifeboat of the appropriate suit, and your turn is over.&lt;/p&gt;
+&lt;h4 id=&quot;fighting:&quot; tabindex=&quot;-1&quot;&gt;Fighting: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/abandon-ship/#fighting:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;To pick a fight, play a card into the center of the table, and declare which player you are attacking. That player has two options: he can surrender and lose the fight, or he can play a card of higher rank than the card you played. (Suit doesn’t matter.)&lt;/p&gt;
+&lt;p&gt;If your opponent plays a higher card, you may respond with an even higher card, or you may surrender. This continues until one player gives up, or can’t play a higher card.&lt;/p&gt;
+&lt;p&gt;The winner of the fight draws a random card from the loser’s hand. That card goes into the winner’s “board,” which is a faceup collection of cards on the table in front of him.&lt;/p&gt;
+&lt;p&gt;Board cards aren’t part of your hand. You can’t fight with them, discard them, or lose them in fights. They will help you in the showdown.&lt;/p&gt;
+&lt;p&gt;After the fight, all cards which were played in the fight get sorted into the appropriate lifeboats. (Think of it as other pirates picking up all the stuff you threw at each other.)&lt;/p&gt;
+&lt;h4 id=&quot;important-restriction:&quot; tabindex=&quot;-1&quot;&gt;Important Restriction: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/abandon-ship/#important-restriction:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;You cannot play the last card in your hand, unless that card is a King. This rule ensures that the winner will always be able to draw a card from the loser’s hand.&lt;/p&gt;
+&lt;h4 id=&quot;pointless-restriction:&quot; tabindex=&quot;-1&quot;&gt;Pointless Restriction: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/abandon-ship/#pointless-restriction:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;You can’t challenge a player who is holding no cards. You’d have nothing to draw from him, and you can achieve the same result by simply discarding a card.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+            `..                   `
+         `--. `:.               --`--`
+       .--      .-            .:`    .-.
+    .--`         `: Discard  -.      ` `--`
+   :.      ♣︎     `-. Piles  --      ♦︎     .-.
+    :.         --.           `--`          -.
+     .:`    .-.  :::::::::::::: .--      .:`
+       --.--`   `/::::::::::::/`  `--. `:.
+        ``      `/::::DECK::::/`     .-.
+        ---.    `/::::::::::::/`    `---`
+      .:`  .--  `/::::::::::::/   --.   --
+    `:.       --.``````````````.--       `:`
+   .-      ♥︎    `--`        `--`    ♠︎      -.
+    --.           `/        :.           `--`
+      `--`       --          .-        --.
+         --.   `:`            `:.   .-.
+           `---.                .---`
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&quot;the-showdown:&quot; tabindex=&quot;-1&quot;&gt;The Showdown: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/abandon-ship/#the-showdown:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;When the last card in the deck is drawn, the ship sinks. At this point, it’s time for each player to bribe his way into a lifeboat, in the phase called the “showdown.”&lt;/p&gt;
+&lt;p&gt;Each player plays one card from his hand, face down. This card is called the Key Card, and it is a declaration of which lifeboat you’re running to. This means that you must be lucky enough to hold a card matching the lifeboat you want. If your hand is empty, which is rare, you will go down with the ship and score no points for the round. Once everyone has played a Key Card, reveal all the cards in everyone’s hand.&lt;/p&gt;
+&lt;p&gt;If everyone ran for a different lifeboat, there’s no contest. Each player gets the point value of the cards in that lifeboat. You do not score the cards in your hand, your Key Card, or your board.&lt;/p&gt;
+&lt;p&gt;If more than one person went for the same lifeboat, then only one player will get in. The points in the lifeboat will go to the player who is holding more points in the matching suit, including his hand, his board, and his Key Card. If there is a tie, it is broken in favor of the player who has the single highest card in that suit. As above, you score only the points in the lifeboat.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;scoring-example:&quot; tabindex=&quot;-1&quot;&gt;Scoring Example: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/abandon-ship/#scoring-example:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;It’s the showdown in a four-player game. Player 1 plays a Spade, Players 2 and 3 play Hearts, and Player 4 plays nothing because his hand is empty. Player 1 gets the points in the Spade lifeboat, and Player 4 gets nothing.&lt;/p&gt;
+&lt;p&gt;Players 2 and 3 have both gone for the Hearts lifeboat, so they must compete to get in. Compare all the Hearts they hold: Player 2 has the 6h on his board, played the Qh as his Key, and holds no other Hearts. Player 3 played the 2h as his Key, and held only the 3h and the 7h in his hand. Player 2 takes the lifeboat, with 18 total points of Hearts vs. Player 3’s 12 points. Player 3 scores nothing.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;winning:&quot; tabindex=&quot;-1&quot;&gt;Winning: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/abandon-ship/#winning:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Play to 200 points. If two players break 200 on the same round, the player with the highest score wins. If two players are tied for the high score, they must engage in the embarrassing Caribbean Plank Walk tied together with a ten-foot rope and clenching knives in their teeth.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;strategy:&quot; tabindex=&quot;-1&quot;&gt;Strategy: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/abandon-ship/#strategy:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The cards that you discard and play in fights are crucial choices. Every card that you play in this manner will wind up in a lifeboat. On the other hand, every card that you win or lose in a fight will go in someone’s board. Early in the game, it helps to get a few cards into your board, to give yourself some leverage in the showdown. Later, you must do what you can to make sure you hold a Key Card for the right lifeboat. You will notice that the more valuable a lifeboat is, the fewer points it will require to board (the majority of that suit is in the lifeboat, and not in players’ hands.) Discretion is the better part of valor: it’s better to get into a small lifeboat than to try for a big one and lose. Learn to guess what the other players will probably go for, and play accordingly.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Variation for 6-8 Players:&lt;/strong&gt; You can play Abandon Ship! with as many as eight players, by shuffling together two decks. Deal eight hands regardless of how many players are in the game, and remove the unused hands from the game. To resolve ties during the showdown, if both players have a card of the same rank as their highest card in their Key suit, compare the second highest cards in each hand, and so on. If tied hands are exactly identical, it’s time to set up the plank.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
+</feed>
