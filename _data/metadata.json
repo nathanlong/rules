@@ -1,0 +1,21 @@
+{
+  "title": "Rules",
+  "url": "https://nathan-long.com/rules",
+  "language": "en",
+  "description": "Game rules for quick reference on the go",
+  "feed": {
+    "subtitle": "Game rules for quick reference on the go",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://example.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://nathan-long.com/rules/feed/feed.json"
+  },
+  "author": {
+    "name": "Nathan Long",
+    "email": "youremailaddress@example.com",
+    "url": "https://nathan-long.com"
+  }
+}

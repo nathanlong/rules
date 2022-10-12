@@ -1,0 +1,14 @@
+---
+layout: layouts/home.njk
+---
+
+<p>I love games. Looking up rules can be a pain, so here are are some of my favorite games collected in one spot so I can reference them on the go.</p>
+
+{% set maxPosts = collections.posts.length | min(3) %}
+<h1>Latest {% if maxPosts == 1 %}Game{% else %}{{ maxPosts }} Games{% endif %}</h1>
+
+{% set postslist = collections.posts | head(-3) %}
+{% set postslistCounter = collections.posts | length %}
+{% include "postslist.njk" %}
+
+<p>More games can be found in <a href="{{ '/games/' | url }}">the full list</a>.</p>

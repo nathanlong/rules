@@ -1,0 +1,81 @@
+/* Colors */
+:root {
+  --lightgray: #e0e0e0;
+  --gray: #C0C0C0;
+  --darkgray: #333;
+  --navy: #17050F;
+  --blue: #082840;
+  --white: #fff;
+}
+
+/* Global stylesheet */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: var(--darkgray);
+  background-color: var(--white);
+  font-size: clamp(1rem, 0.75vw + 0.7rem, 1.375rem);
+  font-weight: 300;
+  line-height: 1.375;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+code,
+pre {
+  font-family: "JetBrains Mono", Inconsolata, Inconsolata-g, "Fira Code",
+    "Source Sans Code", Consolas, "Deja Vu Sans Mono", Hack,
+    "IBM Plex Mono", MonoLisa, Monoid, "Droid Sans Mono", Monaco,
+    monospace;
+  font-weight: 400;
+}
+
+dt {
+  font-weight: bold;
+}
+
+blockquote {
+  padding: 1em;
+  margin: 0 0 1em 0;
+  background-color: var(--lightgray);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 45rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.no-list {
+  list-style: none;
+}
+
+.space-x > * + * {
+  margin-left: 0.5em;
+}
+
+.m-0 {
+  margin: 0;
+}
