@@ -265,6 +265,100 @@
 	</entry>
 	
 	<entry>
+		<title>All Fives</title>
+		<link href="https://nathan-long.com/rules/posts/all-fives/"/>
+		<updated>2022-11-15T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/posts/all-fives/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;This is the main variant of a family of domino games called the Three&#39;s and Five&#39;s Family. The main mechanic is the same, but each variant has slightly different rules.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;small&gt;Currently this is a port of the rules from Pagat, I hope to do a pass over the rules to personalize them for our style of play&lt;/small&gt;&lt;/p&gt;
+&lt;h2 id=&quot;equipment&quot; tabindex=&quot;-1&quot;&gt;Equipment &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/all-fives/#equipment&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The game uses a double six domino set. It can be played by two to four players, but is typically played as a four handed partnership game.&lt;/p&gt;
+&lt;h2 id=&quot;the-deal&quot; tabindex=&quot;-1&quot;&gt;The Deal &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/all-fives/#the-deal&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The size of the hand varies with the number of players:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2 players get &lt;strong&gt;9 tiles&lt;/strong&gt; each&lt;/li&gt;
+&lt;li&gt;3 players get &lt;strong&gt;7 tiles&lt;/strong&gt; each&lt;/li&gt;
+&lt;li&gt;4 players get &lt;strong&gt;5 tiles&lt;/strong&gt; each&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The rest of the tiles form the boneyard.&lt;/p&gt;
+&lt;p&gt;The four handed game is usually played in partnerships.&lt;/p&gt;
+&lt;h2 id=&quot;the-play&quot; tabindex=&quot;-1&quot;&gt;The Play &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/all-fives/#the-play&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The first player in the first hand is determined by lot (random). In the following hands, the player who dominoed (ran out of tiles) in the previous hand plays first. If the last hand was blocked, then the lead is again determined by lot.&lt;/p&gt;
+&lt;p&gt;The lead can be &lt;strong&gt;any tile&lt;/strong&gt; in the player&#39;s hand.&lt;/p&gt;
+&lt;p&gt;The following players must play a tile matching the free end of one of the tiles at the ends of the layout. Doubles are played crosswise and count as the total of their pips for scoring purposes so long as they are at the end of one of the arms of the layout, with no tile yet played against the other side of the double.&lt;/p&gt;
+&lt;p&gt;The first double, and only the first double, played is used as a &#39;spinner&#39;: the first and second tiles adjacent to the spinner must be placed against the two sides, then the third and fourth tiles must be placed against the ends.&lt;/p&gt;
+&lt;p&gt;A player who cannot play a tile must draw tiles from the boneyard until he has a tile to play or the boneyard is empty. When a player draws a playable tile, it goes on the table immediately and the player&#39;s turn ends. When the boneyard becomes empty a player who has no tile to play passes and it is the next player&#39;s turn.&lt;/p&gt;
+&lt;p&gt;The hand continues until one player dominoes (plays their last tile) or until all players are blocked.&lt;/p&gt;
+&lt;h2 id=&quot;scoring&quot; tabindex=&quot;-1&quot;&gt;Scoring &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/all-fives/#scoring&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;After a player has set a tile, the two, three or four ends of the tableau are totaled. If this total is a multiple of five (5, 10, 15, 20, 25, 30 or 35 points), the player immediately scores that number of points. A double on the end of an arm of the tableau scores the total of its pips; that is [5-5] is worth ten points in the total, [6-6] is worth twelve points and so forth.&lt;/p&gt;
+&lt;p&gt;The first double (spinner) is scored in the same way. Both ends count until tiles have been placed against both of its sides. When the second tile is played against the spinner, the spinner no longer contributes to the score: only the tiles at the two ends of the layout count, just as if the spinner was another tile placed in line. This can be confusing because the ends of the spinner are still open for setting other tiles.&lt;/p&gt;
+&lt;p&gt;When the third tile is played against the spinner, creating a new arm extending from one of its ends, this third arm also counts towards the total, and when the fourth arm is begun by by extending the other end of the spinner all four ends count.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The diagrams below show the first nine moves of a possible game. The black arrows show the directions in which the layout can be extended, and the red stars show the tile ends that contribute to the total, which must be a multiple of 5 for the player to score for the move.&lt;/p&gt;
+&lt;figure&gt;
+&lt;svg class=&quot;block mx-auto inset&quot; viewBox=&quot;0 0 800 375&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xml:space=&quot;preserve&quot; style=&quot;fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5&quot;&gt;&lt;path style=&quot;fill:none&quot; d=&quot;M49.719 62.846h728.322v353.353H49.719z&quot; transform=&quot;matrix(1.09842 0 0 1.06126 -54.612 -66.696)&quot;&gt;&lt;/path&gt;&lt;text x=&quot;518.549&quot; y=&quot;102.235&quot; style=&quot;font-family:&amp;quot;Helvetica-Bold&amp;quot;,&amp;quot;Helvetica&amp;quot;;font-weight:700;font-size:48px&quot; transform=&quot;translate(95.174 -36.643)&quot;&gt;total: 5&lt;/text&gt;&lt;text x=&quot;491.783&quot; y=&quot;150.235&quot; style=&quot;font-family:&amp;quot;Helvetica-Bold&amp;quot;,&amp;quot;Helvetica&amp;quot;;font-weight:700;font-size:48px&quot; transform=&quot;translate(95.174 -36.643)&quot;&gt;score: 5&lt;/text&gt;&lt;path d=&quot;m193.993 283.385 6.687 20.582h21.641l-17.508 12.72 6.687 20.581-17.507-12.72-17.508 12.72 6.687-20.581-17.507-12.72h21.64l6.688-20.582Z&quot; style=&quot;fill:#c33&quot; transform=&quot;translate(56.966 -83.635)&quot;&gt;&lt;/path&gt;&lt;path d=&quot;m193.993 283.385 6.687 20.582h21.641l-17.508 12.72 6.687 20.581-17.507-12.72-17.508 12.72 6.687-20.581-17.507-12.72h21.64l6.688-20.582Z&quot; style=&quot;fill:#c33&quot; transform=&quot;translate(360.67 -83.265)&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M430.929 340.084c0-5.689-8.79-10.308-19.618-10.308H254.36c-10.828 0-19.618 4.619-19.618 10.308v185.547c0 5.689 8.79 10.308 19.618 10.308h156.951c10.828 0 19.618-4.619 19.618-10.308V340.084Z&quot; style=&quot;fill:#fff&quot; transform=&quot;matrix(0 .50972 .97011 0 -18.997 57.41)&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M310.922 283.062c-8.83 0-16-7.17-16-16v-80c0-8.83 7.17-16 16-16h180.001c8.831 0 16 7.17 16 16v80c0 8.83-7.169 16-16 16h-180Zm0-6h180.001c5.52 0 10-4.48 10-10v-80c0-5.52-4.48-10-10-10h-180c-5.52 0-10 4.48-10 10v80c0 5.52 4.48 10 10 10Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M46.105 126.665h78.078&quot; style=&quot;fill:none;stroke:#000;stroke-width:6.12px&quot; transform=&quot;matrix(0 .96058 1 0 275.227 145.355)&quot;&gt;&lt;/path&gt;&lt;circle cx=&quot;172.662&quot; cy=&quot;87.8&quot; r=&quot;12.012&quot; style=&quot;fill:#898992&quot; transform=&quot;matrix(0 .74927 .74927 0 356.261 127.702)&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;172.662&quot; cy=&quot;87.8&quot; r=&quot;12.012&quot; style=&quot;fill:#898992&quot; transform=&quot;matrix(0 .74927 .74927 0 412.33 127.702)&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;172.662&quot; cy=&quot;87.8&quot; r=&quot;12.012&quot; style=&quot;fill:#898992&quot; transform=&quot;matrix(0 .74927 .74927 0 356.261 67.412)&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;172.662&quot; cy=&quot;87.8&quot; r=&quot;12.012&quot; style=&quot;fill:#898992&quot; transform=&quot;matrix(0 .74927 .74927 0 412.33 67.412)&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;172.662&quot; cy=&quot;87.8&quot; r=&quot;12.012&quot; transform=&quot;matrix(0 .74927 -.74927 0 417.205 97.691)&quot;&gt;&lt;/circle&gt;&lt;path d=&quot;m114.858 253.827-22.5-22.5 22.5-22.5&quot; style=&quot;fill:none;stroke:#000;stroke-width:15px;stroke-linejoin:miter;stroke-miterlimit:10&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M181.781 231.327H92.358&quot; style=&quot;fill:none;stroke:#000;stroke-width:15px&quot;&gt;&lt;/path&gt;&lt;path d=&quot;m685.142 208.827 22.5 22.5-22.5 22.5&quot; style=&quot;fill:none;stroke:#000;stroke-width:15px;stroke-linejoin:miter;stroke-miterlimit:10&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M618.219 231.327h89.423&quot; style=&quot;fill:none;stroke:#000;stroke-width:15px&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+&lt;figcaption&gt;move one - 5 points&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;img src=&quot;https://www.pagat.com/images/tile/all5_2.png&quot; /&gt;
+&lt;p&gt;move two - 0 points&lt;/p&gt;
+&lt;img src=&quot;https://www.pagat.com/images/tile/all5_3.png&quot; /&gt;
+&lt;p&gt;move three - 10 points&lt;/p&gt;
+&lt;p&gt;When a double is at the end of an arm, both ends of the double are counted, but only until another tile is played extending from the free side of the double.&lt;/p&gt;
+&lt;img src=&quot;https://www.pagat.com/images/tile/all5_4.png&quot; /&gt;
+&lt;p&gt;move four - 5 points&lt;/p&gt;
+&lt;p&gt;The [1-1], not the [4-4], was the first double played, so it is only from the [1-1] that the third and fourth arms of the cross can be started, and only after tiles have been played on both sides of the [1-1].&lt;/p&gt;
+&lt;img src=&quot;https://www.pagat.com/images/tile/all5_5.png&quot; /&gt;
+&lt;p&gt;move five - 5 points&lt;/p&gt;
+&lt;img src=&quot;https://www.pagat.com/images/tile/all5_6.png&quot; /&gt;
+&lt;p&gt;move six - 10 points&lt;/p&gt;
+&lt;img src=&quot;https://www.pagat.com/images/tile/all5_7.png&quot; /&gt;
+&lt;p&gt;move seven - 15 points&lt;/p&gt;
+&lt;img src=&quot;https://www.pagat.com/images/tile/all5_8.png&quot; /&gt;
+&lt;p&gt;move eight - 5 points&lt;/p&gt;
+&lt;img src=&quot;https://www.pagat.com/images/tile/all5_9.png&quot; /&gt;
+&lt;p&gt;move nine - 0 points&lt;/p&gt;
+&lt;p&gt;When the hand ends, because some player runs out of tiles or the layout is blocked with no further plays possible. If a player runs out of tiles, that player (or that player&#39;s team) is considered the &lt;strong&gt;winner of that deal&lt;/strong&gt;. If the game is blocked the player or team with fewest points on tiles remaining in hand is considered the winner.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The winning player or team scores the total of the pips on the tiles remaining in the opponents&#39; hands, rounded up or down to the nearest multiple of five.&lt;/strong&gt; For example, in a two-player game a losing hand with just the [1-2] would round up to five points, while [1-1] would round down to zero points.&lt;/p&gt;
+&lt;p&gt;If there is a tie for least points in a blocked two-player or four-player game no one scores for the remaining tiles. In a three-player game if two players tie for least they split the third player&#39;s points between them.&lt;/p&gt;
+&lt;p&gt;The game is played up to an agreed number of points, usually &lt;strong&gt;250 points for two players and 200 points with three or four players.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It is common to &lt;strong&gt;divide all the scores by five&lt;/strong&gt;, so that for example a total of 15 on the ends of the layout scores 3 points. The game can then be scored on a Cribbage board, and the winning target is &lt;strong&gt;61 points&lt;/strong&gt;. (But it&#39;s 50 to make 250 points??)&lt;/p&gt;
+&lt;h2 id=&quot;strategy&quot; tabindex=&quot;-1&quot;&gt;Strategy &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/all-fives/#strategy&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;As in any domino game, the player who can count the outstanding tiles has a strong advantage.&lt;/li&gt;
+&lt;li&gt;Beginning players have trouble doing the required math in their heads. They will tend to think in terms of arms which end in 5, instead of looking for other combinations that give a multiple of five. Also, beginners do not think of reducing the previous total to a multiple of five.&lt;/li&gt;
+&lt;li&gt;The highest possible score in one play is 35 points, which is obtained by having the [6-6], [5-5] and [4-4] tiles on the ends of three arms of the layout and a tile which shows a 5 on the fourth arm.&lt;/li&gt;
+&lt;li&gt;When you have the lead, play a tile worth ten points ([5-5] or [4-6]) if possible to score early. Otherwise, play a double that gives you control the arms of the tableau.&lt;/li&gt;
+&lt;li&gt;When another player draws a tile, you have information as to what was missing in his hand. If he draws one tile and plays it, you know that if you can force the tableau to end in the values he was missing, you will force him to draw more tiles.&lt;/li&gt;
+&lt;li&gt;The smaller the total you leave to the next player, the smaller the total he can make from it.&lt;/li&gt;
+&lt;li&gt;You can play to score, to block or to domino. In the scoring game, you attempt to get the largest score without regard to who dominoes. The scoring game is the obvious strategy and it is probably what you will pursue at the start of the game when you do not know the distribution of the tiles.
+&lt;ul&gt;
+&lt;li&gt;In the blocking game, you try to force a blocked game with the intent that you will get the lowest negative score. The blocking game is an end game strategy which depends on counting suits to see that there are no tiles outstanding in the suits on the arms of the tableau.&lt;/li&gt;
+&lt;li&gt;Playing to domino is really a version of the blocking strategy, since you will have the lowest negative score, namely zero. However, it also has the advantage of giving you the lead in the following hand. That lead can be important if you are close to winning the game.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Remember that being the one to domino is not always the same thing as getting the most points in a hand. Look for a suit where you are heavy or have control of the remaining tiles and try to get that suit exposed on one or more of the arms of the tableau to guarantee you have a play on your next turn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;variants&quot; tabindex=&quot;-1&quot;&gt;Variants &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/all-fives/#variants&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Some play that the round begins with the highest double being played. (American Dominoes)&lt;/p&gt;
+&lt;p&gt;Some play that the last tile or the last two tiles in the boneyard can never be drawn. If the boneyard is reduced to one (or two) tiles players who cannot play must pass and if all pass the game is blocked.&lt;/p&gt;
+&lt;p&gt;Some play that a player or team must reach the target score (for example 61 on a cribbage board) exactly in order to win. This can happen during the play by playing a tile that makes a multiple of five on the ends of the layout or by scoring for the opponents&#39; tiles at the end of a game. If a player overshoots by scoring too many points at once - for example 4 points from a score of 58 - those points are not scored and the game continues.&lt;/p&gt;
+&lt;p&gt;Some play that at the end of a hand each player or team subtracts the total pip value of the tiles remaining in their hands, rounded to the nearest five, from their running total.&lt;/p&gt;
+&lt;h2 id=&quot;alternates&quot; tabindex=&quot;-1&quot;&gt;Alternates &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/all-fives/#alternates&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;dl&gt;
+&lt;dt&gt;Muggins&lt;/dt&gt;
+&lt;dd&gt;Same, but no spinners, so only ever two branches&lt;/dd&gt;
+&lt;dt&gt;Sniff&lt;/dt&gt;
+&lt;dd&gt;Same, but the first double is the &#39;Sniff&#39;, which is played inline, but can only have one tile added to each side.&lt;/dd&gt;
+&lt;dt&gt;Five Up&lt;/dt&gt;
+&lt;dd&gt;All doubles are spinners.&lt;/dd&gt;
+&lt;dt&gt;Seven-Toed Pete and Horse Race&lt;/dt&gt;
+&lt;dd&gt;Allow chaining of tiles in a turn,&lt;/dd&gt;
+&lt;/dl&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>Scoundrel</title>
 		<link href="https://nathan-long.com/rules/posts/scoundrel/"/>
 		<updated>2022-10-11T00:00:00Z</updated>
