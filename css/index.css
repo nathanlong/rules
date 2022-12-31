@@ -79,6 +79,30 @@ blockquote {
   background-color: var(--lightgray);
 }
 
+.table-full table {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0.25rem;
+}
+
+th {
+  background-color: var(--darkgray);
+  color: var(--lightgray);
+  padding: 0.25em;
+}
+
+td {
+  padding: 0.25em;
+}
+
+table tr:nth-child(even) {
+  background-color: var(--lightgray);
+}
+
 .container {
   margin: 0 auto;
   max-width: 45rem;
