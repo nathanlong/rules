@@ -24,11 +24,13 @@ Each player draws a set of dominoes from a shuffled face down the pile to create
 
 |Players  |2    |3    |4    |5    |6    |7    |8    |9    |10   |11   |12   |
 |:---     |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Double 9 |21   |14   |11   |8    |7    |6    |5    |-    |-    |-    |-    |
-|Double 12|-    |-    |18   |14   |12   |10   |9    |-    |-    |-    |-    |
-|Double 15|-    |-    |-    |-    |18   |15   |14   |12   |10   |10   |9    |
+|Double 9 |14   |10   |7    |6    |5    |-    |-    |-    |-    |-    |-    |
+|Double 12|-    |-    |12   |10   |8    |7    |6    |5    |-    |-    |-    |
+|Double 15|-    |-    |-    |-    |12   |10   |9    |8    |7    |7    |6    |
 
 </div>
+
+> Note: These draw tables differ from other rule sets because of the "No Draw" round ending rules specific to our version of the game. We need more tiles in the chicken yard
 
 The leftover dominoes are placed on the side and referred to as the “chicken yard”.
 

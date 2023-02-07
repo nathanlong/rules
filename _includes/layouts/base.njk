@@ -6,7 +6,9 @@
     <title>{{ title or metadata.title }}</title>
     <meta name="description" content="{{ description or metadata.description }}">
     <meta name="generator" content="{{ eleventy.generator }}">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-diff.css' | url }}">
@@ -16,16 +18,25 @@
   <body>
     <header>
       <div class="container flex justify-between items-center">
-        <h1 class="home m-0"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-        <ul class="nav flex space-x">
+        <h1 class="home m-0 heading-300">
+          <a class="no-decoration flex items-center" href="{{ '/' | url }}">
+            <div class="w-1 rounded-1/4 overflow-hidden line-height-0 mie-1/4">
+              <img class="w-full" src="https://user-images.githubusercontent.com/623568/211856834-436269ac-9130-4628-b088-b35f75b69810.png" alt="Card symbols on a dark purple field marked with faint X's">
+            </div>
+            <span>
+              {{ metadata.title }}
+            </span>
+          </a>
+        </h1>
+        <ul class="nav flex space-x-1">
           {%- for entry in collections.all | eleventyNavigation %}
-          <li class="nav-item {% if entry.url == page.url %} nav-item-active{% endif %} no-list"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+          <li class="nav-item {% if entry.url == page.url %} nav-item-active{% endif %} no-list"><a class="font-monospace no-decoration" href="{{ entry.url | url }}">{{ entry.title }}</a></li>
           {%- endfor %}
         </ul>
       </div>
     </header>
 
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+    <main class="{% if templateClass %}{{ templateClass }}{% endif %} mbs-5vh">
       {{ content | safe }}
     </main>
 

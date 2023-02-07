@@ -2,41 +2,41 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<div class="container">
+<div class="container flow">
 
-<h1>{{ title }}</h1>
+  <section >
+    <h1>{{ title }}</h1>
 
-<div class="space-x">
-{%- for tag in tags | filterTagList -%}
-{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
-<a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-{%- endfor %}
-</div>
+    <div class="space-x">
+      {%- for tag in tags | filterTagList -%}
+      {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+      <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+      {%- endfor %}
+    </div>
+  </section>
 
-<dl>
+  <dl class="flow-1/2">
+    <dt>Players:</dt>
+    {%- if  maxplayers > 1 %}
+    <dd>{{ minplayers }}-{{ maxplayers }}</dd>
+    {%- else %}
+    <dd>{{ maxplayers }}</dd>
+    {%- endif %}
 
-<dt>Players:</dt>
-{%- if  maxplayers > 1 %}
-<dd>{{ minplayers }}-{{ maxplayers }}</dd>
-{%- else %}
-<dd>{{ maxplayers }}</dd>
-{%- endif %}
+    {%- if time %}
+    <dt>Time to play:</dt>
+    <dd>{{ time }} minutes</dd>
+    {%- endif %}
 
-{%- if time %}
-<dt>Time to play:</dt>
-<dd>{{ time }} minutes</dd>
-{%- endif %}
-
-{%- if equipment %}
-<dt>Equipment:</dt>
-<dd>{{ equipment }}</dd>
-{%- endif %}
-
-</dl>
+    {%- if equipment %}
+    <dt>Equipment:</dt>
+    <dd>{{ equipment }}</dd>
+    {%- endif %}
+  </dl>
 
 {{ content | safe }}
 
-<p>Date added: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></p>
+<p class="font-monospace text-small color-gray">Date added: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></p>
 
 {%- if collections.posts %}
 {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
