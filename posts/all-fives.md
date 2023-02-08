@@ -3,7 +3,7 @@ title: All Fives
 description: A
 minplayers: 2
 maxplayers: 4
-time: 60
+time: 30
 equipment: A set of double-6 dominoes.
 date: 2022-11-15
 tags:
@@ -144,3 +144,5 @@ Five Up
 
 Seven-Toed Pete and Horse Race
 : Allow chaining of tiles in a turn,
+
+> **Nathan's Notes:** This is probably my favorite domino game, relatively chill, and fantastic with little ones to work on basic addition (without them knowing it). When playing with little ones I recommend the 'Muggins' variant to keep it from being overwhelming at first, then adding the single spinner as they get older to increase complexity.

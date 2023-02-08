@@ -13,7 +13,7 @@ layout: layouts/post.njk
 
 > A twist on 20 questions with secret roles where the Insider tries to stay hidden from the Master and Commons while manipulating the discussion to lead everyone to the correct answer.
 
-<small>Insider is copyright Oink games, what follows is a reinterpretation of the rules without copyrighted flavor text.</small>
+<small><strong>Disclaimer:</strong> Insider is copyright Oink games. What follows is a reinterpretation of the rules without the copyrighted flavor text.</small>
 
 ----
 
@@ -60,3 +60,5 @@ layout: layouts/post.njk
 - Word cards can be chosen from other games like Apples to Apples or Codenames.
 - As a variant, or if word cards are not available, words can also be written down freely by the Master.
 - Role cards can be from a standard deck of cards (Ace for Insider, King for Master, numbers for commons, etc)
+
+> **Nathan's Notes:** This is a great scaling group game that requires almost no materials except a way to indicate roles and a way to record the word. The trickiest bit is getting the timers correct.

@@ -1,11 +1,12 @@
 ---
 title: Shooting Party
-description: Evolve poker hands through generations.
+description: Make contact with your sources without raising suspicion.
 minplayers: 1
 maxplayers: 1
 time: 10
 equipment: A standard deck of cards with 1 Joker and ranks 6-10 removed
 date: 2022-11-15
+modified: 2023-02-08
 tags:
   - Standard Cards
   - Solitaire
@@ -13,94 +14,99 @@ layout: layouts/post.njk
 ---
 
 
-> The annual pheasant shoot at Leverstoke Hall is always eagerly anticipated and forms the principal topic of speculation at September soirées across four counties. This year promises to be no exception, with a large party of the region's most prominent landowners shortly to descend upon those hallowed woods for a weekend of impeccable social graces and bloody slaughter.
+> Unrest is brewing, and the annual hunting party at Vogelschnabel Hall is always a hotbed of intrigue and speculation. This year promises to be no exception as influential figures from across the country gather for a weekend of idealogical dissemination and bloody slaughter.
 >
-> You, an ambitious young adventurer, are among those favoured few by simple expedient of a forged letter of introduction. And while the gentry pass the weekend in depriving the local copses of their birdlife, you plan to pass the time seducing four of their most delectable young wives, and relieving them of their jewels.
+> You, a member of MI6, have gained access to the gathering. While the party is depleting the wildlife in the area, your mission is to make contact with 4 sources, brave spouses of several key figures who are uneasy with the growing fervor, some of whom may be carrying plans and communiques.
 >
-> For you are such an attractive and nimble young person that success is assured, if only you can contrive some time alone with each of them. This won't be easy, under the watchful eyes of husbands and associated private secretaries.
->
-> But if it were easy then there would be no fun in it, would there?
-
-The Shooting Party is a solitaire card game to pass the time between pheasant drives. It requires only a standard deck of cards and plays in approximately 10 minutes.
+> You must use your impeccable training to find a way to gather information from the sources without arousing suspicion. This won't be easy under the watchful eyes of their spouses and associated political attaché.
 
 ## Aim
 
-To contrive to be alone with each of four young ladies in turn, by removing all other cards from your hand on four separate occasions. Your secondary aim is for each of them to be wearing their jewels at the time so that you may pilfer them.
+To contrive to be alone with each of four sources in turn, by removing all other cards from your hand on four separate occasions. Your secondary aim is for each of them to be carrying secret communiques that you can discretely return to headquarters.
 
 ## Setup
 
 Remove one joker and ranks 6 to 10 from a standard pack of playing cards. The remaining 33 cards represent the guests with whom you may interact.
 
-- The queens represent the four young ladies that you aim to distract.
-- The aces represent their jewels (♥️ blood ruby, ♦️ diamond tiara, ♣️ black pearls, ♠️ emerald brooch).
-- The kings are their husbands and the jacks are the husbands' private secretaries.
-- The included joker is the butler.
-- The remaining cards (ranks 2 to 5) represent other, less attractive guests.
-
-Note: If so inclined, the game can be played the same with genders reversed. Simply swap the roles of kings and queens and substitute "wives" for "husbands", "pocketbooks" for "jewels", etc.
+- The **queens** represent the four sources that you aim to contact.
+- The **aces** represent their communiques:
+    - ♥️ letters between political figures
+    - ♦️ financial details and plans
+    - ♣️ information on social agendas
+    - ♠️ military movements and preparations
+- The **kings** are their spouses and the **jacks** are the spouses' political attachés.
+- The included **joker** is the butler.
+- The remaining cards (ranks 2 to 5) represent other guests who are not targets.
 
 ## Gameplay
 
-- **Shuffle the deck and place it face down as the draw pile**.**
-  - Whenever you have five or fewer cards in your hand you may draw two more to add to your hand. This represents a pair of guests entering the room.
-  - Whenever you draw an ace, place it face up on the table above the draw and discard piles and immediately draw another card to replace it in your hand. The displayed aces indicate which ladies are wearing their jewels at the time.
-  -  If the draw pile is exhausted, retain your hand, but thoroughly shuffle together the discards with any unscored aces to create a new draw pile. Reshuffling may only be performed twice in the course of the game.
+1. **Shuffle the deck and place it face down as the draw pile**.
+    - Whenever you have five or fewer cards in your hand you may draw two more to add to your hand. This represents a pair of guests entering the room.
+    - Whenever you draw an ace, place it face up on the table above the draw and discard piles and immediately draw another card to replace it in your hand. The displayed aces indicate which sources are carrying communiques at the time.
+    -  If the draw pile is exhausted, retain your hand, but thoroughly shuffle together the discards with any unscored aces to create a new draw pile. Reshuffling may only be performed twice in the course of the game.
 
-- **Draw <ins>four</ins> cards to form your **hand.** This represents the guests currently occupying the same room as you.**
-  - Discard from your hand according to the rules of etiquette overleaf. Discarding represents people leaving the room in response to your clever quip or verbal manipulation.
-  - At any time you may leave the room yourself by discarding your entire hand and drawing a new hand of four cards.
+2. **Draw <ins>four</ins> cards to form your **hand.** This represents the guests currently occupying the same room as you.**
+    - Discard from your hand according to the rules of etiquette (below). Discarding represents people leaving the room in response to your clever quip or verbal manipulation.
+    - At any time you may leave the room yourself by discarding your entire hand and drawing a new hand of four cards.
 
-- **If you succeed in reducing your hand to a single queen then you can distract her and may lay her on the **score pile**. She will retire to her room with a headache for the rest of the weekend and will not appear again in the game.**
-  - If the ace of the same suit as this queen is currently displayed on the table then you may add it to the score pile as well, indicating that you successfully pocketed her jewels during the distraction.
-  - Since your hand is now empty, draw a new hand of four cards.
+3. **If you succeed in reducing your hand to a single queen, you make contact and may lay them on the score pile, indicating a successful exchange of orders and information.**
+    - If the ace of the same suit as this queen is currently displayed on the table then you may add it to the score pile as well, indicating that you successfully received their communique during contact.
+    - Since your hand is now empty, draw a new hand of four cards.
 
 ## Etiquette
 
-The rules of etiquette must be observed at all times. If, on occasion, more than one might apply, then they should be obeyed in the following order of precedence.
+The rules of etiquette must be observed at all times, lest suspicion be aroused. If, on occasion, more than one might apply, then they should be obeyed in the following order of precedence.
 
+#### <span class="dropcap">1</span> Groups of more than seven are not conducive to agreeable discourse.
 
-One: Groups of more than seven are not conducive to agreeable discourse.
+You may draw a pair of cards only if you have five or fewer cards in your hand. Both cards must be drawn before resolving their effects.
 
-: You may draw a pair of cards only if you have five or fewer cards in your hand. Both cards must be drawn before resolving their effects.
+#### <span class="dropcap">2</span> Spouses should guard their partners by removing them from the company of curious guests. Constant vigilance is required; spouses should not allow themselves to be distracted by business.
 
-Two: Husbands should guard their young wives from unseemly temptations by removing them from the company of attractive young men. Constant vigilance is required; husbands should not allow themselves to be distracted by business.
+If you hold a **queen and king of the same suit** you must immediately **discard** them both, unless you also hold the **jack** of that suit, in which case you may discard the **king and jack** instead.
 
-: If you hold a **queen and king of the same suit** you must immediately **discard** them both, unless you also hold the **jack** of that suit, in which case you may discard the **king and jack** instead.
+#### <span class="dropcap">3</span> Sources must remain anonymous, even from each other.
 
-Three: Ladies appear to best advantage when admirers are not distracted by the presence of other ladies.
+You may never hold more than **one queen** in your hand; the one that has been there the longest must be **discarded** immediately. If you draw two together then the one that was topmost in the draw pile must be discarded.
 
-: You may never hold more than **one queen** in your hand; the one that has been there the longest must be **discarded** immediately. If you draw two together then the one that was topmost in the draw pile must be discarded.
+#### <span class="dropcap">4</span> Political attachés are generally over-inquisitive people whose prying may uncover truths which you would prefer to remain hidden.
 
-Four: Private secretaries are generally over-inquisitive young men whose prying may uncover truths which you would prefer to remain hidden.
+If you ever hold **two or more jacks** you must immediately discard your whole hand (i.e. leave the room) and draw another four cards.
 
-: If you ever hold **two or more jack**s you must immediately discard your whole hand (i.e. leave the room) and draw another four cards.
+#### <span class="dropcap">5</span> Guests are most comfortable conversing with others of similar social standing on topics of mutual interest.
 
-Five: Gentlemen and ladies are most comfortable conversing with others of similar social standing on topics of mutual interest.
+You may discard exactly two cards of the same suit, for example: 2♥︎ + 3♥︎, or J♦︎ + 4♦︎, or K♣︎ + 5♣︎. Or any two or more cards of the same rank, for example: 4♣︎ + 4♠︎, or K♦︎ + K♠︎, or 2♥︎ + 2♣︎ + 2♠︎
 
-: You may discard exactly two cards of the same suit, for example: 2♥︎ + 3♥︎, or J♦︎ + 4♦︎, or K♣︎ + 5♣︎.
-: Or any two or more cards of the same rank, for example: 4♣︎ + 4♠︎, or K♦︎ + K♠︎, or 2♥︎ + 2♣︎ + 2♠︎
+#### <span class="dropcap">6</span> The butler is also an MI6 operative, and can assist in your mission.
 
-Six; A sympathetic butler can be a powerful ally; often a juicy tipoff for the local greyhound races will prove sufficient to secure his loyalty.
+The **joker** may be discarded to **retrieve one card from the discard pile**, or **one ace from the draw pile** (place the ace face up as usual and shuffle the draw pile).
 
-: The **joker** may be discarded to **retrieve one card from the discard pile**, or one ace from the draw pile (place the ace face up as usual and shuffle the draw pile).
-: Alternatively the joker may simply be discarded on its own, without needing to be paired with another card.
+Alternatively the joker may simply be discarded on its own, without needing to be paired with another card.
 
 ## Game End
 
-The game ends when the draw pile is exhausted for the third time, or all of the queens are in the score pile.
+The game ends when the draw pile is **exhausted for the third time**, or **all of the queens are in the score pile**.
 
-Count up the scored cards (queens and aces). Since the jewels can only be taken during a distraction, you should never have more aces than queens in the score pile. The number of scored cards indicates your social status, from impecunious boor to filthy scoundrel:
+Count up the scored cards (queens and aces). Since the communiques can only be taken during contact, you should never have more aces than queens in the score pile. The number of scored cards indicates your operative status, from inept pencil-pusher to expert spymaster:
 
-|Number of jewels (aces) |Number of distractions (queens) |
+<div class="table-full">
+
+|Number of communiques (aces) |Number of successful contacts (queens) |
 |:--|:--|
-|0 = impecunious |0 = boor |
-|1 = common |1 = cad |
-|2 = bourgeois |2 = rake |
-|3 = oofy |3 = bounder |
-|4 = filthy |4 = scoundrel |
+|0 = inept |0 = pencil-pusher |
+|1 = novice |1 =  infiltrator |
+|2 = competent |2 = double-agent |
+|3 = proficient |3 = operative |
+|4 = expert |4 =  spymaster |
+
+</div>
 
 The Shooting Party © John Kean, 2016
 
-Rules version: 20160714
+Modifications/rethemeing by Nathan Long, 2023
 
-_This work is licensed under a Creative Commons AttributionNonCommercial-ShareAlike 4.0 International License_
+Rules version: 20160714 (Adapted)
+
+_This work is licensed under a Creative Commons Attribution NonCommercial-ShareAlike 4.0 International License_
+
+> **Nathan's Notes:** This is a delightful solitaire game, but I found the original theme slightly problematic, hence the retheming to pre-WW2 covert operations. I encourage you to get and review the original ruleset.

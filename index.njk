@@ -2,13 +2,32 @@
 layout: layouts/home.njk
 ---
 
-<p>Rules on the go for some of my favorite games, along with modifications and house rules.</p>
+<blockquote>
+  <strong>I love games.</strong> These are rulesets I've collected for reference on-the-go with a focus on low/no component games and house-ruled/modified versions of other games.
+</blockquote>
+
+<h2>Collections:</h2>
+
+<ul>
+  <li>I don't have any materials except:
+    <ul>
+      <li><a href="{{ '/tags/standard-cards' | url}}">Standard Playing Cards</a></li>
+      <li><a href="{{ '/tags/dominoes' | url}}">Dominoes</a></li>
+    </ul>
+  </li>
+  <li>I'm looking to play:
+    <ul>
+      <li><a href="{{ '/tags/solitaire' | url}}">By myself</a></li>
+      <li><a href="{{ '/tags/party' | url}}">With a large group</a></li>
+    </ul>
+  </li>
+</ul>
 
 {% set maxPosts = collections.posts.length | min(3) %}
-<h2 class="m-0">Latest {% if maxPosts == 1 %}Game{% else %}{{ maxPosts }} Games{% endif %}</h2>
+<h2 class="">Latest {% if maxPosts == 1 %}Addition{% else %}{{ maxPosts }} Additions{% endif %}:</h2>
 
 {% set postslist = collections.posts | head(-3) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
-<p>More games can be found in <a href="{{ '/games/' | url }}">the full list</a>.</p>
+<p class="flow-3">More games can be found in <a href="{{ '/games/' | url }}">the full list</a>.</p>

@@ -16,6 +16,8 @@ layout: layouts/post.njk
 >
 > In Lamarckian Poker, you will start with a hand of random cards resembling primordial ooze, and then attempt through successive generations to evolve it into something more useful, such as mud or slime. Or perhaps the rats and giraffes of Lamarck’s colorful imagination.
 
+<p><small><strong>Disclaimer:</strong> This was a freely distributed game designed by James Ernest, distributed by Cheapass Games as a part of their Cheapass Games Poker Suite (no longer in publication).</small><p>
+
 ## To Begin:
 
 Shuffle the deck, and deal each player a starting hand of four cards.

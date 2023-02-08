@@ -5,7 +5,7 @@ templateClass: tmpl-post
 <div class="container flow">
 
   <section >
-    <h1>{{ title }}</h1>
+    <h1 class="heading-50">{{ title }}</h1>
 
     <div class="space-x">
       {%- for tag in tags | filterTagList -%}
@@ -16,7 +16,7 @@ templateClass: tmpl-post
   </section>
 
   <dl class="flow-1/2">
-    <dt>Players:</dt>
+    <dt>👤 Players:</dt>
     {%- if  maxplayers > 1 %}
     <dd>{{ minplayers }}-{{ maxplayers }}</dd>
     {%- else %}
@@ -24,19 +24,24 @@ templateClass: tmpl-post
     {%- endif %}
 
     {%- if time %}
-    <dt>Time to play:</dt>
+    <dt>⏱ Time to play:</dt>
     <dd>{{ time }} minutes</dd>
     {%- endif %}
 
     {%- if equipment %}
-    <dt>Equipment:</dt>
+    <dt>♟ Equipment:</dt>
     <dd>{{ equipment }}</dd>
     {%- endif %}
   </dl>
 
 {{ content | safe }}
 
-<p class="font-monospace text-small color-gray">Date added: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></p>
+  <p class="font-monospace text-small color-gray">
+    <span>Date added: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></span>
+    {%- if modified %}
+    <span>| Modified: <time datetime="{{ modified | htmlDateString }}">{{ modified | readableDate }}</time>
+      {%- endif %}
+  </p>
 
 {%- if collections.posts %}
 {%- set nextPost = collections.posts | getNextCollectionItem(page) %}

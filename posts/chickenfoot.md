@@ -2,13 +2,14 @@
 title: Chickenfoot
 description: Shed your dominoes and create branching 'chickenfoot' junctions.
 minplayers: 2
-maxplayers: 12+
-time: 60
+maxplayers: 12
+time: 40
 equipment: A set of double-9 dominoes.
 date: 2022-11-15
 tags:
   - Dominoes
   - Double 9
+  - Party
 layout: layouts/post.njk
 ---
 
@@ -91,3 +92,5 @@ These rules were sourced from:
 
 * https://www.ymimports.com/pages/how-to-play-chickenfoot-dominoes
 * https://www.pagat.com/domino/tree/chickenfoot.html
+
+> **Nathan's Notes:** This is a good low-brain family activity as it scales well with number of players and encourages social interaction (Chicken Little rule) and remains friendly to all generations without being painfully long.
