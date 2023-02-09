@@ -48,8 +48,4 @@ When the deck has run out the discards are shuffled and become the deck.
 
 **A more difficult variant**: A more difficult version of the game is to change the hand size to 4 (instead of 5). This means the bogey plays cards a higher proportion of the time.
 
-"""
-//Designer: Katharine Turner//
-//Year: 2016//
-//[[BGG Entry|https://boardgamegeek.com/boardgame/202723/bogey]]//
-"""
+_Designer: Katharine Turner, 2016_

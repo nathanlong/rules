@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-base-blog",
-  "version": "6.0.0",
-  "description": "A starter repository for a blog web site using the Eleventy static site generator.",
+  "name": "Nathan's Rule Repository",
+  "version": "1.0.0",
+  "description": "Rules on-the-go",
   "scripts": {
     "build": "npx @11ty/eleventy --pathprefix '/rules/'",
     "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
@@ -12,18 +12,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/11ty/eleventy-base-blog.git"
+    "url": "git://github.com/nathanlong/rules.git"
   },
   "author": {
-    "name": "Zach Leatherman",
-    "email": "zachleatherman@gmail.com",
-    "url": "https://zachleat.com/"
+    "name": "Nathan Long",
+    "email": "nlong5@gmail.com",
+    "url": "https://nathan-long.com/rules"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/11ty/eleventy-base-blog/issues"
+    "url": "https://github.com/nathanlong/rules/issues"
   },
-  "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
+  "homepage": "https://github.com/nathanlong/rules#readme",
   "dependencies": {
     "@11ty/eleventy": "^1.0.1",
     "@11ty/eleventy-navigation": "^0.3.2",
