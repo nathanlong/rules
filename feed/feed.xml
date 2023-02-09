@@ -13,33 +13,6 @@
 	</author>
 	
 	<entry>
-		<title>Solitaire Gin Rummy</title>
-		<link href="https://nathan-long.com/rules/posts/solitaire-gin-rummy/"/>
-		<updated>2022-11-15T00:00:00Z</updated>
-		<id>https://nathan-long.com/rules/posts/solitaire-gin-rummy/</id>
-		<content type="html">&lt;blockquote&gt;
-&lt;p&gt;Solitaire Gin Rummy is a solitaire card game that can be played anywhere because you hold all the cards in your hands. It was described in Games Magazine, June 1998. I pulled these rules off a forum from BoardGameGeek (link now lost to time). This game is currently under review on whether it&#39;s good enough to remain in rotation.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The rules are designed to be as close to Gin Rummy as possible. Your opponent is the joker. Your goal is to &amp;quot;go gin&amp;quot; before the joker appears.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Place one joker in the deck, and remove the other joker.&lt;/li&gt;
-&lt;li&gt;Shuffle the deck thoroughly. Deal yourself ten cards. Hold them in one hand, and either set the rest of the deck, face down, beside you, or hold it face down in your other hand. (This is easier to do if you use miniature cards.)&lt;/li&gt;
-&lt;li&gt;If the joker appears in your hand, you can either say you lost that hand, or you can just reshuffle and start over.&lt;/li&gt;
-&lt;li&gt;Draw the top card from the deck and put it in your hand. Discard one card from your hand, so that you still have ten cards in your hand.&lt;/li&gt;
-&lt;li&gt;Place the discarded card on the bottom of the deck.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The goal is to form &amp;quot;melds&amp;quot; in your hand. A meld is a set of three or more cards that are either all the same kind (eg. all threes) or form a numerical sequence all in the same suit (a straight flush in poker.) If all the cards in your hand are in melds, you have &amp;quot;gin&amp;quot; and have won the hand. If the joker appears before you go gin, you lose.&lt;/p&gt;
-&lt;h2 id=&quot;optional-scoring-and-knocking&quot; tabindex=&quot;-1&quot;&gt;Optional scoring and knocking &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/solitaire-gin-rummy/#optional-scoring-and-knocking&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;If you would like to make the game more like real gin rummy, you can keep score for several hands. The first player (you or the joker) to get 100 points wins the game.&lt;/p&gt;
-&lt;p&gt;If you have a gin hand, turn over the cards in the deck one at a time until the joker appears. The number of cards you turn over is your score.&lt;/p&gt;
-&lt;p&gt;If the joker appears before you have a gin hand, add up the values of cards you have in your hand that are not in melds, counting number cards at face value and court cards as ten. The total is the joker&#39;s score.&lt;/p&gt;
-&lt;p&gt;If your hand contains ten or fewer points in unmelded cards, you may &amp;quot;knock&amp;quot;. Stop play and figure the two scores as described above. The one with the higher score recieves the difference in scores. For example, suppose you knock when you have a three and a five unmelded in your hand. Your hand counts eight points for the joker. You count the cards in the deck until the joker appears, and there are ten cards, which counts as ten points for you. Instead of giving ten points to you and eight to the joker, just give yourself two points, (ten minus eight.) If you scored and the joker scored ten, you would give the joker two points.&lt;/p&gt;
-&lt;p&gt;If you knock and the joker turns out to have the higher score (that is, there are more points in unmelded cards than there are cards above the joker in the deck), the joker receives 25 bonus points for &amp;quot;undercutting the knock.&amp;quot; If you get gin while playing with this rule, you recieve 25 bonus points.&lt;/p&gt;
-&lt;p&gt;I usually don&#39;t keep score; it&#39;s more fun for me just to play a quick hand. But because there&#39;s so much chance involved in where the joker will be, keeping score over several games would give you a better idea of how well you&#39;re playing in general. You could have a goal of improving your average over time.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
 		<title>Shooting Party</title>
 		<link href="https://nathan-long.com/rules/posts/shooting-party/"/>
 		<updated>2022-11-15T00:00:00Z</updated>
@@ -233,9 +206,9 @@
 		<id>https://nathan-long.com/rules/posts/chickenfoot/</id>
 		<content type="html">&lt;blockquote&gt;
 &lt;h2 id=&quot;description:&quot; tabindex=&quot;-1&quot;&gt;Description: &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/chickenfoot/#description:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Chickenfoot is a fun and easy to learn domino game. The goal is to try to get rid of as many dominoes as possible and have the lowest score based on the dominoes remaining before your opponents can do the same.&lt;/p&gt;
+&lt;p&gt;Chickenfoot is a branching domino game where players race to empty their hands before the other players.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;starting-off-rounds&quot; tabindex=&quot;-1&quot;&gt;Starting off Rounds &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/chickenfoot/#starting-off-rounds&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;setup&quot; tabindex=&quot;-1&quot;&gt;Setup &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/chickenfoot/#setup&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Each player draws a set of dominoes from a shuffled face down the pile to create their “hand”, making sure the domino values are concealed from their opponents. The number of dominoes each player draws varies with the number of players and amount of dominoes used (more players can be accommodated with a larger set):&lt;/p&gt;
 &lt;div class=&quot;table-full&quot;&gt;
 &lt;table&gt;
@@ -302,48 +275,38 @@
 &lt;/table&gt;
 &lt;/div&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Note: These draw tables differ from other rule sets because of the &amp;quot;No Draw&amp;quot; round ending rules specific to our version of the game. We need more tiles in the chicken yard&lt;/p&gt;
+&lt;p&gt;Note: These draw tables differ from other rule sets because of the &amp;quot;No Draw&amp;quot; round ending rules specific to our version of the game. We need more tiles in the chicken yard to prevent the round ending too quickly.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;The leftover dominoes are placed on the side and referred to as the “chicken yard”.&lt;/p&gt;
-&lt;p&gt;Chicken foot establishes a round with a starting &lt;strong&gt;“double”&lt;/strong&gt; (a tile with the same amount of pips or the same number on each end) placed as the centerpiece. You begin with the highest double (for a double 9 set, you begin the first round with the double 9 domino.)&lt;/p&gt;
-&lt;p&gt;The subsequent rounds begin with the &lt;strong&gt;next highest double&lt;/strong&gt;, double 8, and the following round double 7, all the way to double 0 for a total of ten rounds (with a Double 9 set, 13 for Double 12, 16 for Double 15).&lt;/p&gt;
-&lt;p&gt;The starting double is set aside at the beginning of each round and placed in the center.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Alternate: If no one has the required starting double in their hand then each player simultaneously draws a domino from the chicken yard until it is found and a starting player is determined.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Going clockwise, the next player must play a domino from their hand off the starting double. This domino must have a matching end to the starting double. If they do not have one, they draw a domino from the chicken yard and play that if possible. If not, the player calls “Pass” and the turn moves to the next player. The following player repeats the process of trying to play off the starting double and this continues until all 4 sides of the centerpiece are filled.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Alternate: The centerpiece can require 6 sides to be considered filled.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&quot;beginning-a-round&quot; tabindex=&quot;-1&quot;&gt;Beginning a round &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/chickenfoot/#beginning-a-round&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Chickenfoot begins a round with a starting &lt;strong&gt;“double”&lt;/strong&gt; (a tile with the same amount of pips or the same number on each end) placed as the centerpiece. You begin with the highest double (for a double 9 set, you begin the first round with the double 9 domino.)&lt;/p&gt;
+&lt;p&gt;Subsequent rounds begin with the &lt;strong&gt;next highest double&lt;/strong&gt; all the way to double 0 (10 rounds with a Double 9 set, 13 for Double 12, 16 for Double 15).&lt;/p&gt;
+&lt;p&gt;The starting double is set aside at the beginning of each round and placed in the center. The first player is randomly assigned and then rotates clockwise each new round.&lt;/p&gt;
+&lt;p&gt;Going clockwise, the next player must either:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Play a domino that has a matching end to the starting double.&lt;/li&gt;
+&lt;li&gt;Draw a domino from the chicken yard and play that if possible. If not, the player calls “Pass” and the turn moves to the next player.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following player repeats the process of trying to play off the starting double and this continues until all 4 sides of the centerpiece are filled.&lt;/p&gt;
 &lt;p&gt;[diagram: Showing alternate methods of Hub and Double 9]&lt;/p&gt;
 &lt;h2 id=&quot;subsequent-turns&quot; tabindex=&quot;-1&quot;&gt;Subsequent Turns &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/chickenfoot/#subsequent-turns&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;After all the sides are played off the starting double, play can continue off any exposed end domino as long as the ends match.&lt;/p&gt;
 &lt;p&gt;[diagram: Matching Dominoes end to end]&lt;/p&gt;
 &lt;p&gt;If the player is unable to add a domino, then the player must draw a domino from the chicken yard and play that domino immediately if they are able to. Otherwise, they must pass.&lt;/p&gt;
-&lt;p&gt;If there are no dominoes remaining to draw from, the round ends.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Alternate: If there are no dominoes to draw, the player simply passes (loses a turn) and play continues until someone goes out or no legal plays can be made, see &#39;Ending a Round&#39;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;the-chickenfoot&quot; tabindex=&quot;-1&quot;&gt;The Chickenfoot &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/chickenfoot/#the-chickenfoot&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;If a player plays a double, the double must be placed perpendicular to the domino played off of. The player then calls “Chickie” plus the numbers played. For example, if a double 5 was played, the player would call “Chickie Fives.” The next three plays must be made off that double, creating an arrangement that resembles a chicken foot.&lt;/p&gt;
+&lt;p&gt;If there are no dominoes remaining to draw from, the round ends. (This is the &#39;No Draw&#39;)&lt;/p&gt;
+&lt;h2 id=&quot;chickenfoot&quot; tabindex=&quot;-1&quot;&gt;Chickenfoot &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/chickenfoot/#chickenfoot&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If a player plays a double, the double must be placed perpendicular to the domino played off of. The next three plays MUST be made off that double, creating an arrangement that resembles a chicken foot.&lt;/p&gt;
 &lt;p&gt;[diagram: showing completed chicken foot]&lt;/p&gt;
 &lt;p&gt;If the player is unable to play on that double, he must draw from the chicken yard and play that domino if possible or else pass. Once the Chickenfoot has completed, the plays can continue off any exposed matching end again.&lt;/p&gt;
 &lt;h2 id=&quot;chicken-little-&amp;quot;bok-bok&amp;quot;&quot; tabindex=&quot;-1&quot;&gt;Chicken Little / &amp;quot;Bok Bok&amp;quot; &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/chickenfoot/#chicken-little-%22bok-bok%22&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;When a player places a tile and has one domino remaining, they must announce it by saying, &amp;quot;BOK BOK!&amp;quot; (or some other variant of a chicken noise) before their hand leaves the table (returns to pass their own dominoes). If a player does not announce their last tile, other players can call them out and the player who failed to announce must draw a tile from the &amp;quot;chicken yard&amp;quot;.&lt;/p&gt;
+&lt;p&gt;When a player places a tile and has one domino remaining, they must announce it by saying, &amp;quot;BOK BOK!&amp;quot; (or some other variant of a chicken noise) before their hand leaves the table (returns to pass their own dominoes).&lt;/p&gt;
+&lt;p&gt;If a player does not announce their last tile, other players can call them out and the player who failed to announce must draw a tile from the &amp;quot;chicken yard&amp;quot;.&lt;/p&gt;
 &lt;h2 id=&quot;completing-a-round&quot; tabindex=&quot;-1&quot;&gt;Completing a round &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/chickenfoot/#completing-a-round&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;A round is completed when one player plays the last domino in their hand (goes out) OR a player cannot make a legal play AND there are no dominoes in the &amp;quot;chicken yard&amp;quot;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Alternate: The round ends when a player goes out or NO players are able to make a legal play.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;At this point, each player records their points for the round by totaling the number of pips from the dominoes remaining in their hand. The double 0 tiles scores as 50 points.&lt;/p&gt;
+&lt;h2 id=&quot;scoring&quot; tabindex=&quot;-1&quot;&gt;Scoring &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/chickenfoot/#scoring&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;At the end of a round, each player records their points for the round by totaling the number of pips from the dominoes remaining in their hand. The double 0 tiles scores as 50 points.&lt;/p&gt;
 &lt;h2 id=&quot;completing-the-game&quot; tabindex=&quot;-1&quot;&gt;Completing the game &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/chickenfoot/#completing-the-game&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The game ends after all rounds are played (through to the Double 0). The player with the lowest total score for all the rounds wins!&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;These rules were sourced from:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.ymimports.com/pages/how-to-play-chickenfoot-dominoes&quot;&gt;https://www.ymimports.com/pages/how-to-play-chickenfoot-dominoes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.pagat.com/domino/tree/chickenfoot.html&quot;&gt;https://www.pagat.com/domino/tree/chickenfoot.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; This is a good low-brain family activity as it scales well with number of players and encourages social interaction (Chicken Little rule) and remains friendly to all generations without being painfully long.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -599,11 +562,7 @@
 &lt;p&gt;You can also choose to pass your turn, letting the bogey play multiple times in a row, in effect choosing to &#39;hold on&#39; to all your cards (not discarding or playing any of them).&lt;/p&gt;
 &lt;p&gt;When the deck has run out the discards are shuffled and become the deck.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A more difficult variant&lt;/strong&gt;: A more difficult version of the game is to change the hand size to 4 (instead of 5). This means the bogey plays cards a higher proportion of the time.&lt;/p&gt;
-&lt;p&gt;&amp;quot;&amp;quot;&amp;quot;&lt;br /&gt;
-//Designer: Katharine Turner//&lt;br /&gt;
-//Year: 2016//&lt;br /&gt;
-//[[BGG Entry|https://boardgamegeek.com/boardgame/202723/bogey]]//&lt;br /&gt;
-&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Designer: Katharine Turner, 2016&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
