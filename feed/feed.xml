@@ -5,12 +5,57 @@
 	
 	<link href="https://nathan-long.com/rules/feed/feed.xml" rel="self"/>
 	<link href="https://nathan-long.com/rules"/>
-	<updated>2022-11-15T00:00:00Z</updated>
+	<updated>2023-02-13T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Nathan Long</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Mia/Meier</title>
+		<link href="https://nathan-long.com/rules/posts/mia/"/>
+		<updated>2023-02-13T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/posts/mia/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Mia, pronounced (My-yuh), or Meier is an ancient bluffing game, thought to have been played by Vikings. Often touted as, &amp;quot;the most fun you can have with two dice&amp;quot;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;objective&quot; tabindex=&quot;-1&quot;&gt;Objective &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/mia/#objective&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Be the last player standing with at least one life.&lt;/p&gt;
+&lt;h2 id=&quot;opening-a-round&quot; tabindex=&quot;-1&quot;&gt;Opening a Round &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/mia/#opening-a-round&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Roll to randomly determine the starting player. Every gets 3 &#39;lives&#39;.&lt;/p&gt;
+&lt;p&gt;The opening player rolls the dice under the cup and discreetly looks, keeping the cup value hidden. The player must then announce a claim:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The &lt;strong&gt;actual&lt;/strong&gt; cup value (truth)&lt;/li&gt;
+&lt;li&gt;A value &lt;strong&gt;higher&lt;/strong&gt; than the cup value (bluff)&lt;/li&gt;
+&lt;li&gt;A value &lt;strong&gt;lower&lt;/strong&gt; than the cup value (bluff)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This player is now the cup &#39;owner&#39;.&lt;/p&gt;
+&lt;p&gt;The dice roles are valued by taking the highest die&#39;s value as the first digit and the lowest die&#39;s value as the second digit. (Ex. a 2 and a 3 are rolled, 3 being the higher dice makes the roll a 32)&lt;/p&gt;
+&lt;p&gt;Traditionally, all possible results are ranked in order as follows:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;21 (called Mia), 11, 22, 33, 44, 55, 66, 65, 64, 63, 62, 61, 54, 53, 52, 51, 43, 42, 41, 32, 31&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This is thought to be because the 1 and 2 on ancient knucklebone dice were rare as they were rectangular dice. An easier modern ranking is to rank Mia first, then descending numerically:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;21 (Mia), 66, 65, 64, 63, 62, 61, 55, 54, 53, 52, 51, 44, 43, 42, 41, 33, 32, 31, 22, 11.&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;rounds&quot; tabindex=&quot;-1&quot;&gt;Rounds &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/mia/#rounds&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The dice are passed to the next player, they can:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Challenge&lt;/strong&gt;. The current player challenges the claim (preferably dramatically) and lifts the cup to reveal the cup value:
+&lt;ul&gt;
+&lt;li&gt;If the dice show a &lt;strong&gt;lesser&lt;/strong&gt; value than that announced, the &lt;strong&gt;cup owner&lt;/strong&gt; loses a life.&lt;/li&gt;
+&lt;li&gt;If the dice show a &lt;strong&gt;greater&lt;/strong&gt; or equal value, the &lt;strong&gt;challenger&lt;/strong&gt; loses a life.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reroll&lt;/strong&gt;. The current player accepts the claim, rerolls the dice without looking at the original cup value, peeks at the new cup value and must announce a higher cup value than the original claim. This player now becomes the cup owner.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pass&lt;/strong&gt;. The current player accepts the claim and without looking at the dice and assumes responsibility: They become the new cup owner with the current claim and play passes to the next player.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;On a challenge, the round ends, and the player that lost a life starts the next round.&lt;/p&gt;
+&lt;p&gt;If &#39;Mia&#39; is claimed and challenged, the loser of the challenge loses two lives.&lt;/p&gt;
+&lt;p&gt;If everyone passes and the cup is passed back to the original owner (who knows the cup value) they cannot pass without raising the value of the claim. The exception is if the original claim was &#39;Mia&#39;, then the original cup owner must reroll. They can also challenge as the last person to pass is the owner and they know the cup value.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; This is marked Low/No Component because the components can easily be sourced almost anywhere. Dice can be cannibalized from other games and the cup can just be a paper coffee cup (preferably unused... but hey, it&#39;s your dice.)&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Shooting Party</title>
@@ -194,7 +239,7 @@
 &lt;li&gt;Role cards can be from a standard deck of cards (Ace for Insider, King for Master, numbers for commons, etc)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; This is a great scaling group game that requires almost no materials except a way to indicate roles and a way to record the word. The trickiest bit is getting the timers correct.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; This is a great scaling group game that requires almost no materials. If there aren&#39;t any playing cards, someone can be a Facilitator and pick the Master and Insider and manage the opening closing of eyes.&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
 	</entry>
@@ -318,13 +363,7 @@
 		<link href="https://nathan-long.com/rules/posts/all-fives/"/>
 		<updated>2022-11-15T00:00:00Z</updated>
 		<id>https://nathan-long.com/rules/posts/all-fives/</id>
-		<content type="html">&lt;blockquote&gt;
-&lt;p&gt;This is the main variant of a family of domino games called the Three&#39;s and Five&#39;s Family. The main mechanic is the same, but each variant has slightly different rules.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;small&gt;Currently this is a port of the rules from Pagat, I hope to do a pass over the rules to personalize them for our style of play&lt;/small&gt;&lt;/p&gt;
-&lt;h2 id=&quot;equipment&quot; tabindex=&quot;-1&quot;&gt;Equipment &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/all-fives/#equipment&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The game uses a double six domino set. It can be played by two to four players, but is typically played as a four handed partnership game.&lt;/p&gt;
-&lt;h2 id=&quot;the-deal&quot; tabindex=&quot;-1&quot;&gt;The Deal &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/all-fives/#the-deal&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+		<content type="html">&lt;h2 id=&quot;the-deal&quot; tabindex=&quot;-1&quot;&gt;The Deal &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/all-fives/#the-deal&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The size of the hand varies with the number of players:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;2 players get &lt;strong&gt;9 tiles&lt;/strong&gt; each&lt;/li&gt;
@@ -334,7 +373,7 @@
 &lt;p&gt;The rest of the tiles form the boneyard.&lt;/p&gt;
 &lt;p&gt;The four handed game is usually played in partnerships.&lt;/p&gt;
 &lt;h2 id=&quot;the-play&quot; tabindex=&quot;-1&quot;&gt;The Play &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/all-fives/#the-play&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The first player in the first hand is determined by lot (random). In the following hands, the player who dominoed (ran out of tiles) in the previous hand plays first. If the last hand was blocked, then the lead is again determined by lot.&lt;/p&gt;
+&lt;p&gt;The first player in the first hand is determined by lot (random). In the following hands, the player who &lt;strong&gt;dominoed&lt;/strong&gt; (ran out of tiles) in the previous hand plays first. If the last hand was blocked, then the lead is again determined by lot.&lt;/p&gt;
 &lt;p&gt;The lead can be &lt;strong&gt;any tile&lt;/strong&gt; in the player&#39;s hand.&lt;/p&gt;
 &lt;p&gt;The following players must play a tile matching the free end of one of the tiles at the ends of the layout. Doubles are played crosswise and count as the total of their pips for scoring purposes so long as they are at the end of one of the arms of the layout, with no tile yet played against the other side of the double.&lt;/p&gt;
 &lt;p&gt;The first double, and only the first double, played is used as a &#39;spinner&#39;: the first and second tiles adjacent to the spinner must be placed against the two sides, then the third and fourth tiles must be placed against the ends.&lt;/p&gt;
@@ -345,28 +384,58 @@
 &lt;p&gt;The first double (spinner) is scored in the same way. Both ends count until tiles have been placed against both of its sides. When the second tile is played against the spinner, the spinner no longer contributes to the score: only the tiles at the two ends of the layout count, just as if the spinner was another tile placed in line. This can be confusing because the ends of the spinner are still open for setting other tiles.&lt;/p&gt;
 &lt;p&gt;When the third tile is played against the spinner, creating a new arm extending from one of its ends, this third arm also counts towards the total, and when the fourth arm is begun by by extending the other end of the spinner all four ends count.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The diagrams below show the first nine moves of a possible game. The black arrows show the directions in which the layout can be extended, and the red stars show the tile ends that contribute to the total, which must be a multiple of 5 for the player to score for the move.&lt;/p&gt;
-&lt;figure&gt;
-&lt;svg class=&quot;block mx-auto inset&quot; viewBox=&quot;0 0 800 375&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xml:space=&quot;preserve&quot; style=&quot;fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5&quot;&gt;&lt;path style=&quot;fill:none&quot; d=&quot;M49.719 62.846h728.322v353.353H49.719z&quot; transform=&quot;matrix(1.09842 0 0 1.06126 -54.612 -66.696)&quot;&gt;&lt;/path&gt;&lt;text x=&quot;518.549&quot; y=&quot;102.235&quot; style=&quot;font-family:&amp;quot;Helvetica-Bold&amp;quot;,&amp;quot;Helvetica&amp;quot;;font-weight:700;font-size:48px&quot; transform=&quot;translate(95.174 -36.643)&quot;&gt;total: 5&lt;/text&gt;&lt;text x=&quot;491.783&quot; y=&quot;150.235&quot; style=&quot;font-family:&amp;quot;Helvetica-Bold&amp;quot;,&amp;quot;Helvetica&amp;quot;;font-weight:700;font-size:48px&quot; transform=&quot;translate(95.174 -36.643)&quot;&gt;score: 5&lt;/text&gt;&lt;path d=&quot;m193.993 283.385 6.687 20.582h21.641l-17.508 12.72 6.687 20.581-17.507-12.72-17.508 12.72 6.687-20.581-17.507-12.72h21.64l6.688-20.582Z&quot; style=&quot;fill:#c33&quot; transform=&quot;translate(56.966 -83.635)&quot;&gt;&lt;/path&gt;&lt;path d=&quot;m193.993 283.385 6.687 20.582h21.641l-17.508 12.72 6.687 20.581-17.507-12.72-17.508 12.72 6.687-20.581-17.507-12.72h21.64l6.688-20.582Z&quot; style=&quot;fill:#c33&quot; transform=&quot;translate(360.67 -83.265)&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M430.929 340.084c0-5.689-8.79-10.308-19.618-10.308H254.36c-10.828 0-19.618 4.619-19.618 10.308v185.547c0 5.689 8.79 10.308 19.618 10.308h156.951c10.828 0 19.618-4.619 19.618-10.308V340.084Z&quot; style=&quot;fill:#fff&quot; transform=&quot;matrix(0 .50972 .97011 0 -18.997 57.41)&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M310.922 283.062c-8.83 0-16-7.17-16-16v-80c0-8.83 7.17-16 16-16h180.001c8.831 0 16 7.17 16 16v80c0 8.83-7.169 16-16 16h-180Zm0-6h180.001c5.52 0 10-4.48 10-10v-80c0-5.52-4.48-10-10-10h-180c-5.52 0-10 4.48-10 10v80c0 5.52 4.48 10 10 10Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M46.105 126.665h78.078&quot; style=&quot;fill:none;stroke:#000;stroke-width:6.12px&quot; transform=&quot;matrix(0 .96058 1 0 275.227 145.355)&quot;&gt;&lt;/path&gt;&lt;circle cx=&quot;172.662&quot; cy=&quot;87.8&quot; r=&quot;12.012&quot; style=&quot;fill:#898992&quot; transform=&quot;matrix(0 .74927 .74927 0 356.261 127.702)&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;172.662&quot; cy=&quot;87.8&quot; r=&quot;12.012&quot; style=&quot;fill:#898992&quot; transform=&quot;matrix(0 .74927 .74927 0 412.33 127.702)&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;172.662&quot; cy=&quot;87.8&quot; r=&quot;12.012&quot; style=&quot;fill:#898992&quot; transform=&quot;matrix(0 .74927 .74927 0 356.261 67.412)&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;172.662&quot; cy=&quot;87.8&quot; r=&quot;12.012&quot; style=&quot;fill:#898992&quot; transform=&quot;matrix(0 .74927 .74927 0 412.33 67.412)&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;172.662&quot; cy=&quot;87.8&quot; r=&quot;12.012&quot; transform=&quot;matrix(0 .74927 -.74927 0 417.205 97.691)&quot;&gt;&lt;/circle&gt;&lt;path d=&quot;m114.858 253.827-22.5-22.5 22.5-22.5&quot; style=&quot;fill:none;stroke:#000;stroke-width:15px;stroke-linejoin:miter;stroke-miterlimit:10&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M181.781 231.327H92.358&quot; style=&quot;fill:none;stroke:#000;stroke-width:15px&quot;&gt;&lt;/path&gt;&lt;path d=&quot;m685.142 208.827 22.5 22.5-22.5 22.5&quot; style=&quot;fill:none;stroke:#000;stroke-width:15px;stroke-linejoin:miter;stroke-miterlimit:10&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M618.219 231.327h89.423&quot; style=&quot;fill:none;stroke:#000;stroke-width:15px&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+&lt;figure class=&quot;inset-small mx-auto&quot;&gt;
+&lt;img src=&quot;https://nathan-long.com/rules/img/all-fives-01.svg&quot; alt=&quot;Move 1&quot; /&gt;
 &lt;figcaption&gt;move one - 5 points&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;img src=&quot;https://www.pagat.com/images/tile/all5_2.png&quot; /&gt;
-&lt;p&gt;move two - 0 points&lt;/p&gt;
-&lt;img src=&quot;https://www.pagat.com/images/tile/all5_3.png&quot; /&gt;
-&lt;p&gt;move three - 10 points&lt;/p&gt;
+&lt;hr /&gt;
+&lt;figure class=&quot;inset mx-auto&quot;&gt;
+&lt;img src=&quot;https://nathan-long.com/rules/img/all-fives-02.svg&quot; alt=&quot;Move 1&quot; /&gt;
+&lt;figcaption&gt;
+move two - 0 points
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr /&gt;
+&lt;figure class=&quot;inset mx-auto&quot;&gt;
+&lt;img src=&quot;https://nathan-long.com/rules/img/all-fives-03.svg&quot; alt=&quot;Move 1&quot; /&gt;
+&lt;figcaption&gt;
+move three - 10 points
+&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;When a double is at the end of an arm, both ends of the double are counted, but only until another tile is played extending from the free side of the double.&lt;/p&gt;
-&lt;img src=&quot;https://www.pagat.com/images/tile/all5_4.png&quot; /&gt;
-&lt;p&gt;move four - 5 points&lt;/p&gt;
+&lt;hr /&gt;
+&lt;figure class=&quot;inset mx-auto&quot;&gt;
+&lt;img src=&quot;https://nathan-long.com/rules/img/all-fives-04.svg&quot; alt=&quot;Move 1&quot; /&gt;
+  &lt;figcaption&gt;
+  move four - 5 points
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;The [1-1], not the [4-4], was the first double played, so it is only from the [1-1] that the third and fourth arms of the cross can be started, and only after tiles have been played on both sides of the [1-1].&lt;/p&gt;
-&lt;img src=&quot;https://www.pagat.com/images/tile/all5_5.png&quot; /&gt;
-&lt;p&gt;move five - 5 points&lt;/p&gt;
-&lt;img src=&quot;https://www.pagat.com/images/tile/all5_6.png&quot; /&gt;
-&lt;p&gt;move six - 10 points&lt;/p&gt;
-&lt;img src=&quot;https://www.pagat.com/images/tile/all5_7.png&quot; /&gt;
-&lt;p&gt;move seven - 15 points&lt;/p&gt;
-&lt;img src=&quot;https://www.pagat.com/images/tile/all5_8.png&quot; /&gt;
-&lt;p&gt;move eight - 5 points&lt;/p&gt;
-&lt;img src=&quot;https://www.pagat.com/images/tile/all5_9.png&quot; /&gt;
-&lt;p&gt;move nine - 0 points&lt;/p&gt;
+&lt;hr /&gt;
+&lt;figure class=&quot;inset mx-auto&quot;&gt;
+&lt;img src=&quot;https://nathan-long.com/rules/img/all-fives-05.svg&quot; alt=&quot;Move 1&quot; /&gt;
+  &lt;figcaption&gt;move five - 5 points&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr /&gt;
+&lt;figure class=&quot;inset mx-auto&quot;&gt;
+&lt;img src=&quot;https://nathan-long.com/rules/img/all-fives-06.svg&quot; alt=&quot;Move 1&quot; /&gt;
+  &lt;figcaption&gt;move six - 10 points&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr /&gt;
+&lt;figure class=&quot;inset mx-auto&quot;&gt;
+&lt;img src=&quot;https://nathan-long.com/rules/img/all-fives-07.svg&quot; alt=&quot;Move 1&quot; /&gt;
+  &lt;figcaption&gt;move seven - 15 points&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr /&gt;
+&lt;figure class=&quot;inset mx-auto&quot;&gt;
+&lt;img src=&quot;https://nathan-long.com/rules/img/all-fives-08.svg&quot; alt=&quot;Move 1&quot; /&gt;
+  &lt;figcaption&gt;move eight - 5 points&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr /&gt;
+&lt;figure class=&quot;inset mx-auto&quot;&gt;
+&lt;img src=&quot;https://nathan-long.com/rules/img/all-fives-09.svg&quot; alt=&quot;Move 1&quot; /&gt;
+  &lt;figcaption&gt;move nine - 0 points&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;When the hand ends, because some player runs out of tiles or the layout is blocked with no further plays possible. If a player runs out of tiles, that player (or that player&#39;s team) is considered the &lt;strong&gt;winner of that deal&lt;/strong&gt;. If the game is blocked the player or team with fewest points on tiles remaining in hand is considered the winner.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The winning player or team scores the total of the pips on the tiles remaining in the opponents&#39; hands, rounded up or down to the nearest multiple of five.&lt;/strong&gt; For example, in a two-player game a losing hand with just the [1-2] would round up to five points, while [1-1] would round down to zero points.&lt;/p&gt;
 &lt;p&gt;If there is a tie for least points in a blocked two-player or four-player game no one scores for the remaining tiles. In a three-player game if two players tie for least they split the third player&#39;s points between them.&lt;/p&gt;
@@ -453,6 +522,9 @@
 &lt;h2 id=&quot;scoring&quot; tabindex=&quot;-1&quot;&gt;Scoring &lt;a class=&quot;direct-link&quot; href=&quot;https://nathan-long.com/rules/posts/scoundrel/#scoring&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;If your life has reached zero, find all the remaining monsters in the Dungeon, and subtract their values from your life, this negative value is your score.&lt;/p&gt;
 &lt;p&gt;If you have made your way through the entire dungeon, your score is your positive life, or if your life is 20, and your last card was a health potion, your life + the value of that potion.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; This game is HARD to complete, making actually escaping very rewarding. Keeping track of your life can be difficult to do mentally, so having a tracker or pen and paper offloads that overhead.&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
 	</entry>
 	
@@ -563,6 +635,9 @@
 &lt;p&gt;When the deck has run out the discards are shuffled and become the deck.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A more difficult variant&lt;/strong&gt;: A more difficult version of the game is to change the hand size to 4 (instead of 5). This means the bogey plays cards a higher proportion of the time.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Designer: Katharine Turner, 2016&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; The chaos element of the bogey is simple but makes each play different, making it more interesting (to me) than standard solitaire variants.&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
 	</entry>
 	

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mia/Meier</title>
+    <meta name="description" content="An ancient bluffing game.">
+    <meta name="generator" content="Eleventy v1.0.1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/rules/css/index.css">
+    <link rel="stylesheet" href="/rules/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/rules/css/prism-diff.css">
+    <link rel="alternate" href="/rules/feed/feed.xml" type="application/atom+xml" title="Rules">
+    <link rel="alternate" href="/rules/feed/feed.json" type="application/json" title="Rules">
+  </head>
+  <body class="tmpl-post">
+    <header>
+      <div class="container flex justify-between items-center">
+        <h1 class="home m-0 heading-300">
+          <a class="no-decoration flex items-center" href="/rules/">
+            <div class="w-1 rounded-1/4 overflow-hidden line-height-0 mie-1/4">
+              <img class="w-full" src="https://user-images.githubusercontent.com/623568/211856834-436269ac-9130-4628-b088-b35f75b69810.png" alt="Card symbols on a dark purple field marked with faint X's">
+            </div>
+            <span>
+              Rules
+            </span>
+          </a>
+        </h1>
+        <ul class="nav flex space-x-1">
+          <li class="nav-item  no-list"><a class="font-monospace no-decoration" href="/rules/tags/">Tags</a></li>
+          <li class="nav-item  no-list"><a class="font-monospace no-decoration" href="/rules/games/">All Games</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="mbx-5vh">
+      <div class="container flow">
+
+  <section >
+    <h1 class="heading-50">Mia/Meier</h1>
+
+    <div class="space-x"><a href="/rules/tags/dice/" class="tag">Dice</a><a href="/rules/tags/lowno-component/" class="tag">Low/No Component</a><a href="/rules/tags/party/" class="tag">Party</a>
+    </div>
+  </section>
+
+  <dl class="flow-1/2">
+    <dt>👤 Players:</dt>
+    <dd>3-12</dd>
+    <dt>⏱ Time to play:</dt>
+    <dd>20 minutes</dd>
+    <dt>♟ Equipment:</dt>
+    <dd>2 six-sided dice, a cup or way to conceal the dice roll, a way to keep track of lives (coins, pen and paper, etc)</dd>
+  </dl>
+
+<blockquote>
+<p>Mia, pronounced (My-yuh), or Meier is an ancient bluffing game, thought to have been played by Vikings. Often touted as, &quot;the most fun you can have with two dice&quot;.</p>
+</blockquote>
+<h2 id="objective" tabindex="-1">Objective <a class="direct-link" href="#objective" aria-hidden="true">#</a></h2>
+<p>Be the last player standing with at least one life.</p>
+<h2 id="opening-a-round" tabindex="-1">Opening a Round <a class="direct-link" href="#opening-a-round" aria-hidden="true">#</a></h2>
+<p>Roll to randomly determine the starting player. Every gets 3 'lives'.</p>
+<p>The opening player rolls the dice under the cup and discreetly looks, keeping the cup value hidden. The player must then announce a claim:</p>
+<ol>
+<li>The <strong>actual</strong> cup value (truth)</li>
+<li>A value <strong>higher</strong> than the cup value (bluff)</li>
+<li>A value <strong>lower</strong> than the cup value (bluff)</li>
+</ol>
+<p>This player is now the cup 'owner'.</p>
+<p>The dice roles are valued by taking the highest die's value as the first digit and the lowest die's value as the second digit. (Ex. a 2 and a 3 are rolled, 3 being the higher dice makes the roll a 32)</p>
+<p>Traditionally, all possible results are ranked in order as follows:</p>
+<p><code>21 (called Mia), 11, 22, 33, 44, 55, 66, 65, 64, 63, 62, 61, 54, 53, 52, 51, 43, 42, 41, 32, 31</code></p>
+<p>This is thought to be because the 1 and 2 on ancient knucklebone dice were rare as they were rectangular dice. An easier modern ranking is to rank Mia first, then descending numerically:</p>
+<p><code>21 (Mia), 66, 65, 64, 63, 62, 61, 55, 54, 53, 52, 51, 44, 43, 42, 41, 33, 32, 31, 22, 11.</code></p>
+<h2 id="rounds" tabindex="-1">Rounds <a class="direct-link" href="#rounds" aria-hidden="true">#</a></h2>
+<p>The dice are passed to the next player, they can:</p>
+<ol>
+<li><strong>Challenge</strong>. The current player challenges the claim (preferably dramatically) and lifts the cup to reveal the cup value:
+<ul>
+<li>If the dice show a <strong>lesser</strong> value than that announced, the <strong>cup owner</strong> loses a life.</li>
+<li>If the dice show a <strong>greater</strong> or equal value, the <strong>challenger</strong> loses a life.</li>
+</ul>
+</li>
+<li><strong>Reroll</strong>. The current player accepts the claim, rerolls the dice without looking at the original cup value, peeks at the new cup value and must announce a higher cup value than the original claim. This player now becomes the cup owner.</li>
+<li><strong>Pass</strong>. The current player accepts the claim and without looking at the dice and assumes responsibility: They become the new cup owner with the current claim and play passes to the next player.</li>
+</ol>
+<p>On a challenge, the round ends, and the player that lost a life starts the next round.</p>
+<p>If 'Mia' is claimed and challenged, the loser of the challenge loses two lives.</p>
+<p>If everyone passes and the cup is passed back to the original owner (who knows the cup value) they cannot pass without raising the value of the claim. The exception is if the original claim was 'Mia', then the original cup owner must reroll. They can also challenge as the last person to pass is the owner and they know the cup value.</p>
+<blockquote>
+<p><strong>Nathan's Notes:</strong> This is marked Low/No Component because the components can easily be sourced almost anywhere. Dice can be cannibalized from other games and the cup can just be a paper coffee cup (preferably unused... but hey, it's your dice.)</p>
+</blockquote>
+
+
+  <p class="font-monospace text-small color-gray">
+    <span>Date added: <time datetime="2023-02-13">13 Feb 2023</time></span>
+  </p>
+
+  <hr>
+
+  <div class="flex justify-between">
+    <div class="flex flex-wrap items-center gap-1/2">
+      <p>More:</p><a href="/rules/tags/dice/" class="tag">Dice</a><a href="/rules/tags/lowno-component/" class="tag">Low/No Component</a><a href="/rules/tags/party/" class="tag">Party</a>
+    </div>
+
+    <a class="font-monospace no-decoration flex-shrink-0" href="games">All Games</a>
+  </div>
+
+
+</div>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /rules/posts/mia/ -->
+  </body>
+</html>

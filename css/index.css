@@ -128,7 +128,7 @@ dt {
 }
 
 dd {
-  margin-inline-start: 1.125em;
+  margin-inline-start: 1.25em;
 }
 
 figcaption {
@@ -187,6 +187,10 @@ hr {
 
 .inset {
   max-width: 30rem;
+}
+
+.inset-small {
+  max-width: 25rem;
 }
 
 .flow > * + * {
@@ -296,6 +300,10 @@ a[href].direct-link:focus:visited,
 
 .font-monospace {
   font-family: var(--monospace);
+}
+
+.gap-1\/2 {
+  gap: 0.5em;
 }
 
 .justify-between {
