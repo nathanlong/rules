@@ -6,8 +6,9 @@ eleventyNavigation:
   order: 1
 ---
 <h2 class="m-0">Tags</h2>
+<p>Sorted alphabetically:</p>
 
-{% for tag in collections.tagList %}
+{% for tag in collections.tagList | sort() %}
   {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
   <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
 {% endfor %}

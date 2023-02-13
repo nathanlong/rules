@@ -6,19 +6,12 @@ maxplayers: 4
 time: 30
 equipment: A set of double-6 dominoes.
 date: 2022-11-15
+modified: 2023-02-13
 tags:
   - Dominoes
   - Double 6
 layout: layouts/post.njk
 ---
-
-> This is the main variant of a family of domino games called the Three's and Five's Family. The main mechanic is the same, but each variant has slightly different rules.
-
-<small>Currently this is a port of the rules from Pagat, I hope to do a pass over the rules to personalize them for our style of play</small>
-
-## Equipment
-
-The game uses a double six domino set. It can be played by two to four players, but is typically played as a four handed partnership game.
 
 ## The Deal
 
@@ -34,7 +27,7 @@ The four handed game is usually played in partnerships.
 
 ## The Play
 
-The first player in the first hand is determined by lot (random). In the following hands, the player who dominoed (ran out of tiles) in the previous hand plays first. If the last hand was blocked, then the lead is again determined by lot.
+The first player in the first hand is determined by lot (random). In the following hands, the player who **dominoed** (ran out of tiles) in the previous hand plays first. If the last hand was blocked, then the lead is again determined by lot.
 
 The lead can be **any tile** in the player's hand.
 
@@ -56,47 +49,77 @@ When the third tile is played against the spinner, creating a new arm extending 
 
 **Example**. The diagrams below show the first nine moves of a possible game. The black arrows show the directions in which the layout can be extended, and the red stars show the tile ends that contribute to the total, which must be a multiple of 5 for the player to score for the move.
 
-<figure>
-<svg class="block mx-auto inset" viewBox="0 0 800 375" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5"><path style="fill:none" d="M49.719 62.846h728.322v353.353H49.719z" transform="matrix(1.09842 0 0 1.06126 -54.612 -66.696)"/><text x="518.549" y="102.235" style="font-family:&quot;Helvetica-Bold&quot;,&quot;Helvetica&quot;;font-weight:700;font-size:48px" transform="translate(95.174 -36.643)">total: 5</text><text x="491.783" y="150.235" style="font-family:&quot;Helvetica-Bold&quot;,&quot;Helvetica&quot;;font-weight:700;font-size:48px" transform="translate(95.174 -36.643)">score: 5</text><path d="m193.993 283.385 6.687 20.582h21.641l-17.508 12.72 6.687 20.581-17.507-12.72-17.508 12.72 6.687-20.581-17.507-12.72h21.64l6.688-20.582Z" style="fill:#c33" transform="translate(56.966 -83.635)"/><path d="m193.993 283.385 6.687 20.582h21.641l-17.508 12.72 6.687 20.581-17.507-12.72-17.508 12.72 6.687-20.581-17.507-12.72h21.64l6.688-20.582Z" style="fill:#c33" transform="translate(360.67 -83.265)"/><path d="M430.929 340.084c0-5.689-8.79-10.308-19.618-10.308H254.36c-10.828 0-19.618 4.619-19.618 10.308v185.547c0 5.689 8.79 10.308 19.618 10.308h156.951c10.828 0 19.618-4.619 19.618-10.308V340.084Z" style="fill:#fff" transform="matrix(0 .50972 .97011 0 -18.997 57.41)"/><path d="M310.922 283.062c-8.83 0-16-7.17-16-16v-80c0-8.83 7.17-16 16-16h180.001c8.831 0 16 7.17 16 16v80c0 8.83-7.169 16-16 16h-180Zm0-6h180.001c5.52 0 10-4.48 10-10v-80c0-5.52-4.48-10-10-10h-180c-5.52 0-10 4.48-10 10v80c0 5.52 4.48 10 10 10Z"/><path d="M46.105 126.665h78.078" style="fill:none;stroke:#000;stroke-width:6.12px" transform="matrix(0 .96058 1 0 275.227 145.355)"/><circle cx="172.662" cy="87.8" r="12.012" style="fill:#898992" transform="matrix(0 .74927 .74927 0 356.261 127.702)"/><circle cx="172.662" cy="87.8" r="12.012" style="fill:#898992" transform="matrix(0 .74927 .74927 0 412.33 127.702)"/><circle cx="172.662" cy="87.8" r="12.012" style="fill:#898992" transform="matrix(0 .74927 .74927 0 356.261 67.412)"/><circle cx="172.662" cy="87.8" r="12.012" style="fill:#898992" transform="matrix(0 .74927 .74927 0 412.33 67.412)"/><circle cx="172.662" cy="87.8" r="12.012" transform="matrix(0 .74927 -.74927 0 417.205 97.691)"/><path d="m114.858 253.827-22.5-22.5 22.5-22.5" style="fill:none;stroke:#000;stroke-width:15px;stroke-linejoin:miter;stroke-miterlimit:10"/><path d="M181.781 231.327H92.358" style="fill:none;stroke:#000;stroke-width:15px"/><path d="m685.142 208.827 22.5 22.5-22.5 22.5" style="fill:none;stroke:#000;stroke-width:15px;stroke-linejoin:miter;stroke-miterlimit:10"/><path d="M618.219 231.327h89.423" style="fill:none;stroke:#000;stroke-width:15px"/></svg>
+<figure class="inset-small mx-auto">
+<img src="{{ '/img/all-fives-01.svg' | url }}" alt="Move 1">
 <figcaption>move one - 5 points</figcaption>
 </figure>
 
+<hr>
 
-<img src="https://www.pagat.com/images/tile/all5_2.png" />
-
+<figure class="inset mx-auto">
+<img src="{{ '/img/all-fives-02.svg' | url }}" alt="Move 1">
+<figcaption>
 move two - 0 points
+</figcaption>
+</figure>
 
-<img src="https://www.pagat.com/images/tile/all5_3.png" />
+<hr>
 
+<figure class="inset mx-auto">
+<img src="{{ '/img/all-fives-03.svg' | url }}" alt="Move 1">
+<figcaption>
 move three - 10 points
+</figcaption>
+</figure>
 
 When a double is at the end of an arm, both ends of the double are counted, but only until another tile is played extending from the free side of the double.
 
-<img src="https://www.pagat.com/images/tile/all5_4.png" />
+<hr>
 
-move four - 5 points
+<figure class="inset mx-auto">
+<img src="{{ '/img/all-fives-04.svg' | url }}" alt="Move 1">
+  <figcaption>
+  move four - 5 points
+  </figcaption>
+</figure>
 
 The [1-1], not the [4-4], was the first double played, so it is only from the [1-1] that the third and fourth arms of the cross can be started, and only after tiles have been played on both sides of the [1-1].
 
-<img src="https://www.pagat.com/images/tile/all5_5.png" />
+<hr>
 
-move five - 5 points
+<figure class="inset mx-auto">
+<img src="{{ '/img/all-fives-05.svg' | url }}" alt="Move 1">
+  <figcaption>move five - 5 points</figcaption>
+</figure>
 
-<img src="https://www.pagat.com/images/tile/all5_6.png" />
+<hr>
 
-move six - 10 points
+<figure class="inset mx-auto">
+<img src="{{ '/img/all-fives-06.svg' | url }}" alt="Move 1">
+  <figcaption>move six - 10 points</figcaption>
+</figure>
 
-<img src="https://www.pagat.com/images/tile/all5_7.png" />
+<hr>
 
-move seven - 15 points
+<figure class="inset mx-auto">
+<img src="{{ '/img/all-fives-07.svg' | url }}" alt="Move 1">
+  <figcaption>move seven - 15 points</figcaption>
+</figure>
 
-<img src="https://www.pagat.com/images/tile/all5_8.png" />
+<hr>
 
-move eight - 5 points
+<figure class="inset mx-auto">
+<img src="{{ '/img/all-fives-08.svg' | url }}" alt="Move 1">
+  <figcaption>move eight - 5 points</figcaption>
+</figure>
 
-<img src="https://www.pagat.com/images/tile/all5_9.png" />
+<hr>
 
-move nine - 0 points
+<figure class="inset mx-auto">
+<img src="{{ '/img/all-fives-09.svg' | url }}" alt="Move 1">
+  <figcaption>move nine - 0 points</figcaption>
+</figure>
+
 
 When the hand ends, because some player runs out of tiles or the layout is blocked with no further plays possible. If a player runs out of tiles, that player (or that player's team) is considered the **winner of that deal**. If the game is blocked the player or team with fewest points on tiles remaining in hand is considered the winner.
 

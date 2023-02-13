@@ -1,0 +1,19 @@
+<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+  <div class="flex flex-wrap items-baseline space-x">
+    <h3 class="m-0 p-0"><a href="{{ post.url | url }}" class="postlist-link no-decoration">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></h3>
+    <div class="flex space-x">
+      {%- if  post.data.maxplayers > 1 %}
+      <span class="flex flex-shrink-0">👤 {{ post.data.minplayers }}-{{ post.data.maxplayers }}</span>
+      {%- else %}
+      <span class="flex flex-shrink-0">👤 {{ post.data.maxplayers }}</span>
+      {%- endif %}
+      <span class="flex flex-shrink-0">⏱ {{post.data.time}}</span>
+    </div>
+  </div>
+  <div class="space-x">
+    {% for tag in post.data.tags | filterTagList %}
+    {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+    <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+    {% endfor %}
+  </div>
+</li>

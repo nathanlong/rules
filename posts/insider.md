@@ -8,6 +8,7 @@ equipment: 5 minute timer, method to indicate role, method to choose or reveal w
 date: 2022-11-15
 tags:
   - Party
+  - Low/No Component
 layout: layouts/post.njk
 ---
 
@@ -61,4 +62,4 @@ layout: layouts/post.njk
 - As a variant, or if word cards are not available, words can also be written down freely by the Master.
 - Role cards can be from a standard deck of cards (Ace for Insider, King for Master, numbers for commons, etc)
 
-> **Nathan's Notes:** This is a great scaling group game that requires almost no materials except a way to indicate roles and a way to record the word. The trickiest bit is getting the timers correct.
+> **Nathan's Notes:** This is a great scaling group game that requires almost no materials. If there aren't any playing cards, someone can be a Facilitator and pick the Master and Insider and manage the opening closing of eyes.

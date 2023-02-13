@@ -1,0 +1,17 @@
+---
+layout: layouts/home.njk
+permalink: /four-player/
+---
+
+<h2 class="m-0">Four-Player Games</h2>
+
+{% set postslist = collections.posts %}
+<ul class="postlist flow">
+  {% for post in postslist %}
+  {% if post.data.maxplayers >= 4 %}
+  {% include "postitem.njk" %}
+  {% endif %}
+  {% endfor %}
+</ul >
+
+<p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>

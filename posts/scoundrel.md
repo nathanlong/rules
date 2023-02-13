@@ -79,3 +79,5 @@ It is important to note that although you retain your weapons until they are rep
 If your life has reached zero, find all the remaining monsters in the Dungeon, and subtract their values from your life, this negative value is your score.
 
 If you have made your way through the entire dungeon, your score is your positive life, or if your life is 20, and your last card was a health potion, your life + the value of that potion.
+
+> **Nathan's Notes:** This game is HARD to complete, making actually escaping very rewarding. Keeping track of your life can be difficult to do mentally, so having a tracker or pen and paper offloads that overhead.
