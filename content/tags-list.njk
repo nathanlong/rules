@@ -8,7 +8,13 @@ eleventyNavigation:
 <h2 class="m-0">Tags</h2>
 <p>Sorted alphabetically:</p>
 
-{% for tag in collections.tagList | sort() %}
+<div class="columns-2 gap-1">
+
+{% for tag in collections.all | getAllTags | filterTagList | sort() %}
   {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+  <div class="mbe-1/2">
+    <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+  </div>
 {% endfor %}
+
+</div>

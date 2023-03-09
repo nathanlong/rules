@@ -5,6 +5,7 @@ minplayers: 1
 maxplayers: 1
 time: 10
 equipment: A standard deck of cards without Jokers.
+designer: Katharine Turner
 date: 2022-10-11
 tags:
   - Standard Cards
@@ -47,7 +48,5 @@ You can also choose to pass your turn, letting the bogey play multiple times in 
 When the deck has run out the discards are shuffled and become the deck.
 
 **A more difficult variant**: A more difficult version of the game is to change the hand size to 4 (instead of 5). This means the bogey plays cards a higher proportion of the time.
-
-_Designer: Katharine Turner, 2016_
 
 > **Nathan's Notes:** The chaos element of the bogey is simple but makes each play different, making it more interesting (to me) than standard solitaire variants.

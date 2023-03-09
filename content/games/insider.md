@@ -5,6 +5,7 @@ minplayers: 4
 maxplayers: 8
 time: 15
 equipment: 5 minute timer, method to indicate role, method to choose or reveal words
+designer: Akihiro Itoh, Kwaji, Daichi Okano, Kito Shinma (Oink Games)
 date: 2022-11-15
 tags:
   - Party

@@ -5,6 +5,7 @@ minplayers: 2
 maxplayers: 6
 time: 10
 equipment: A standard deck of cards without Jokers
+designer: James Ernest, David Howell (Cheapass Games, GAMES Magazine)
 date: 2022-10-11
 tags:
   - Standard Cards

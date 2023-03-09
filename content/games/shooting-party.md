@@ -5,6 +5,7 @@ minplayers: 1
 maxplayers: 1
 time: 10
 equipment: A standard deck of cards with 1 Joker and ranks 6-10 removed
+designer: John Kean (adapted by Nathan Long)
 date: 2022-11-15
 modified: 2023-02-08
 tags:
@@ -101,11 +102,7 @@ Count up the scored cards (queens and aces). Since the communiques can only be t
 
 </div>
 
-The Shooting Party © John Kean, 2016
-
-Modifications/rethemeing by Nathan Long, 2023
-
-Rules version: 20160714 (Adapted)
+The Shooting Party © John Kean, 2016 (Modifications/rethemeing by Nathan Long, 2023) Rules version: 20160714 (Adapted)
 
 _This work is licensed under a Creative Commons Attribution NonCommercial-ShareAlike 4.0 International License_
 

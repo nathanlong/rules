@@ -1,10 +1,11 @@
 ---
 title: Scoundrel
-description: A Single Player Rogue-like Card Game by Zach Gage and Kurt Bieg
+description: A single player rogue-like card game
 minplayers: 1
 maxplayers: 1
 time: 10
 equipment: A standard deck of cards without Jokers, Red Face Cards, and Red Aces.
+designer: Kurt Bieg, Zach Gage
 date: 2022-10-11
 tags:
   - Standard Cards

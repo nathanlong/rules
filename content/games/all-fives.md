@@ -5,6 +5,7 @@ minplayers: 2
 maxplayers: 4
 time: 30
 equipment: A set of double-6 dominoes.
+designer: Uncredited. Thought to have originated in Europe.
 date: 2022-11-15
 modified: 2023-02-13
 tags:

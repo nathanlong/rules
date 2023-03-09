@@ -1,0 +1,56 @@
+---
+layout: layouts/home.njk
+---
+
+<blockquote>
+  <strong>I love games.</strong> These are rulesets I've collected for reference on-the-go with a focus on low/no component games and house-ruled/modified versions of other games.
+</blockquote>
+
+<h2>Collections:</h2>
+
+<ul class="flow">
+  <li><strong>I don't have any materials except:</strong>
+    <ul>
+      <li class="py-1/4">
+        <a class="tag" href="{{ '/tags/standard-cards' | url}}">Standard Playing Cards</a> <span class="text-small color-medgray">(Never leave without a deck)</span>
+      </li>
+      <li class="py-1/4">
+        <a class="tag" href="{{ '/tags/dominoes' | url}}">Dominoes</a> <span class="text-small color-medgray">(Nice and waterproof)</span>
+
+      </li>
+      <li class="py-1/4">
+        <a class="tag" href="{{ '/tags/lowno-component' | url}}">I don't have anything on hand</a> <span class="text-small color-medgray">(Improvisation!)</span>
+      </li>
+    </ul>
+  </li>
+  <li class="flow-1/2"><strong>I'm playing with:</strong>
+    <ul>
+      <li class="py-1/4">
+        <a class="tag" href="{{ '/tags/solitaire' | url}}">Just Myself (1)</a> <span class="text-small color-medgray">(Forever alone)</span>
+      </li>
+      <li class="py-1/4">
+        <a class="tag" href="{{ '/two-player/' | url}}">Two (2)</a> <span class="text-small color-medgray">(Much quality time)</span>
+      </li>
+      <li class="py-1/4">
+        <a class="tag" href="{{ '/three-player/' | url}}">Three (3)</a> <span class="text-small color-medgray">(Such triangle)</span>
+      </li>
+      <li class="py-1/4">
+        <a class="tag" href="{{ '/four-player/' | url}}">Four (4)</a> <span class="text-small color-medgray">(Very dividable by two)</span>
+      </li>
+      <li class="py-1/4">
+        <a class="tag" href="{{ '/tags/party' | url}}">Large Group (5+)</a> <span class="text-small color-medgray">(Such friends)</span>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr class="flow-2">
+
+{% set maxPosts = collections.posts.length | min(3) %}
+<h2 class="">Latest {% if maxPosts == 1 %}Addition{% else %}{{ maxPosts }} Additions{% endif %}:</h2>
+
+{% set postslist = collections.posts | head(-3) | reverse %}
+{% set postslistCounter = collections.posts | length %}
+{% include "postslist.njk" %}
+
+<p class="flow-3">More games can be found in <a href="{{ '/games/' | url }}">the full list</a>.</p>

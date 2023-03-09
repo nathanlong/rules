@@ -5,6 +5,7 @@ minplayers: 2
 maxplayers: 12
 time: 40
 equipment: A set of double-9 dominoes.
+designer: Uncredited. Thought to have originated in Texas or Mexico.
 date: 2022-11-15
 modified: 2023-02-06
 tags:

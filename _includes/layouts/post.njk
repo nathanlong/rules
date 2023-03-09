@@ -32,20 +32,25 @@ templateClass: tmpl-post
     <dt>♟ Equipment:</dt>
     <dd>{{ equipment }}</dd>
     {%- endif %}
+
+    {%- if designer %}
+    <dt>🧠 Designer(s):</dt>
+    <dd>{{ designer }}</dd>
+    {%- endif %}
   </dl>
 
 {{ content | safe }}
 
-  <p class="font-monospace text-small color-gray">
+  <p class="font-monospace text-small color-gray flow-2">
     <span>Date added: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></span>
     {%- if modified %}
     <span>| Modified: <time datetime="{{ modified | htmlDateString }}">{{ modified | readableDate }}</time>
       {%- endif %}
   </p>
 
-  <hr>
+  <hr class="flow-2">
 
-  <div class="flex justify-between">
+  <div class="flex justify-between flow-2">
     <div class="flex flex-wrap items-center gap-1/2">
       <p>More:</p>
       {%- for tag in tags | filterTagList -%}
