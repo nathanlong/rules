@@ -5,12 +5,53 @@
 	
 	<link href="https://nathan-long.com/rules/feed/feed.xml" rel="self"/>
 	<link href="https://nathan-long.com/rules"/>
-	<updated>2023-02-13T00:00:00Z</updated>
+	<updated>2023-03-10T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Nathan Long</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>James Bond</title>
+		<link href="https://nathan-long.com/rules/games/james-bond/"/>
+		<updated>2023-03-10T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/games/james-bond/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;h2 id=&quot;story&quot; tabindex=&quot;-1&quot;&gt;Story: &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/james-bond/#story&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You are an agent racing to retrieve the coded contents of several secret briefcases, once you have collected enough information you&#39;ll be able to crack the code! Compete against fellow agents to be named Top Agent.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;deal&quot; tabindex=&quot;-1&quot;&gt;Deal &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/james-bond/#deal&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The cards are dealt into face-down piles of 4 cards in front of the players:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;6 piles for each player when 2 play,&lt;/li&gt;
+&lt;li&gt;4 piles each if there are 3 players.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The last 4 cards are placed face up in a row between the players.&lt;/p&gt;
+&lt;h2 id=&quot;play&quot; tabindex=&quot;-1&quot;&gt;Play &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/james-bond/#play&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;When everyone is ready, the dealer yells the agreed-upon &#39;start code&#39; (like &#39;GO&#39; or &#39;PLATYPUS&#39;, the start code can be anything), and play begins.&lt;/p&gt;
+&lt;p&gt;Players pick up one pile at a time, look at the four cards, and if they wish they can exchange a card from the pile they are looking at for a face-up card from the table, the aim being collect four cards of the same rank in each pile - for example four sixes or four queens.&lt;/p&gt;
+&lt;p&gt;For example, if the pile you are looking at is 4, 4, 7, and K (suit doesn&#39;t matter), and the four face up cards are 4, 6, 3, and J, then you might want to trade either the 7 or the K for the 4. Whether you release the 7 or the King will depend on what you think your opponent has. If you saw him/her take a King earlier, then you may want to hold onto your King and play the 7.&lt;/p&gt;
+&lt;p&gt;Play is simultaneous - there are no turns - everyone plays as fast as they can. However, a player is only allowed to look at one pile at a time. The pile you are holding must be put back face down on the table before can pick up and look at another pile.&lt;/p&gt;
+&lt;p&gt;You cannot exchange more than one card at a time. If you want two cards from the middle, you must first exchange one card, then another card. There must be four cards in each pile and four cards face up on the table after every exchange.&lt;/p&gt;
+&lt;p&gt;When a player collects 4 matching cards in a pile/briefcase, they turn the pile face-up.&lt;/p&gt;
+&lt;h2 id=&quot;winning&quot; tabindex=&quot;-1&quot;&gt;Winning &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/james-bond/#winning&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Depending on how fast you want to play you can choose one of the following win conditions:&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;Fastest Agent Alive&lt;/dt&gt;
+&lt;dd&gt;The first player to collect 4 matching cards in 1 briefcase. (This goes VERY quickly)&lt;/dd&gt;
+&lt;dt&gt;C.I.R. (Critical Information Retrieval)&lt;/dt&gt;
+&lt;dd&gt;The first player to collect 4 matching cards in half (3 for 2 players, 2 for 3 players) of their briefcases.&lt;/dd&gt;
+&lt;dt&gt;Code Breakers&lt;/dt&gt;
+&lt;dd&gt;The first player to collect 4 matching cards in ALL of their briefcases.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;The winner shouts &lt;strong&gt;&#39;James Bond&#39;&lt;/strong&gt; when they have met the criteria for winning.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; This is a fun, chaotic, scrambling game that&#39;s great for kids. Because play is simultaneous, there&#39;s no downtime or waiting -- everyone is in on the action. The &#39;Fastest Agent Alive&#39; condition came from misunderstanding the original rules and winning with the first match. We preferred the faster style of play so we now recommend the C.I.R. win condition that splits the difference between our misunderstanding and the original rules (which had the &#39;Code Breakers&#39; win condition).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.pagat.com/commerce/jamesbond.html&quot;&gt;Original Rules at Pagat&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Mia/Meier</title>
