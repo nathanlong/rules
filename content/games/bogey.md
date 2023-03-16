@@ -10,7 +10,6 @@ date: 2022-10-11
 tags:
   - Standard Cards
   - Solitaire
-layout: layouts/post.njk
 ---
 
 > Fey creatures, called bogeys, are creatures of mischief. Be wary of where you put things or you may find something else in its place!

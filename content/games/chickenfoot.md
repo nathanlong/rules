@@ -12,7 +12,6 @@ tags:
   - Dominoes
   - Double 9
   - Party
-layout: layouts/post.njk
 ---
 
 > ## Description:

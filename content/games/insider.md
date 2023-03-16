@@ -10,7 +10,6 @@ date: 2022-11-15
 tags:
   - Party
   - Low/No Component
-layout: layouts/post.njk
 ---
 
 > A twist on 20 questions with secret roles where the Insider tries to stay hidden from the Master and Commons while manipulating the discussion to lead everyone to the correct answer.

@@ -11,7 +11,6 @@ tags:
   - Dice
   - Low/No Component
   - Party
-layout: layouts/post.njk
 ---
 
 > Mia, pronounced (My-yuh), or Meier is an ancient bluffing game, thought to have been played by Vikings. Often touted as, "the most fun you can have with two dice".

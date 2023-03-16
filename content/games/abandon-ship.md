@@ -9,7 +9,6 @@ designer: James Ernest (Cheapass Games)
 date: 2022-10-11
 tags:
   - Standard Cards
-layout: layouts/post.njk
 ---
 
 > ## Story:

@@ -8,7 +8,7 @@ permalink: /three-player/
 {% set postslist = collections.posts | sort(attribute="data.title") %}
 <ul class="postlist flow">
   {% for post in postslist %}
-  {% if post.data.minplayers > 2 and post.data.maxplayers >= 3 %}
+  {% if post.data.minplayers >= 2 and post.data.maxplayers >= 3 %}
   {% include "postitem.njk" %}
   {% endif %}
   {% endfor %}

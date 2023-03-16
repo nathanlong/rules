@@ -10,7 +10,6 @@ date: 2022-10-11
 tags:
   - Standard Cards
   - Solitaire
-layout: layouts/post.njk
 ---
 
 ## Setup:

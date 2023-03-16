@@ -11,7 +11,6 @@ modified: 2023-02-08
 tags:
   - Standard Cards
   - Solitaire
-layout: layouts/post.njk
 ---
 
 

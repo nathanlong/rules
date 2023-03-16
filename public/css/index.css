@@ -183,6 +183,11 @@ hr {
   border-top: 1px solid var(--gray);
 }
 
+mark {
+  color: var(--blue-85);
+  background-color: transparent;
+}
+
 .container {
   margin: 0 auto;
   max-width: 45rem;
@@ -243,6 +248,15 @@ a[href].header-anchor:focus:visited,
   box-shadow: 0.0625em 0.0625em 0 0 var(--blue-75);
 }
 
+.mark {
+  background: var(--blue-35);
+  font-family: var(--monospace);
+  color: white;
+  padding: 0.1em;
+  border-radius: 0.25rem;
+  vertical-align: baseline;
+}
+
 .dropcap {
   background: var(--blue-35);
   font-family: var(--monospace);
@@ -272,12 +286,20 @@ a[href].header-anchor:focus:visited,
   display: block;
 }
 
+.color-medgray {
+  color: var(--medgray);
+}
+
 .color-gray {
   color: var(--gray);
 }
 
 .color-blue-75 {
   color: var(--blue-75);
+}
+
+.color-blue-85 {
+  color: var(--blue-85);
 }
 
 .columns-2 {
@@ -416,9 +438,6 @@ a[href].header-anchor:focus:visited,
   width: 100%;
 }
 
-.color-medgray {
-  color: var(--medgray);
-}
 
 .text-small {
   font-size: 0.75em;

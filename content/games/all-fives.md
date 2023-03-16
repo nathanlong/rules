@@ -11,7 +11,6 @@ modified: 2023-02-13
 tags:
   - Dominoes
   - Double 6
-layout: layouts/post.njk
 ---
 
 ## The Deal
