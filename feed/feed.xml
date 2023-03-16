@@ -5,12 +5,255 @@
 	
 	<link href="https://nathan-long.com/rules/feed/feed.xml" rel="self"/>
 	<link href="https://nathan-long.com/rules"/>
-	<updated>2023-03-10T00:00:00Z</updated>
+	<updated>2023-03-13T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Nathan Long</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Skull</title>
+		<link href="https://nathan-long.com/rules/games/skull/"/>
+		<updated>2023-03-13T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/games/skull/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Skull is distilled bluffing game, where each player puts down a Skull 💀 or a Rose 🌹 secretly and then mess with each other minds and bet to see who can turn up nothing but roses! Do it twice and you win! Forgot your actual game set? Play it with standard playing cards, because the game is not as much in the components but as it is &lt;strong&gt;in your mind 🧠&lt;/strong&gt;...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;setup&quot; tabindex=&quot;-1&quot;&gt;Setup &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#setup&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Each player takes four discs/cards in their hands and a mat. One disc is a Skull 💀 and the other three are Roses 🌹.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;play&quot; tabindex=&quot;-1&quot;&gt;Play &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#play&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Each round has 3 steps:&lt;/p&gt;
+&lt;h3 id=&quot;step-1-choose-a-starting-disc&quot; tabindex=&quot;-1&quot;&gt;&lt;span class=&quot;mark&quot;&gt;Step 1:&lt;/span&gt; Choose a Starting Disc &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#step-1-choose-a-starting-disc&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Each player chooses a disc (💀 or 🌹) and places it face down on their mat.&lt;/li&gt;
+&lt;li&gt;Once everyone has a disc down, move to Step 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;step-2-add-or-challenge&quot; tabindex=&quot;-1&quot;&gt;&lt;span class=&quot;mark&quot;&gt;Step 2:&lt;/span&gt; Add or Challenge &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#step-2-add-or-challenge&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;After Step 1, a player has two choices:&lt;/p&gt;
+&lt;h4 id=&quot;add&quot; tabindex=&quot;-1&quot;&gt;Add: &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#add&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;If they want, the first player can &lt;strong&gt;Add&lt;/strong&gt; an extra disc on top of the one they already played.
+&lt;ul&gt;
+&lt;li&gt;If a player has no cards and it&#39;s their turn to add, they MUST challenge instead.&lt;/li&gt;
+&lt;li&gt;Place the disc slightly offset so it can be seen how many are down.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The player to their left can do the same, and this continues around the table until...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;challenge&quot; tabindex=&quot;-1&quot;&gt;Challenge: &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#challenge&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;If a player cannot or does not wish to &lt;strong&gt;Add&lt;/strong&gt; a disc, they can issue a &lt;strong&gt;Challenge&lt;/strong&gt;: They announce the number of discs they intend to reveal from among all discs played.
+&lt;ul&gt;
+&lt;li&gt;A challenge cannot be 0, or higher than the total number of discs played.&lt;/li&gt;
+&lt;li&gt;The first player to put down a disc in step 1 can immediately challenge rather than adding a disc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Once a challenge has been issued, each player must:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Raise&lt;/strong&gt;, by announcing a greater number than the current bid.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pass&lt;/strong&gt;, and this player will no longer be able to take part in the bid. (When passing push your discs towards the middle to show you&#39;re out, but your discs will still be used in the challenge.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;This continues until all players pass, save one: the player who bid the highest, and is now the &lt;strong&gt;Challenger&lt;/strong&gt;.
+&lt;ul&gt;
+&lt;li&gt;A challenge concerns ALL discs played on mats, including those of players who passed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;step-3-the-attempt&quot; tabindex=&quot;-1&quot;&gt;&lt;span class=&quot;mark&quot;&gt;Step 3:&lt;/span&gt; The Attempt &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#step-3-the-attempt&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The challenger must now attempt to flip over the number of  discs they bid.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The challenger begins by flipping &lt;strong&gt;ALL THEIR OWN discs first&lt;/strong&gt;.
+&lt;ul&gt;
+&lt;li&gt;If the challenger has bid less discs than they have played, they will flip from their stack the necessary amount.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;They continue to flip discs with those of other players, and in the order they choose.&lt;/li&gt;
+&lt;li&gt;Discs are flipped one by one, from the top down.&lt;/li&gt;
+&lt;li&gt;The challenger does NOT have to flip ALL of an opponent&#39;s discs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The challenger continues flipping until either they meet their bid, or turn over a Skull&lt;/p&gt;
+&lt;h4 id=&quot;failed-attempt-found-a-skull&quot; tabindex=&quot;-1&quot;&gt;Failed Attempt: Found a Skull 💀 &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#failed-attempt-found-a-skull&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;If the Challenger turns over a &lt;strong&gt;Skull&lt;/strong&gt; 💀, they stop their attempt and:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All players &lt;strong&gt;return their discs to their hand&lt;/strong&gt;.
+&lt;ul&gt;
+&lt;li&gt;No more discs can be flipped by the Challenger to reveal an Opponent&#39;s strategy, but any Opponent can choose to reveal their own discs if they so choose (to taunt or mock the Challenger 😜)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The challenger &lt;strong&gt;loses 1 disc for good&lt;/strong&gt;.
+&lt;ul&gt;
+&lt;li&gt;If the Challenger flipped an Opponent&#39;s skill, the Challenger shuffles their discs and places them all face down. The Opponent whose Skull was flipped chooses which disc is eliminated. That disc is removed from the game without being revealed. Only the Challenger will know if they lost a Skull or a Flower disc.&lt;/li&gt;
+&lt;li&gt;If the Challenger flips their own Skull, they choose which disc to eliminate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If the Challenger &lt;strong&gt;loses their last disc&lt;/strong&gt;, they are eliminated from the game. The Opponent whose Skull eliminated the Challenger will go first on the next round. If the Challenger was eliminated from their own Skull, they choose who will go next.&lt;/p&gt;
+&lt;h4 id=&quot;successful-attempt-nothing-but-roses&quot; tabindex=&quot;-1&quot;&gt;Successful Attempt: Nothing But Roses! 🌹 &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#successful-attempt-nothing-but-roses&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;If the Challenger has flipped their bid of &lt;strong&gt;Rose&lt;/strong&gt; 🌹 discs, they have won their challenge. They can flip their mat to indicate one successful attempt. If they succeed again, they win.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&quot;special-condition&quot; tabindex=&quot;-1&quot;&gt;Special Condition &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#special-condition&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;If a player has lost 3 of their 4 discs, they are limited in what they can do:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If it&#39;s their turn to add disc beyond what they have, they must challenge instead.&lt;/li&gt;
+&lt;li&gt;If it&#39;s their turn to bid, they can pass or increase.&lt;/li&gt;
+&lt;li&gt;If their challenge is uncontested, they must still reveal from their pile first. If it is a Skull, that player is eliminated from the game.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;new-round&quot; tabindex=&quot;-1&quot;&gt;New Round &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#new-round&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Whether they succeed or fail, the Challenger is the first player in the new round, which begins again at Step 1.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;winning&quot; tabindex=&quot;-1&quot;&gt;Winning &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#winning&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If a player wins &lt;strong&gt;2 challenges&lt;/strong&gt; OR they are the &lt;strong&gt;only player who isn&#39;t eliminated&lt;/strong&gt;, they win.&lt;/p&gt;
+&lt;h2 id=&quot;strategy&quot; tabindex=&quot;-1&quot;&gt;Strategy &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#strategy&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;It&#39;s advantageous to be the first player, so it&#39;s worth taking a risk to nab that spot.&lt;/li&gt;
+&lt;li&gt;Don&#39;t hesitate to bluff by starting a challenge or upping the ante despite having played a skull.&lt;/li&gt;
+&lt;li&gt;Destabilize your Opponents by commenting on their actions, or casting doubt on their motives -- to win you must beat them from a psychological standpoint 🧠.&lt;/li&gt;
+&lt;li&gt;3 player games can be tactical and unforgiving, new players are recommended to start at more than 3.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; This can be easily played with a standard deck of cards:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Give everyone 3 number cards (Roses) and 1 face card (Skull).&lt;/li&gt;
+&lt;li&gt;Game plays as normal, just substitute &#39;disc&#39; for &#39;card&#39; in the rules.&lt;/li&gt;
+&lt;li&gt;Use tokens to keep track of wins, or write it down on a sheet of paper.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Casino</title>
+		<link href="https://nathan-long.com/rules/games/casino/"/>
+		<updated>2023-03-13T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/games/casino/</id>
+		<content type="html">&lt;h2 id=&quot;aim&quot; tabindex=&quot;-1&quot;&gt;Aim &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/casino/#aim&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Score the most points by capturing and building sets of cards from a single pool.&lt;/p&gt;
+&lt;h2 id=&quot;game-setup-and-flow&quot; tabindex=&quot;-1&quot;&gt;Game Setup and Flow &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/casino/#game-setup-and-flow&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The dealer deals &lt;strong&gt;four cards&lt;/strong&gt; to each player and &lt;strong&gt;four cards face up&lt;/strong&gt; in the center so all are visible.&lt;/li&gt;
+&lt;li&gt;The remainder of the deck is put aside.&lt;/li&gt;
+&lt;li&gt;The rest of the round proceeds in hands of 4 cards, but &lt;strong&gt;no more cards are dealt to the table&lt;/strong&gt; after the initial deal.&lt;/li&gt;
+&lt;li&gt;The dealer must announce &lt;strong&gt;&amp;quot;last&amp;quot;&lt;/strong&gt; when dealing the last cards.&lt;/li&gt;
+&lt;li&gt;After the last cards have been played &lt;strong&gt;the round is scored&lt;/strong&gt; and the deal passes to the left for the next round.&lt;/li&gt;
+&lt;li&gt;The rounds continues until a person or team has &lt;strong&gt;reached the agreed-upon total points (11 or 21)&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If playing with 4 players, the game can be played in partnerships as 2v2.&lt;/p&gt;
+&lt;h2 id=&quot;play&quot; tabindex=&quot;-1&quot;&gt;Play &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/casino/#play&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Starting with the player to the left of the dealer and continuing clockwise, each player on their turn must play one card out from hand face up on the table. This card may either:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Capture&lt;/strong&gt; (either a single card, multiple cards, or a build)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Build&lt;/strong&gt; (creating a group of cards with a promised capture value)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trail&lt;/strong&gt; (if unable to capture or build, the card remains in the middle)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;1-capturing&quot; tabindex=&quot;-1&quot;&gt;&lt;span class=&quot;mark text-small&quot;&gt;1:&lt;/span&gt; Capturing &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/casino/#1-capturing&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Face cards (Jack, Queen, King) &lt;strong&gt;can only be captured by a face card of matching rank&lt;/strong&gt;. (Queen captures a Queen, King captures a King).&lt;/p&gt;
+&lt;p&gt;Number cards (Ace, 2, ..., 10) can either be captured as:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Matching the &lt;strong&gt;same value&lt;/strong&gt; &lt;mark&gt;(8 captures an 8)&lt;/mark&gt;&lt;/li&gt;
+&lt;li&gt;Matching the &lt;strong&gt;total value&lt;/strong&gt; of several cards &lt;mark&gt;(8 can capture a 2, 2, and 4)&lt;/mark&gt;&lt;/li&gt;
+&lt;li&gt;Matching the &lt;strong&gt;capture number&lt;/strong&gt; of a build. &lt;mark&gt;(see Building)&lt;/mark&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;2-building&quot; tabindex=&quot;-1&quot;&gt;&lt;span class=&quot;mark text-small&quot;&gt;2:&lt;/span&gt; Building &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/casino/#2-building&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Instead of capturing cards, a player may choose to &lt;strong&gt;make a build&lt;/strong&gt;, &lt;strong&gt;capture a build&lt;/strong&gt;, or &lt;strong&gt;modify an existing build&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;making-a-build&quot; tabindex=&quot;-1&quot;&gt;Making a Build &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/casino/#making-a-build&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;There are a few ways to make a build:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A number card may be played and combined with other cards on the table to form a build. The total value of the cards is it&#39;s &lt;strong&gt;capture number&lt;/strong&gt; and is the sum of the cards and must be announced.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The player must have the number card that can make that capture in order to for the build to be legal.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;A build must include a card you &lt;strong&gt;just played&lt;/strong&gt;, it cannot be only made of cards that were only on the table.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;mark&gt;(A 3 is placed on a 2 as &#39;building 5&#39;, while the player ALSO has a 5 in their hand).&lt;/mark&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;strong&gt;single build&lt;/strong&gt; consists of two or more cards whose capture values add up to the capture value of the build
+&lt;ul&gt;
+&lt;li&gt;&lt;mark&gt;(a 5-build made of a 2 and a 3, or a 10-build made of A-4-5.)&lt;/mark&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A &lt;strong&gt;multiple build&lt;/strong&gt; consists of two or more cards or sets of cards, each of which equates to the capture value of the building
+&lt;ul&gt;
+&lt;li&gt;&lt;mark&gt;(a 5-build made of a 2 and a 3 &lt;strong&gt;plus&lt;/strong&gt; a 4 and an ace, or a 5-build made of A-4 and 5, or a 9-build made of two nines, or a 9-build made of 6-3 plus 5-4 plus 9.)&lt;/mark&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cards which have been made into a build can subsequently only be captured as a unit, never separately.&lt;/p&gt;
+&lt;p&gt;The capturing number of a multiple build can never be changed. If the original build of two threes in the above example had been announced as building three (rather than building six), it would not be possible for a player holding a two and a five to add the two to the build, making five, not for a player holding a two and an eight to add the two making eight.&lt;/p&gt;
+&lt;h4 id=&quot;capturing-a-build&quot; tabindex=&quot;-1&quot;&gt;Capturing a build &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/casino/#capturing-a-build&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;A build can be captured by &lt;strong&gt;playing a number card of the same value of it&#39;s most recent capture number&lt;/strong&gt;. It is possible to &amp;quot;steal&amp;quot; a build created by another player if you have the right number card.&lt;/p&gt;
+&lt;p&gt;If you&#39;ve made or modified a build that no one has since modified, you are &lt;strong&gt;not allowed to trail a card&lt;/strong&gt; (you must capture or build). You are also not allowed to play in a way to leave yourself with no card equal to the capture number of the build you made (which would make the build illegal).&lt;/p&gt;
+&lt;p&gt;While capturing a build, you can &lt;strong&gt;also capture any loose cards on the table that add up to the same number&lt;/strong&gt;. &lt;mark&gt;(You have made a build of 9 and there is a 5 on the table. If the player before you plays a 4, you can capture the 4 and the 5 at the same time that you take in your build.)&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;It is not possible to capture a build with a card of any other rank than that announced for the build.&lt;/strong&gt; &lt;mark&gt;(The table contains a 4 and a 3 combined into a build of 7, plus a separate 2. You cannot play a 9 to take the build of 7 plus the 2 - the build can only be captured with a 7.)&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;Another example:&lt;/strong&gt; the table contains a 5 and a player plays another 5 on it, they must either announcing &amp;quot;building 10&amp;quot; to create a single build or &amp;quot;building 5&amp;quot; to create a multiple build. If &amp;quot;building 10&amp;quot; was announced the build can only be captured by a 10, not by a 5. If &amp;quot;building 5&amp;quot; was announced, the build can only be captured by a 5, not by a 10.&lt;/mark&gt;&lt;/p&gt;
+&lt;h4 id=&quot;modifying-a-build&quot; tabindex=&quot;-1&quot;&gt;Modifying a build &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/casino/#modifying-a-build&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;There are two ways of adding to a build:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;You may &lt;strong&gt;add a card from your hand to a single build, increasing the capturing number&lt;/strong&gt;, provided that you also hold a card which will capture the new build. &lt;mark&gt;(Example A and B)&lt;/mark&gt;&lt;/li&gt;
+&lt;li&gt;You may also add a card from your hand to a build and &lt;strong&gt;incorporate additional cards from the table into the build, if they are equal to the new capturing number&lt;/strong&gt;. In this case the build will become multiple. You can never use a card from the table to change the value of a single build. &lt;mark&gt;(Example B and C)&lt;/mark&gt;&lt;/li&gt;
+&lt;li&gt;You may add to any build, single or multiple, by playing a card from your hand which, &lt;strong&gt;either alone or combined with other cards on the table which are not yet in builds, matches the existing capture number of the build&lt;/strong&gt;, provided that you hold a card which can capture the combined build. &lt;mark&gt;(Example D)&lt;/mark&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;Example A:&lt;/strong&gt; The table contains a build consisting of two threes, announced as a build of six. If you hold a two and an eight, you can add the two to the build announcing &amp;quot;building 8&amp;quot;. The next player, holding an ace and a nine, could then add the ace and say &amp;quot;building 9&amp;quot;.&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;Example B:&lt;/strong&gt; The table contains an ace, a two and a four; the ace and the four have been combined by a previous player into a build of five. You hold a three, an eight and a ten. You can play your three onto the single five-build and announce &amp;quot;building eight&amp;quot;, but you are not allowed to incorporate the two from the table into this build to make it a build of ten.&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;Example C:&lt;/strong&gt; The table contains a three and a four, built into a seven, and a separate nine. You hold a two and a nine. You can play your two, combining it with the seven-build to make nine, and at the same time incorporate the nine on the table into the build, converting it to a multiple build and saying &amp;quot;building nine&amp;quot;.&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;Example D:&lt;/strong&gt; The table contains a 9-build consisting of a 5 and a 4, and there is also a 3 on the table. You hold a six and two nines. You can play your 6, combining it with the 3 and the existing build to make a new multiple build of 9. Then on your next turn (provided that no one else captured) you could add one of the nines from your hand to the build. Finally, on the following turn, you could capture the whole build with your second nine.&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;Note that when making or adding to a build, &lt;strong&gt;you must contribute a card to it from your hand&lt;/strong&gt;. You cannot just combine various cards which are already on the table to form a build. Note also that once a build contains more than one card or sets of cards which add to the capturing number, it is a multiple build and the capturing number can no longer be changed.&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;Example:&lt;/strong&gt; There is a multiple 8-build of 3-5-8 on the table, and there is also a loose 6 on the table. In your hand you have 2, 8, 8, 10. You may add one of your 8s to the build, making 3-5-8-8, or to add your 2 together with the 6 on the table, making 3-5-8-2-6, still with capture value 8. You cannot use your 2 to change the capture value to 10.&lt;/mark&gt;&lt;/p&gt;
+&lt;h3 id=&quot;trailing&quot; tabindex=&quot;-1&quot;&gt;Trailing &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/casino/#trailing&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;If you play a card without building or capturing, the card is placed face up on the table alongside any other layout cards and remains there to be captured or built on in future. It is then the next player&#39;s turn. You are allowed to trail a card even if that card could have made a capture.&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;Example:&lt;/strong&gt; Suppose that in a four player partnership game your partner has two tens and you have one. Your partner plays a 10 and the next player does not take it. On your turn, if you suspect that your partner has a second 10, you can play your 10 and not capture, leaving both tens on the table for your partner.&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;The only case in which trailing is not allowed is when there is a build on the table which you were the last player to add to.&lt;/p&gt;
+&lt;h2 id=&quot;ending-a-round&quot; tabindex=&quot;-1&quot;&gt;Ending a Round &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/casino/#ending-a-round&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;When all the cards have been played in the final deal, &lt;strong&gt;the last player who made a capture also wins any cards which are left on the table&lt;/strong&gt; (these cards are sometimes known as the &#39;residue&#39;). That is why it is important that the dealer should announce &amp;quot;last&amp;quot; when dealing the last cards.&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;Hint on tactics:&lt;/strong&gt; it is often good for the dealer to hold back a face card to play last if possible; this will capture a matching face card on the table and thereby also win any other table cards that remain.&lt;/mark&gt;&lt;/p&gt;
+&lt;h2 id=&quot;scoring&quot; tabindex=&quot;-1&quot;&gt;Scoring &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/casino/#scoring&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Each player (or team) counts their score based on the pile of cards they have won. There are eleven possible points in each hand:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;Criteria&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Points&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Most Cards&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Most Spades&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Every Ace&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;1 each&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Ten of diamonds (Big Casino)&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Two of spades (Little Casino)&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Sweep&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;If there is a tie for most cards or most spades, no one gets those points.&lt;/p&gt;
+&lt;h3 id=&quot;sweep&quot; tabindex=&quot;-1&quot;&gt;Sweep &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/casino/#sweep&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A sweep occurs when &lt;strong&gt;a player takes all the cards from the table&lt;/strong&gt;, leaving it empty and forcing the next player to trail. When making a sweep, the capturing card is stored face-up in the pile of won cards, so that the number of sweeps can be checked when scoring. It is possible to make a sweep with the last card of the final deal if it captures all the cards on the table, but if it does not, taking the remaining cards from the table because you made the last capture (the &#39;residue&#39;) does not count as a sweep.&lt;/p&gt;
+&lt;h3 id=&quot;winning-the-game&quot; tabindex=&quot;-1&quot;&gt;Winning the Game &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/casino/#winning-the-game&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Whoever first reaches the agreed-upon total (either 11 or 21 points), over however many rounds it takes, wins the game. If two people reach the target on the same round, whoever has the higher score wins. If there is a tie, another round is played.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Original rules from &lt;a href=&quot;https://www.pagat.com/fishing/casino.html&quot;&gt;Pagat&lt;/a&gt;, modified and reorganized by Nathan Long.&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; This is a great small group game, and likely different than what most folks are used to in simple card games (Rummy, Uno, etc). The building is the trickiest aspect to get a hang of.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>James Bond</title>

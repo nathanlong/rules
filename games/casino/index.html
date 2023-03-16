@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino</title>
+    <meta name="description" content="A fishing game.">
+    <meta name="generator" content="Eleventy v2.0.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/rules/css/index.css">
+    <link rel="stylesheet" href="/rules/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/rules/css/prism-diff.css">
+    <link rel="alternate" href="/rules/feed/feed.xml" type="application/atom+xml" title="Rules">
+    <link rel="alternate" href="/rules/feed/feed.json" type="application/json" title="Rules">
+  </head>
+  <body class="tmpl-post">
+    <header>
+      <div class="container flex justify-between items-center">
+        <h1 class="home m-0 heading-300">
+          <a class="no-decoration flex items-center" href="/rules/">
+            <div class="w-1 rounded-1/4 overflow-hidden line-height-0 mie-1/4">
+              <img class="w-full" src="https://user-images.githubusercontent.com/623568/211856834-436269ac-9130-4628-b088-b35f75b69810.png" alt="Card symbols on a dark purple field marked with faint X's">
+            </div>
+            <span>
+              Rules
+            </span>
+          </a>
+        </h1>
+        <ul class="nav flex space-x-1">
+          <li class="nav-item  no-list"><a class="font-monospace no-decoration" href="/rules/tags/">Tags</a></li>
+          <li class="nav-item  no-list"><a class="font-monospace no-decoration" href="/rules/games/">All Games</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="mbx-5vh">
+      <div class="container flow">
+
+  <section >
+    <h1 class="heading-50">Casino</h1>
+
+    <div class="space-x"><a href="/rules/tags/standard-cards/" class="tag">Standard Cards</a>
+    </div>
+  </section>
+
+  <dl class="flow-1/2">
+    <dt>👤 Players:</dt>
+    <dd>2-4</dd>
+    <dt>⏱ Time to play:</dt>
+    <dd>30 minutes</dd>
+    <dt>♟ Equipment:</dt>
+    <dd>A standard deck of cards without Jokers.</dd>
+    <dt>🧠 Designer(s):</dt>
+    <dd>Uncredited. Public domain, many variants exist.</dd>
+  </dl>
+
+<h2 id="aim" tabindex="-1">Aim <a class="header-anchor" href="#aim">#</a></h2>
+<p>Score the most points by capturing and building sets of cards from a single pool.</p>
+<h2 id="game-setup-and-flow" tabindex="-1">Game Setup and Flow <a class="header-anchor" href="#game-setup-and-flow">#</a></h2>
+<ul>
+<li>The dealer deals <strong>four cards</strong> to each player and <strong>four cards face up</strong> in the center so all are visible.</li>
+<li>The remainder of the deck is put aside.</li>
+<li>The rest of the round proceeds in hands of 4 cards, but <strong>no more cards are dealt to the table</strong> after the initial deal.</li>
+<li>The dealer must announce <strong>&quot;last&quot;</strong> when dealing the last cards.</li>
+<li>After the last cards have been played <strong>the round is scored</strong> and the deal passes to the left for the next round.</li>
+<li>The rounds continues until a person or team has <strong>reached the agreed-upon total points (11 or 21)</strong>.</li>
+</ul>
+<p>If playing with 4 players, the game can be played in partnerships as 2v2.</p>
+<h2 id="play" tabindex="-1">Play <a class="header-anchor" href="#play">#</a></h2>
+<p>Starting with the player to the left of the dealer and continuing clockwise, each player on their turn must play one card out from hand face up on the table. This card may either:</p>
+<ol>
+<li><strong>Capture</strong> (either a single card, multiple cards, or a build)</li>
+<li><strong>Build</strong> (creating a group of cards with a promised capture value)</li>
+<li><strong>Trail</strong> (if unable to capture or build, the card remains in the middle)</li>
+</ol>
+<h3 id="1-capturing" tabindex="-1"><span class="mark text-small">1:</span> Capturing <a class="header-anchor" href="#1-capturing">#</a></h3>
+<p>Face cards (Jack, Queen, King) <strong>can only be captured by a face card of matching rank</strong>. (Queen captures a Queen, King captures a King).</p>
+<p>Number cards (Ace, 2, ..., 10) can either be captured as:</p>
+<ol>
+<li>Matching the <strong>same value</strong> <mark>(8 captures an 8)</mark></li>
+<li>Matching the <strong>total value</strong> of several cards <mark>(8 can capture a 2, 2, and 4)</mark></li>
+<li>Matching the <strong>capture number</strong> of a build. <mark>(see Building)</mark></li>
+</ol>
+<h3 id="2-building" tabindex="-1"><span class="mark text-small">2:</span> Building <a class="header-anchor" href="#2-building">#</a></h3>
+<p>Instead of capturing cards, a player may choose to <strong>make a build</strong>, <strong>capture a build</strong>, or <strong>modify an existing build</strong>.</p>
+<h4 id="making-a-build" tabindex="-1">Making a Build <a class="header-anchor" href="#making-a-build">#</a></h4>
+<p>There are a few ways to make a build:</p>
+<ol>
+<li>A number card may be played and combined with other cards on the table to form a build. The total value of the cards is it's <strong>capture number</strong> and is the sum of the cards and must be announced.</li>
+<li><strong>The player must have the number card that can make that capture in order to for the build to be legal.</strong></li>
+<li>A build must include a card you <strong>just played</strong>, it cannot be only made of cards that were only on the table.</li>
+</ol>
+<p><mark>(A 3 is placed on a 2 as 'building 5', while the player ALSO has a 5 in their hand).</mark></p>
+<ul>
+<li>A <strong>single build</strong> consists of two or more cards whose capture values add up to the capture value of the build
+<ul>
+<li><mark>(a 5-build made of a 2 and a 3, or a 10-build made of A-4-5.)</mark></li>
+</ul>
+</li>
+<li>A <strong>multiple build</strong> consists of two or more cards or sets of cards, each of which equates to the capture value of the building
+<ul>
+<li><mark>(a 5-build made of a 2 and a 3 <strong>plus</strong> a 4 and an ace, or a 5-build made of A-4 and 5, or a 9-build made of two nines, or a 9-build made of 6-3 plus 5-4 plus 9.)</mark></li>
+</ul>
+</li>
+</ul>
+<p>Cards which have been made into a build can subsequently only be captured as a unit, never separately.</p>
+<p>The capturing number of a multiple build can never be changed. If the original build of two threes in the above example had been announced as building three (rather than building six), it would not be possible for a player holding a two and a five to add the two to the build, making five, not for a player holding a two and an eight to add the two making eight.</p>
+<h4 id="capturing-a-build" tabindex="-1">Capturing a build <a class="header-anchor" href="#capturing-a-build">#</a></h4>
+<p>A build can be captured by <strong>playing a number card of the same value of it's most recent capture number</strong>. It is possible to &quot;steal&quot; a build created by another player if you have the right number card.</p>
+<p>If you've made or modified a build that no one has since modified, you are <strong>not allowed to trail a card</strong> (you must capture or build). You are also not allowed to play in a way to leave yourself with no card equal to the capture number of the build you made (which would make the build illegal).</p>
+<p>While capturing a build, you can <strong>also capture any loose cards on the table that add up to the same number</strong>. <mark>(You have made a build of 9 and there is a 5 on the table. If the player before you plays a 4, you can capture the 4 and the 5 at the same time that you take in your build.)</mark></p>
+<p><strong>It is not possible to capture a build with a card of any other rank than that announced for the build.</strong> <mark>(The table contains a 4 and a 3 combined into a build of 7, plus a separate 2. You cannot play a 9 to take the build of 7 plus the 2 - the build can only be captured with a 7.)</mark></p>
+<p><mark><strong>Another example:</strong> the table contains a 5 and a player plays another 5 on it, they must either announcing &quot;building 10&quot; to create a single build or &quot;building 5&quot; to create a multiple build. If &quot;building 10&quot; was announced the build can only be captured by a 10, not by a 5. If &quot;building 5&quot; was announced, the build can only be captured by a 5, not by a 10.</mark></p>
+<h4 id="modifying-a-build" tabindex="-1">Modifying a build <a class="header-anchor" href="#modifying-a-build">#</a></h4>
+<p>There are two ways of adding to a build:</p>
+<ol>
+<li>You may <strong>add a card from your hand to a single build, increasing the capturing number</strong>, provided that you also hold a card which will capture the new build. <mark>(Example A and B)</mark></li>
+<li>You may also add a card from your hand to a build and <strong>incorporate additional cards from the table into the build, if they are equal to the new capturing number</strong>. In this case the build will become multiple. You can never use a card from the table to change the value of a single build. <mark>(Example B and C)</mark></li>
+<li>You may add to any build, single or multiple, by playing a card from your hand which, <strong>either alone or combined with other cards on the table which are not yet in builds, matches the existing capture number of the build</strong>, provided that you hold a card which can capture the combined build. <mark>(Example D)</mark></li>
+</ol>
+<p><mark><strong>Example A:</strong> The table contains a build consisting of two threes, announced as a build of six. If you hold a two and an eight, you can add the two to the build announcing &quot;building 8&quot;. The next player, holding an ace and a nine, could then add the ace and say &quot;building 9&quot;.</mark></p>
+<p><mark><strong>Example B:</strong> The table contains an ace, a two and a four; the ace and the four have been combined by a previous player into a build of five. You hold a three, an eight and a ten. You can play your three onto the single five-build and announce &quot;building eight&quot;, but you are not allowed to incorporate the two from the table into this build to make it a build of ten.</mark></p>
+<p><mark><strong>Example C:</strong> The table contains a three and a four, built into a seven, and a separate nine. You hold a two and a nine. You can play your two, combining it with the seven-build to make nine, and at the same time incorporate the nine on the table into the build, converting it to a multiple build and saying &quot;building nine&quot;.</mark></p>
+<p><mark><strong>Example D:</strong> The table contains a 9-build consisting of a 5 and a 4, and there is also a 3 on the table. You hold a six and two nines. You can play your 6, combining it with the 3 and the existing build to make a new multiple build of 9. Then on your next turn (provided that no one else captured) you could add one of the nines from your hand to the build. Finally, on the following turn, you could capture the whole build with your second nine.</mark></p>
+<p>Note that when making or adding to a build, <strong>you must contribute a card to it from your hand</strong>. You cannot just combine various cards which are already on the table to form a build. Note also that once a build contains more than one card or sets of cards which add to the capturing number, it is a multiple build and the capturing number can no longer be changed.</p>
+<p><mark><strong>Example:</strong> There is a multiple 8-build of 3-5-8 on the table, and there is also a loose 6 on the table. In your hand you have 2, 8, 8, 10. You may add one of your 8s to the build, making 3-5-8-8, or to add your 2 together with the 6 on the table, making 3-5-8-2-6, still with capture value 8. You cannot use your 2 to change the capture value to 10.</mark></p>
+<h3 id="trailing" tabindex="-1">Trailing <a class="header-anchor" href="#trailing">#</a></h3>
+<p>If you play a card without building or capturing, the card is placed face up on the table alongside any other layout cards and remains there to be captured or built on in future. It is then the next player's turn. You are allowed to trail a card even if that card could have made a capture.</p>
+<p><mark><strong>Example:</strong> Suppose that in a four player partnership game your partner has two tens and you have one. Your partner plays a 10 and the next player does not take it. On your turn, if you suspect that your partner has a second 10, you can play your 10 and not capture, leaving both tens on the table for your partner.</mark></p>
+<p>The only case in which trailing is not allowed is when there is a build on the table which you were the last player to add to.</p>
+<h2 id="ending-a-round" tabindex="-1">Ending a Round <a class="header-anchor" href="#ending-a-round">#</a></h2>
+<p>When all the cards have been played in the final deal, <strong>the last player who made a capture also wins any cards which are left on the table</strong> (these cards are sometimes known as the 'residue'). That is why it is important that the dealer should announce &quot;last&quot; when dealing the last cards.</p>
+<p><mark><strong>Hint on tactics:</strong> it is often good for the dealer to hold back a face card to play last if possible; this will capture a matching face card on the table and thereby also win any other table cards that remain.</mark></p>
+<h2 id="scoring" tabindex="-1">Scoring <a class="header-anchor" href="#scoring">#</a></h2>
+<p>Each player (or team) counts their score based on the pile of cards they have won. There are eleven possible points in each hand:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Criteria</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Most Cards</td>
+<td style="text-align:center">3</td>
+</tr>
+<tr>
+<td style="text-align:left">Most Spades</td>
+<td style="text-align:center">1</td>
+</tr>
+<tr>
+<td style="text-align:left">Every Ace</td>
+<td style="text-align:center">1 each</td>
+</tr>
+<tr>
+<td style="text-align:left">Ten of diamonds (Big Casino)</td>
+<td style="text-align:center">2</td>
+</tr>
+<tr>
+<td style="text-align:left">Two of spades (Little Casino)</td>
+<td style="text-align:center">1</td>
+</tr>
+<tr>
+<td style="text-align:left">Sweep</td>
+<td style="text-align:center">1</td>
+</tr>
+</tbody>
+</table>
+<p>If there is a tie for most cards or most spades, no one gets those points.</p>
+<h3 id="sweep" tabindex="-1">Sweep <a class="header-anchor" href="#sweep">#</a></h3>
+<p>A sweep occurs when <strong>a player takes all the cards from the table</strong>, leaving it empty and forcing the next player to trail. When making a sweep, the capturing card is stored face-up in the pile of won cards, so that the number of sweeps can be checked when scoring. It is possible to make a sweep with the last card of the final deal if it captures all the cards on the table, but if it does not, taking the remaining cards from the table because you made the last capture (the 'residue') does not count as a sweep.</p>
+<h3 id="winning-the-game" tabindex="-1">Winning the Game <a class="header-anchor" href="#winning-the-game">#</a></h3>
+<p>Whoever first reaches the agreed-upon total (either 11 or 21 points), over however many rounds it takes, wins the game. If two people reach the target on the same round, whoever has the higher score wins. If there is a tie, another round is played.</p>
+<p><em>Original rules from <a href="https://www.pagat.com/fishing/casino.html">Pagat</a>, modified and reorganized by Nathan Long.</em></p>
+<blockquote>
+<p><strong>Nathan's Notes:</strong> This is a great small group game, and likely different than what most folks are used to in simple card games (Rummy, Uno, etc). The building is the trickiest aspect to get a hang of.</p>
+</blockquote>
+
+
+  <p class="font-monospace text-small color-gray flow-2">
+    <span>Date added: <time datetime="2023-03-13">13 March 2023</time></span>
+  </p>
+
+  <hr class="flow-2">
+
+  <div class="flex justify-between flow-2">
+    <div class="flex flex-wrap items-center gap-1/2">
+      <p>More:</p><a href="/rules/tags/standard-cards/" class="tag">Standard Cards</a>
+    </div>
+
+    <a class="font-monospace no-decoration flex-shrink-0" href="games">All Games</a>
+  </div>
+
+
+</div>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /rules/games/casino/ -->
+  </body>
+</html>
