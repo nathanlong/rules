@@ -3,9 +3,9 @@
     <h3 class="m-0 p-0"><a href="{{ post.url | url }}" class="postlist-link no-decoration">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></h3>
     <div class="flex space-x">
       {%- if  post.data.maxplayers > 1 %}
-      <span class="flex flex-shrink-0">👤 {{ post.data.minplayers }}-{{ post.data.maxplayers }}</span>
+      <span class="flex flex-shrink-0">👤 {{ post.data.minplayers }}-{{ post.data.maxplayers }} {%- if post.data.bestplayers %}({{post.data.bestplayers}}){%- endif %}</span>
       {%- else %}
-      <span class="flex flex-shrink-0">👤 {{ post.data.maxplayers }}</span>
+      <span class="flex flex-shrink-0">👤 {{ post.data.maxplayers }} {%- if post.data.bestplayers %}({{post.data.bestplayers}}){%- endif %}</span>
       {%- endif %}
       <span class="flex flex-shrink-0">⏱ {{post.data.time}}</span>
     </div>

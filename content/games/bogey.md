@@ -3,6 +3,7 @@ title: The Bogey
 description: Race to make if off a sinking pirate ship with as much treasure as you can.
 minplayers: 1
 maxplayers: 1
+bestplayers: 1
 time: 10
 equipment: A standard deck of cards without Jokers.
 designer: Katharine Turner

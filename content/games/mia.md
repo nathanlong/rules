@@ -3,6 +3,7 @@ title: Mia/Meier
 description: An ancient bluffing game.
 minplayers: 3
 maxplayers: 12
+bestplayers: 5-7
 time: 20
 equipment: 2 six-sided dice, a cup or way to conceal the dice roll, a way to keep track of lives (coins, pen and paper, etc)
 designer: Uncredited. Thought to have originated in 600AD with the Vikings.

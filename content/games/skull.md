@@ -3,6 +3,7 @@ title: Skull
 description: A bluffing game where you push each other mentally to see who can turn over the highest number of cards safely.
 minplayers: 3
 maxplayers: 6
+bestplayers: 5-6
 time: 30
 equipment: A game set OR a normal deck of cards.
 designer: Hervé Marly
@@ -17,8 +18,6 @@ tags:
 ## Setup
 
 Each player takes four discs/cards in their hands and a mat. One disc is a Skull 💀 and the other three are Roses 🌹.
-
----
 
 ## Play
 
