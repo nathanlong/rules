@@ -5,12 +5,46 @@
 	
 	<link href="https://nathan-long.com/rules/feed/feed.xml" rel="self"/>
 	<link href="https://nathan-long.com/rules"/>
-	<updated>2023-03-13T00:00:00Z</updated>
+	<updated>2023-04-06T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Nathan Long</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Eat Poop You Cat</title>
+		<link href="https://nathan-long.com/rules/games/eat-poop-you-cat/"/>
+		<updated>2023-04-06T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/games/eat-poop-you-cat/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Eat 💩 You 🐱 is a (game? activity?) where players doodle and caption a chain of increasingly surreal events.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;setup&quot; tabindex=&quot;-1&quot;&gt;Setup &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/eat-poop-you-cat/#setup&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Each player starts with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A piece of paper (or a stack of index cards).&lt;/li&gt;
+&lt;li&gt;A pencil (or something to write and draw with).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;play&quot; tabindex=&quot;-1&quot;&gt;Play &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/eat-poop-you-cat/#play&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;At the top of their paper, each player writes a short sentence or phrase (esoteric stuff often yields humorous results).&lt;/li&gt;
+&lt;li&gt;Papers are passed to the left, where the next player &amp;quot;draws&amp;quot; the sentence (think Pictionary), folds the paper so only the drawing is visible, and passes it to their left.&lt;/li&gt;
+&lt;li&gt;The next player examines the drawing, and writes a sentence that they think the drawing represents... this continues until all players have their original back (or with large groups, an odd number of times, until a “final” sentence/phrase is written).&lt;/li&gt;
+&lt;li&gt;At the end, everyone unfolds their paper. Everyone laughs to see something like, and much hilarity ensues as &amp;quot;I am the Walrus, koo-koo-ca-choo&amp;quot; becomes &amp;quot;Hitler and I danced the night away in a disco.&amp;quot;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;multi-page-variant&quot; tabindex=&quot;-1&quot;&gt;Multi-Page Variant: &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/eat-poop-you-cat/#multi-page-variant&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;If a lot of players are involved, it may be hard to fold the paper enough times and still have space to write and draw.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Each player receives a stack of index cards (or other size) equal to the amount of players.&lt;/li&gt;
+&lt;li&gt;Everyone writes or draws as normal, then adds their card to the top of the stack.&lt;/li&gt;
+&lt;li&gt;The stack is then passed to the left.&lt;/li&gt;
+&lt;li&gt;When players run out of cards they should have received their original prompt back.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;examples&quot; tabindex=&quot;-1&quot;&gt;Examples &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/eat-poop-you-cat/#examples&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;To see some examples of play, go take a look at the &lt;a href=&quot;https://boardgamegeek.com/boardgame/30618/eat-poop-you-cat/images&quot;&gt;images section of the BGG entry&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Skull</title>
@@ -22,7 +56,6 @@
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;setup&quot; tabindex=&quot;-1&quot;&gt;Setup &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#setup&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Each player takes four discs/cards in their hands and a mat. One disc is a Skull 💀 and the other three are Roses 🌹.&lt;/p&gt;
-&lt;hr /&gt;
 &lt;h2 id=&quot;play&quot; tabindex=&quot;-1&quot;&gt;Play &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#play&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Each round has 3 steps:&lt;/p&gt;
 &lt;h3 id=&quot;step-1-choose-a-starting-disc&quot; tabindex=&quot;-1&quot;&gt;&lt;span class=&quot;mark&quot;&gt;Step 1:&lt;/span&gt; Choose a Starting Disc &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#step-1-choose-a-starting-disc&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
