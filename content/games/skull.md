@@ -13,7 +13,7 @@ tags:
   - Standard Cards
 ---
 
-> Skull is distilled bluffing game, where each player puts down a Skull 💀 or a Rose 🌹 secretly and then mess with each other minds and bet to see who can turn up nothing but roses! Do it twice and you win! Forgot your actual game set? Play it with standard playing cards, because the game is not as much in the components but as it is **in your mind 🧠**...
+> Skull is distilled bluffing game, where each player puts down a Skull 💀 or a Rose 🌹 secretly and then mess with each other minds and bet to see who can turn up nothing but roses! Do it twice and you win! Forgot your actual game set? Play it with standard playing cards, because the game is not as much in the components as it is **in your mind 🧠**...
 
 ## Setup
 
@@ -35,8 +35,8 @@ After Step 1, a player has two choices:
 
 #### Add:
 
-- If they want, the first player can **Add** an extra disc on top of the one they already played.
-    - If a player has no cards and it's their turn to add, they MUST challenge instead.
+- If they want, the first player can **Add** an extra disc of their choice on top of the one they already played.
+    - If a player has no discs and it's their turn to add, they MUST challenge instead.
     - Place the disc slightly offset so it can be seen how many are down.
 - The player to their left can do the same, and this continues around the table until...
 
@@ -45,16 +45,17 @@ After Step 1, a player has two choices:
 
 - If a player cannot or does not wish to **Add** a disc, they can issue a **Challenge**: They announce the number of discs they intend to reveal from among all discs played.
     - A challenge cannot be 0, or higher than the total number of discs played.
-    - The first player to put down a disc in step 1 can immediately challenge rather than adding a disc.
+    - The first player in the round can immediately challenge rather than adding a disc on their turn.
 - Once a challenge has been issued, each player must:
     - **Raise**, by announcing a greater number than the current bid.
     - **Pass**, and this player will no longer be able to take part in the bid. (When passing push your discs towards the middle to show you're out, but your discs will still be used in the challenge.)
 - This continues until all players pass, save one: the player who bid the highest, and is now the **Challenger**.
     - A challenge concerns ALL discs played on mats, including those of players who passed.
 
+
 ### <span class="mark">Step 3:</span> The Attempt
 
-The challenger must now attempt to flip over the number of  discs they bid.
+The challenger must now attempt to flip over the number of discs they bid.
 
 - The challenger begins by flipping **ALL THEIR OWN discs first**.
     - If the challenger has bid less discs than they have played, they will flip from their stack the necessary amount.
@@ -72,10 +73,11 @@ If the Challenger turns over a **Skull** 💀, they stop their attempt and:
 - All players **return their discs to their hand**.
     - No more discs can be flipped by the Challenger to reveal an Opponent's strategy, but any Opponent can choose to reveal their own discs if they so choose (to taunt or mock the Challenger 😜)
 - The challenger **loses 1 disc for good**.
-    - If the Challenger flipped an Opponent's skill, the Challenger shuffles their discs and places them all face down. The Opponent whose Skull was flipped chooses which disc is eliminated. That disc is removed from the game without being revealed. Only the Challenger will know if they lost a Skull or a Flower disc.
+    - If the Challenger flipped an Opponent's skull, the Challenger shuffles their discs and places them all face down. The Opponent whose Skull was flipped chooses which disc is eliminated. That disc is removed from the game without being revealed. Only the Challenger will know if they lost a Skull or a Flower disc.
     - If the Challenger flips their own Skull, they choose which disc to eliminate.
 
 If the Challenger **loses their last disc**, they are eliminated from the game. The Opponent whose Skull eliminated the Challenger will go first on the next round. If the Challenger was eliminated from their own Skull, they choose who will go next.
+
 
 #### Successful Attempt: Nothing But Roses! 🌹
 
