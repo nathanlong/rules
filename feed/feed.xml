@@ -52,7 +52,7 @@
 		<updated>2023-03-13T00:00:00Z</updated>
 		<id>https://nathan-long.com/rules/games/skull/</id>
 		<content type="html">&lt;blockquote&gt;
-&lt;p&gt;Skull is distilled bluffing game, where each player puts down a Skull 💀 or a Rose 🌹 secretly and then mess with each other minds and bet to see who can turn up nothing but roses! Do it twice and you win! Forgot your actual game set? Play it with standard playing cards, because the game is not as much in the components but as it is &lt;strong&gt;in your mind 🧠&lt;/strong&gt;...&lt;/p&gt;
+&lt;p&gt;Skull is distilled bluffing game, where each player puts down a Skull 💀 or a Rose 🌹 secretly and then mess with each other minds and bet to see who can turn up nothing but roses! Do it twice and you win! Forgot your actual game set? Play it with standard playing cards, because the game is not as much in the components as it is &lt;strong&gt;in your mind 🧠&lt;/strong&gt;...&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;setup&quot; tabindex=&quot;-1&quot;&gt;Setup &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#setup&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Each player takes four discs/cards in their hands and a mat. One disc is a Skull 💀 and the other three are Roses 🌹.&lt;/p&gt;
@@ -67,9 +67,9 @@
 &lt;p&gt;After Step 1, a player has two choices:&lt;/p&gt;
 &lt;h4 id=&quot;add&quot; tabindex=&quot;-1&quot;&gt;Add: &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#add&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;If they want, the first player can &lt;strong&gt;Add&lt;/strong&gt; an extra disc on top of the one they already played.
+&lt;li&gt;If they want, the first player can &lt;strong&gt;Add&lt;/strong&gt; an extra disc of their choice on top of the one they already played.
 &lt;ul&gt;
-&lt;li&gt;If a player has no cards and it&#39;s their turn to add, they MUST challenge instead.&lt;/li&gt;
+&lt;li&gt;If a player has no discs and it&#39;s their turn to add, they MUST challenge instead.&lt;/li&gt;
 &lt;li&gt;Place the disc slightly offset so it can be seen how many are down.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -80,7 +80,7 @@
 &lt;li&gt;If a player cannot or does not wish to &lt;strong&gt;Add&lt;/strong&gt; a disc, they can issue a &lt;strong&gt;Challenge&lt;/strong&gt;: They announce the number of discs they intend to reveal from among all discs played.
 &lt;ul&gt;
 &lt;li&gt;A challenge cannot be 0, or higher than the total number of discs played.&lt;/li&gt;
-&lt;li&gt;The first player to put down a disc in step 1 can immediately challenge rather than adding a disc.&lt;/li&gt;
+&lt;li&gt;The first player in the round can immediately challenge rather than adding a disc on their turn.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Once a challenge has been issued, each player must:
@@ -96,7 +96,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;step-3-the-attempt&quot; tabindex=&quot;-1&quot;&gt;&lt;span class=&quot;mark&quot;&gt;Step 3:&lt;/span&gt; The Attempt &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull/#step-3-the-attempt&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;The challenger must now attempt to flip over the number of  discs they bid.&lt;/p&gt;
+&lt;p&gt;The challenger must now attempt to flip over the number of discs they bid.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The challenger begins by flipping &lt;strong&gt;ALL THEIR OWN discs first&lt;/strong&gt;.
 &lt;ul&gt;
@@ -118,7 +118,7 @@
 &lt;/li&gt;
 &lt;li&gt;The challenger &lt;strong&gt;loses 1 disc for good&lt;/strong&gt;.
 &lt;ul&gt;
-&lt;li&gt;If the Challenger flipped an Opponent&#39;s skill, the Challenger shuffles their discs and places them all face down. The Opponent whose Skull was flipped chooses which disc is eliminated. That disc is removed from the game without being revealed. Only the Challenger will know if they lost a Skull or a Flower disc.&lt;/li&gt;
+&lt;li&gt;If the Challenger flipped an Opponent&#39;s skull, the Challenger shuffles their discs and places them all face down. The Opponent whose Skull was flipped chooses which disc is eliminated. That disc is removed from the game without being revealed. Only the Challenger will know if they lost a Skull or a Flower disc.&lt;/li&gt;
 &lt;li&gt;If the Challenger flips their own Skull, they choose which disc to eliminate.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -495,10 +495,18 @@
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;small&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; Insider is copyright Oink games. What follows is a reinterpretation of the rules without the copyrighted flavor text.&lt;/small&gt;&lt;/p&gt;
 &lt;hr /&gt;
+&lt;h2 id=&quot;overview&quot; tabindex=&quot;-1&quot;&gt;Overview &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/insider/#overview&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The game is played in 3 rounds:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Guessing&lt;/li&gt;
+&lt;li&gt;Discussion&lt;/li&gt;
+&lt;li&gt;Voting&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&quot;setup&quot; tabindex=&quot;-1&quot;&gt;Setup &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/insider/#setup&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Deal out role cards: 1 &lt;strong&gt;Master&lt;/strong&gt;, 1 &lt;strong&gt;Insider&lt;/strong&gt;, and X &lt;strong&gt;Commons&lt;/strong&gt; (as many as there are people left). Everyone secretly looks at their roles.&lt;/li&gt;
-&lt;li&gt;Everyone closes their eyes except the Master who chooses a word card and displays it on the table.&lt;/li&gt;
+&lt;li&gt;The master announces their role and instructs everyone to close their eyes.&lt;/li&gt;
+&lt;li&gt;The master flips the top card and the &lt;strong&gt;theme&lt;/strong&gt; for the game is the word whose number matches the top card. (Alternately, the master can choose a word and write it on a card.)&lt;/li&gt;
 &lt;li&gt;The master closes their eyes and tells the Insider to open their eyes (all other eyes remain closed), who then views the word secretly.&lt;/li&gt;
 &lt;li&gt;The master calls for the Insider to close their eyes and covers the word.&lt;/li&gt;
 &lt;li&gt;The master tells everyone to open their eyes and play begins.&lt;/li&gt;
@@ -506,17 +514,18 @@
 &lt;h2 id=&quot;guessing-begins&quot; tabindex=&quot;-1&quot;&gt;Guessing Begins &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/insider/#guessing-begins&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;A timer is set for &lt;strong&gt;5 minutes&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Everyone (Commons and Insider) ask &lt;strong&gt;free-for-all yes/no/don&#39;t know questions&lt;/strong&gt; to the Master about the word.
+&lt;li&gt;Everyone (Commons and Insider) ask &lt;strong&gt;free-for-all yes/no/don&#39;t know questions&lt;/strong&gt; to the &lt;strong&gt;Master&lt;/strong&gt; about the word.
 &lt;ul&gt;
 &lt;li&gt;There is no limit to amount of questions, they must only be phrased as yes/no/don&#39;t know questions.&lt;/li&gt;
-&lt;li&gt;The insider tries subtly direct everyone else to the answer without revealing their identity.&lt;/li&gt;
-&lt;li&gt;The master is in a good position to pay attention to who is the Insider, since they don&#39;t have to guess the word.&lt;/li&gt;
-&lt;li&gt;If the word has two possible meanings (ex. tear in the eye vs tear in clothing), the Master should choose only one of the meanings.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Insider&lt;/strong&gt; tries subtly direct everyone else to the answer without revealing their identity.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Commons&lt;/strong&gt; need to ask questions to find the theme and also work out who the &lt;strong&gt;Insider&lt;/strong&gt; is.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Master&lt;/strong&gt; is in a good position to pay attention to who is the &lt;strong&gt;Insider&lt;/strong&gt;, since they don&#39;t have to guess the word.&lt;/li&gt;
+&lt;li&gt;If the word has two possible meanings (ex. tear in the eye vs tear in clothing), the &lt;strong&gt;Master&lt;/strong&gt; should choose only &lt;strong&gt;one&lt;/strong&gt; of the meanings.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The timer stops&lt;/strong&gt; when the word is guessed
+&lt;li&gt;&lt;strong&gt;The timer stops&lt;/strong&gt; when the word is guessed.
 &lt;ul&gt;
-&lt;li&gt;If the timer runs out before the word is guessed, everyone loses.&lt;/li&gt;
+&lt;li&gt;The person who guessed the word is now the &lt;strong&gt;Guesser&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;The timer is flipped&lt;/strong&gt; and the remaining time is used for the voting round
@@ -525,27 +534,51 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;If the timer runs out before the word is guessed, everyone loses.&lt;/p&gt;
+&lt;h2 id=&quot;discussion-begins&quot; tabindex=&quot;-1&quot;&gt;Discussion Begins &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/insider/#discussion-begins&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Everyone discusses who they think the &lt;strong&gt;Insider&lt;/strong&gt; is. Discussion ends when everyone is finished, or when the hourglass runs out.&lt;/p&gt;
 &lt;h2 id=&quot;voting-begins&quot; tabindex=&quot;-1&quot;&gt;Voting Begins &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/insider/#voting-begins&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Everyone participates in the &lt;strong&gt;discussion&lt;/strong&gt; of who they think the Insider is, including the Master. Two votes are taken.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;First Vote&lt;/strong&gt;: Group tries to decide if the person who guessed correctly is the Insider.
+&lt;h3 id=&quot;first-vote-judge-the-guesser&quot; tabindex=&quot;-1&quot;&gt;First Vote: Judge the Guesser &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/insider/#first-vote-judge-the-guesser&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Everyone, except the guesser, tries to decide if the &lt;strong&gt;Guesser&lt;/strong&gt; is the &lt;strong&gt;Insider&lt;/strong&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A majority is required to accuse, a tie is not sufficient to accuse.&lt;/li&gt;
-&lt;li&gt;If accused, the guesser reveals their card/role.&lt;/li&gt;
-&lt;li&gt;If they incorrectly accuse the guesser, the Insider wins and the game is over.&lt;/li&gt;
-&lt;li&gt;If they correctly accuse, the Master and Commons win and the game is over.&lt;/li&gt;
-&lt;li&gt;If the vote does not accuse the guesser, it moves to the second vote.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Second Vote:&lt;/strong&gt; If the first vote is not successful, on the count of 3 everyone simultaneously points to who they think it is.
+&lt;li&gt;If accused, the &lt;strong&gt;Guesser&lt;/strong&gt; reveals their card/role.
 &lt;ul&gt;
-&lt;li&gt;The person with the most votes is accused as the Insider (majority not required).&lt;/li&gt;
-&lt;li&gt;The Master decides a tie.&lt;/li&gt;
-&lt;li&gt;If the Insider is found, the Master wins along with the Commons.&lt;/li&gt;
-&lt;li&gt;If the Insider is not found (another player is chosen), the Insider wins.&lt;/li&gt;
+&lt;li&gt;If they incorrectly accuse the &lt;strong&gt;Guesser&lt;/strong&gt;, the &lt;strong&gt;Insider&lt;/strong&gt; wins and the game is over.&lt;/li&gt;
+&lt;li&gt;If they correctly accuse, the &lt;strong&gt;Master&lt;/strong&gt; and &lt;strong&gt;Commons&lt;/strong&gt; win and the game is over.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ol&gt;
+&lt;li&gt;If the vote does not accuse the &lt;strong&gt;Guesser&lt;/strong&gt;, and the &lt;strong&gt;Guesser&lt;/strong&gt; was not the &lt;strong&gt;Insider&lt;/strong&gt; it moves to the second vote.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;Is the Guesser the Insider?&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Yes&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;No&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Majority says yes&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Commons Win&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Insider Wins&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Majority says no&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Insider Wins&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Go to Vote #2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&quot;second-vote-find-the-insider&quot; tabindex=&quot;-1&quot;&gt;Second Vote: Find the Insider &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/insider/#second-vote-find-the-insider&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;If the majority correctly does not think the &lt;strong&gt;Guesser&lt;/strong&gt; is the &lt;strong&gt;Insider&lt;/strong&gt;, the &lt;strong&gt;Master&lt;/strong&gt; counts to 3 and everyone simultaneously points to who they think it is.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The person with the most votes is accused as the &lt;strong&gt;Insider&lt;/strong&gt; (majority not required).&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Guesser&lt;/strong&gt; decides a tie.&lt;/li&gt;
+&lt;li&gt;If the &lt;strong&gt;Insider&lt;/strong&gt; is found, the &lt;strong&gt;Master&lt;/strong&gt; wins along with the &lt;strong&gt;Commons&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;If the &lt;strong&gt;Insider&lt;/strong&gt; is not found (another player is chosen), the &lt;strong&gt;Insider&lt;/strong&gt; wins.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h2 id=&quot;setup-tips&quot; tabindex=&quot;-1&quot;&gt;Setup Tips &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/insider/#setup-tips&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
@@ -554,7 +587,7 @@
 &lt;li&gt;Role cards can be from a standard deck of cards (Ace for Insider, King for Master, numbers for commons, etc)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; This is a great scaling group game that requires almost no materials. If there aren&#39;t any playing cards, someone can be a Facilitator and pick the Master and Insider and manage the opening closing of eyes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; This is a great scaling group game that requires almost no materials.&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
 	</entry>
