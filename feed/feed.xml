@@ -5,12 +5,111 @@
 	
 	<link href="https://nathan-long.com/rules/feed/feed.xml" rel="self"/>
 	<link href="https://nathan-long.com/rules"/>
-	<updated>2023-04-06T00:00:00Z</updated>
+	<updated>2023-12-21T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Nathan Long</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Splendor</title>
+		<link href="https://nathan-long.com/rules/games/splendor/"/>
+		<updated>2023-12-21T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/games/splendor/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;In Splendor, you take on the role of a rich merchant during the Renaissance.
+You will use your resources to acquire mines, transportation methods, and artisans
+who will allow you to turn raw gems into beautiful jewels&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;contents&quot; tabindex=&quot;-1&quot;&gt;Contents &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/splendor/#contents&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;7 Emerald tokens (green)&lt;/li&gt;
+&lt;li&gt;7 Diamond tokens (white)&lt;/li&gt;
+&lt;li&gt;7 Sapphire tokens (blue)&lt;/li&gt;
+&lt;li&gt;7 Onyx tokens (black)&lt;/li&gt;
+&lt;li&gt;7 Ruby tokens (red)&lt;/li&gt;
+&lt;li&gt;5 Gold Joker tokens (yellow)&lt;/li&gt;
+&lt;li&gt;40 Level 1 cards&lt;/li&gt;
+&lt;li&gt;30 Level 2 cards&lt;/li&gt;
+&lt;li&gt;20 Level 3 cards&lt;/li&gt;
+&lt;li&gt;10 Noble tiles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;setup&quot; tabindex=&quot;-1&quot;&gt;Setup &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/splendor/#setup&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Shuffle each development card deck separately, and then place them in a column in the middle of the table in increasing order from &lt;strong&gt;bottom to top&lt;/strong&gt; (○;○○;○○○).&lt;/p&gt;
+&lt;p&gt;Then reveal 4 cards from each level.&lt;/p&gt;
+&lt;p&gt;Shuffle the noble tiles and reveal &lt;strong&gt;as many of them as there are players plus one&lt;/strong&gt; (example: 5 tiles for a 4 player game).&lt;/p&gt;
+&lt;p&gt;The remaining tiles are removed from the game; they will not be used during the game.&lt;/p&gt;
+&lt;p&gt;Finally, place the tokens in 6 distinct piles (sort them by color) within reach of the players.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;With 2 players&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Remove 3 tokens of each gem color (there should be only 4 of each remaining).&lt;/li&gt;
+&lt;li&gt;Don’t touch the gold.&lt;/li&gt;
+&lt;li&gt;Reveal 3 noble tiles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;With 3 players&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Remove 2 tokens of each gem color (there should be only 5 of each remaining).&lt;/li&gt;
+&lt;li&gt;Don’t touch the gold.&lt;/li&gt;
+&lt;li&gt;Reveal 4 noble tiles.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;the-development-cards&quot; tabindex=&quot;-1&quot;&gt;The development cards &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/splendor/#the-development-cards&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;To win prestige points, the players must purchase development cards. These cards are visible in the middle of the table and may be purchased by all players during the game.&lt;/p&gt;
+&lt;p&gt;The developments in hand are the cards which the players reserve throughout the game. Developments in hand may only be purchased by the players holding them.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The player who purchases this card wins 4 prestige points. Owning this card allows the player to benefit from a blue bonus. To purchase this card, the player must spend 3 blue tokens, 3 black tokens, and 6 white tokens&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;the-noble-tiles&quot; tabindex=&quot;-1&quot;&gt;The noble tiles &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/splendor/#the-noble-tiles&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The noble tiles are visible in the middle of the table. At the end of their turn, a player automatically receives the visit from a noble if that player has the amount of bonuses (and only bonuses) required, and they get the corresponding tile.&lt;/p&gt;
+&lt;p&gt;A player cannot refuse a visit from a noble.&lt;/p&gt;
+&lt;p&gt;Receiving a noble isn’t considered to be an action. Each noble tile is worth 3 prestige points, but players can only get a single one per turn&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The player who acquires this noble’s tile gains 3 prestige points. If a player has enough development cards to amass 3 blue bonuses, 3 green bonuses, and 3 white bonuses, then that player automatically receives a visit from that noble.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;rules&quot; tabindex=&quot;-1&quot;&gt;Rules &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/splendor/#rules&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The youngest player begins. Play then proceeds clockwise. On their turn, a player must choose to perform only one of the following four actions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Take 3 gem tokens of different colors.&lt;/li&gt;
+&lt;li&gt;Take 2 gem tokens of the same color. This action is only possible if there are at least 4 tokens of the chosen color left when the player takes them.&lt;/li&gt;
+&lt;li&gt;Reserve 1 development card and take 1 gold token (joker).&lt;/li&gt;
+&lt;li&gt;Purchase 1 face-up development card from the middle of the table or a previously reserved one.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;selecting-tokens&quot; tabindex=&quot;-1&quot;&gt;Selecting tokens &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/splendor/#selecting-tokens&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A player can never have more than 10 tokens at the end of their turn (including jokers). If this happens, they must return tokens until they only have 10 left. A player can return all or some of those they’ve just drawn. The tokens owned by a player must be visible by all players at all times.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Reminder: players may not take 2 tokens of the same color if there are less than 4 tokens available of that color.&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&quot;reserve-a-development-card&quot; tabindex=&quot;-1&quot;&gt;Reserve a development card &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/splendor/#reserve-a-development-card&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;To reserve a card, a player simply needs to take a face-up development from the middle of the table or (if you’re feeling lucky) draw the first card from one of the three decks (level ○;○○;○○○) without showing it to the other players.&lt;/p&gt;
+&lt;p&gt;The reserved cards are kept in hand and cannot be discarded. Players may not have more than three reserved cards in hand, and the only way to get rid of a card is to buy it (see below).&lt;/p&gt;
+&lt;p&gt;Reserving a card is also the only way to get a gold token (joker). If there is no gold left, you can still reserve a card, but you won’t get any gold.&lt;/p&gt;
+&lt;h3 id=&quot;buying-a-development-card&quot; tabindex=&quot;-1&quot;&gt;Buying a development card &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/splendor/#buying-a-development-card&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;To purchase a card, a player must spend the number of tokens indicated on the card. A joker token can replace any color. The spent tokens (including any jokers) are returned to the middle of the table.&lt;/p&gt;
+&lt;p&gt;A player may purchase one of the face-up development cards in the middle of the table or a card in his hand that was reserved on a previous turn.&lt;/p&gt;
+&lt;p&gt;Each player makes distinct rows with the acquired development cards by sorting them by color, and staggering them vertically so that their bonuses and prestige point values are visible.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;The bonuses and prestige points granted by each card must be visible to all at all times.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Important: when a development card from the middle of the table is acquired or reserved, it must immediately be replaced by a card of the same level.&lt;/p&gt;
+&lt;p&gt;At all times during the game, there must be 4 face-up cards of each level (unless the deck in question is empty, in which case the empty spaces also remain empty).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;the-bonuses&quot; tabindex=&quot;-1&quot;&gt;The bonuses &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/splendor/#the-bonuses&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The bonuses a player has from development cards acquired on previous turns provide discounts on the purchase of new cards. Each bonus of a given color is equal to a token of that color.&lt;/p&gt;
+&lt;p&gt;Thus, if a player has 2 blue bonuses and wants to purchase a card which costs 2 blue tokens and 1 green token, the player must only spend 1 green token.&lt;/p&gt;
+&lt;p&gt;If a player has enough development cards (and therefore bonuses), they can even purchase a card without spending any tokens.&lt;/p&gt;
+&lt;h3 id=&quot;the-nobles&quot; tabindex=&quot;-1&quot;&gt;The nobles &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/splendor/#the-nobles&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;At the &lt;strong&gt;end of their turn&lt;/strong&gt;, each player checks the noble tiles in order to determine if they’re receiving a visit from one of them. A player can be visited if they have (at least) the quantity and type of bonuses indicated on the noble tile.&lt;/p&gt;
+&lt;p&gt;It is impossible to refuse the visit from a noble, which is not considered to be an action.&lt;/p&gt;
+&lt;p&gt;If a player has enough bonuses to be visited by more than one noble at the end of their turn, that player chooses the noble to be received.&lt;/p&gt;
+&lt;p&gt;The tile obtained is placed face-up in front of the player in question.&lt;/p&gt;
+&lt;h2 id=&quot;end-of-the-game&quot; tabindex=&quot;-1&quot;&gt;End of the game &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/splendor/#end-of-the-game&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;When a player reaches &lt;strong&gt;15 prestige points&lt;/strong&gt;, complete the current round so that each player has played the same number of turns.&lt;/p&gt;
+&lt;p&gt;The player who then has the highest number of prestige points is declared the winner (don’t forget to count your nobles). In case of a tie, the player who has purchased the fewest development cards wins.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Original rules: &lt;a href=&quot;https://www.spacecowboys.fr/_files/ugd/59baa2_17984c1d5d0b45a6ae3cdc695c0a864e.pdf&quot;&gt;PDF&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Eat Poop You Cat</title>
@@ -43,6 +142,22 @@
 &lt;/ul&gt;
 &lt;h2 id=&quot;examples&quot; tabindex=&quot;-1&quot;&gt;Examples &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/eat-poop-you-cat/#examples&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;To see some examples of play, go take a look at the &lt;a href=&quot;https://boardgamegeek.com/boardgame/30618/eat-poop-you-cat/images&quot;&gt;images section of the BGG entry&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Dirty Uno</title>
+		<link href="https://nathan-long.com/rules/games/dirty-uno/"/>
+		<updated>2023-04-06T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/games/dirty-uno/</id>
+		<content type="html">&lt;p&gt;Dirty Uno plays just like Uno with the addition of 3 rules:&lt;/p&gt;
+&lt;h2 id=&quot;1-draw-2-and-draw-4-s-stack&quot; tabindex=&quot;-1&quot;&gt;1. Draw 2 and Draw 4&#39;s stack &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/dirty-uno/#1-draw-2-and-draw-4-s-stack&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If someone plays a Draw 2 or a Wild Draw 4, a player can lay down the same card and the next player can either continue to stack&lt;/p&gt;
+&lt;p&gt;Example: Player 1 plays a blue Draw 2. Player 2 plays a yellow Draw 2, stacking it from 2 to 4, and Player 2&#39;s turn ends. Player 3 plays a red Draw 2, stacking it from 4 to 6, and Player 3&#39;s turn ends. Player 4 has no Draw 2 cards, so must now draw the stacked total of all the Draw 2 cards, which is now 6 cards.&lt;/p&gt;
+&lt;h2 id=&quot;2-exact-matches-can-be-played-out-of-turn&quot; tabindex=&quot;-1&quot;&gt;2. Exact matches can be played out of turn &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/dirty-uno/#2-exact-matches-can-be-played-out-of-turn&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If a player has an exact match of a card that was played, they can immediately play it out of turn. This skips any player in between the first card and the matched card and play resumes on the matched card&#39;s direction of play.&lt;/p&gt;
+&lt;h2 id=&quot;3-0-s-cause-all-players-to-swap-hands&quot; tabindex=&quot;-1&quot;&gt;3. 0&#39;s cause all players to swap hands. &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/dirty-uno/#3-0-s-cause-all-players-to-swap-hands&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Playing a &#39;0&#39; causes everyone to pass their hand in direction of play.&lt;/p&gt;
 </content>
 	</entry>
 	

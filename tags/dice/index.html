@@ -16,7 +16,7 @@
     <link rel="alternate" href="/rules/feed/feed.json" type="application/json" title="Rules">
   </head>
   <body class="tmpl-home">
-    <header>
+    <header class="pbs-1">
       <div class="container flex justify-between items-center">
         <h1 class="home m-0 heading-300">
           <a class="no-decoration flex items-center" href="/rules/">
@@ -36,15 +36,25 @@
     </header>
 
     <main class="mbx-5vh">
-      <div class="container flow">
+      <div class="container flow" >
 <h2 class="m-0">Tagged <span class="font-monospace color-blue-75">“Dice”</span></h2>
 
 
-<ul class="postlist flow">
+<ul class="postlist flow mbs-1" data-filter-entry-section>
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts dice low/no-component party"
+  data-min="3"
+  data-max="12"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/mia/" class="postlist-link no-decoration">Mia/Meier</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/mia/" class="postlist-link no-decoration" data-filter-entry-text>Mia/Meier</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 3-12(5-7)</span>
       <span class="flex flex-shrink-0">⏱ 20</span>
@@ -78,4 +88,5 @@
 
     <!-- Current page: /rules/tags/dice/ -->
   </body>
+  <script type="module" src="/rules/js/index.js"></script>
 </html>

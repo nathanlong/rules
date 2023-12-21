@@ -16,7 +16,7 @@
     <link rel="alternate" href="/rules/feed/feed.json" type="application/json" title="Rules">
   </head>
   <body class="tmpl-home">
-    <header>
+    <header class="pbs-1">
       <div class="container flex justify-between items-center">
         <h1 class="home m-0 heading-300">
           <a class="no-decoration flex items-center" href="/rules/">
@@ -36,15 +36,25 @@
     </header>
 
     <main class="mbx-5vh">
-      <div class="container flow">
+      <div class="container flow" >
 <h2 class="m-0">Tagged <span class="font-monospace color-blue-75">“Solitaire”</span></h2>
 
 
-<ul class="postlist flow">
+<ul class="postlist flow mbs-1" data-filter-entry-section>
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts standard-cards solitaire"
+  data-min="1"
+  data-max="1"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/bogey/" class="postlist-link no-decoration">The Bogey</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/bogey/" class="postlist-link no-decoration" data-filter-entry-text>The Bogey</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 1</span>
       <span class="flex flex-shrink-0">⏱ 10</span>
@@ -62,9 +72,19 @@
 </li>
 
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts standard-cards solitaire"
+  data-min="1"
+  data-max="1"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/scoundrel/" class="postlist-link no-decoration">Scoundrel</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/scoundrel/" class="postlist-link no-decoration" data-filter-entry-text>Scoundrel</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 1</span>
       <span class="flex flex-shrink-0">⏱ 10</span>
@@ -82,9 +102,19 @@
 </li>
 
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts standard-cards solitaire"
+  data-min="1"
+  data-max="1"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/shooting-party/" class="postlist-link no-decoration">Shooting Party</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/shooting-party/" class="postlist-link no-decoration" data-filter-entry-text>Shooting Party</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 1</span>
       <span class="flex flex-shrink-0">⏱ 10</span>
@@ -115,4 +145,5 @@
 
     <!-- Current page: /rules/tags/solitaire/ -->
   </body>
+  <script type="module" src="/rules/js/index.js"></script>
 </html>

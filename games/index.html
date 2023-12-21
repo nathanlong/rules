@@ -16,7 +16,7 @@
     <link rel="alternate" href="/rules/feed/feed.json" type="application/json" title="Rules">
   </head>
   <body class="tmpl-home">
-    <header>
+    <header class="pbs-1">
       <div class="container flex justify-between items-center">
         <h1 class="home m-0 heading-300">
           <a class="no-decoration flex items-center" href="/rules/">
@@ -36,17 +36,87 @@
     </header>
 
     <main class="mbx-5vh">
-      <div class="container flow">
+      <div class="container flow"  data-module="filter">
 
 <h2 class="m-0">Games</h2>
-<p>Sorted alphabetically:</p>
 
 
-<ul class="postlist flow">
 
-  <li class="postlist-item">
+
+
+
+<div class="filter__control" >
+    <div class="filter__control__group">
+      <div class="search-input-overlay">
+        <label for="filter-search" class="sr-only">Search by title</label>
+        <input name="filter-search" class="filter__input font-monospace" type="text" placeholder="Search by Title" data-filter-search>
+      </div>
+      <select id="filter-select-tag" name="filter-select" class="select-overlay__input filter__select__input font-monospace" data-filter-sort-tag>
+          <option value="">Search by Tag</option>
+          
+            
+          
+            
+              <option value="standard-cards">Standard Cards</option>
+            
+          
+            
+              <option value="dominoes">Dominoes</option>
+            
+          
+            
+              <option value="party">Party</option>
+            
+          
+            
+              <option value="specialty-components">Specialty Components</option>
+            
+          
+            
+              <option value="low/no-component">Low/no Component</option>
+            
+          
+            
+              <option value="kid-friendly">Kid-friendly</option>
+            
+          
+            
+              <option value="dice">Dice</option>
+            
+          
+            
+              <option value="solitaire">Solitaire</option>
+            
+          
+            
+          
+      </select>
+      <!-- <div class="search-input-overlay"> -->
+      <!--   <label for="filter-player" class="sr-only">Number of Players</label> -->
+      <!--   <input name="filter-player" type="number" placeholder="#" data-filter-player> -->
+      <!-- </div> -->
+      <button data-filter-clear class="filter__control__clear">Clear</button>
+    </div>
+</div>
+
+
+<hr>
+
+<ul class="postlist flow mbs-1" data-filter-entry-section>
+
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts standard-cards"
+  data-min="2"
+  data-max="5"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/abandon-ship/" class="postlist-link no-decoration">Abandon Ship</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/abandon-ship/" class="postlist-link no-decoration" data-filter-entry-text>Abandon Ship</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 2-5</span>
       <span class="flex flex-shrink-0">⏱ 60</span>
@@ -61,9 +131,19 @@
 </li>
 
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts dominoes"
+  data-min="2"
+  data-max="4"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/all-fives/" class="postlist-link no-decoration">All Fives</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/all-fives/" class="postlist-link no-decoration" data-filter-entry-text>All Fives</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 2-4(2,4)</span>
       <span class="flex flex-shrink-0">⏱ 30</span>
@@ -74,16 +154,23 @@
     
     <a href="/rules/tags/dominoes/" class="tag">Dominoes</a>
     
-    
-    <a href="/rules/tags/double-6/" class="tag">Double 6</a>
-    
   </div>
 </li>
 
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts standard-cards"
+  data-min="2"
+  data-max="4"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/casino/" class="postlist-link no-decoration">Casino</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/casino/" class="postlist-link no-decoration" data-filter-entry-text>Casino</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 2-4(2?)</span>
       <span class="flex flex-shrink-0">⏱ 30</span>
@@ -98,9 +185,19 @@
 </li>
 
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts dominoes party"
+  data-min="2"
+  data-max="12"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/chickenfoot/" class="postlist-link no-decoration">Chickenfoot</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/chickenfoot/" class="postlist-link no-decoration" data-filter-entry-text>Chickenfoot</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 2-12</span>
       <span class="flex flex-shrink-0">⏱ 40</span>
@@ -112,18 +209,52 @@
     <a href="/rules/tags/dominoes/" class="tag">Dominoes</a>
     
     
-    <a href="/rules/tags/double-9/" class="tag">Double 9</a>
-    
-    
     <a href="/rules/tags/party/" class="tag">Party</a>
     
   </div>
 </li>
 
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts specialty-components"
+  data-min="2"
+  data-max="8"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/eat-poop-you-cat/" class="postlist-link no-decoration">Eat Poop You Cat</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/dirty-uno/" class="postlist-link no-decoration" data-filter-entry-text>Dirty Uno</a></h3>
+    <div class="flex space-x">
+      <span class="flex flex-shrink-0">👤 2-8(4)</span>
+      <span class="flex flex-shrink-0">⏱ 20</span>
+    </div>
+  </div>
+  <div class="space-x">
+    
+    
+    <a href="/rules/tags/specialty-components/" class="tag">Specialty Components</a>
+    
+  </div>
+</li>
+
+
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts party low/no-component"
+  data-min="5"
+  data-max="13"
+  data-filter-entry
+  data-active="true"
+>
+  <div class="flex flex-wrap items-baseline space-x">
+    <h3 class="m-0 p-0"><a href="/rules/games/eat-poop-you-cat/" class="postlist-link no-decoration" data-filter-entry-text>Eat Poop You Cat</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 5-13(7)</span>
       <span class="flex flex-shrink-0">⏱ 20</span>
@@ -141,9 +272,19 @@
 </li>
 
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts party low/no-component"
+  data-min="4"
+  data-max="8"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/insider/" class="postlist-link no-decoration">Insider</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/insider/" class="postlist-link no-decoration" data-filter-entry-text>Insider</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 4-8(6)</span>
       <span class="flex flex-shrink-0">⏱ 15</span>
@@ -161,9 +302,19 @@
 </li>
 
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts standard-cards kid-friendly"
+  data-min="2"
+  data-max="3"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/james-bond/" class="postlist-link no-decoration">James Bond</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/james-bond/" class="postlist-link no-decoration" data-filter-entry-text>James Bond</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 2-3</span>
       <span class="flex flex-shrink-0">⏱ 5</span>
@@ -181,9 +332,19 @@
 </li>
 
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts standard-cards"
+  data-min="2"
+  data-max="6"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/lamarckian-poker/" class="postlist-link no-decoration">Lamarckian Poker</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/lamarckian-poker/" class="postlist-link no-decoration" data-filter-entry-text>Lamarckian Poker</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 2-6</span>
       <span class="flex flex-shrink-0">⏱ 10</span>
@@ -198,9 +359,19 @@
 </li>
 
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts dice low/no-component party"
+  data-min="3"
+  data-max="12"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/mia/" class="postlist-link no-decoration">Mia/Meier</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/mia/" class="postlist-link no-decoration" data-filter-entry-text>Mia/Meier</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 3-12(5-7)</span>
       <span class="flex flex-shrink-0">⏱ 20</span>
@@ -221,9 +392,19 @@
 </li>
 
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts standard-cards solitaire"
+  data-min="1"
+  data-max="1"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/scoundrel/" class="postlist-link no-decoration">Scoundrel</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/scoundrel/" class="postlist-link no-decoration" data-filter-entry-text>Scoundrel</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 1</span>
       <span class="flex flex-shrink-0">⏱ 10</span>
@@ -241,9 +422,19 @@
 </li>
 
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts standard-cards solitaire"
+  data-min="1"
+  data-max="1"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/shooting-party/" class="postlist-link no-decoration">Shooting Party</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/shooting-party/" class="postlist-link no-decoration" data-filter-entry-text>Shooting Party</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 1</span>
       <span class="flex flex-shrink-0">⏱ 10</span>
@@ -261,9 +452,19 @@
 </li>
 
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts party standard-cards"
+  data-min="3"
+  data-max="6"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/skull/" class="postlist-link no-decoration">Skull</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/skull/" class="postlist-link no-decoration" data-filter-entry-text>Skull</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 3-6(5-6)</span>
       <span class="flex flex-shrink-0">⏱ 30</span>
@@ -281,9 +482,46 @@
 </li>
 
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts specialty-components"
+  data-min="2"
+  data-max="4"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/bogey/" class="postlist-link no-decoration">The Bogey</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/splendor/" class="postlist-link no-decoration" data-filter-entry-text>Splendor</a></h3>
+    <div class="flex space-x">
+      <span class="flex flex-shrink-0">👤 2-4(3)</span>
+      <span class="flex flex-shrink-0">⏱ 30</span>
+    </div>
+  </div>
+  <div class="space-x">
+    
+    
+    <a href="/rules/tags/specialty-components/" class="tag">Specialty Components</a>
+    
+  </div>
+</li>
+
+
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts standard-cards solitaire"
+  data-min="1"
+  data-max="1"
+  data-filter-entry
+  data-active="true"
+>
+  <div class="flex flex-wrap items-baseline space-x">
+    <h3 class="m-0 p-0"><a href="/rules/games/bogey/" class="postlist-link no-decoration" data-filter-entry-text>The Bogey</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 1</span>
       <span class="flex flex-shrink-0">⏱ 10</span>
@@ -312,4 +550,5 @@
 
     <!-- Current page: /rules/games/ -->
   </body>
+  <script type="module" src="/rules/js/index.js"></script>
 </html>

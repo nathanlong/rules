@@ -16,7 +16,7 @@
     <link rel="alternate" href="/rules/feed/feed.json" type="application/json" title="Rules">
   </head>
   <body class="tmpl-home">
-    <header>
+    <header class="pbs-1">
       <div class="container flex justify-between items-center">
         <h1 class="home m-0 heading-300">
           <a class="no-decoration flex items-center" href="/rules/">
@@ -36,7 +36,7 @@
     </header>
 
     <main class="mbx-5vh">
-      <div class="container flow">
+      <div class="container flow" >
 
 <blockquote>
   <strong>I love games.</strong> These are rulesets I've collected for reference on-the-go with a focus on low/no component games and house-ruled/modified versions of other games.
@@ -44,8 +44,9 @@
 
 <h2>Collections:</h2>
 
-<ul class="flow">
-  <li><strong>I don't have any materials except:</strong>
+<ul class="flow mbs-1">
+  <li class="flow-1/2"><strong>I've got: <a class="tag" href="/rules/tags/standard-cards">a specific game</a></strong> <span class="text-small color-medgray">(With specialty components)</span></li>
+  <li class="flow-1/2"><strong>I don't have any materials except:</strong>
     <ul>
       <li class="py-1/4">
         <a class="tag" href="/rules/tags/standard-cards">Standard Playing Cards</a> <span class="text-small color-medgray">(Never leave without a deck)</span>
@@ -80,18 +81,53 @@
   </li>
 </ul>
 
-<hr class="flow-2">
-
 
 <h2 class="">Latest 3 Additions:</h2>
 
 
 
-<ul class="postlist flow">
+<ul class="postlist flow mbs-1" data-filter-entry-section>
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts specialty-components"
+  data-min="2"
+  data-max="4"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/eat-poop-you-cat/" class="postlist-link no-decoration">Eat Poop You Cat</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/splendor/" class="postlist-link no-decoration" data-filter-entry-text>Splendor</a></h3>
+    <div class="flex space-x">
+      <span class="flex flex-shrink-0">👤 2-4(3)</span>
+      <span class="flex flex-shrink-0">⏱ 30</span>
+    </div>
+  </div>
+  <div class="space-x">
+    
+    
+    <a href="/rules/tags/specialty-components/" class="tag">Specialty Components</a>
+    
+  </div>
+</li>
+
+
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts party low/no-component"
+  data-min="5"
+  data-max="13"
+  data-filter-entry
+  data-active="true"
+>
+  <div class="flex flex-wrap items-baseline space-x">
+    <h3 class="m-0 p-0"><a href="/rules/games/eat-poop-you-cat/" class="postlist-link no-decoration" data-filter-entry-text>Eat Poop You Cat</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 5-13(7)</span>
       <span class="flex flex-shrink-0">⏱ 20</span>
@@ -109,38 +145,28 @@
 </li>
 
 
-  <li class="postlist-item">
+  
+
+
+
+<li class="postlist-item" 
+  data-tags="posts specialty-components"
+  data-min="2"
+  data-max="8"
+  data-filter-entry
+  data-active="true"
+>
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/skull/" class="postlist-link no-decoration">Skull</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/dirty-uno/" class="postlist-link no-decoration" data-filter-entry-text>Dirty Uno</a></h3>
     <div class="flex space-x">
-      <span class="flex flex-shrink-0">👤 3-6(5-6)</span>
-      <span class="flex flex-shrink-0">⏱ 30</span>
+      <span class="flex flex-shrink-0">👤 2-8(4)</span>
+      <span class="flex flex-shrink-0">⏱ 20</span>
     </div>
   </div>
   <div class="space-x">
     
     
-    <a href="/rules/tags/party/" class="tag">Party</a>
-    
-    
-    <a href="/rules/tags/standard-cards/" class="tag">Standard Cards</a>
-    
-  </div>
-</li>
-
-
-  <li class="postlist-item">
-  <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/casino/" class="postlist-link no-decoration">Casino</a></h3>
-    <div class="flex space-x">
-      <span class="flex flex-shrink-0">👤 2-4(2?)</span>
-      <span class="flex flex-shrink-0">⏱ 30</span>
-    </div>
-  </div>
-  <div class="space-x">
-    
-    
-    <a href="/rules/tags/standard-cards/" class="tag">Standard Cards</a>
+    <a href="/rules/tags/specialty-components/" class="tag">Specialty Components</a>
     
   </div>
 </li>
@@ -159,4 +185,5 @@
 
     <!-- Current page: /rules/ -->
   </body>
+  <script type="module" src="/rules/js/index.js"></script>
 </html>
