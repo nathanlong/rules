@@ -8,8 +8,9 @@ layout: layouts/home.njk
 
 <h2>Collections:</h2>
 
-<ul class="flow">
-  <li><strong>I don't have any materials except:</strong>
+<ul class="flow mbs-1">
+  <li class="flow-1/2"><strong>I've got: <a class="tag" href="{{ '/tags/standard-cards' | url}}">a specific game</a></strong> <span class="text-small color-medgray">(With specialty components)</span></li>
+  <li class="flow-1/2"><strong>I don't have any materials except:</strong>
     <ul>
       <li class="py-1/4">
         <a class="tag" href="{{ '/tags/standard-cards' | url}}">Standard Playing Cards</a> <span class="text-small color-medgray">(Never leave without a deck)</span>
@@ -43,8 +44,6 @@ layout: layouts/home.njk
     </ul>
   </li>
 </ul>
-
-<hr class="flow-2">
 
 {% set maxPosts = collections.posts.length | min(3) %}
 <h2 class="">Latest {% if maxPosts == 1 %}Addition{% else %}{{ maxPosts }} Additions{% endif %}:</h2>

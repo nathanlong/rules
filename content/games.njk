@@ -1,13 +1,17 @@
 ---
 layout: layouts/home.njk
 permalink: /games/
+addFilter: true
 eleventyNavigation:
   key: All Games
   order: 2
 ---
 
 <h2 class="m-0">Games</h2>
-<p>Sorted alphabetically:</p>
 
 {% set postslist = collections.posts | sort(attribute="data.title") %}
+{% include "filter.njk" %}
+
+<hr>
+
 {% include "postslist.njk" %}

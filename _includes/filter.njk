@@ -1,0 +1,27 @@
+{% set test %}
+{% for post in postslist %}{{ post.data.tags }},{% endfor %}
+{% endset %}
+{% set tagLower = test | trim | lower %}
+{% set tagSplit = tagLower.split(',') | unique %}
+
+<div class="filter__control" >
+    <div class="filter__control__group">
+      <div class="search-input-overlay">
+        <label for="filter-search" class="sr-only">Search by title</label>
+        <input name="filter-search" class="filter__input font-monospace" type="text" placeholder="Search by Title" data-filter-search>
+      </div>
+      <select id="filter-select-tag" name="filter-select" class="select-overlay__input filter__select__input font-monospace" data-filter-sort-tag>
+          <option value="">Search by Tag</option>
+          {% for tag in tagSplit %}
+            {% if tag !== '' and tag !== 'posts' %}
+              <option value="{{tag | replace(' ', '-') }}">{{ tag | title }}</option>
+            {% endif %}
+          {% endfor %}
+      </select>
+      <!-- <div class="search-input-overlay"> -->
+      <!--   <label for="filter-player" class="sr-only">Number of Players</label> -->
+      <!--   <input name="filter-player" type="number" placeholder="#" data-filter-player> -->
+      <!-- </div> -->
+      <button data-filter-clear class="filter__control__clear">Clear</button>
+    </div>
+</div>

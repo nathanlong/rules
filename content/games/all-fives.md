@@ -11,7 +11,6 @@ date: 2022-11-15
 modified: 2023-02-13
 tags:
   - Dominoes
-  - Double 6
 ---
 
 ## The Deal

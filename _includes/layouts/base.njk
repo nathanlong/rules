@@ -16,7 +16,7 @@
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
   </head>
   <body class="{% if templateClass %}{{ templateClass }}{% endif %}">
-    <header>
+    <header class="pbs-1">
       <div class="container flex justify-between items-center">
         <h1 class="home m-0 heading-300">
           <a class="no-decoration flex items-center" href="{{ '/' | url }}">
@@ -44,4 +44,5 @@
 
     <!-- Current page: {{ page.url | url }} -->
   </body>
+  <script type="module" src="{{ '/js/index.js' | url }}"></script>
 </html>

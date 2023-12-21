@@ -4,13 +4,12 @@ description: Shed your dominoes and create branching 'chickenfoot' junctions.
 minplayers: 2
 maxplayers: 12
 time: 40
-equipment: A set of double-9 dominoes.
+equipment: A set of double-9 or double-12 dominoes.
 designer: Uncredited. Thought to have originated in Texas or Mexico.
 date: 2022-11-15
 modified: 2023-02-06
 tags:
   - Dominoes
-  - Double 9
   - Party
 ---
 

@@ -64,6 +64,10 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  eleventyConfig.addFilter("unique", function uniqueFromArray(tags) {
+    return (tags || []).filter((value, index, array) => array.indexOf(value) === index);
+  })
+
   // Customize Markdown library and settings:
   eleventyConfig.amendLibrary("md", (mdLib) => {
     mdLib
