@@ -36,9 +36,46 @@
     </header>
 
     <main class="mbx-5vh">
-      <div class="container flow" >
+      <div class="container flow"  data-module="filter">
 <h2 class="m-0">Tagged <span class="font-monospace color-blue-75">“Kid-friendly”</span></h2>
 
+
+
+
+
+
+<div class="filter__control" >
+    <div class="filter__control__group">
+      <div class="search-input-overlay">
+        <label for="filter-search" class="sr-only">Search by title</label>
+        <input name="filter-search" class="filter__input font-monospace" type="text" placeholder="Search by Title" data-filter-search>
+      </div>
+      <select id="filter-select-tag" name="filter-select" class="select-overlay__input filter__select__input font-monospace" data-filter-sort-tag>
+          <option value="">Search by Tag</option>
+          
+            
+          
+            
+              <option value="standard-cards">Standard Cards</option>
+            
+          
+            
+              <option value="kid-friendly">Kid-friendly</option>
+            
+          
+            
+          
+      </select>
+      <!-- <div class="search-input-overlay"> -->
+      <!--   <label for="filter-player" class="sr-only">Number of Players</label> -->
+      <!--   <input name="filter-player" type="number" placeholder="#" data-filter-player> -->
+      <!-- </div> -->
+      <button data-filter-clear class="filter__control__clear">Clear</button>
+    </div>
+</div>
+
+
+<hr>
 
 <ul class="postlist flow mbs-1" data-filter-entry-section>
 
