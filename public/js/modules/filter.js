@@ -63,7 +63,7 @@ export default class filter {
 
     this.timeout  = setTimeout(() => {
       this.handleChange()
-    }, 750)
+    }, 500)
   }
 
   handleChange = (e) => {
