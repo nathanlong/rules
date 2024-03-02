@@ -5,12 +5,77 @@
 	
 	<link href="https://nathan-long.com/rules/feed/feed.xml" rel="self"/>
 	<link href="https://nathan-long.com/rules"/>
-	<updated>2023-12-21T00:00:00Z</updated>
+	<updated>2024-02-28T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Nathan Long</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Zhēng Shàngyóu (Struggling Upstream)</title>
+		<link href="https://nathan-long.com/rules/games/zheng-shangyou/"/>
+		<updated>2024-02-28T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/games/zheng-shangyou/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;This is a variant of &lt;strong&gt;Zhēng Shàngyóu / 争上游&lt;/strong&gt; (which roughly translates to &lt;strong&gt;Struggling Upstream&lt;/strong&gt;) &lt;a href=&quot;https://boardgamegeek.com/thread/3173891/how-i-play-zheng-shangyou&quot;&gt;as catalogued by John Owen&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;setup&quot; tabindex=&quot;-1&quot;&gt;Setup &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/zheng-shangyou/#setup&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2 players = 26 cards&lt;/li&gt;
+&lt;li&gt;3 players = 18 cards&lt;/li&gt;
+&lt;li&gt;4 players = 13 cards&lt;/li&gt;
+&lt;li&gt;6 players = 9 cards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;card-order&quot; tabindex=&quot;-1&quot;&gt;Card Order &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/zheng-shangyou/#card-order&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The card rankings in ascending order:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3 through Ace, as normal&lt;/li&gt;
+&lt;li&gt;2, wild&lt;/li&gt;
+&lt;li&gt;Black Joker, wild&lt;/li&gt;
+&lt;li&gt;Red Joker, wild&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Suits do not matter!&lt;/p&gt;
+&lt;h2 id=&quot;combos&quot; tabindex=&quot;-1&quot;&gt;Combos &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/zheng-shangyou/#combos&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Single:&lt;/strong&gt; One card played by itself.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pair:&lt;/strong&gt; Two cards of the same rank.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trip:&lt;/strong&gt; Three cards of the same rank.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Full House:&lt;/strong&gt; Three card of the same rank plus two cards of the same rank. Ranked by triple.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Straight:&lt;/strong&gt; Five or more cards of consecutive rank. No 2s or Jokers allowed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stair:&lt;/strong&gt; Two or more pairs of consecutive rank.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plate:&lt;/strong&gt; Two or more triples of consecutive rank.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Clarifications:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Natural combos beat wild combos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;bombs&quot; tabindex=&quot;-1&quot;&gt;Bombs &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/zheng-shangyou/#bombs&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Quad:&lt;/strong&gt; Four cards of the same rank&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rocket:&lt;/strong&gt; Black Joker plus Red Joker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;rules&quot; tabindex=&quot;-1&quot;&gt;Rules &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/zheng-shangyou/#rules&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The player holding the &lt;strong&gt;3 of Spades&lt;/strong&gt; leads first (but is not required to play the 3). This player may lead with any combination.&lt;/p&gt;
+&lt;p&gt;Standard climbing rules apply:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A player must follow the lead combination, play a bomb, or pass.&lt;/li&gt;
+&lt;li&gt;If a bomb is played, it can only be beaten by a higher bomb of the same type or a higher ranking bomb (higher quad beats lower quad, ultra bomb beats all quads)&lt;/li&gt;
+&lt;li&gt;If any player passes, they may still play cards in the future if the play comes back around to them.&lt;/li&gt;
+&lt;li&gt;When all players pass except one, then the table is cleared and the last person who did not pass leads any combination.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;goal&quot; tabindex=&quot;-1&quot;&gt;Goal &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/zheng-shangyou/#goal&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;First player to shed out wins. Last place shuffles for the next game.&lt;/p&gt;
+&lt;h2 id=&quot;scoring&quot; tabindex=&quot;-1&quot;&gt;Scoring &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/zheng-shangyou/#scoring&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Score isn&#39;t always kept, but if desired:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1st out scores 2.&lt;/li&gt;
+&lt;li&gt;2nd out scores 1.&lt;/li&gt;
+&lt;li&gt;3rd out scores 0.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;First to make 6 points wins. If there&#39;s a tie, play another hand to break the tie.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Splendor</title>
