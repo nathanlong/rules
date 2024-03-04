@@ -1,5 +1,5 @@
 ---
-title: Zhēng Shàngyóu (Struggling Upstream)
+title: Zhēng Shàngyóu (River Rumble)
 description: Players race to shed their cards first in increasing combos.
 minplayers: 2
 maxplayers: 4
@@ -10,9 +10,10 @@ designer: Uncredited
 date: 2024-02-28
 tags:
   - Standard Cards
+  - Climbing Card Game
 ---
 
-> This is a variant of **Zhēng Shàngyóu / 争上游** (which roughly translates to **Struggling Upstream**) [as catalogued by John Owen](https://boardgamegeek.com/thread/3173891/how-i-play-zheng-shangyou).
+> This is a variant of **Zhēng Shàngyóu / 争上游** (which roughly translates to **Struggling Upstream**, or if you're a fan of alliteration: **River Rumble**) [as catalogued by John Owen on BGG](https://boardgamegeek.com/thread/3173891/how-i-play-zheng-shangyou).
 
 
 ## Setup

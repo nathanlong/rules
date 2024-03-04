@@ -10,6 +10,7 @@ designer: Uncredited. Public domain, many variants exist.
 date: 2023-03-13
 tags:
   - Standard Cards
+  - Fishing Card Game
 ---
 
 ## Aim
