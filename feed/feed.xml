@@ -13,12 +13,12 @@
 	</author>
 	
 	<entry>
-		<title>Zhēng Shàngyóu (Struggling Upstream)</title>
+		<title>Zhēng Shàngyóu (River Rumble)</title>
 		<link href="https://nathan-long.com/rules/games/zheng-shangyou/"/>
 		<updated>2024-02-28T00:00:00Z</updated>
 		<id>https://nathan-long.com/rules/games/zheng-shangyou/</id>
 		<content type="html">&lt;blockquote&gt;
-&lt;p&gt;This is a variant of &lt;strong&gt;Zhēng Shàngyóu / 争上游&lt;/strong&gt; (which roughly translates to &lt;strong&gt;Struggling Upstream&lt;/strong&gt;) &lt;a href=&quot;https://boardgamegeek.com/thread/3173891/how-i-play-zheng-shangyou&quot;&gt;as catalogued by John Owen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a variant of &lt;strong&gt;Zhēng Shàngyóu / 争上游&lt;/strong&gt; (which roughly translates to &lt;strong&gt;Struggling Upstream&lt;/strong&gt;, or if you&#39;re a fan of alliteration: &lt;strong&gt;River Rumble&lt;/strong&gt;) &lt;a href=&quot;https://boardgamegeek.com/thread/3173891/how-i-play-zheng-shangyou&quot;&gt;as catalogued by John Owen on BGG&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;setup&quot; tabindex=&quot;-1&quot;&gt;Setup &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/zheng-shangyou/#setup&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
@@ -74,6 +74,92 @@
 &lt;li&gt;3rd out scores 0.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;First to make 6 points wins. If there&#39;s a tie, play another hand to break the tie.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Skull King</title>
+		<link href="https://nathan-long.com/rules/games/skull-king/"/>
+		<updated>2024-02-28T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/games/skull-king/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;In &lt;strong&gt;Skull King&lt;/strong&gt; we play as pirates battling for treasure on the High Seas. Each round we&#39;ll predict how well we&#39;ll do with the hand that we&#39;re given and battle to meet our bid while trying to sink everyone else&#39;s. We play in 10 rounds, starting with 1 card and adding one card for each round. At the end of 10 rounds, the pirate with the highest score will be Captain of the Seven Seas!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;setup&quot; tabindex=&quot;-1&quot;&gt;Setup &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull-king/#setup&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Skull King is played over 10 rounds. 1 card is dealt to each player in the first round, 2 are dealt in the second, and so on, ending with 10 cards dealt to each player in round 10. The entire deck, including all cards played in the previous round, is shuffled at the start of each round.&lt;/p&gt;
+&lt;h2 id=&quot;bidding&quot; tabindex=&quot;-1&quot;&gt;Bidding &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull-king/#bidding&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;After the cards are dealt and you’ve studied your hand, you’ll decide the exact number of tricks you predict you will win in that round. Remember, the higher a card’s value, the more likely you are to win a trick.&lt;/p&gt;
+&lt;p&gt;Once you’re all ready, you’ll pound your fists on the table in unison three times while calling out “Yo-ho-ho!” On the third pound, you’ll each extend the number of fingers equal to your bid or a closed fist if bidding zero. Remember or use markers to keep track of your bid.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&quot;bidding-tips&quot; tabindex=&quot;-1&quot;&gt;Bidding Tips &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull-king/#bidding-tips&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Look at your card distribution. Even distributions aren&#39;t anything special. If you have a lot of trumps, you can shed the suit cards and start winning tricks with trumps. If you have a lot of Mermaids and Pirates you can reasonably expect those to win you a trick.&lt;/li&gt;
+&lt;li&gt;Early round bids can be more aggressive, as the cards necessary to beat you may not be in player&#39;s hands. Later in the game, be more conservative.&lt;/li&gt;
+&lt;li&gt;If you&#39;re leading the round on a low round number, you can likely count high number suit cards as trick winners. Later in the game, who leads the round doesn&#39;t matter as much.&lt;/li&gt;
+&lt;li&gt;If you&#39;re not sure, and especially if you&#39;re in the lead, be more conservative with your number. It&#39;s easier to lose a trick than win a trick.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;card-order&quot; tabindex=&quot;-1&quot;&gt;Card Order &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull-king/#card-order&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The cards are ranked in ascending order:&lt;/p&gt;
+&lt;h3 id=&quot;escape-cards-5&quot; tabindex=&quot;-1&quot;&gt;Escape Cards (5) &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull-king/#escape-cards-5&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;5 Escape (white flag) cards. They lose to all other cards. If everone plays Escape cards, the first Escape played wins.&lt;/p&gt;
+&lt;h3 id=&quot;suit-cards-42&quot; tabindex=&quot;-1&quot;&gt;Suit Cards (42) &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull-king/#suit-cards-42&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;3 suits of cards numbered 1-14: Parrots (green), Treasure Chest (yellow), Treasure Map (blue).&lt;/p&gt;
+&lt;h3 id=&quot;trump-cards-14&quot; tabindex=&quot;-1&quot;&gt;Trump Cards (14) &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull-king/#trump-cards-14&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;1 suit of black Jolly Roger (Skull and Crossbones) cards numbered 1-14. These cards trump (beat) all numbered Suit Cards.&lt;/p&gt;
+&lt;h3 id=&quot;character-cards-8&quot; tabindex=&quot;-1&quot;&gt;Character Cards (8) &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull-king/#character-cards-8&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mermaids (2)&lt;/strong&gt; beat all numbered suits but lose to Pirates. Except for the Skull King who is lured by their treasure. First Mermaid played beats other Mermaids.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pirates (5)&lt;/strong&gt; Pirates beat all numbered suits and Mermaids. First Pirate played beats other Pirates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tigress (1)&lt;/strong&gt; Tigress can be played either as an escape card&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Skull King (1)&lt;/strong&gt; The Skull King beats all other cards, Pirates, and Tigress as a Pirate, but loses to the Mermaids.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;play&quot; tabindex=&quot;-1&quot;&gt;Play &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull-king/#play&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;For each round, the player to the left of the dealer leads the first trick.&lt;/p&gt;
+&lt;p&gt;When leading a trick, the player can play any card they want.&lt;/p&gt;
+&lt;p&gt;Subsequent players in clockwise order:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MUST&lt;/strong&gt; &#39;follow&#39; the trick with the same suit of cards&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OR&lt;/strong&gt; play an Escape or Character card.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If the player does not have any cards of the leading suit they:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CAN&lt;/strong&gt; play a card from any suit (but it will lose the trick even if it is of higher number value)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OR&lt;/strong&gt; play a trump card (Jolly Roger) if they have one. A trump will beat any number of a regular suit but can be beaten by a higher trump or a Character card.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The highest ranked card after everyone plays wins the trick. The winning player gathers the cards and places it in a stack in front of them. The winner leads the next trick.&lt;/p&gt;
+&lt;h3 id=&quot;special-considerations&quot; tabindex=&quot;-1&quot;&gt;Special Considerations; &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull-king/#special-considerations&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;If an &lt;strong&gt;Escape&lt;/strong&gt; card is led, the next player determines the suit that must be followed.&lt;/li&gt;
+&lt;li&gt;If a &lt;strong&gt;Mermaid&lt;/strong&gt;, &lt;strong&gt;Pirate&lt;/strong&gt;, or &lt;strong&gt;Skull King&lt;/strong&gt; is led, there is no suit for the trick and each player may play any card.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;scoring&quot; tabindex=&quot;-1&quot;&gt;Scoring &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull-king/#scoring&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h4 id=&quot;bids&quot; tabindex=&quot;-1&quot;&gt;Bids: &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull-king/#bids&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;A successful exact bid awards &lt;strong&gt;20 points&lt;/strong&gt; for each trick won. (Successful 3 bid = 20 x 3 = 60)&lt;/li&gt;
+&lt;li&gt;A failed bid subtracts &lt;strong&gt;10 points&lt;/strong&gt; for each trick they were off. (Bid 2 but won 4 = 2 x -10 = -20)&lt;/li&gt;
+&lt;li&gt;A successful &lt;strong&gt;zero bid&lt;/strong&gt; awards &lt;strong&gt;10 points times the number of cards that round&lt;/strong&gt;. (Successful 0 bid on Round 7 = 10 x 7 = 70)&lt;/li&gt;
+&lt;li&gt;A failed &lt;strong&gt;zero bid&lt;/strong&gt; subtracts &lt;strong&gt;10 points times the number of cards that round&lt;/strong&gt;. (Failed 0 bid on Round 9 = 9 * -10 = -90)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;bonus-cards&quot; tabindex=&quot;-1&quot;&gt;Bonus Cards: &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull-king/#bonus-cards&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;10 points for the &lt;strong&gt;Number 14&lt;/strong&gt; of any standard suit.&lt;/li&gt;
+&lt;li&gt;20 points for the &lt;strong&gt;Number 14&lt;/strong&gt; of the trump suit (Jolly Roger).&lt;/li&gt;
+&lt;li&gt;20 points for each &lt;strong&gt;Mermaid&lt;/strong&gt; taken by a &lt;strong&gt;Pirate&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;30 points for each &lt;strong&gt;Pirate&lt;/strong&gt; taken by the &lt;strong&gt;Skull King&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;40 points for taking the &lt;strong&gt;Skull King&lt;/strong&gt; with a &lt;strong&gt;Mermaid&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;purposefully-omitted&quot; tabindex=&quot;-1&quot;&gt;Purposefully Omitted &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/skull-king/#purposefully-omitted&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There are additional rules for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alternative scoring (The Rascal&#39;s Scoring) where all players are eligible for 10 x Round Number of points.&lt;/li&gt;
+&lt;li&gt;Additional cards (Kraken, White Whale, and Loot Cards)&lt;/li&gt;
+&lt;li&gt;Two-Player variant with dummy player.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But I don&#39;t see myself playing with those so I&#39;m leaving them out.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; This is in a family of trick-taking from crazy to standard with as: Skull King, Wizard, and Oh Hell. It&#39;s also possible to play Wizard with a Skull King deck if you&#39;re looking for a tighter, less swingy, but still mildly chaotic game.&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
 	</entry>
 	
