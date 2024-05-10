@@ -5,12 +5,173 @@
 	
 	<link href="https://nathan-long.com/rules/feed/feed.xml" rel="self"/>
 	<link href="https://nathan-long.com/rules"/>
-	<updated>2024-02-28T00:00:00Z</updated>
+	<updated>2024-05-10T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Nathan Long</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Farkle</title>
+		<link href="https://nathan-long.com/rules/games/farkle/"/>
+		<updated>2024-05-10T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/games/farkle/</id>
+		<content type="html">&lt;h2 id=&quot;objective&quot; tabindex=&quot;-1&quot;&gt;Objective &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/farkle/#objective&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Be the first player to score 10,000 points.&lt;/p&gt;
+&lt;h2 id=&quot;the-play&quot; tabindex=&quot;-1&quot;&gt;The Play &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/farkle/#the-play&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;On their turn a player rolls all 6 dice. They must be able to take at least one scoring die out of the roll. Once the scoring combo is removed, the player can decide to stop and take their score total or keep rolling the remaining dice.&lt;/p&gt;
+&lt;p&gt;At any point on their turn, if no dice be scored it is a ‘farkle’. This ends the player’s turn and all accumulated score from that turn is lost.&lt;/p&gt;
+&lt;p&gt;If all six dice eventually score (hot dice), you may start rolling with all 6 again, keeping that turn&#39;s accumulated score. Players can choose to stop after all 6 dice score.&lt;/p&gt;
+&lt;p&gt;Scores cannot be combined to make bigger rolls. (ex. If a player has scored 3-of-a-kind in 5’s on one roll, then rolls double 5’s in the next roll, the player cannot combine the 5’s to make a 5-of-a-kind.)&lt;/p&gt;
+&lt;p&gt;You may stop at any time and receive the current score of the dice and the player’s turn ends.&lt;/p&gt;
+&lt;h3 id=&quot;optional-rule-on-the-board&quot; tabindex=&quot;-1&quot;&gt;Optional rule: On-The-Board &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/farkle/#optional-rule-on-the-board&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Players must score at least 750 (or another agreed upon number, like 500) to &#39;get on the board&#39; and start scoring. After that players much reach the minimum score of 350 before they can stop.&lt;/p&gt;
+&lt;h3 id=&quot;optional-rule-the-van-t-hof-6&quot; tabindex=&quot;-1&quot;&gt;Optional Rule: The ‘Van’t Hof 6’ &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/farkle/#optional-rule-the-van-t-hof-6&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Accumulating 6 ones (across all rolls) scores 3000. The player forfeits other point totals created by rolling the 1&#39;s when taking the score of 3000.&lt;/p&gt;
+&lt;h2 id=&quot;final-round&quot; tabindex=&quot;-1&quot;&gt;Final Round &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/farkle/#final-round&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;When one player reaches 10,000 points, each following player gets one more turn. The winner is the player with the highest score.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Note:&lt;/strong&gt; This encourages an all-or-nothing final round which can result in a spectacular upset if scores are close.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;optional-rule&quot; tabindex=&quot;-1&quot;&gt;Optional rule: &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/farkle/#optional-rule&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;For shorter games, reduce the winning score to 5000. Same rules apply.&lt;/p&gt;
+&lt;h2 id=&quot;scoring-combinations&quot; tabindex=&quot;-1&quot;&gt;Scoring Combinations &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/farkle/#scoring-combinations&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;div class=&quot;table-full flow-2&quot;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;Combo&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Score&lt;/th&gt;
+&lt;th style=&quot;text-align:right&quot;&gt;Example&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Single 5&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;50&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;&lt;code&gt;5&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Single 1&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;100&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;&lt;code&gt;1&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Three-of-a-kind&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;100 x pip value&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;&lt;code&gt;333&lt;/code&gt; as &lt;strong&gt;300&lt;/strong&gt; points&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Four-of-a-kind&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;1,000&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;&lt;code&gt;2222&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Five-of-a-kind&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;2,000&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;&lt;code&gt;66666&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Six-of-a-kind&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;3,000&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;&lt;code&gt;333333&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Straight (1 through 6)&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;1,500&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;&lt;code&gt;123456&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Three Pairs&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;1,500&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;&lt;code&gt;33,44,66&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Two Triplets&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;2,500&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;&lt;code&gt;222,555&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Four-of-a-kind + Pair&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;1,500&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;&lt;code&gt;1111 + 55&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; An old family favorite, sort of a less-structured Yahtzee. Can be a good game-as-social-activity as everyone cheers or taunts each other on their turns. Because it&#39;s only 6 dice, this can be played almost anywhere.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Wizard</title>
+		<link href="https://nathan-long.com/rules/games/wizard/"/>
+		<updated>2024-03-03T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/games/wizard/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;This is an everybody-for-themselves trick-taking game with a chef&#39;s-kiss of chaos. It can be played with a specialty Wizard deck (52 standard cards + 4 Wizards + 4 Jokers = 60 cards) or a &lt;a href=&quot;https://nathan-long.com/rules/games/skull-king&quot;&gt;Skull King&lt;/a&gt; deck with only Pirates and Escapes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;object-of-the-game&quot; tabindex=&quot;-1&quot;&gt;Object of the Game &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/wizard/#object-of-the-game&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The object is to correctly predict the number of tricks you will take in each round. You receive points for being correct, and the person with the most points wins the game.&lt;/p&gt;
+&lt;h2 id=&quot;setup&quot; tabindex=&quot;-1&quot;&gt;Setup &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/wizard/#setup&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;To determine a dealer, each player is dealt one card. High card deals.&lt;/p&gt;
+&lt;p&gt;On the first deal each player receives one card. Two cards are dealt on the second deal, three on the third and so on. The deal passes to the left after each round and the new dealer shuffles all 60 cards.&lt;/p&gt;
+&lt;p&gt;After the deal, the next card is turned up to determine the trump suit.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the card turned up is a &lt;strong&gt;Jester&lt;/strong&gt;, it is turned down and there is no trump for that round.&lt;/li&gt;
+&lt;li&gt;If the card turned up is a &lt;strong&gt;Wizard&lt;/strong&gt;, the dealer chooses one of the four suits as the trump suit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On the last round of each game all cards are dealt out so there is no trump. Play continues until the round in which all the cards are dealt out. Consequently:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3 players play 20 rounds,&lt;/li&gt;
+&lt;li&gt;4 players play 15 rounds&lt;/li&gt;
+&lt;li&gt;5 players 12 rounds&lt;/li&gt;
+&lt;li&gt;6 players 10 rounds.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;variants&quot; tabindex=&quot;-1&quot;&gt;Variants &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/wizard/#variants&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Only play the first 5 or 7 rounds (makes for a shorter game)&lt;/li&gt;
+&lt;li&gt;Special 6:
+&lt;ul&gt;
+&lt;li&gt;3 Players = Rounds 1, 2, 4, 11, 16, 20&lt;/li&gt;
+&lt;li&gt;4 Players = Rounds 1, 2, 3, 9, 13, 16&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;bidding&quot; tabindex=&quot;-1&quot;&gt;Bidding &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/wizard/#bidding&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Each player in turn beginning to the left of the dealer states the number of tricks he/she will take (zero or one on the first round) and the scorer records it on the score pad.&lt;/p&gt;
+&lt;h3 id=&quot;variants-1&quot; tabindex=&quot;-1&quot;&gt;Variants &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/wizard/#variants-1&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The total number of tricks bid may or may not equal the total number of tricks available.&lt;/li&gt;
+&lt;li&gt;Bidding can be done simultaneously rather than in sequence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;play&quot; tabindex=&quot;-1&quot;&gt;Play &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/wizard/#play&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The play begins to the left of the dealer. Any card may be led. Players continue to play in clockwise order and must follow suit if possible. If a player cannot follow the suit led, the player may play any other suit, including the trump suit. A Wizard or a Jester may be played at any time, even if the player is holding a card of the suit led.&lt;/p&gt;
+&lt;p&gt;A trick is won:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;By the first Wizard played.&lt;/li&gt;
+&lt;li&gt;If no Wizard is played, by the highest trump played.&lt;/li&gt;
+&lt;li&gt;If no trump is played, by the highest card of the suit led. The winner of the trick leads next.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;special-considerations&quot; tabindex=&quot;-1&quot;&gt;Special Considerations; &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/wizard/#special-considerations&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;If the lead card is a Wizard, it wins the trick and players may play any card they wish, including another Wizard.&lt;/li&gt;
+&lt;li&gt;If the lead card is a Jester, it is a null card and the suit for this round is determined by the next card played. Jesters always lose. The one exception to this is if only Jesters are played, the first Jester played wins the trick.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;scoring&quot; tabindex=&quot;-1&quot;&gt;Scoring &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/wizard/#scoring&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;For correctly predicting the number of tricks taken, a player scores 20 points and receives 10 additional points for each trick taken. A player whose prediction is incorrect loses 10 points for each over or under trick.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; This plays more chaotic than Oh Hell (which it shares it&#39;s base) but tighter than &lt;a href=&quot;https://nathan-long.com/rules/games/skull-king&quot;&gt;Skull King&#39;s&lt;/a&gt; rock-paper-scissors trump rules and as such requires a bit more skill, so it might appeal more to longtime fans of trick-taking games.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Zhēng Shàngyóu (River Rumble)</title>
@@ -158,7 +319,7 @@
 &lt;/ul&gt;
 &lt;p&gt;But I don&#39;t see myself playing with those so I&#39;m leaving them out.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; This is in a family of trick-taking from crazy to standard with as: Skull King, Wizard, and Oh Hell. It&#39;s also possible to play Wizard with a Skull King deck if you&#39;re looking for a tighter, less swingy, but still mildly chaotic game.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; This is in a family of trick-taking from crazy to standard with as: Skull King, &lt;a href=&quot;https://nathan-long.com/rules/games/wizard&quot;&gt;Wizard&lt;/a&gt;, and Oh Hell. It&#39;s also possible to play &lt;a href=&quot;https://nathan-long.com/rules/games/wizard&quot;&gt;Wizard&lt;/a&gt; with a Skull King deck if you&#39;re looking for a tighter, less swingy, but still mildly chaotic game.&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
 	</entry>

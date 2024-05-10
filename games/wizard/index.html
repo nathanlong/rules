@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizard</title>
+    <meta name="description" content="Predict how many tricks you&#39;ll win, with the help of Wizards and Jesters..">
+    <meta name="generator" content="Eleventy v2.0.1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/rules/css/index.css">
+    <link rel="stylesheet" href="/rules/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/rules/css/prism-diff.css">
+    <link rel="alternate" href="/rules/feed/feed.xml" type="application/atom+xml" title="Rules">
+    <link rel="alternate" href="/rules/feed/feed.json" type="application/json" title="Rules">
+  </head>
+  <body class="tmpl-post">
+    <header class="pbs-1">
+      <div class="container flex justify-between items-center">
+        <h1 class="home m-0 heading-300">
+          <a class="no-decoration flex items-center" href="/rules/">
+            <div class="w-1 rounded-1/4 overflow-hidden line-height-0 mie-1/4">
+              <img class="w-full" src="https://user-images.githubusercontent.com/623568/211856834-436269ac-9130-4628-b088-b35f75b69810.png" alt="Card symbols on a dark purple field marked with faint X's">
+            </div>
+            <span>
+              Rules
+            </span>
+          </a>
+        </h1>
+        <ul class="nav flex space-x-1">
+          <li class="nav-item  no-list"><a class="font-monospace no-decoration" href="/rules/tags/">Tags</a></li>
+          <li class="nav-item  no-list"><a class="font-monospace no-decoration" href="/rules/games/">All Games</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="mbx-5vh">
+      <div class="container flow">
+
+  <section>
+    <h1 class="heading-50">Wizard</h1>
+
+    <div class="space-x"><a href="/rules/tags/specialty-components/" class="tag">Specialty Components</a><a href="/rules/tags/trick-taking/" class="tag">Trick-taking</a>
+    </div>
+  </section>
+
+  <dl class="flow-1/2 mbs-2">
+    <dt>👤 Players:</dt>
+    <dd>
+      3-6
+      (Best at 4-5)
+    </dd>
+    <dt>⏱ Time to play:</dt>
+    <dd>45 minutes</dd>
+    <dt>♟ Equipment:</dt>
+    <dd>Specialty 60 card deck.</dd>
+    <dt>🧠 Designer(s):</dt>
+    <dd>Ken Fisher</dd>
+  </dl>
+
+<blockquote>
+<p>This is an everybody-for-themselves trick-taking game with a chef's-kiss of chaos. It can be played with a specialty Wizard deck (52 standard cards + 4 Wizards + 4 Jokers = 60 cards) or a <a href="/rules/games/skull-king">Skull King</a> deck with only Pirates and Escapes.</p>
+</blockquote>
+<h2 id="object-of-the-game" tabindex="-1">Object of the Game <a class="header-anchor" href="#object-of-the-game">#</a></h2>
+<p>The object is to correctly predict the number of tricks you will take in each round. You receive points for being correct, and the person with the most points wins the game.</p>
+<h2 id="setup" tabindex="-1">Setup <a class="header-anchor" href="#setup">#</a></h2>
+<p>To determine a dealer, each player is dealt one card. High card deals.</p>
+<p>On the first deal each player receives one card. Two cards are dealt on the second deal, three on the third and so on. The deal passes to the left after each round and the new dealer shuffles all 60 cards.</p>
+<p>After the deal, the next card is turned up to determine the trump suit.</p>
+<ul>
+<li>If the card turned up is a <strong>Jester</strong>, it is turned down and there is no trump for that round.</li>
+<li>If the card turned up is a <strong>Wizard</strong>, the dealer chooses one of the four suits as the trump suit.</li>
+</ul>
+<p>On the last round of each game all cards are dealt out so there is no trump. Play continues until the round in which all the cards are dealt out. Consequently:</p>
+<ul>
+<li>3 players play 20 rounds,</li>
+<li>4 players play 15 rounds</li>
+<li>5 players 12 rounds</li>
+<li>6 players 10 rounds.</li>
+</ul>
+<h3 id="variants" tabindex="-1">Variants <a class="header-anchor" href="#variants">#</a></h3>
+<ul>
+<li>Only play the first 5 or 7 rounds (makes for a shorter game)</li>
+<li>Special 6:
+<ul>
+<li>3 Players = Rounds 1, 2, 4, 11, 16, 20</li>
+<li>4 Players = Rounds 1, 2, 3, 9, 13, 16</li>
+</ul>
+</li>
+</ul>
+<h2 id="bidding" tabindex="-1">Bidding <a class="header-anchor" href="#bidding">#</a></h2>
+<p>Each player in turn beginning to the left of the dealer states the number of tricks he/she will take (zero or one on the first round) and the scorer records it on the score pad.</p>
+<h3 id="variants-1" tabindex="-1">Variants <a class="header-anchor" href="#variants-1">#</a></h3>
+<ul>
+<li>The total number of tricks bid may or may not equal the total number of tricks available.</li>
+<li>Bidding can be done simultaneously rather than in sequence.</li>
+</ul>
+<h2 id="play" tabindex="-1">Play <a class="header-anchor" href="#play">#</a></h2>
+<p>The play begins to the left of the dealer. Any card may be led. Players continue to play in clockwise order and must follow suit if possible. If a player cannot follow the suit led, the player may play any other suit, including the trump suit. A Wizard or a Jester may be played at any time, even if the player is holding a card of the suit led.</p>
+<p>A trick is won:</p>
+<ol>
+<li>By the first Wizard played.</li>
+<li>If no Wizard is played, by the highest trump played.</li>
+<li>If no trump is played, by the highest card of the suit led. The winner of the trick leads next.</li>
+</ol>
+<h3 id="special-considerations" tabindex="-1">Special Considerations; <a class="header-anchor" href="#special-considerations">#</a></h3>
+<ul>
+<li>If the lead card is a Wizard, it wins the trick and players may play any card they wish, including another Wizard.</li>
+<li>If the lead card is a Jester, it is a null card and the suit for this round is determined by the next card played. Jesters always lose. The one exception to this is if only Jesters are played, the first Jester played wins the trick.</li>
+</ul>
+<h2 id="scoring" tabindex="-1">Scoring <a class="header-anchor" href="#scoring">#</a></h2>
+<p>For correctly predicting the number of tricks taken, a player scores 20 points and receives 10 additional points for each trick taken. A player whose prediction is incorrect loses 10 points for each over or under trick.</p>
+<blockquote>
+<p><strong>Nathan's Notes:</strong> This plays more chaotic than Oh Hell (which it shares it's base) but tighter than <a href="/rules/games/skull-king">Skull King's</a> rock-paper-scissors trump rules and as such requires a bit more skill, so it might appeal more to longtime fans of trick-taking games.</p>
+</blockquote>
+
+
+  <p class="font-monospace text-small color-gray flow-2">
+    <span>Date added: <time datetime="2024-03-03">03 March 2024</time></span>
+  </p>
+
+  <hr class="flow-2">
+
+  <div class="flex justify-between flow-2">
+    <div class="flex flex-wrap items-center gap-1/2">
+      <p>More:</p><a href="/rules/tags/specialty-components/" class="tag">Specialty Components</a><a href="/rules/tags/trick-taking/" class="tag">Trick-taking</a>
+    </div>
+
+    <a class="font-monospace no-decoration flex-shrink-0" href="games">All Games</a>
+  </div>
+
+
+</div>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /rules/games/wizard/ -->
+  </body>
+  <script type="module" src="/rules/js/index.js"></script>
+</html>
