@@ -17,11 +17,16 @@ templateClass: tmpl-post
 
   <dl class="flow-1/2 mbs-2">
     <dt>👤 Players:</dt>
+    <dd>
     {%- if  maxplayers > 1 %}
-    <dd>{{ minplayers }}-{{ maxplayers }}</dd>
+      {{ minplayers }}-{{ maxplayers }}
     {%- else %}
-    <dd>{{ maxplayers }}</dd>
+      {{ maxplayers }}
     {%- endif %}
+    {%- if bestplayers %}
+      (Best at {{ bestplayers }})
+    {%- endif %}
+    </dd>
 
     {%- if time %}
     <dt>⏱ Time to play:</dt>

@@ -105,4 +105,4 @@ There are additional rules for:
 
 But I don't see myself playing with those so I'm leaving them out.
 
-> **Nathan's Notes:** This is in a family of trick-taking from crazy to standard with as: Skull King, Wizard, and Oh Hell. It's also possible to play Wizard with a Skull King deck if you're looking for a tighter, less swingy, but still mildly chaotic game.
+> **Nathan's Notes:** This is in a family of trick-taking from crazy to standard with as: Skull King, [Wizard]({{ '/games/wizard' | url}}), and Oh Hell. It's also possible to play [Wizard]({{ '/games/wizard' | url }}) with a Skull King deck if you're looking for a tighter, less swingy, but still mildly chaotic game.
