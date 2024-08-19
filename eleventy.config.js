@@ -7,6 +7,7 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItDeflist = require("markdown-it-deflist");
 const markdownItMark = require("markdown-it-mark");
+var QRCode = require("qrcode");
 
 module.exports = function (eleventyConfig) {
   // Copy the `img` and `css` folders to the output
@@ -18,18 +19,30 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginNavigation);
 
   // Filters
+  eleventyConfig.addFilter("qrCode", function (post) {
+    const url = "https://nathan-long.com/rules" + post.url;
+    const qrCode = QRCode.toString(
+      url,
+      {
+        type: "svg",
+      },
+      function (err) {
+        if (err) throw err;
+      },
+    );
+    return qrCode;
+  });
+
   eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
     // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
     return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(
-      format || "dd LLLL yyyy"
+      format || "dd LLLL yyyy",
     );
   });
 
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
     // dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-      "yyyy-LL-dd"
-    );
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });
 
   // Get the first `n` elements of a collection.
@@ -60,13 +73,15 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
     return (tags || []).filter(
-      (tag) => ["all", "nav", "post", "posts"].indexOf(tag) === -1
+      (tag) => ["all", "nav", "post", "posts"].indexOf(tag) === -1,
     );
   });
 
   eleventyConfig.addFilter("unique", function uniqueFromArray(tags) {
-    return (tags || []).filter((value, index, array) => array.indexOf(value) === index);
-  })
+    return (tags || []).filter(
+      (value, index, array) => array.indexOf(value) === index,
+    );
+  });
 
   // Customize Markdown library and settings:
   eleventyConfig.amendLibrary("md", (mdLib) => {

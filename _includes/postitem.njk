@@ -4,7 +4,7 @@
 {% set tagLower = tagList | trim | lower %}
 
 
-<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}" 
+<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}"
   data-tags="{{ tagLower }}"
   data-min="{{ post.data.minplayers }}"
   data-max="{{ post.data.maxplayers }}"

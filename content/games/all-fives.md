@@ -156,16 +156,6 @@ Some play that at the end of a hand each player or team subtracts the total pip 
 
 ## Alternates
 
-Muggins
-: Same, but no spinners, so only ever two branches
-
-Sniff
-: Same, but the first double is the 'Sniff', which is played inline, but can only have one tile added to each side.
-
-Five Up
-: All doubles are spinners.
-
-Seven-Toed Pete and Horse Race
-: Allow chaining of tiles in a turn,
+There's a variant called **Muggins** which plays the exact same, but there's no spinners. Because there's only ever two branches the combinations are simplified.
 
 > **Nathan's Notes:** This is probably my favorite domino game, relatively chill, and fantastic with little ones to work on basic addition (without them knowing it). When playing with little ones I recommend the 'Muggins' variant to keep it from being overwhelming at first, then adding the single spinner as they get older to increase complexity.

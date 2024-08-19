@@ -7,7 +7,7 @@ templateClass: tmpl-post
   <section>
     <h1 class="heading-50">{{ title }}</h1>
 
-    <div class="space-x">
+    <div class="space-x mbs-1/2">
       {%- for tag in tags | filterTagList -%}
       {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
       <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
@@ -43,6 +43,11 @@ templateClass: tmpl-post
     <dd>{{ designer }}</dd>
     {%- endif %}
   </dl>
+
+  <details>
+    <summary>QR Code</summary>
+    {{ page | qrCode | safe }}
+  </details>
 
 {{ content | safe }}
 
