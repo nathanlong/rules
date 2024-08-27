@@ -1,7 +1,7 @@
-{% set test %}
+{% set tags %}
 {% for post in postslist %}{{ post.data.tags }},{% endfor %}
 {% endset %}
-{% set tagLower = test | trim | lower %}
+{% set tagLower = tags | trim | lower %}
 {% set tagSplit = tagLower.split(',') | unique %}
 
 <div class="filter__control" >
@@ -18,6 +18,17 @@
             {% endif %}
           {% endfor %}
       </select>
+      {% if showPlayerFilter %}
+        <select id="filter-select-players" name="filter-players" class="select-overlay__input filter__select__input font-monospace" data-filter-sort-players>
+            <option value="">Player Count</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6+</option>
+        </select>
+      {% endif %}
       <!-- <div class="search-input-overlay"> -->
       <!--   <label for="filter-player" class="sr-only">Number of Players</label> -->
       <!--   <input name="filter-player" type="number" placeholder="#" data-filter-player> -->

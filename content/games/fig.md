@@ -14,7 +14,7 @@ tags:
 ---
 
 
-> `version 0.3`
+> `version 0.4`
 >
 > **Description:**
 >
@@ -62,6 +62,13 @@ There are two scenarios of play:
 
 Creating a character should be like a conversation where you’re describing someone really neat to some good friends. As you ask questions, specific 'descriptors' should emerge. These special descriptors form the core of a Character's abilities.
 
+There are X descriptors:
+
+- Speciality
+- Appearance
+- Dream
+- Possession
+
 #### Step 1: Describe their Speciality
 
 **Ask: “What’s something they’re super good at?” or "What are they known for?" or "What's their special skill?"**
@@ -92,19 +99,13 @@ Their internal drive or goal. Create your own or choose from these options:
 > - Create something amazing (Builder!)
 > - Discover or learn something, uncover a dark secret (Seeker!)
 
-#### Step 4: Describe their Prized Possession
+#### Step 4: Give them a Title
 
 Ask: “What’s something super important they have or carry around?”
 
 Every character starts with a signature magic item: An object, artifact, or heirloom. Be weird, be creative. It could even be a magic pet or companion. Items are best described as an ADJECTIVE-NOUN pair. "Ancient Sword" is more interesting than "Sword".
 
 > Moon Diamond, Sentient Avocado, Warped Stopwatch.
-
-#### Step 5: Give them a Name and a Title
-
-Ask: “What’s their name?” or "What do people call them?"
-
-Now that we’ve got the Descriptors defined, we need a suitable name to top it off. If applicable, a title may help solidify the character or capture additional details about a Character. A title gives no mechanical benefit like a Descriptor, but is useful in keeping the character's goal in focus. Have fun with it!
 
 #### Step 6: Draw (or Describe) your character
 

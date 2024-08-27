@@ -1,6 +1,6 @@
 ---
-title: Zhēng Shàngyóu (River Rumble)
-description: Players race to shed their cards first in increasing combos.
+title: Zhēng Shàngyóu (Struggling Upstream)
+description: Players race to shed their cards first in combos.
 minplayers: 2
 maxplayers: 4
 bestplayers: 3
@@ -19,15 +19,15 @@ tags:
 
 |Combo (ASC)|Example|
 |:--|:--:|
-|**Single** |8♠︎|
-|**Pair**|9♣︎ 9♥︎ |
-|**Trip**|4♠︎ 4♦︎ 4♥︎|
-|**Full House**|6♣︎ 6♠︎ K♦︎ K♣︎ K♠︎|
-|**Straight** (no 2s or JKs)|4♦︎ 5♠︎ 6♦︎ 7♣︎ 8♥︎ |
-|**Stair**|J♠︎ J♣︎ Q♦︎ Q♠︎|
-|**Plate**|7♦︎ 7♠︎ 7♥︎ 8♣︎ 8♠︎ 8♦︎|
-|**Bomb**|3♠︎ 3♣︎ 3♦︎ 3♥︎|
-|**Rocket**|JK🟥 JK⬛|
+|**Single** |8|
+|**Pair**|99|
+|**Trip**|444|
+|**Full House**|66KKK|
+|**Straight** (no 2s or JKs)|45678|
+|**Stair**|JJQQ|
+|**Plate**|777888|
+|**Bomb**|3333|
+|**Rocket**|Both Jokers|
 
 </div>
 
@@ -42,7 +42,7 @@ Player with 3♠︎ starts. Bombs/Rockets can be played at any time. Natural com
 
 </details>
 
-> This is a variant of **Zhēng Shàngyóu / 争上游** (which roughly translates to **Struggling Upstream**, or if you're a fan of alliteration: **River Rumble**) [as catalogued by John Owen on BGG](https://boardgamegeek.com/thread/3173891/how-i-play-zheng-shangyou).
+> This is a variant of **Zhēng Shàngyóu / 争上游** (which roughly translates to **Struggling Upstream**).
 
 ## Setup
 
@@ -80,9 +80,9 @@ A combo can only be beaten by a higher version of itself (or a bomb). Natural co
 
 - **Single:** One card played by itself.
 - **Pair:** Two cards of the same rank.
-- **Trip:** Three cards of the same rank.
+- **Triple:** Three cards of the same rank.
 - **Full House:** Three card of the same rank plus two cards of the same rank. Ranked by triple.
-- **Straight:** Five or more cards of consecutive rank. No 2s or Jokers allowed.
+- **Straight:** Three or more cards of consecutive rank. No 2s or Jokers allowed.
 - **Stair:** Two or more pairs of consecutive rank.
 - **Plate:** Two or more triples of consecutive rank.
 
@@ -104,3 +104,7 @@ Score isn't always kept, but if desired:
 First to make 6 points wins. If there's a tie, play another hand to break the tie.
 
 Last place shuffles for the next game.
+
+> **Changes**
+>
+> - The original variant only allowed straights of 5 or more cards.

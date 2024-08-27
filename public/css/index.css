@@ -284,6 +284,30 @@ a[href].header-anchor:focus:visited,
   box-shadow: 0.0625em 0.0625em 0 0 var(--blue-75);
 }
 
+.chip-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 0;
+}
+
+@media all and (min-width: 768px) {
+  .chip-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.chip {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.chip-link {
+  text-decoration: none;
+}
+
 .mark {
   background: var(--blue-35);
   font-family: var(--monospace);
@@ -316,6 +340,13 @@ a[href].header-anchor:focus:visited,
 
 .dropcap:after {
   margin-bottom: -0.15em;
+}
+
+.after-inset-0:after {
+  content: "";
+  display: block;
+  position: absolute;
+  inset: 0;
 }
 
 .block {

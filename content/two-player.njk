@@ -1,12 +1,17 @@
 ---
 layout: layouts/home.njk
 permalink: /two-player/
+addFilter: true
 ---
 
 <h2 class="m-0">Two-Player Games</h2>
 
 {% set postslist = collections.posts | sort(attribute="data.title") %}
-<ul class="postlist flow">
+{% include "filter.njk" %}
+
+<hr>
+
+<ul class="postlist flow" data-filter-entry-section>
   {% for post in postslist %}
   {% if post.data.minplayers > 1 and post.data.minplayers < 3 %}
   {% include "postitem.njk" %}

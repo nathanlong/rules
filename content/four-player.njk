@@ -1,12 +1,17 @@
 ---
 layout: layouts/home.njk
 permalink: /four-player/
+addFilter: true
 ---
 
 <h2 class="m-0">Four-Player Games</h2>
 
-{% set postslist = collections.posts %}
-<ul class="postlist flow">
+{% set postslist = collections.posts | sort(attribute="data.title") %}
+{% include "filter.njk" %}
+
+<hr>
+
+<ul class="postlist flow" data-filter-entry-section>
   {% for post in postslist %}
   {% if post.data.maxplayers >= 4 %}
   {% include "postitem.njk" %}
