@@ -36,12 +36,90 @@
     </header>
 
     <main class="mbx-5vh">
-      <div class="container flow" >
+      <div class="container flow"  data-module="filter">
 
 <h2 class="m-0">Three-Player Games</h2>
 
 
-<ul class="postlist flow">
+
+
+
+
+<div class="filter__control" >
+    <div class="filter__control__group">
+      <div class="search-input-overlay">
+        <label for="filter-search" class="sr-only">Search by title</label>
+        <input name="filter-search" class="filter__input font-monospace" type="text" placeholder="Search by Title" data-filter-search>
+      </div>
+      <select id="filter-select-tag" name="filter-select" class="select-overlay__input filter__select__input font-monospace" data-filter-sort-tag>
+          <option value="">Search by Tag</option>
+          
+            
+          
+            
+              <option value="standard-cards">Standard Cards</option>
+            
+          
+            
+              <option value="dominoes">Dominoes</option>
+            
+          
+            
+              <option value="fishing-card-game">Fishing Card Game</option>
+            
+          
+            
+              <option value="party">Party</option>
+            
+          
+            
+              <option value="specialty-components">Specialty Components</option>
+            
+          
+            
+              <option value="low/no-component">Low/no Component</option>
+            
+          
+            
+              <option value="story">Story</option>
+            
+          
+            
+              <option value="dice">Dice</option>
+            
+          
+            
+              <option value="kid-friendly">Kid-friendly</option>
+            
+          
+            
+              <option value="solitaire">Solitaire</option>
+            
+          
+            
+              <option value="trick-taking">Trick-taking</option>
+            
+          
+            
+              <option value="climbing-card-game">Climbing Card Game</option>
+            
+          
+            
+          
+      </select>
+      
+      <!-- <div class="search-input-overlay"> -->
+      <!--   <label for="filter-player" class="sr-only">Number of Players</label> -->
+      <!--   <input name="filter-player" type="number" placeholder="#" data-filter-player> -->
+      <!-- </div> -->
+      <button data-filter-clear class="filter__control__clear">Clear</button>
+    </div>
+</div>
+
+
+<hr>
+
+<ul class="postlist flow" data-filter-entry-section>
   
   
   
@@ -559,7 +637,7 @@
   data-active="true"
 >
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="/rules/games/zheng-shangyou/" class="postlist-link no-decoration" data-filter-entry-text>Zhēng Shàngyóu (River Rumble)</a></h3>
+    <h3 class="m-0 p-0"><a href="/rules/games/zheng-shangyou/" class="postlist-link no-decoration" data-filter-entry-text>Zhēng Shàngyóu (Struggling Upstream)</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤 2-4(3)</span>
       <span class="flex flex-shrink-0">⏱ 30</span>

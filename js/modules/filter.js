@@ -7,10 +7,9 @@ export default class filter {
 
   setVars() {
 
-    console.log('set vars')
     this.sortSearch = this.el.querySelector("[data-filter-search]");
     this.sortTag = this.el.querySelector("[data-filter-sort-tag]");
-    this.sortPlayer = this.el.querySelector("[data-filter-player]");
+    this.sortPlayer = this.el.querySelector("[data-filter-sort-players]");
     this.clear = this.el.querySelector("[data-filter-clear]");
     this.entries = this.el.querySelectorAll("[data-filter-entry]");
     this.sections = this.el.querySelectorAll("[data-filter-entry-section]");
@@ -75,7 +74,6 @@ export default class filter {
   };
 
   filterSort(filterSearch, filterTag, filterPlayer) {
-    console.log(filterSearch, filterTag, filterPlayer);
     // build array of matches
     const matches = Array.prototype.filter.call(
       this.entries,
@@ -90,7 +88,6 @@ export default class filter {
 
         if (filterSearch !== "") {
           let searchText = entry.querySelector("[data-filter-entry-text]").innerHTML.toLowerCase()
-          console.log(searchText);
           searchMatch = entry.querySelector("[data-filter-entry-text]").innerHTML.toLowerCase().includes(filterSearch)
         }
 
@@ -104,9 +101,7 @@ export default class filter {
           playerMatch = filterPlayer >= playerLow && filterPlayer <= playerHigh;
         }
 
-        console.log(searchMatch && tagMatch);
-
-        return searchMatch && tagMatch
+        return searchMatch && tagMatch && playerMatch
       }
     );
 
