@@ -1,0 +1,703 @@
+---
+title: Skull King Scorecard
+description: A digital scorecard for Skull King.
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skull King Scorecard</title>
+    <meta
+      name="description"
+      content="Digital scorecard for the trick-taking game Skull King"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@alpinejs/persist@3.x.x/dist/cdn.min.js"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+    <style></style>
+  </head>
+  <body>
+    <div class="app" x-data="game">
+      <div x-show="$store.settings.started === false" class="start">
+        <div class="start__title">
+          <h1 class="title">Skull King</h1>
+          <p>Currently WIP, use at own risk.</p>
+        </div>
+        <div class="start__edit">
+          <h2 class="modal__label">Player Names:</h2>
+          <template x-if="$store.players.playerList.length > 0">
+            <template x-for="(player, index) in $store.players.playerList">
+              <div
+                class="start__input-group"
+                x-id="['text-input']"
+                :key="index"
+              >
+                <label
+                  class="start__label"
+                  :for="$id('text-input')"
+                  x-text="index+1"
+                ></label>
+                <input
+                  class="start__input"
+                  type="text"
+                  :id="$id('text-input')"
+                  x-model="$store.players.playerList[index].name"
+                />
+                <button
+                  class="btn start__remove"
+                  @click="$store.players.removePlayer(index)"
+                >
+                  Remove
+                </button>
+              </div>
+            </template>
+          </template>
+        </div>
+        <div class="start__controls">
+          <button
+            class="btn start__control-btn"
+            @click="$store.players.clearPlayers()"
+          >
+            Clear Data
+          </button>
+          <button
+            class="btn start__control-btn"
+            @click="$store.settings.toggleStart()"
+            x-bind:disabled="!$store.players.playerList.length > 0"
+          >
+            Start Game
+          </button>
+          <button
+            class="btn start__control-btn"
+            @click="$store.players.addPlayer()"
+          >
+            Add Player
+          </button>
+        </div>
+      </div>
+      <template x-if="roundEditor">
+        <div x-show="roundEditor" class="editor">
+          <div class="editor__title">
+            <p class="editor__title__chain-score" x-show="chainScore">
+              Scoring Round <span x-text="currentRound + 1"></span> for All
+              Players:
+            </p>
+            <section class="editor__title__inner">
+              <h2
+                class="modal__label"
+                x-text="$store.players.playerList[editPlayer].name"
+              ></h2>
+              <div class="round editor__round">
+                <div class="round__upper">
+                  <div class="round__fraction">
+                    <p
+                      class="round__bid"
+                      x-text="$store.players.playerList[editPlayer].rounds[editRound].bid"
+                    ></p>
+                    <p
+                      class="round__won"
+                      x-text="$store.players.playerList[editPlayer].rounds[editRound].won"
+                    ></p>
+                  </div>
+                  <p class="round__bid-result" >?</p>
+                  <p
+                    class="round__bonus"
+                    x-text="$store.players.playerList[editPlayer].rounds[editRound].bonus"
+                  ></p>
+                </div>
+              </div>
+              <p>Round <span x-text="editRound + 1"></span></p>
+            </section>
+          </div>
+          <div class="editor__tabs">
+            <button
+              class="btn editor__tabs-btn"
+              :class="editState === 0 ? 'active' : 'inactive'"
+              @click="editState = 0"
+            >
+              Bid
+            </button>
+            <button
+              class="btn editor__tabs-btn"
+              :class="editState === 1 ? 'active' : 'inactive'"
+              @click="editState = 1"
+            >
+              Won
+            </button>
+            <button
+              class="btn editor__tabs-btn"
+              :class="editState === 2 ? 'active' : 'inactive'"
+              @click="editState = 2"
+            >
+              Bonus
+            </button>
+          </div>
+          <div class="editor__edit-group" x-show="editState === 0">
+            <div class="editor__input-group">
+              <button class="btn editor__input-btn editor__dec" @click="$store.players.playerList[editPlayer].rounds[editRound].bid--">-</button>
+              <input
+                class="editor__input"
+                type="number"
+                x-model="$store.players.playerList[editPlayer].rounds[editRound].bid"
+              />
+              <button class="btn editor__input-btn editor__inc" @click="$store.players.playerList[editPlayer].rounds[editRound].bid++">-</button>
+            </div>
+            <div class="editor__btn-group">
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('bid', 0); editState++"
+              >
+                0
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('bid', 1); editState++"
+              >
+                1
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('bid', 2); editState++"
+              >
+                2
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('bid', 3); editState++"
+              >
+                3
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('bid', 4); editState++"
+              >
+                4
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('bid', 6); editState++"
+              >
+                6
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('bid', 7); editState++"
+              >
+                7
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('bid', 8); editState++"
+              >
+                8
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('bid', 9); editState++"
+              >
+                9
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('bid', 10); editState++"
+              >
+                10
+              </button>
+            </div>
+          </div>
+          <div class="editor__edit-group" x-show="editState === 1">
+            <div class="editor__input-group">
+              <button class="btn editor__input-btn editor__dec" @click="$store.players.playerList[editPlayer].rounds[editRound].won--">-</button>
+              <input
+                class="editor__input"
+                type="number"
+                x-model="$store.players.playerList[editPlayer].rounds[editRound].won"
+              />
+              <button class="btn editor__input-btn editor__dec" @click="$store.players.playerList[editPlayer].rounds[editRound].won++">-</button>
+            </div>
+            <div class="editor__btn-group">
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('won', 0); editState++"
+              >
+                0
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('won', 1); editState++"
+              >
+                1
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('won', 2); editState++"
+              >
+                2
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('won', 3); editState++"
+              >
+                3
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('won', 4); editState++"
+              >
+                4
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('won', 6); editState++"
+              >
+                6
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('won', 7); editState++"
+              >
+                7
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('won', 8); editState++"
+              >
+                8
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('won', 9); editState++"
+              >
+                9
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('won', 10); editState++"
+              >
+                10
+              </button>
+            </div>
+          </div>
+          <div class="editor__edit-group" x-show="editState === 2">
+            <div class="editor__input-group">
+              <button class="btn editor__input-btn editor__dec" @click="$store.players.playerList[editPlayer].rounds[editRound].bonus-=10">-</button>
+              <input
+                class="editor__input"
+                type="number"
+                x-model="$store.players.playerList[editPlayer].rounds[editRound].bonus"
+              />
+              <button class="btn editor__input-btn editor__dec" @click="$store.players.playerList[editPlayer].rounds[editRound].bonus+=10">+</button>
+            </div>
+            <div class="editor__btn-group">
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('bonus', 0)"
+              >
+                0
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('bonus', 10)"
+              >
+                10
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('bonus', 20)"
+              >
+                20
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('bonus', 30)"
+              >
+                30
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('bonus', 40)"
+              >
+                40
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('bonus', 50)"
+              >
+                50
+              </button>
+              <button
+                class="btn editor__edit-btn"
+                @click="setValue('bonus', 60)"
+              >
+                60
+              </button>
+            </div>
+          </div>
+          <div class="editor__controls">
+            <button class="btn editor__controls-btn" @click="clearValues()">
+              Clear All
+            </button>
+            <button class="btn editor__controls-btn" @click="resetEdit()">
+              Cancel
+            </button>
+            <button
+              class="btn editor__controls-btn"
+              @click="nextRoundScore()"
+              x-text="chainScore ? 'Next Player' : 'Finish'"
+            >
+              Finish
+            </button>
+          </div>
+        </div>
+      </template>
+      <div
+        class="scorecard"
+        :class="!$store.settings.started || roundEditor ? 'disabled' : ''"
+      >
+        <template x-for="(player, playerIndex) in $store.players.playerList">
+          <div class="player">
+            <div class="player__nameplate">
+              <p class="player__name" x-text="player.name"></p>
+            </div>
+            <template x-for="(round, index) in player.rounds">
+              <div
+                class="round"
+                @click="roundScores(index, playerIndex)"
+                :class="index === currentRound ? 'active' : 'inactive'"
+              >
+                <div class="round__upper">
+                  <div class="round__fraction">
+                    <p class="round__bid" x-text="round.bid"></p>
+                    <p class="round__won" x-text="round.won"></p>
+                  </div>
+                  <p
+                    class="round__bid-result"
+                    x-text="round.bidResult"
+                    style="color: green"
+                  ></p>
+                  <p class="round__bonus" x-text="round.bonus"></p>
+                </div>
+                <div class="round__lower">
+                  <p class="round__score" x-text="round.score"></p>
+                  <p class="round__inc-score" x-text="round.incScore"></p>
+                </div>
+              </div>
+            </template>
+            <div class="player__score">
+              <p x-text="player.totalScore"></p>
+            </div>
+          </div>
+        </template>
+      </div>
+      <div class="controls">
+        <div class="controls__left">
+          <button
+            class="btn controls__btn controls__btn-edit"
+            @click="$store.settings.toggleStart()"
+          >
+            Edit
+          </button>
+        </div>
+        <div class="controls__middle">
+          <button
+            class="btn controls__btn controls__btn-prev"
+            @click="currentRound = currentRound - 1"
+          >
+            -
+          </button>
+          <p class="controls__round">
+            Round: <span x-text="currentRound + 1"></span>
+          </p>
+          <button
+            class="btn controls__btn controls__btn-next"
+            @click="currentRound = currentRound + 1"
+          >
+            +
+          </button>
+        </div>
+        <div class="controls__right">
+          <button
+            class="btn controls__btn controls__btn-record"
+            @click="scoreCurrentRound()"
+          >
+            Record
+          </button>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("alpine:init", () => {
+        Alpine.data("game", () => ({
+          currentRound: 0,
+          roundEditor: false,
+          editPlayer: 0,
+          editRound: 0,
+          editBid: 0,
+          editWon: 0,
+          editBonus: 0,
+          editState: 0,
+          chainScore: false,
+
+          bidResult(bid, won, round) {
+            if (bid === 0 && won === 0) {
+              return 10 * (round + 1);
+            }
+
+            return bid === won ? won * 20 : Math.abs(bid - won) * -10;
+          },
+
+          roundScores(roundIndex, playerIndex) {
+            this.editRound = roundIndex;
+            this.editPlayer = playerIndex;
+            this.roundEditor = true;
+          },
+
+          resetEdit() {
+            this.roundEditor = false;
+            this.chainScore = false;
+            this.editPlayer = 0;
+            this.editRound = 0;
+            this.editState = 0;
+          },
+
+          setValue(type, value) {
+            const numberValue = parseInt(value);
+            if (type === "bid") {
+              Alpine.store("players").playerList[this.editPlayer].rounds[
+                this.editRound
+              ].bid = numberValue;
+            }
+
+            if (type === "won") {
+              Alpine.store("players").playerList[this.editPlayer].rounds[
+                this.editRound
+              ].won = numberValue;
+            }
+
+            if (type === "bonus") {
+              Alpine.store("players").playerList[this.editPlayer].rounds[
+                this.editRound
+              ].bonus = numberValue;
+            }
+          },
+
+          clearValues() {
+            console.log("clear", this.editPlayer, this.editRound);
+            Alpine.store("players").playerList[this.editPlayer].rounds[
+              this.editRound
+            ].bid = 0;
+
+            Alpine.store("players").playerList[this.editPlayer].rounds[
+              this.editRound
+            ].won = 0;
+
+            Alpine.store("players").playerList[this.editPlayer].rounds[
+              this.editRound
+            ].bonus = 0;
+
+            Alpine.store("players").playerList[this.editPlayer].rounds[
+              this.editRound
+            ].bidResult = 0;
+
+            Alpine.store("players").playerList[this.editPlayer].rounds[
+              this.editRound
+            ].score = 0;
+
+            Alpine.store("players").playerList[this.editPlayer].rounds[
+              this.editRound
+            ].incScore = 0;
+
+            this.calculateScore();
+          },
+
+          nextRoundScore() {
+            const totalPlayers = Alpine.store("players").playerList.length;
+            const nextPlayer =
+              this.editPlayer < totalPlayers - 1 ? this.editPlayer + 1 : null;
+            // console.log(totalPlayers, nextPlayer)
+
+            if (this.chainScore && nextPlayer !== null) {
+              console.log("condition 1");
+              this.calculateRound(this.editRound, this.editPlayer);
+              this.calculateIncScore(this.editRound, this.editPlayer);
+              this.editState = 0;
+              this.roundScores(this.editRound, nextPlayer);
+            } else {
+              console.log("condition else");
+              this.calculateRound(this.editRound, this.editPlayer);
+              this.calculateIncScore(this.editRound, this.editPlayer);
+              this.calculateScore();
+              this.resetEdit();
+            }
+          },
+
+          calculateRound(roundIndex, playerIndex) {
+            const round =
+              Alpine.store("players").playerList[playerIndex].rounds[
+                roundIndex
+              ];
+            const bidResult = this.bidResult(round.bid, round.won, roundIndex);
+            Alpine.store("players").playerList[playerIndex].rounds[
+              roundIndex
+            ].bidResult = bidResult;
+            Alpine.store("players").playerList[playerIndex].rounds[
+              roundIndex
+            ].score = bidResult + parseInt(round.bonus);
+          },
+
+          calculateAllRounds(roundIndex) {
+            Alpine.store("players").playerList.forEach(
+              (player, playerIndex) => {
+                this.calculateRound(roundIndex, playerIndex);
+              },
+            );
+          },
+
+          calculateIncScore(roundIndex, playerIndex) {
+            let rounds = Alpine.store("players").playerList[playerIndex].rounds;
+            let sum = 0;
+            for (let i = 0; i < roundIndex + 1; i++) {
+              sum += parseInt(rounds[i].score);
+            }
+            Alpine.store("players").playerList[playerIndex].rounds[
+              roundIndex
+            ].incScore = sum;
+          },
+
+          calculateScore() {
+            Alpine.store("players").playerList.forEach((player, index) => {
+              let sum = 0;
+              for (let i = 0; i < player.rounds.length; i++) {
+                sum += parseInt(player.rounds[i].score);
+              }
+              Alpine.store("players").playerList[index].totalScore = sum;
+            });
+          },
+
+          scoreCurrentRound() {
+            this.chainScore = true;
+            this.roundScores(this.currentRound, 0);
+          },
+        }));
+
+        Alpine.store("players", {
+          playerList: Alpine.$persist([]).as("playerList"),
+          addPlayer() {
+            this.playerList.push({
+              name: "",
+              rounds: [
+                {
+                  bid: 0,
+                  won: 0,
+                  bonus: 0,
+                  bidResult: 0,
+                  score: 0,
+                  incScore: 0,
+                },
+                {
+                  bid: 0,
+                  won: 0,
+                  bonus: 0,
+                  bidResult: 0,
+                  score: 0,
+                  incScore: 0,
+                },
+                {
+                  bid: 0,
+                  won: 0,
+                  bonus: 0,
+                  bidResult: 0,
+                  score: 0,
+                  incScore: 0,
+                },
+                {
+                  bid: 0,
+                  won: 0,
+                  bonus: 0,
+                  bidResult: 0,
+                  score: 0,
+                  incScore: 0,
+                },
+                {
+                  bid: 0,
+                  won: 0,
+                  bonus: 0,
+                  bidResult: 0,
+                  score: 0,
+                  incScore: 0,
+                },
+                {
+                  bid: 0,
+                  won: 0,
+                  bonus: 0,
+                  bidResult: 0,
+                  score: 0,
+                  incScore: 0,
+                },
+                {
+                  bid: 0,
+                  won: 0,
+                  bonus: 0,
+                  bidResult: 0,
+                  score: 0,
+                  incScore: 0,
+                },
+                {
+                  bid: 0,
+                  won: 0,
+                  bonus: 0,
+                  bidResult: 0,
+                  score: 0,
+                  incScore: 0,
+                },
+                {
+                  bid: 0,
+                  won: 0,
+                  bonus: 0,
+                  bidResult: 0,
+                  score: 0,
+                  incScore: 0,
+                },
+                {
+                  bid: 0,
+                  won: 0,
+                  bonus: 0,
+                  bidResult: 0,
+                  score: 0,
+                  incScore: 0,
+                },
+              ],
+              totalScore: 0,
+            });
+          },
+          removePlayer(index) {
+            this.playerList.splice(index, 1);
+          },
+          clearPlayers() {
+            this.playerList = [];
+          },
+        });
+
+        Alpine.store("settings", {
+          darkMode: Alpine.$persist(false).as("darkMode"),
+          started: Alpine.$persist(false).as("started"),
+
+          toggleStart() {
+            this.started = !this.started;
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
