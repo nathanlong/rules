@@ -30,9 +30,34 @@ description: A digital scorecard for Skull King.
   <body>
     <div class="app" x-data="game">
       <div x-show="$store.settings.started === false" class="start">
+        <button class="btn start__fullscreen" @click="toggleFullscreen()">
+          <svg
+            x-show="!fullscreen"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="currentColor"
+          >
+            <path
+              d="M120-120v-200h80v120h120v80H120Zm520 0v-80h120v-120h80v200H640ZM120-640v-200h200v80H200v120h-80Zm640 0v-120H640v-80h200v200h-80Z"
+            />
+          </svg>
+          <svg
+            x-show="fullscreen"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="currentColor"
+          >
+            <path
+              d="M240-120v-120H120v-80h200v200h-80Zm400 0v-200h200v80H720v120h-80ZM120-640v-80h120v-120h80v200H120Zm520 0v-200h80v120h120v80H640Z"
+            />
+          </svg>
+        </button>
         <div class="start__title">
           <h1 class="title">Skull King</h1>
-          <p>Currently WIP, use at own risk.</p>
         </div>
         <div class="start__edit">
           <h2 class="modal__label">Player Names:</h2>
@@ -89,35 +114,49 @@ description: A digital scorecard for Skull King.
       <template x-if="roundEditor">
         <div x-show="roundEditor" class="editor">
           <div class="editor__title">
-            <p class="editor__title__chain-score" x-show="chainScore">
-              Scoring Round <span x-text="currentRound + 1"></span> for All
-              Players:
-            </p>
+            <div class="editor__eyebrow" x-show="chainScore">
+              <p class="editor__title__chain-score">
+                Scoring Round <span x-text="currentRound + 1"></span>
+              </p>
+              <p class="editor__title__player-index">
+                <span x-text="editPlayer+1"></span>/<span
+                  x-text="$store.players.playerList.length"
+                ></span>
+              </p>
+            </div>
             <section class="editor__title__inner">
               <h2
-                class="modal__label"
-                x-text="$store.players.playerList[editPlayer].name"
+                class="modal__label editor__title__name"
+                x-text="$store.players.playerList[editPlayer].name ? $store.players.playerList[editPlayer].name : editPlayer + 1"
               ></h2>
               <div class="round editor__round">
                 <div class="round__upper">
-                  <div class="round__fraction">
+                  <div class="round__indicator">
+                    R<span x-text="editRound + 1"></span>
+                  </div>
+                  <div
+                    class="round__fraction editor__round__cell"
+                    :class="{ 'active': editState === 0 || editState === 1 }"
+                  >
                     <p
-                      class="round__bid"
+                      class="round__bid editor__round__fraction-text"
+                      :class="{ 'active': editState === 0 }"
                       x-text="$store.players.playerList[editPlayer].rounds[editRound].bid"
                     ></p>
                     <p
-                      class="round__won"
+                      class="round__won editor__round__fraction-text"
+                      :class="{ 'active': editState === 1 }"
                       x-text="$store.players.playerList[editPlayer].rounds[editRound].won"
                     ></p>
                   </div>
-                  <p class="round__bid-result" >?</p>
+                  <p class="round__bid-result editor__round__cell">?</p>
                   <p
-                    class="round__bonus"
+                    class="round__bonus editor__round__cell"
+                    :class="{ 'active': editState === 2 }"
                     x-text="$store.players.playerList[editPlayer].rounds[editRound].bonus"
                   ></p>
                 </div>
               </div>
-              <p>Round <span x-text="editRound + 1"></span></p>
             </section>
           </div>
           <div class="editor__tabs">
@@ -145,13 +184,23 @@ description: A digital scorecard for Skull King.
           </div>
           <div class="editor__edit-group" x-show="editState === 0">
             <div class="editor__input-group">
-              <button class="btn editor__input-btn editor__dec" @click="$store.players.playerList[editPlayer].rounds[editRound].bid--">-</button>
+              <button
+                class="btn editor__input-btn editor__dec"
+                @click="$store.players.playerList[editPlayer].rounds[editRound].bid--"
+              >
+                -
+              </button>
               <input
                 class="editor__input"
                 type="number"
                 x-model="$store.players.playerList[editPlayer].rounds[editRound].bid"
               />
-              <button class="btn editor__input-btn editor__inc" @click="$store.players.playerList[editPlayer].rounds[editRound].bid++">-</button>
+              <button
+                class="btn editor__input-btn editor__inc"
+                @click="$store.players.playerList[editPlayer].rounds[editRound].bid++"
+              >
+                +
+              </button>
             </div>
             <div class="editor__btn-group">
               <button
@@ -214,17 +263,33 @@ description: A digital scorecard for Skull King.
               >
                 10
               </button>
+              <button class="btn editor__edit-btn" @click="editState=2">
+                <
+              </button>
+              <button class="btn editor__edit-btn" @click="editState=1">
+                >
+              </button>
             </div>
           </div>
           <div class="editor__edit-group" x-show="editState === 1">
             <div class="editor__input-group">
-              <button class="btn editor__input-btn editor__dec" @click="$store.players.playerList[editPlayer].rounds[editRound].won--">-</button>
+              <button
+                class="btn editor__input-btn editor__dec"
+                @click="$store.players.playerList[editPlayer].rounds[editRound].won--"
+              >
+                -
+              </button>
               <input
                 class="editor__input"
                 type="number"
                 x-model="$store.players.playerList[editPlayer].rounds[editRound].won"
               />
-              <button class="btn editor__input-btn editor__dec" @click="$store.players.playerList[editPlayer].rounds[editRound].won++">-</button>
+              <button
+                class="btn editor__input-btn editor__dec"
+                @click="$store.players.playerList[editPlayer].rounds[editRound].won++"
+              >
+                +
+              </button>
             </div>
             <div class="editor__btn-group">
               <button
@@ -287,66 +352,95 @@ description: A digital scorecard for Skull King.
               >
                 10
               </button>
+              <button class="btn editor__edit-btn" @click="editState=0">
+                <
+              </button>
+              <button class="btn editor__edit-btn" @click="editState=2">
+                >
+              </button>
             </div>
           </div>
           <div class="editor__edit-group" x-show="editState === 2">
             <div class="editor__input-group">
-              <button class="btn editor__input-btn editor__dec" @click="$store.players.playerList[editPlayer].rounds[editRound].bonus-=10">-</button>
+              <button
+                class="btn editor__input-btn editor__dec"
+                @click="$store.players.playerList[editPlayer].rounds[editRound].bonus-=10"
+              >
+                -
+              </button>
               <input
                 class="editor__input"
                 type="number"
                 x-model="$store.players.playerList[editPlayer].rounds[editRound].bonus"
               />
-              <button class="btn editor__input-btn editor__dec" @click="$store.players.playerList[editPlayer].rounds[editRound].bonus+=10">+</button>
+              <button
+                class="btn editor__input-btn editor__dec"
+                @click="$store.players.playerList[editPlayer].rounds[editRound].bonus+=10"
+              >
+                +
+              </button>
             </div>
             <div class="editor__btn-group">
               <button
                 class="btn editor__edit-btn"
-                @click="setValue('bonus', 0)"
+                @click="setValue('bonus', 0); nextRoundScore()"
               >
                 0
               </button>
               <button
                 class="btn editor__edit-btn"
-                @click="setValue('bonus', 10)"
+                @click="setValue('bonus', 10); nextRoundScore()"
               >
                 10
               </button>
               <button
                 class="btn editor__edit-btn"
-                @click="setValue('bonus', 20)"
+                @click="setValue('bonus', 20); nextRoundScore()"
               >
                 20
               </button>
               <button
                 class="btn editor__edit-btn"
-                @click="setValue('bonus', 30)"
+                @click="setValue('bonus', 30); nextRoundScore()"
               >
                 30
               </button>
               <button
                 class="btn editor__edit-btn"
-                @click="setValue('bonus', 40)"
+                @click="setValue('bonus', 40); nextRoundScore()"
               >
                 40
               </button>
               <button
                 class="btn editor__edit-btn"
-                @click="setValue('bonus', 50)"
+                @click="setValue('bonus', 50); nextRoundScore()"
               >
                 50
               </button>
               <button
                 class="btn editor__edit-btn"
-                @click="setValue('bonus', 60)"
+                @click="setValue('bonus', 60); nextRoundScore()"
               >
                 60
+              </button>
+              <button class="btn editor__edit-btn" @click="editState=1">
+                <
+              </button>
+              <button class="btn editor__edit-btn" @click="editState=0">
+                >
               </button>
             </div>
           </div>
           <div class="editor__controls">
+            <button
+              class="btn editor__controls-btn"
+              @click="editPlayer > 0 ? roundScores(editRound, editPlayer-1) : null"
+              x-show="chainScore"
+            >
+              Prev
+            </button>
             <button class="btn editor__controls-btn" @click="clearValues()">
-              Clear All
+              Clear
             </button>
             <button class="btn editor__controls-btn" @click="resetEdit()">
               Cancel
@@ -354,7 +448,7 @@ description: A digital scorecard for Skull King.
             <button
               class="btn editor__controls-btn"
               @click="nextRoundScore()"
-              x-text="chainScore ? 'Next Player' : 'Finish'"
+              x-text="chainScore ? 'Next' : 'Finish'"
             >
               Finish
             </button>
@@ -363,18 +457,22 @@ description: A digital scorecard for Skull King.
       </template>
       <div
         class="scorecard"
-        :class="!$store.settings.started || roundEditor ? 'disabled' : ''"
+        :class="{ 'disabled' : !$store.settings.started || roundEditor}"
       >
         <template x-for="(player, playerIndex) in $store.players.playerList">
           <div class="player">
             <div class="player__nameplate">
-              <p class="player__name" x-text="player.name"></p>
+              <p
+                class="player__name"
+                :class="{ 'leader': player.totalScore === currentHighScore && currentHighScore !== 0}"
+                x-text="player.name ? player.name : playerIndex + 1"
+              ></p>
             </div>
             <template x-for="(round, index) in player.rounds">
               <div
                 class="round"
                 @click="roundScores(index, playerIndex)"
-                :class="index === currentRound ? 'active' : 'inactive'"
+                :class="{'active': index === currentRound, 'leader': player.totalScore === currentHighScore && currentHighScore !== 0}"
               >
                 <div class="round__upper">
                   <div class="round__fraction">
@@ -439,6 +537,8 @@ description: A digital scorecard for Skull King.
     <script>
       document.addEventListener("alpine:init", () => {
         Alpine.data("game", () => ({
+          fullscreen: false,
+          currentHighScore: 0,
           currentRound: 0,
           roundEditor: false,
           editPlayer: 0,
@@ -448,6 +548,16 @@ description: A digital scorecard for Skull King.
           editBonus: 0,
           editState: 0,
           chainScore: false,
+
+          toggleFullscreen() {
+            if (!this.fullscreen) {
+              document.documentElement.requestFullscreen();
+              this.fullscreen = true;
+            } else {
+              document.exitFullscreen();
+              this.fullscreen = false;
+            }
+          },
 
           bidResult(bid, won, round) {
             if (bid === 0 && won === 0) {
@@ -493,7 +603,6 @@ description: A digital scorecard for Skull King.
           },
 
           clearValues() {
-            console.log("clear", this.editPlayer, this.editRound);
             Alpine.store("players").playerList[this.editPlayer].rounds[
               this.editRound
             ].bid = 0;
@@ -521,20 +630,17 @@ description: A digital scorecard for Skull King.
             this.calculateScore();
           },
 
-          nextRoundScore() {
+          nextRoundScore(index) {
             const totalPlayers = Alpine.store("players").playerList.length;
-            const nextPlayer =
-              this.editPlayer < totalPlayers - 1 ? this.editPlayer + 1 : null;
-            // console.log(totalPlayers, nextPlayer)
+            const nextPlayer =  this.editPlayer < totalPlayers - 1
+                ? this.editPlayer + 1 : null;
 
             if (this.chainScore && nextPlayer !== null) {
-              console.log("condition 1");
               this.calculateRound(this.editRound, this.editPlayer);
               this.calculateIncScore(this.editRound, this.editPlayer);
               this.editState = 0;
               this.roundScores(this.editRound, nextPlayer);
             } else {
-              console.log("condition else");
               this.calculateRound(this.editRound, this.editPlayer);
               this.calculateIncScore(this.editRound, this.editPlayer);
               this.calculateScore();
@@ -576,13 +682,16 @@ description: A digital scorecard for Skull King.
           },
 
           calculateScore() {
+            let highestScore = 0;
             Alpine.store("players").playerList.forEach((player, index) => {
               let sum = 0;
               for (let i = 0; i < player.rounds.length; i++) {
                 sum += parseInt(player.rounds[i].score);
               }
+              highestScore < sum ? (highestScore = sum) : null;
               Alpine.store("players").playerList[index].totalScore = sum;
             });
+            this.currentHighScore = highestScore;
           },
 
           scoreCurrentRound() {
