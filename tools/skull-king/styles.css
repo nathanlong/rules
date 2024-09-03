@@ -17,12 +17,13 @@
     sans-serif;
   --accent: "Pirata One", system-ui;
   --offset: #f0f0f0;
-  --shadow: 0 0.25rem 1rem rgba(0,0,0,0.1);
+  --shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
   --bg: #ffffff;
   --btn-bg: #f0f0f0;
   --btn-text: #222;
   --btn-bg-active: #ddddff;
   --btn-border-active: #aaaacc;
+  --btn-shadow-active: 0 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 5px 10px 0 rgba(0, 0, 0, 0.2);
   --btn-border: #e2e2e2;
   --btn-bg-offset: #ddd;
   --btn-border-offset: #ccc;
@@ -37,6 +38,7 @@ html,
 body {
   font-size: 16px;
   /* font-size: clamp(0.875rem, 0.625vw + 0.75rem, 1.375rem); */
+  line-height: 1.25;
 }
 
 body {
@@ -73,6 +75,11 @@ input {
   background-color: var(--theme-btn-bg, var(--btn-bg));
   border: 1px solid var(--theme-btn-border, var(--btn-border));
   color: var(--theme-btn-text, var(--btn-text));
+  border-radius: 0;
+}
+
+.btn:active {
+  box-shadow: var(--theme-btn-shadow-active, var(--btn-shadow-active));
 }
 
 .btn[disabled] {
@@ -99,6 +106,13 @@ input {
   box-shadow: var(--theme-shadow, var(--shadow));
 }
 
+.start__fullscreen {
+  position: absolute;
+  right: 0em;
+  top: 0em;
+  padding: 0.5em;
+}
+
 .start__title {
   text-align: center;
 }
@@ -109,6 +123,8 @@ input {
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+  overflow-y: auto;
+  padding-block-end: 1rem;
 }
 
 .start__input-group {
@@ -154,6 +170,14 @@ input {
   box-shadow: var(--theme-shadow, var(--shadow));
 }
 
+.editor__round__cell.active {
+  background-color: rgba(200,200,255,0.5)
+}
+
+.editor__round__fraction-text.active {
+  font-weight: bold;
+}
+
 .editor__tabs {
   display: flex;
   width: 100%;
@@ -161,25 +185,50 @@ input {
 
 .editor__tabs-btn {
   --theme-btn-bg: var(--theme-btn-secondary-bg, var(--btn-secondary-bg));
-  --theme-btn-border: var(--theme-btn-secondary-border, var(--btn-secondary-border));
+  --theme-btn-border: var(
+    --theme-btn-secondary-border,
+    var(--btn-secondary-border)
+  );
   --theme-btn-text: var(--theme-btn-secondary-text, var(--btn-secondary-text));
   width: 100%;
   padding: 0.5rem;
 }
 
 .editor__tabs-btn.active {
-  --theme-btn-bg: var(--theme-btn-secondary-bg-active, var(--btn-secondary-bg-active));
-  --theme-btn-border: var(--theme-btn-secondary-border-active, var(--btn-secondary-border-active));
+  --theme-btn-bg: var(
+    --theme-btn-secondary-bg-active,
+    var(--btn-secondary-bg-active)
+  );
+  --theme-btn-border: var(
+    --theme-btn-secondary-border-active,
+    var(--btn-secondary-border-active)
+  );
 }
 
 .editor__title {
   width: 100%;
 }
 
+.editor__title__name {
+  flex-shrink: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.editor__eyebrow {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--theme-offset, var(--offset));
+  padding: 0.5rem 1rem;
+}
+
 .editor__title__chain-score {
   width: 100%;
-  background-color: var(--theme-offset, var(--offset));
-  padding: 0.5rem 1rem;;
+}
+
+.editor__title__player-index {
+  font-family: var(--monospace);
 }
 
 .editor__title__inner {
@@ -223,6 +272,8 @@ input {
 .editor__edit-btn {
   --theme-btn-bg: var(--theme-btn-bg-offset, var(--btn-bg-offset));
   --theme-btn-border: var(--theme-btn-border-offset, var(--btn-border-offset));
+  font-family: var(--monospace);
+  font-size: 1.5rem;
 }
 
 .editor__controls {
@@ -298,6 +349,14 @@ input {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  vertical-align: middle;
+}
+
+.player__name.leader:before {
+  content: "👑";
+  padding-inline-end: 0.125em;
+  font-size: 0.75em;
+  vertical-align: middle;
 }
 
 .player__nameplate {
@@ -313,7 +372,15 @@ input {
 }
 
 .round.active {
-  background: rgba(200, 200, 255, 0.5);
+  background-color: rgba(200, 200, 255, 0.5);
+}
+
+.round.leader {
+  background-color: rgba(255, 200, 200, 0.5);
+}
+
+.round.leader.active {
+  background-color: rgba(230, 140, 230, 0.5);
 }
 
 .round__upper {
@@ -358,6 +425,14 @@ input {
 .round__bid-result {
   min-width: 2em;
   flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.round__indicator {
+  min-width: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
