@@ -42,6 +42,14 @@ templateClass: tmpl-post
     <dt>🧠 Designer(s):</dt>
     <dd>{{ designer }}</dd>
     {%- endif %}
+
+    {%- if tools %}
+    <dt>🔧 Tools:</dt>
+    {%- set toolEntries = tools | getTools(collections.all) %}
+      {%- for entry in toolEntries %}
+      <dd><a href="{{ entry.filePathStem }}">{{ entry.data.title }}</a></dd>
+      {%- endfor %}
+    {%- endif %}
   </dl>
 
   <details>

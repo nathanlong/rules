@@ -8,9 +8,12 @@ time: 30
 equipment: Specialty card deck.
 designer: Brent Beck, Jeffrey Beck
 date: 2024-02-28
+modified: 2024-09-18
 tags:
   - Specialty Components
   - Trick-taking
+tools:
+  - /tools/skull-king
 ---
 
 > In **Skull King** we play as pirates battling for treasure on the High Seas. Each round we'll predict how well we'll do with the hand that we're given and battle to meet our bid while trying to sink everyone else's. We play in 10 rounds, starting with 1 card and adding one card for each round. At the end of 10 rounds, the pirate with the highest score will be Captain of the Seven Seas!

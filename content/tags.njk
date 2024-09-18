@@ -19,7 +19,7 @@ permalink: /tags/{{ tag | slug }}/
 ---
 <h2 class="m-0">Tagged <span class="font-monospace color-blue-75">“{{ tag }}”</span></h2>
 
-{% set postslist = collections[ tag ] %}
+{% set postslist = collections[ tag ] | sort(attribute="data.title") %}
 
 {%- if tag !== "Tools" %}
 {% include "filter.njk" %}

@@ -8,6 +8,7 @@ time: 30
 equipment: 52 card deck + 2 jokers.
 designer: Uncredited
 date: 2024-02-28
+modified: 2024-09-18
 tags:
   - Standard Cards
   - Climbing Card Game
@@ -23,7 +24,7 @@ tags:
 |**Pair**|99|
 |**Trip**|444|
 |**Full House**|66KKK|
-|**Straight** (no 2s or JKs)|45678|
+|**Run** (no 2s or JKs)|456|
 |**Stair**|JJQQ|
 |**Plate**|777888|
 |**Bomb**|3333|
@@ -82,7 +83,7 @@ A combo can only be beaten by a higher version of itself (or a bomb). Natural co
 - **Pair:** Two cards of the same rank.
 - **Triple:** Three cards of the same rank.
 - **Full House:** Three card of the same rank plus two cards of the same rank. Ranked by triple.
-- **Straight:** Three or more cards of consecutive rank. No 2s or Jokers allowed.
+- **Run:** Three or more cards of consecutive rank. No 2s or Jokers allowed.
 - **Stair:** Two or more pairs of consecutive rank.
 - **Plate:** Two or more triples of consecutive rank.
 
@@ -105,6 +106,12 @@ First to make 6 points wins. If there's a tie, play another hand to break the ti
 
 Last place shuffles for the next game.
 
-> **Changes**
->
-> - The original variant only allowed straights of 5 or more cards.
+## Variants
+
+### Two-Player: River Rumble
+
+Deal 18 cards to both players. The remaining cards are set face-down as a draw pile, turn one over as a draw choice.
+
+Play as normal. Once a player passes, the non-passing player can choose the face-up card or to draw a card from the deck. The passing player gets the remaining choice. The non-passing player leads.
+
+> Two-player variant credited to John Owen in his [House Climbing rules compilation](https://boardgamegeek.com/boardgame/417097/house-climber)

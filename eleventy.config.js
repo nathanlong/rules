@@ -83,6 +83,14 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  // Tools is an array of filePathStems, return all that match
+  // https://www.raymondcamden.com/2021/09/24/creating-a-manual-related-posts-feature-in-eleventy
+  eleventyConfig.addFilter("getTools", function (tools, all) {
+    return all.filter((p) => {
+      return tools.includes(p.filePathStem);
+    });
+  });
+
   // Customize Markdown library and settings:
   eleventyConfig.amendLibrary("md", (mdLib) => {
     mdLib
