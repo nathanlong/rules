@@ -5,12 +5,146 @@
 	
 	<link href="https://nathan-long.com/rules/feed/feed.xml" rel="self"/>
 	<link href="https://nathan-long.com/rules"/>
-	<updated>2024-05-10T00:00:00Z</updated>
+	<updated>2024-09-18T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Nathan Long</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Crisps</title>
+		<link href="https://nathan-long.com/rules/games/crisps/"/>
+		<updated>2024-09-18T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/games/crisps/</id>
+		<content type="html">&lt;details&gt;
+&lt;summary&gt;Player Aid&lt;/summary&gt;
+&lt;div class=&quot;table-full&quot;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;Basic Combo&lt;/th&gt;
+&lt;th style=&quot;text-align:right&quot;&gt;Example&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Single&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Pair&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;99&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Run&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;45678&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Stair&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;3344&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;Special Combo&lt;/th&gt;
+&lt;th style=&quot;text-align:right&quot;&gt;Example&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Triple&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;444&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Quad&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;3333&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;Special combos can only be played after Queens.&lt;/p&gt;
+&lt;p&gt;4 cards set aside, 12 to each player, one flipped over for draw.&lt;/p&gt;
+&lt;/details&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Crisps is a climbing-shedding card game where two players &lt;strong&gt;race to play all of their cards first&lt;/strong&gt;. As the game continues, each player will draw new cards into their hand, potentially helping or hindering their plans. The player who plays all their cards will gain 1 point, and the first player to 3 points wins!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;components&quot; tabindex=&quot;-1&quot;&gt;Components &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/crisps/#components&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;4 copies each of the following ranks: (low) 2 3 4 5 6 7 8 9 10 Queen (high).&lt;/p&gt;
+&lt;p&gt;Card suits are not needed in Crisps.&lt;/p&gt;
+&lt;h2 id=&quot;gameplay&quot; tabindex=&quot;-1&quot;&gt;Gameplay &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/crisps/#gameplay&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The game is played over multiple &lt;strong&gt;Deals&lt;/strong&gt;, each consisting of multiple &lt;strong&gt;Rounds&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;deal-structure&quot; tabindex=&quot;-1&quot;&gt;Deal Structure &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/crisps/#deal-structure&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Each &lt;strong&gt;Deal&lt;/strong&gt; has 4 steps, performed in order:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Shuffle all cards to create a face-down pile.&lt;/li&gt;
+&lt;li&gt;Place the &lt;strong&gt;top 4 cards&lt;/strong&gt; face-down to the side. They will not be used in this deal.&lt;/li&gt;
+&lt;li&gt;Deal &lt;strong&gt;12 cards&lt;/strong&gt; to each player from the draw pile.&lt;/li&gt;
+&lt;li&gt;Take &lt;strong&gt;1 card&lt;/strong&gt; from the draw pile and place it face-up next to the draw pile. It&#39;s use is explained in &#39;Round End and Gaining Cards&#39;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Play a Round&lt;/strong&gt;, beginning with the &lt;strong&gt;Starter&lt;/strong&gt; and alternating turns between players until someone passes or runs out of cards.
+&lt;ul&gt;
+&lt;li&gt;If someone passes, then each player gains 1 new card and another Round begins.&lt;/li&gt;
+&lt;li&gt;If someone has no cards, the Deal ends immediately and points are scored.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;deal-starter&quot; tabindex=&quot;-1&quot;&gt;Deal Starter &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/crisps/#deal-starter&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;For the first Round of the first Deal, the hungriest player becomes the Starter. In the first Round of all subsequent Deals the Starter is the player with the lowest score. If there is a tie, the Starter is the player who did not start the previous Deal.&lt;/p&gt;
+&lt;h2 id=&quot;on-your-turn&quot; tabindex=&quot;-1&quot;&gt;On Your Turn &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/crisps/#on-your-turn&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;During each turn, you must either &lt;strong&gt;play a combination&lt;/strong&gt; or &lt;strong&gt;pass&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;play-a-combination&quot; tabindex=&quot;-1&quot;&gt;Play a Combination &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/crisps/#play-a-combination&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Create a combination using the cards in your hand, and place it face-up between you and your opponent. If you are the Starter, you may create any combination, either standard or special. Otherwise, you must create a stronger combination or pass for your turn.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Standard Combination Types&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Single card&lt;/li&gt;
+&lt;li&gt;Set of 2 identical cards (Pair)&lt;/li&gt;
+&lt;li&gt;Run of 3 or more sequential cards&lt;/li&gt;
+&lt;li&gt;Run of 2 or more sequential pairs (Stair)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note: Queens cannot be used in Runs of any kind.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Special Combination Types&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Set of 3 identical cards (Triples)&lt;/li&gt;
+&lt;li&gt;Set of 4 identical cards (Quad)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;stronger-combinations&quot; tabindex=&quot;-1&quot;&gt;Stronger Combinations &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/crisps/#stronger-combinations&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;A new &lt;strong&gt;standard combination&lt;/strong&gt; is stronger than the previous combination as long as each of the following is true:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It is the &lt;strong&gt;same type&lt;/strong&gt; as the previous combination and&lt;/li&gt;
+&lt;li&gt;It is the &lt;strong&gt;same length&lt;/strong&gt; as the previous combination and&lt;/li&gt;
+&lt;li&gt;Its card(s) are of the &lt;strong&gt;same rank as, OR higher rank than&lt;/strong&gt;, the previous combination&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A new &lt;strong&gt;special combination&lt;/strong&gt; is stronger than the previous combination as long as one of the following is true:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The previous standard combination &lt;strong&gt;contains at least one Queen&lt;/strong&gt; or&lt;/li&gt;
+&lt;li&gt;It is &lt;strong&gt;longer&lt;/strong&gt; than the previous special combination or&lt;/li&gt;
+&lt;li&gt;Its card(s) are of &lt;strong&gt;higher rank&lt;/strong&gt; than the previous special combination
+&lt;ul&gt;
+&lt;li&gt;Reminder: You cannot play a special combination on a previous standard combination unless that standard combination has at least one Queen!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;pass&quot; tabindex=&quot;-1&quot;&gt;Pass &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/crisps/#pass&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;If you cannot, or choose not to, play a combination then you must pass. This immediately ends the Round.&lt;/p&gt;
+&lt;h3 id=&quot;round-end-and-gaining-cards&quot; tabindex=&quot;-1&quot;&gt;Round End &amp;amp; Gaining Cards &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/crisps/#round-end-and-gaining-cards&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Once the Round ends due to a player passing, each player draws 1 new card.&lt;/p&gt;
+&lt;p&gt;The player who did not pass first draws either the face-up card placed next to the draw pile at the start of the Round or the top card from the draw pile.&lt;/p&gt;
+&lt;p&gt;The player who passed then draws the card the prior player did not choose (face up card or card on the draw pile).&lt;/p&gt;
+&lt;p&gt;Begin a new round by revealing the top card from the draw pile and placing it next to the draw pile. This will be one of the two cards gained by players if another Round ends. If the draw pile is depleted, then no card is placed face up, and no further cards will be drawn by players until the end of the Deal.&lt;/p&gt;
+&lt;p&gt;The player who did not pass to end the previous Round becomes the Starter, and a new Round begins.&lt;/p&gt;
+&lt;h2 id=&quot;deal-end&quot; tabindex=&quot;-1&quot;&gt;Deal End &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/crisps/#deal-end&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The moment a player has no cards, the Deal ends, and that player scores 1 point. If the game is not over, begin a new Deal.&lt;/p&gt;
+&lt;h2 id=&quot;game-end&quot; tabindex=&quot;-1&quot;&gt;Game End &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/crisps/#game-end&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The game ends after a player scores their 3rd point. That player wins the game!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Great distillation of a climbing game into a 2p experience. It doesn&#39;t come out clearly in the rules, but Queens only appear as singles or in pairs. They add some tension because you HAVE to get rid of them to win the round, but they could open up those special combos.&lt;/p&gt;
+&lt;p&gt;The other rule that makes a big difference from other climbing games is that the FIRST pass ends the round. You don&#39;t get to keep plopping combos until you both pass. This is especially meaningful on Queens, where you could drop it, hoping to play your juicy Quad, but then the other person reads your mind, passes, and it&#39;s locked back up. 🤷&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Farkle</title>
