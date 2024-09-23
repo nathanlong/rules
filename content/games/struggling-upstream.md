@@ -1,7 +1,7 @@
 ---
-title: Zhēng Shàngyóu (Struggling Upstream)
+title: Struggling Upstream (Zhēng Shàngyóu)
 description: Players race to shed their cards first in combos.
-minplayers: 2
+minplayers: 3
 maxplayers: 4
 bestplayers: 3
 time: 30
@@ -43,14 +43,12 @@ Player with 3♠︎ starts. Bombs/Rockets can be played at any time. Natural com
 
 </details>
 
-> This is a variant of **Zhēng Shàngyóu / 争上游** (which roughly translates to **Struggling Upstream**).
+> This is a variant of **Zhēng Shàngyóu / 争上游** (which roughly translates to **Struggling Upstream**). As a folk game, there are dozens of variants and house rules that vary by geographical region. This version combines some of the best features of several climbing games while keeping the structure simple.
 
 ## Setup
 
-- 2 players = 26 cards
 - 3 players = 18 cards
 - 4 players = 13 cards
-- 6 players = 9 cards
 
 ## Play
 
@@ -106,12 +104,6 @@ First to make 6 points wins. If there's a tie, play another hand to break the ti
 
 Last place shuffles for the next game.
 
-## Variants
-
-### Two-Player: River Rumble
-
-Deal 18 cards to both players. The remaining cards are set face-down as a draw pile, turn one over as a draw choice.
-
-Play as normal. Once a player passes, the non-passing player can choose the face-up card or to draw a card from the deck. The passing player gets the remaining choice. The non-passing player leads.
-
-> Two-player variant credited to John Owen in his [House Climbing rules compilation](https://boardgamegeek.com/boardgame/417097/house-climber)
+> **Nathan's Notes**
+>
+> Great game I can play over and over. There's great satisfaction in laying down a huge combo, or even busting up someone's plans with a Bomb. It may not be intuitive on first play that the 2's are the highest card (other than Jokers). So far we've played that 2's and Jokers as wilds can also be included to make a Bomb.
