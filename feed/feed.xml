@@ -5,12 +5,142 @@
 	
 	<link href="https://nathan-long.com/rules/feed/feed.xml" rel="self"/>
 	<link href="https://nathan-long.com/rules"/>
-	<updated>2024-09-18T00:00:00Z</updated>
+	<updated>2024-09-22T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Nathan Long</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>East-West</title>
+		<link href="https://nathan-long.com/rules/games/east-west/"/>
+		<updated>2024-09-22T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/games/east-west/</id>
+		<content type="html">&lt;details&gt;
+&lt;summary&gt;Player Aid&lt;/summary&gt;
+&lt;div class=&quot;table-full&quot;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;Poker Hand (descending)&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Example&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Royal Flush&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;A K Q J 10 (same suit)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Straight Flush&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;8 7 6 5 4 (same suit)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Four of a Kind&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;9 9 9 9 Q&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Full House&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;7 7 7 3 3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Flush&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;A K 8 5 2 (same suit)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Straight&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;5 6 7 8 9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Three of a Kind&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;6 6 6 Q J&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Two Pair&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;J J 8 8 9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;One Pair&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;10 10 A 8 5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;High Card&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;A J 9 6 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;East-West&lt;/strong&gt; is a cumulative poker game with a twist from Knizia&#39;s 1995 book: &lt;em&gt;Blazing Aces! A Fistful of Family Card Games.&lt;/em&gt; It would go on to be the precursor to Schotten Totten and Battle Line.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;setup&quot; tabindex=&quot;-1&quot;&gt;Setup &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/east-west/#setup&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Deal 5 cards face-up between each player, 3 cards to each player for their hand, and set the rest in a draw pile.&lt;/p&gt;
+&lt;h2 id=&quot;objective&quot; tabindex=&quot;-1&quot;&gt;Objective &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/east-west/#objective&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Using the shared cards in the middle, build the highest poker hand in 3 of the 5 rows to win.&lt;/p&gt;
+&lt;h2 id=&quot;gameplay&quot; tabindex=&quot;-1&quot;&gt;Gameplay &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/east-west/#gameplay&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;On a players turn, they place a card from their hand on their side of the shared center cards in an attempt to form the best poker hand. Once they place a card, they draw a card from the draw pile, ending their turn.&lt;/p&gt;
+&lt;div class=&quot;table-full&quot;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;Poker Hand (descending)&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Example&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Royal Flush&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;A K Q J 10 (same suit)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Straight Flush&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;8 7 6 5 4 (same suit)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Four of a Kind&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;9 9 9 9 Q&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Full House&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;7 7 7 3 3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Flush&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;A K 8 5 2 (same suit)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Straight&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;5 6 7 8 9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Three of a Kind&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;6 6 6 Q J&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Two Pair&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;J J 8 8 9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;One Pair&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;10 10 A 8 5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;High Card&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;A J 9 6 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;game-end&quot; tabindex=&quot;-1&quot;&gt;Game End &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/east-west/#game-end&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;After each player has added four cards to each column, compare the five-card Poker combinations made on each side, with the original card in the middle of each column shared between the two sides. The highest hand wins that column. The player who wins 3 or more columns is the winner.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For such a simple game there&#39;s a nice amount of decision space. Do you hold out for a straight or just go for the pairs? The only downside is you need to know Poker Hands and their rank to accurately gauge your standing and what to shoot for.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Crisps</title>
@@ -140,8 +270,7 @@
 &lt;p&gt;The game ends after a player scores their 3rd point. That player wins the game!&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Great distillation of a climbing game into a 2p experience. It doesn&#39;t come out clearly in the rules, but Queens only appear as singles or in pairs. They add some tension because you HAVE to get rid of them to win the round, but they could open up those special combos.&lt;/p&gt;
-&lt;p&gt;The other rule that makes a big difference from other climbing games is that the FIRST pass ends the round. You don&#39;t get to keep plopping combos until you both pass. This is especially meaningful on Queens, where you could drop it, hoping to play your juicy Quad, but then the other person reads your mind, passes, and it&#39;s locked back up. 🤷&lt;/p&gt;
+&lt;p&gt;Great distillation of a climbing game into a 2p experience. It doesn&#39;t come out clearly in the rules, but Queens only appear as singles or in pairs. The Queens add some tension because they&#39;re potential openings for your opponent to dump a juicy special combo, but if you&#39;ve got a special combo yourself you really want the OTHER person to play a Queen. Also take note of the first pass IMMEDIATELY ending the round.&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
 	</entry>
