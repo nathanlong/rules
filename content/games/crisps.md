@@ -1,6 +1,6 @@
 ---
 title: Crisps
-description: Shed your cards as fast as you can, as new cards are drawn to help or hinder you. 
+description: Shed your cards as fast as you can, as new cards are drawn to help or hinder you.
 minplayers: 2
 maxplayers: 2
 time: 15
@@ -47,7 +47,7 @@ Card suits are not needed in Crisps.
 
 ## Gameplay
 
-The game is played over multiple **Deals**, each consisting of multiple **Rounds**. 
+The game is played over multiple **Deals**, each consisting of multiple **Rounds**.
 
 ### Deal Structure
 
@@ -64,10 +64,10 @@ Each **Deal** has 4 steps, performed in order:
 ## Deal Starter
 
 For the first Round of the first Deal, the hungriest player becomes the Starter. In the first Round of all subsequent Deals the Starter is the player with the lowest score. If there is a tie, the Starter is the player who did not start the previous Deal.
- 
+
 ## On Your Turn
 
-During each turn, you must either **play a combination** or **pass**. 
+During each turn, you must either **play a combination** or **pass**.
 
 ### Play a Combination
 
@@ -99,7 +99,7 @@ A new **special combination** is stronger than the previous combination as long 
 
 - The previous standard combination **contains at least one Queen** or
 - It is **longer** than the previous special combination or
-- Its card(s) are of **higher rank** than the previous special combination 
+- Its card(s) are of **higher rank** than the previous special combination
     - Reminder: You cannot play a special combination on a previous standard combination unless that standard combination has at least one Queen!
 
 ### Pass
@@ -128,6 +128,4 @@ The game ends after a player scores their 3rd point. That player wins the game!
 
 > **Nathan's Notes**
 >
-> Great distillation of a climbing game into a 2p experience. It doesn't come out clearly in the rules, but Queens only appear as singles or in pairs. They add some tension because you HAVE to get rid of them to win the round, but they could open up those special combos.
-> 
-> The other rule that makes a big difference from other climbing games is that the FIRST pass ends the round. You don't get to keep plopping combos until you both pass. This is especially meaningful on Queens, where you could drop it, hoping to play your juicy Quad, but then the other person reads your mind, passes, and it's locked back up. 🤷
+> Great distillation of a climbing game into a 2p experience. It doesn't come out clearly in the rules, but Queens only appear as singles or in pairs. The Queens add some tension because they're potential openings for your opponent to dump a juicy special combo, but if you've got a special combo yourself you really want the OTHER person to play a Queen. Also take note of the first pass IMMEDIATELY ending the round.
