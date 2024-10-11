@@ -5,12 +5,56 @@
 	
 	<link href="https://nathan-long.com/rules/feed/feed.xml" rel="self"/>
 	<link href="https://nathan-long.com/rules"/>
-	<updated>2024-09-22T00:00:00Z</updated>
+	<updated>2024-10-11T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Nathan Long</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Hearts</title>
+		<link href="https://nathan-long.com/rules/games/hearts/"/>
+		<updated>2024-10-11T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/games/hearts/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Hearts differs from other trick-taking games in that there is no bidding, no trumps, and you&#39;re generally trying to AVOID winning tricks (unless you&#39;re Shooting for the Moon)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;object&quot; tabindex=&quot;-1&quot;&gt;Object &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/hearts/#object&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Avoid scoring points. The player with the lowest points after another player has reached 100 points is the winner.&lt;/p&gt;
+&lt;h2 id=&quot;setup&quot; tabindex=&quot;-1&quot;&gt;Setup &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/hearts/#setup&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Deal all cards out to players to start a round.&lt;/p&gt;
+&lt;p&gt;Each round, Players will pass &lt;strong&gt;3 cards&lt;/strong&gt; from their hand in a rotating pattern:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;To the Left&lt;/li&gt;
+&lt;li&gt;To the Right&lt;/li&gt;
+&lt;li&gt;Across&lt;/li&gt;
+&lt;li&gt;No passing&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The pattern continues until the end of the game is reached.&lt;/p&gt;
+&lt;h2 id=&quot;play&quot; tabindex=&quot;-1&quot;&gt;Play &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/hearts/#play&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The player with the 2♣︎ must lead the first trick with the 2♣︎. Scoring cards (Hearts, Queen of Spades) cannot be played on the first trick (&amp;quot;no dirt&amp;quot;) unless the player has no other option.&lt;/p&gt;
+&lt;p&gt;In clockwise order from the leading player, each player must play a card from the leading suit. If they don&#39;t have the suit, they can play any card (except for the no scoring card restriction on the first trick).&lt;/p&gt;
+&lt;p&gt;The player with the highest card in the leading suit wins the trick. They lead the next trick with a card of their choice.&lt;/p&gt;
+&lt;p&gt;Hearts cannot be the leading suit unless:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The player has nothing except Hearts in their hand.&lt;/li&gt;
+&lt;li&gt;Hearts have been played in a previous trick (this is known as &#39;Breaking Hearts&#39;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When all players have no cards left, this ends the round and all players tally up points from the tricks they won. A new round begins.&lt;/p&gt;
+&lt;h2 id=&quot;scoring&quot; tabindex=&quot;-1&quot;&gt;Scoring &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/hearts/#scoring&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Each heart is worth 1 point. The Queen of Spades is worth 13 points. There&#39;s a total of 26 points in a round.&lt;/p&gt;
+&lt;h3 id=&quot;shooting-the-moon&quot; tabindex=&quot;-1&quot;&gt;Shooting the Moon &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/hearts/#shooting-the-moon&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;If a player manages to win all 26 points (all Hearts and the Queen of Spades) they score 0 but all other players score 26 points.&lt;/p&gt;
+&lt;h2 id=&quot;ending&quot; tabindex=&quot;-1&quot;&gt;Ending &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/hearts/#ending&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The game ends when one player reaches 100 points and the player with the lowest score is the winner.&lt;/p&gt;
+&lt;h2 id=&quot;variants&quot; tabindex=&quot;-1&quot;&gt;Variants &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/hearts/#variants&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;For a 3 player game, remove the 2♦︎ and deal the rest of the cards out.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; Hearts side-steps some of the mental load of other trick-taking games by not having partnerships or bidding strategies, making it easier to teach and get going. There&#39;s still a lot of depth in play, especially since you&#39;re trying to AVOID taking tricks—it feels like a game of Dodgeball with the Queen of Spades lurking in someone&#39;s hand. Shooting the Moon is very tough, as it can easily be broken if someone notices what you&#39;re doing, but exists as a nice REVERSE-SUPLEX if you can pull it off.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>East-West</title>
