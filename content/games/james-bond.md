@@ -3,6 +3,7 @@ title: James Bond
 description: Race to fill your briefcases with matching cards.
 minplayers: 2
 maxplayers: 3
+bestplayers: 3
 time: 5
 equipment: A standard deck of cards without jokers
 designer: Uncredited. Multiple variations exist.

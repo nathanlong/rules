@@ -3,7 +3,7 @@ title: Farkle
 description: A
 minplayers: 2
 maxplayers: 8
-bestplayers: 3-4
+bestplayers: 4
 time: 30
 equipment: 6 six-sided dice.
 designer: Public Domain. First catalogued by Hugo Kastner in "Die große Humboldt Enzyklopädie der Würfelspiele"

@@ -3,7 +3,7 @@ title: Wizard
 description: Predict how many tricks you'll win, with the help of Wizards and Jesters..
 minplayers: 3
 maxplayers: 6
-bestplayers: 4-5
+bestplayers: 4
 time: 45
 equipment: Specialty 60 card deck.
 designer: Ken Fisher

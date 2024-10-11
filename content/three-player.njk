@@ -11,9 +11,23 @@ addFilter: true
 
 <hr>
 
+<h3>Best at 3:</h3>
+
 <ul class="postlist flow" data-filter-entry-section>
   {% for post in postslist %}
-  {% if post.data.minplayers >= 2 and post.data.maxplayers >= 3 %}
+  {% if post.data.bestplayers === 3 %}
+  {% include "postitem.njk" %}
+  {% endif %}
+  {% endfor %}
+</ul >
+
+<hr>
+
+<h3>Other 3 Player Games</h3>
+
+<ul class="postlist flow" data-filter-entry-section>
+  {% for post in postslist %}
+  {% if post.data.minplayers >= 2 and post.data.minplayers < 4 and post.data.bestplayers !== 3 %}
   {% include "postitem.njk" %}
   {% endif %}
   {% endfor %}

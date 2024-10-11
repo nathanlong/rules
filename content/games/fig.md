@@ -3,7 +3,7 @@ title: F.I.G.
 description:
 minplayers: 2
 maxplayers: 7
-bestplayers: 3-4
+bestplayers: 3
 time: Varies
 equipment: Several sheets of paper and something to draw with.
 designer: Nathan Long

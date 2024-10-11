@@ -3,7 +3,7 @@ title: Casino
 description: A fishing game.
 minplayers: 2
 maxplayers: 4
-bestplayers: 2?
+bestplayers: 2
 time: 30
 equipment: A standard deck of cards without Jokers.
 designer: Uncredited. Public domain, many variants exist.

@@ -3,7 +3,7 @@ title: All Fives
 description: A
 minplayers: 2
 maxplayers: 4
-bestplayers: 2,4
+bestplayers: 4
 time: 30
 equipment: A set of double-6 dominoes.
 designer: Uncredited. Thought to have originated in Europe.

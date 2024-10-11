@@ -1,8 +1,9 @@
 ---
 title: East-West
-description: Shed your cards as fast as you can, as new cards are drawn to help or hinder you. 
+description: Shed your cards as fast as you can, as new cards are drawn to help or hinder you.
 minplayers: 2
 maxplayers: 2
+bestplayers: 2
 time: 30
 equipment: A standard deck of cards.
 designer: Reiner Knizia
@@ -69,5 +70,5 @@ On a players turn, they place a card from their hand on their side of the shared
 After each player has added four cards to each column, compare the five-card Poker combinations made on each side, with the original card in the middle of each column shared between the two sides. The highest hand wins that column. The player who wins 3 or more columns is the winner.
 
 > **Nathan's Notes**
-> 
+>
 > For such a simple game there's a nice amount of decision space. Do you hold out for a straight or just go for the pairs? The only downside is you need to know Poker Hands and their rank to accurately gauge your standing and what to shoot for.

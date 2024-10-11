@@ -12,6 +12,7 @@ modified: 2024-09-18
 tags:
   - Specialty Components
   - Trick-taking
+  - Party
 tools:
   - /tools/skull-king
 ---
