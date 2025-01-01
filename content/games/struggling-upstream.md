@@ -6,9 +6,9 @@ maxplayers: 4
 bestplayers: 3
 time: 30
 equipment: 52 card deck + 2 jokers.
-designer: Uncredited
+designer: Uncredited.
 date: 2024-02-28
-modified: 2024-09-18
+modified: 2025-01-01
 tags:
   - Standard Cards
   - Climbing Card Game
@@ -32,29 +32,28 @@ tags:
 
 </div>
 
-Player with 3♠︎ starts. Bombs/Rockets can be played at any time. Natural combos beat wild combos. Suits do not matter.
+Player with 2♠︎ starts. Bombs/Rockets can be played at any time. Suits do not matter.
 
 |**Card Rank** (ASC)|
 |:--|
-|3 &rarr; A (as normal)|
-|2 (wild)|
-|Black Joker (wild)|
-|Red Joker (wild)|
+|2 &rarr; A (as normal)|
+|Black Joker|
+|Red Joker|
 
 </details>
 
-> This is a variant of **Zhēng Shàngyóu / 争上游** (which roughly translates to **Struggling Upstream**). As a folk game, there are dozens of variants and house rules that vary by geographical region. This version combines some of the best features of several climbing games while keeping the structure simple.
+> This is a variant of **Zhēng Shàngyóu / 争上游** (which roughly translates to **Struggling Upstream**). As a folk game, there are dozens of variants and house rules that vary by geographical region.
 
 ## Setup
 
 - 3 players = 18 cards
-- 4 players = 13 cards
+- 4 players = 13 cards (remove 2♦︎ and 2♣︎)
 
 ## Play
 
-The player holding the **3 of Spades** leads first (but is not required to play the 3). This player may lead with any combination.
+The player holding the **2 of Spades** leads first (but is not required to play it). This player may lead with any combination.
 
-- A player must follow the lead combination, play a bomb, or pass.
+- A player must follow the lead combination with a higher ranked combination of same type and length, play a bomb, or pass.
 - If any player passes, they may still play cards in the future if the play comes back around to them.
 - When all players pass except one, then the table is cleared and the last person who did not pass leads the next hand.
 
@@ -66,16 +65,15 @@ First player to shed out (get rid of all cards) wins.
 
 The card rankings in ascending order:
 
-- 3 through Ace, as normal
-- 2, wild
-- Black Joker, wild
-- Red Joker, wild
+- 2 through Ace, as normal
+- Black Joker
+- Red Joker
 
 Suits do not matter!
 
 ## Combos
 
-A combo can only be beaten by a higher version of itself (or a bomb). Natural combos beat wild combos.
+A combo can only be beaten by a higher version of itself (or a bomb/rocket).
 
 - **Single:** One card played by itself.
 - **Pair:** Two cards of the same rank.
@@ -90,7 +88,7 @@ A combo can only be beaten by a higher version of itself (or a bomb). Natural co
 - **Bomb:** Four cards of the same rank.
 - **Rocket:** Black Joker plus Red Joker.
 
-Bombs/Rockets can be played at any time and can only be beaten by a higher bomb of the same type.
+Bombs can be played at any time and can be beaten by a higher bomb. The rocket beat bombs.
 
 ## Scoring
 
@@ -106,4 +104,4 @@ Last place shuffles for the next game.
 
 > **Nathan's Notes**
 >
-> Great game I can play over and over. There's great satisfaction in laying down a huge combo, or even busting up someone's plans with a Bomb. It may not be intuitive on first play that the 2's are the highest card (other than Jokers). So far we've played that 2's and Jokers as wilds can also be included to make a Bomb.
+> Great simple game that's easy to teach and quick to play. Traditionally the 2's are played as the highest cards, but I've omitted that for teaching simplicity. The targeted discard to achieve an even deal is from Hearts, and ensures that the 2♠︎ remains to start the hand.
