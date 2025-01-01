@@ -24,7 +24,7 @@ tags:
 |**Pair**|99|
 |**Trip**|444|
 |**Full House**|66KKK|
-|**Run** (no 2s or JKs)|456|
+|**Run**|456|
 |**Stair**|JJQQ|
 |**Plate**|777888|
 |**Bomb**|3333|
