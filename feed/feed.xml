@@ -5,12 +5,115 @@
 	
 	<link href="https://nathan-long.com/rules/feed/feed.xml" rel="self"/>
 	<link href="https://nathan-long.com/rules"/>
-	<updated>2024-10-11T00:00:00Z</updated>
+	<updated>2025-05-12T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Nathan Long</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Euchre</title>
+		<link href="https://nathan-long.com/rules/games/euchre/"/>
+		<updated>2025-05-12T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/games/euchre/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Euchre isn&#39;t nearly as difficult as it&#39;s made out to be, in fact, it&#39;s one of the faster playing trick-taking partnership games.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;object&quot; tabindex=&quot;-1&quot;&gt;Object &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/euchre/#object&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Be the first team to make it to 10 points. You earn points by winning at least 3 tricks, with the possibility for more.&lt;/p&gt;
+&lt;h2 id=&quot;setup&quot; tabindex=&quot;-1&quot;&gt;Setup &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/euchre/#setup&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A normal deck of cards is stripped of everything except A-K-Q-J-10-9 for each suit, making 24 cards.&lt;/p&gt;
+&lt;p&gt;Two teams are formed and the reduced deck is shuffled.&lt;/p&gt;
+&lt;p&gt;Cards are dealt in an alternating 3 / 2 pattern until each player has 5 cards.&lt;/p&gt;
+&lt;p&gt;The remaining 4 cards are dealt face-down in front of the dealer to form the &lt;strong&gt;&#39;Book&#39;&lt;/strong&gt;. The top card is flipped over to determine the trump suit, and bidding starts.&lt;/p&gt;
+&lt;p&gt;Set aside the 4 and 6 of both hearts and spades as scoring aids for each team.&lt;/p&gt;
+&lt;h2 id=&quot;bidding&quot; tabindex=&quot;-1&quot;&gt;Bidding &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/euchre/#bidding&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Starting with the left of the dealer, each player decides to either:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Order it up&lt;/strong&gt;, where the trump is accepted and &lt;strong&gt;the dealer&lt;/strong&gt; takes the revealed card and discards a card of their choice to the bottom of the Book.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pass&lt;/strong&gt;, meaning they don&#39;t want the displayed trump and bidding passes to the next player.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If all players including the dealer pass, the revealed card of the Book is flipped face-down and another round of bidding occurs where players can either:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Declare a trump&lt;/strong&gt;, which remains for the rest of the round.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pass&lt;/strong&gt;, and bidding passes to the next player.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The first player to make a bid ends the bidding round. If no players declare a trump, the next player becomes the dealer and all cards are shuffled and dealt with bidding starting over.&lt;/p&gt;
+&lt;h2 id=&quot;going-alone&quot; tabindex=&quot;-1&quot;&gt;Going Alone &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/euchre/#going-alone&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The player that wins the bid has the choice to either:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Play alone&lt;/strong&gt;, where they will play without the assistance of their partner for the chance of extra points.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Play together&lt;/strong&gt;, play with the assistance of your partner.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;card-order&quot; tabindex=&quot;-1&quot;&gt;Card Order &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/euchre/#card-order&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The jack in the trump suit, and the jack of the same colored suit become the highest cards in that round.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jack of trump suit = Right Bower (Highest Card)&lt;/li&gt;
+&lt;li&gt;Jack of other same colored suit = Left Bower (2nd Highest Card)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For leading purposes, the Left Bower counts as a trump suit.&lt;/p&gt;
+&lt;p&gt;For example, if diamonds are trumps, the right bower is J♦ and left bower is J♥. If a player leads with J♥, other players must play diamonds (trump suit) if they have them.&lt;/p&gt;
+&lt;p&gt;The other cards retain normal ordering, with Aces-high.&lt;/p&gt;
+&lt;h2 id=&quot;play&quot; tabindex=&quot;-1&quot;&gt;Play &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/euchre/#play&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The player to the left of the dealer leads any card to the first trick.&lt;/p&gt;
+&lt;p&gt;Players must follow suit if possible. A player who has no card of the suit led (&amp;quot;short-suited&amp;quot;) may play any card.&lt;/p&gt;
+&lt;p&gt;The player of the highest card of the suit that was led wins the trick and leads any card to the next trick.&lt;/p&gt;
+&lt;h2 id=&quot;scoring&quot; tabindex=&quot;-1&quot;&gt;Scoring &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/euchre/#scoring&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Won the bid, alone or together won at least 3 tricks = 1 point&lt;/li&gt;
+&lt;li&gt;Won the bid, together won all 5 tricks = 2 points&lt;/li&gt;
+&lt;li&gt;Won the bid, alone won all 5 tricks = 4 points&lt;/li&gt;
+&lt;li&gt;Did not win the bid, but won at least three tricks (called &#39;Euchred&#39;) = 2 points&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;First team to 10 points wins the game.&lt;/p&gt;
+&lt;p&gt;As a scoring aid, use the 4 and 6 of hearts or spades. Turn the 4 face up and use the face down 6 to cover all pips on the card. As you score points, reveal that number of pips. When the score becomes greater than 4, flip the 6 face up and use the face up 4 to gradually reveal pips as you score points. This way the amount visible pips on both cards is the teams total score.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; I learned this at Viget25 from Brian DiChiara and was surprised at how fast it played. It&#39;s less precise than Spades (since the bid is always at least 3) and it&#39;s a bit easier to remember what&#39;s been played with the lower card count. This makes for a lighter and breezier game. Playing to 10 also doesn&#39;t last too long, so it&#39;s easy to reset and try again.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Canadian Salad</title>
+		<link href="https://nathan-long.com/rules/games/canadian-salad/"/>
+		<updated>2025-05-12T00:00:00Z</updated>
+		<id>https://nathan-long.com/rules/games/canadian-salad/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Canadian Salad (also called Wisconsin Scramble) is a flexible player-count trick-taking game. The differing objectives for each hand changes the strategy of play making for a fun, chaotic, avoidance game.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;object&quot; tabindex=&quot;-1&quot;&gt;Object &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/canadian-salad/#object&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Have the lowest score after six hands.&lt;/p&gt;
+&lt;h2 id=&quot;setup&quot; tabindex=&quot;-1&quot;&gt;Setup &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/canadian-salad/#setup&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Cards rank from high to low A-K-Q-J-10-9-8-7-6-5-4-3-2.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For three players remove the 2 of clubs and deal 17 cards each.&lt;/li&gt;
+&lt;li&gt;For four players, deal out all cards for 13 cards each.&lt;/li&gt;
+&lt;li&gt;For five players remove the 2 of clubs and the 2 of diamonds and deal 10 cards each.&lt;/li&gt;
+&lt;li&gt;For six players remove the 2 and 3 of clubs and 2 and 3 of diamonds and deal 8 cards each.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;hands&quot; tabindex=&quot;-1&quot;&gt;Hands &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/canadian-salad/#hands&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The basic game consists of six hands, played in order, resulting in penalty points as follows.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;No tricks.&lt;/strong&gt; Each trick won counts &lt;strong&gt;10 points&lt;/strong&gt;. Total 130 points.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No hearts.&lt;/strong&gt; Each hearts taken counts &lt;strong&gt;10 points&lt;/strong&gt;. Total 130 points.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No queens.&lt;/strong&gt; Each queen taken counts &lt;strong&gt;25 points&lt;/strong&gt;. Total 100 points.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No king of spades.&lt;/strong&gt; The player who takes the king of spades in a trick scores &lt;strong&gt;100 points&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No last trick.&lt;/strong&gt; The winner of the last trick scores &lt;strong&gt;100 points&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Combination of all the above.&lt;/strong&gt; All scores from hands 1-5 count. Total 560 points.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;play&quot; tabindex=&quot;-1&quot;&gt;Play &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/canadian-salad/#play&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The player to the left of the dealer leads any card to the first trick.&lt;/p&gt;
+&lt;p&gt;Players must follow suit if possible. A player who has no card of the suit (&amp;quot;short-suited&amp;quot;) led may play any card.&lt;/p&gt;
+&lt;p&gt;The player of the highest card of the suit that was led wins the trick and leads any card to the next trick.&lt;/p&gt;
+&lt;p&gt;There is no trump suit.&lt;/p&gt;
+&lt;h2 id=&quot;scoring&quot; tabindex=&quot;-1&quot;&gt;Scoring &lt;a class=&quot;header-anchor&quot; href=&quot;https://nathan-long.com/rules/games/canadian-salad/#scoring&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;At the end of the hand all points are recorded. The player with the lowest score (out of a combined total of 1120) after all 6 hands wins.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nathan&#39;s Notes:&lt;/strong&gt; I learned this at Viget25 from Cindy Caldwell. It feels reminiscent of Hearts in trying to avoid tricks. The early hand scores don&#39;t matter as much as the last ones, especially round 6 as you can earn half of the total score in that round alone!&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Hearts</title>
