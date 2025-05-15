@@ -15,14 +15,17 @@ templateClass: tmpl-post
     </div>
   </section>
 
-  <dl class="flow-1/2 mbs-2">
+  <dl class="meta-grid flow-1/2 mbs-2">
     <dt>👤 Players:</dt>
     <dd>
-    {%- if  maxplayers > 1 %}
+    {%- if minplayers === maxplayers %}
+      {{ minplayers }}
+    {%- elif maxplayers > 1 %}
       {{ minplayers }}-{{ maxplayers }}
     {%- else %}
       {{ maxplayers }}
     {%- endif %}
+
     {%- if bestplayers %}
       (Best at {{ bestplayers }})
     {%- endif %}

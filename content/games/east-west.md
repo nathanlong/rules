@@ -3,7 +3,6 @@ title: East-West
 description: Shed your cards as fast as you can, as new cards are drawn to help or hinder you.
 minplayers: 2
 maxplayers: 2
-bestplayers: 2
 time: 30
 equipment: A standard deck of cards.
 designer: Reiner Knizia

@@ -3,7 +3,6 @@ title: Crisps
 description: Shed your cards as fast as you can, as new cards are drawn to help or hinder you.
 minplayers: 2
 maxplayers: 2
-bestplayers: 2
 time: 15
 equipment: A modified deck of standard cards (4 suits of 2-10 + Queens).
 designer: Shreesh Bhat

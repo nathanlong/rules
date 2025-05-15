@@ -14,11 +14,18 @@
   <div class="flex flex-wrap items-baseline space-x">
     <h3 class="m-0 p-0"><a href="{{ post.url | url }}" class="postlist-link no-decoration" data-filter-entry-text>{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></h3>
     <div class="flex space-x">
-      {%- if post.data.maxplayers and post.data.maxplayers > 1 %}
-      <span class="flex flex-shrink-0">👤 {{ post.data.minplayers }}-{{ post.data.maxplayers }} {%- if post.data.bestplayers %}({{post.data.bestplayers}}){%- endif %}</span>
-      {%- elif post.data.maxplayers %}
-      <span class="flex flex-shrink-0">👤 {{ post.data.maxplayers }} {%- if post.data.bestplayers %}({{post.data.bestplayers}}){%- endif %}</span>
-      {%- endif %}
+      <span class="flex flex-shrink-0">👤
+        {%- if post.data.minplayers === post.data.maxplayers -%}
+          {{ post.data.minplayers }}
+        {%- elif post.data.maxplayers and post.data.maxplayers > 1 -%}
+          {{ post.data.minplayers }}-{{ post.data.maxplayers }}
+        {%- elif post.data.maxplayers -%}
+          {{ post.data.maxplayers }}
+        {%- endif -%}
+        {%- if post.data.bestplayers -%}
+          ({{post.data.bestplayers}})
+        {%- endif -%}
+      </span>
       {%- if post.data.time %}
       <span class="flex flex-shrink-0">⏱ {{post.data.time}}</span>
       {%- endif %}

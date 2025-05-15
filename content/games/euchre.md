@@ -3,7 +3,6 @@ title: Euchre
 description: Trick-taking with different objectives each hand.
 minplayers: 4
 maxplayers: 4
-bestplayers: 4
 time: 30
 equipment: Standard cards
 designer: Public domain
