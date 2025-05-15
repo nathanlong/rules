@@ -264,6 +264,17 @@ a[href].header-anchor:focus:visited,
   color: #aaa;
 }
 
+.meta-grid {
+  display: grid;
+  gap: 0.5rem;
+}
+
+@media all and (min-width: 576px) {
+  .meta-grid {
+    grid-template-columns: 10rem auto;
+  }
+}
+
 .tag {
   display: inline-block;
   background-color: var(--blue-00);
