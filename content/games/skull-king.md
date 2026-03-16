@@ -42,7 +42,7 @@ The cards are ranked in ascending order:
 
 ### Escape Cards (5)
 
-5 Escape (white flag) cards. They lose to all other cards. If everone plays Escape cards, the first Escape played wins.
+5 Escape (white flag) cards. They lose to all other cards. If everyone plays Escape cards, the first Escape played wins.
 
 ### Suit Cards (42)
 

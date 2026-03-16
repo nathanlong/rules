@@ -16,22 +16,26 @@
     Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   --accent: "Pirata One", system-ui;
-  --offset: #f0f0f0;
-  --shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
-  --bg: #ffffff;
-  --btn-bg: #f0f0f0;
-  --btn-text: #222;
+  --shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.5);
+  --color-base: #F4F2E5;
+  --color-accent: #F45138;
+  --color-accent-dark: #F13424;
+  --color-offset: #F8F6E9;
+  --bg: var(--color-base);
+  --btn-bg: var(--color-accent);
+  --btn-text: var(--color-base);
+  --btn-border: var(--color-accent-dark);
   --btn-bg-active: #ddddff;
   --btn-border-active: #aaaacc;
   --btn-shadow-active: 0 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-  --btn-border: #e2e2e2;
-  --btn-bg-offset: #ddd;
-  --btn-border-offset: #ccc;
+  --btn-bg-offset: var(--color-offset);
+  --btn-border-offset: var(--color-base);
   --btn-secondary-bg: #333;
   --btn-secondary-border: #222;
   --btn-secondary-text: #fff;
   --btn-secondary-bg-active: #22a;
   --btn-secondary-border-active: #229;
+  --btn-calc-text: #000;
 }
 
 html,
@@ -49,7 +53,7 @@ body {
   color: var(--text-color, #111);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: var(--background, #fff);
+  background: var(--bg, #fff);
 }
 
 button,
@@ -163,7 +167,7 @@ input {
   position: fixed;
   inset: 1rem;
   z-index: 200;
-  background: white;
+  background: var(--bg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -219,7 +223,7 @@ input {
 .editor__eyebrow {
   display: flex;
   justify-content: space-between;
-  background-color: var(--theme-offset, var(--offset));
+  background-color: var(--theme-offset, var(--color-offset));
   padding: 0.5rem 1rem;
 }
 
@@ -272,6 +276,7 @@ input {
 .editor__edit-btn {
   --theme-btn-bg: var(--theme-btn-bg-offset, var(--btn-bg-offset));
   --theme-btn-border: var(--theme-btn-border-offset, var(--btn-border-offset));
+  --theme-btn-text: var(--theme-btn-calc-text, var(--btn-calc-text));
   font-family: var(--monospace);
   font-size: 1.5rem;
 }
@@ -332,7 +337,7 @@ input {
 }
 
 .scorecard.disabled {
-  opacity: 0.5;
+  opacity: 0.2;
   pointer-events: none;
 }
 
@@ -362,7 +367,7 @@ input {
 .player__nameplate {
   position: sticky;
   top: 0;
-  background: white;
+  background: var(--bg);
   z-index: 10;
 }
 

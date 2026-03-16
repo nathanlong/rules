@@ -53,6 +53,7 @@ body {
   /* 16-20, 640-1920px */
   font-size: clamp(1rem, 0.3125vw + 0.875rem, 1.25rem);
   line-height: 1.375;
+  font-variant-numeric: tabular-nums;
 }
 
 h1, h2, h3, h4, h5, h6 {
