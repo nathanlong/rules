@@ -2,6 +2,7 @@
   "name": "Nathan's Rule Repository",
   "version": "1.0.0",
   "description": "Rules on-the-go",
+  "type": "module",
   "scripts": {
     "build": "npx @11ty/eleventy --pathprefix '/rules/'",
     "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
@@ -26,15 +27,15 @@
   },
   "homepage": "https://github.com/nathanlong/rules#readme",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-navigation": "^0.3.5",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "luxon": "^3.4.1",
-    "markdown-it": "^13.0.1",
-    "markdown-it-anchor": "^8.6.7",
-    "markdown-it-deflist": "^2.1.0",
-    "markdown-it-mark": "^3.0.1",
+    "@11ty/eleventy": "^3.1.5",
+    "@11ty/eleventy-navigation": "^1.0.5",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "luxon": "^3.7.2",
+    "markdown-it": "^14.1.1",
+    "markdown-it-anchor": "^9.2.0",
+    "markdown-it-deflist": "^3.0.0",
+    "markdown-it-mark": "^4.0.0",
     "qrcode": "^1.5.4"
   }
 }
