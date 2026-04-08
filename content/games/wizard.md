@@ -13,7 +13,7 @@ tags:
   - Trick-taking
 ---
 
-> This is an everybody-for-themselves trick-taking game with a chef's-kiss of chaos. It can be played with a specialty Wizard deck (52 standard cards + 4 Wizards + 4 Jokers = 60 cards) or a [Skull King]({{ '/games/skull-king' | url}}) deck with only Pirates and Escapes.
+> This is an everybody-for-themselves trick-taking game with a chef's-kiss of chaos. It can be played with a specialty Wizard deck (52 standard cards + 4 Wizards + 4 Jokers = 60 cards) or a [Skull King](/games/skull-king) deck with only Pirates and Escapes.
 
 ## Object of the Game
 
@@ -72,4 +72,4 @@ A trick is won:
 
 For correctly predicting the number of tricks taken, a player scores 20 points and receives 10 additional points for each trick taken. A player whose prediction is incorrect loses 10 points for each over or under trick.
 
-> **Nathan's Notes:** This plays more chaotic than Oh Hell (which it shares it's base) but tighter than [Skull King's]({{ '/games/skull-king' | url }}) rock-paper-scissors trump rules and as such requires a bit more skill, so it might appeal more to longtime fans of trick-taking games.
+> **Nathan's Notes:** This plays more chaotic than Oh Hell (which it shares it's base) but tighter than [Skull King's](/games/skull-king) rock-paper-scissors trump rules and as such requires a bit more skill, so it might appeal more to longtime fans of trick-taking games.

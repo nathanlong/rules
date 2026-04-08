@@ -13,7 +13,7 @@ eleventyNavigation:
 {% for tag in collections.all | getAllTags | filterTagList | sort() %}
   {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
   <div class="mbe-1/2">
-    <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+    <a href="{{ tagUrl }}" class="tag">{{ tag }}</a>
   </div>
 {% endfor %}
 

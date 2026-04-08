@@ -1,5 +1,6 @@
 import fs from "fs";
 import { DateTime } from "luxon";
+import { HtmlBasePlugin } from "@11ty/eleventy";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
@@ -14,6 +15,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ public: "/" });
 
   // Add plugins
+  eleventyConfig.addPlugin(HtmlBasePlugin);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(feedPlugin, {
@@ -28,7 +30,7 @@ export default async function (eleventyConfig) {
       language: "en",
       title: "Rules",
       subtitle: "This is a longer description about your blog.",
-      base: "https://nathan-long.com/rules",
+      base: "https://nathan-long.com",
       author: {
         name: "Nathan Long",
       },
@@ -174,5 +176,5 @@ export const config = {
   // You can also pass this in on the command line using `--pathprefix`
 
   // Optional (default is shown)
-  pathPrefix: "/",
+  pathPrefix: "/rules/",
 };

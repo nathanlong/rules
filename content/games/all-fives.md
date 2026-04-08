@@ -50,14 +50,14 @@ When the third tile is played against the spinner, creating a new arm extending 
 **Example**. The diagrams below show the first nine moves of a possible game. The black arrows show the directions in which the layout can be extended, and the red stars show the tile ends that contribute to the total, which must be a multiple of 5 for the player to score for the move.
 
 <figure class="inset-small mx-auto">
-<img src="{{ '/img/all-fives-01.svg' | url }}" alt="Move 1">
+<img src="/img/all-fives-01.svg" alt="Move 1">
 <figcaption>move one - 5 points</figcaption>
 </figure>
 
 <hr>
 
 <figure class="inset mx-auto">
-<img src="{{ '/img/all-fives-02.svg' | url }}" alt="Move 1">
+<img src="/img/all-fives-02.svg" alt="Move 1">
 <figcaption>
 move two - 0 points
 </figcaption>
@@ -66,7 +66,7 @@ move two - 0 points
 <hr>
 
 <figure class="inset mx-auto">
-<img src="{{ '/img/all-fives-03.svg' | url }}" alt="Move 1">
+<img src="/img/all-fives-03.svg" alt="Move 1">
 <figcaption>
 move three - 10 points
 </figcaption>
@@ -77,7 +77,7 @@ When a double is at the end of an arm, both ends of the double are counted, but 
 <hr>
 
 <figure class="inset mx-auto">
-<img src="{{ '/img/all-fives-04.svg' | url }}" alt="Move 1">
+<img src="/img/all-fives-04.svg" alt="Move 1">
   <figcaption>
   move four - 5 points
   </figcaption>
@@ -88,35 +88,35 @@ The [1-1], not the [4-4], was the first double played, so it is only from the [1
 <hr>
 
 <figure class="inset mx-auto">
-<img src="{{ '/img/all-fives-05.svg' | url }}" alt="Move 1">
+<img src="/img/all-fives-05.svg" alt="Move 1">
   <figcaption>move five - 5 points</figcaption>
 </figure>
 
 <hr>
 
 <figure class="inset mx-auto">
-<img src="{{ '/img/all-fives-06.svg' | url }}" alt="Move 1">
+<img src="/img/all-fives-06.svg" alt="Move 1">
   <figcaption>move six - 10 points</figcaption>
 </figure>
 
 <hr>
 
 <figure class="inset mx-auto">
-<img src="{{ '/img/all-fives-07.svg' | url }}" alt="Move 1">
+<img src="/img/all-fives-07.svg" alt="Move 1">
   <figcaption>move seven - 15 points</figcaption>
 </figure>
 
 <hr>
 
 <figure class="inset mx-auto">
-<img src="{{ '/img/all-fives-08.svg' | url }}" alt="Move 1">
+<img src="/img/all-fives-08.svg" alt="Move 1">
   <figcaption>move eight - 5 points</figcaption>
 </figure>
 
 <hr>
 
 <figure class="inset mx-auto">
-<img src="{{ '/img/all-fives-09.svg' | url }}" alt="Move 1">
+<img src="/img/all-fives-09.svg" alt="Move 1">
   <figcaption>move nine - 0 points</figcaption>
 </figure>
 

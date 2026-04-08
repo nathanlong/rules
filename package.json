@@ -4,7 +4,7 @@
   "description": "Rules on-the-go",
   "type": "module",
   "scripts": {
-    "build": "npx @11ty/eleventy --pathprefix '/rules/'",
+    "build": "npx @11ty/eleventy",
     "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
     "watch": "npx @11ty/eleventy --watch",
     "serve": "npx @11ty/eleventy --serve",

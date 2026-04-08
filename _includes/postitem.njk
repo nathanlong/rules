@@ -12,7 +12,7 @@
   data-active="true"
 >
   <div class="flex flex-wrap items-baseline space-x">
-    <h3 class="m-0 p-0"><a href="{{ post.url | url }}" class="postlist-link no-decoration" data-filter-entry-text>{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></h3>
+    <h3 class="m-0 p-0"><a href="{{ post.url }}" class="postlist-link no-decoration" data-filter-entry-text>{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></h3>
     <div class="flex space-x">
       <span class="flex flex-shrink-0">👤
         {%- if post.data.minplayers === post.data.maxplayers -%}
@@ -37,7 +37,7 @@
   <div class="space-x">
     {% for tag in post.data.tags | filterTagList %}
     {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-    <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+    <a href="{{ tagUrl }}" class="tag">{{ tag }}</a>
     {% endfor %}
   </div>
 </li>
