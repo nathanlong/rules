@@ -32,7 +32,7 @@ tags:
 
 </div>
 
-Player with 2♠︎ starts. Bombs/Rockets can be played at any time. Suits do not matter.
+Bombs/Rockets can be played at any time. Suits do not matter.
 
 |**Card Rank** (ASC)|
 |:--|
@@ -47,11 +47,11 @@ Player with 2♠︎ starts. Bombs/Rockets can be played at any time. Suits do no
 ## Setup
 
 - 3 players = 18 cards
-- 4 players = 13 cards (remove 2♦︎ and 2♣︎)
+- 4 players = 13 cards (set aside 2 leftover cards)
 
 ## Play
 
-The player holding the **2 of Spades** leads first (but is not required to play it). This player may lead with any combination.
+Traditionally, the player holding the **2 of Spades** leads first (but is not required to play it). This player may lead with any combination.
 
 - A player must follow the lead combination with a higher ranked combination of same type and length, play a bomb, or pass.
 - If any player passes, they may still play cards in the future if the play comes back around to them.
@@ -65,7 +65,7 @@ First player to shed out (get rid of all cards) wins.
 
 The card rankings in ascending order:
 
-- 2 through Ace, as normal
+- 2 through Ace (Aces high)
 - Black Joker
 - Red Joker
 
