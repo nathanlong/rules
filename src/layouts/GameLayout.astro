@@ -1,0 +1,107 @@
+---
+import { getEntries } from "astro:content";
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import FormattedDate from "~/components/FormattedDate.astro";
+import QrCode from "~/components/QrCode.astro";
+import TagLink from "~/components/TagLink.astro";
+import { entryUrl, type Game } from "~/lib/games";
+import { formatPlayers } from "~/lib/players";
+import { absoluteUrl, withBase } from "~/lib/url";
+
+interface Props {
+  game: Game;
+}
+const { game } = Astro.props;
+const data = game.data;
+const tools = await getEntries(data.tools);
+const pageUrl = absoluteUrl(entryUrl(game), Astro.site);
+---
+
+<BaseLayout title={data.title} description={data.description} bodyClass="tmpl-post">
+  <div class="container flow">
+    <section>
+      <h1 class="heading-50">{data.title}</h1>
+      <div class="space-x mbs-1/2">
+        {data.tags.map((tag) => (
+          <TagLink tag={tag} />
+        ))}
+      </div>
+    </section>
+
+    <dl class="meta-grid flow-1/2 mbs-2">
+      <dt>
+        <span aria-hidden="true">👤</span> Players:
+      </dt>
+      <dd>{formatPlayers(data, "long")}</dd>
+
+      {data.time && (
+        <>
+          <dt>
+            <span aria-hidden="true">⏱</span> Time to play:
+          </dt>
+          <dd>{data.time} minutes</dd>
+        </>
+      )}
+      {data.equipment && (
+        <>
+          <dt>
+            <span aria-hidden="true">♟</span> Equipment:
+          </dt>
+          <dd>{data.equipment}</dd>
+        </>
+      )}
+      {data.designer && (
+        <>
+          <dt>
+            <span aria-hidden="true">🧠</span> Designer(s):
+          </dt>
+          <dd>{data.designer}</dd>
+        </>
+      )}
+      {tools.length > 0 && (
+        <>
+          <dt>
+            <span aria-hidden="true">🔧</span> Tools:
+          </dt>
+          {tools.map((tool) => (
+            <dd>
+              <a href={withBase(entryUrl(tool))}>{tool.data.title}</a>
+            </dd>
+          ))}
+        </>
+      )}
+    </dl>
+
+    <details>
+      <summary>QR Code</summary>
+      <QrCode url={pageUrl} />
+    </details>
+
+    <slot />
+
+    <p class="font-monospace text-small color-medgray flow-2">
+      <span>
+        Date added: <FormattedDate date={data.date} />
+      </span>
+      {data.modified && (
+        <span>
+          | Modified: <FormattedDate date={data.modified} />
+        </span>
+      )}
+    </p>
+
+    <hr class="flow-2" />
+
+    <div class="flex justify-between flow-2">
+      <div class="flex flex-wrap items-center gap-1/2">
+        <p>More:</p>
+        {data.tags.map((tag) => (
+          <TagLink tag={tag} />
+        ))}
+      </div>
+      <a class="font-monospace no-decoration flex-shrink-0" href={withBase("/games/")}>
+        All Games
+      </a>
+    </div>
+  </div>
+</BaseLayout>

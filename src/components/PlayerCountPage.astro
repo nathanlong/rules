@@ -1,0 +1,35 @@
+---
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import GameFilter from "~/components/GameFilter.astro";
+import GameList from "~/components/GameList.astro";
+import { allTags, getGames } from "~/lib/games";
+import { bestAt, playsAt } from "~/lib/players";
+import { withBase } from "~/lib/url";
+
+interface Props {
+  players: number;
+  /** "Two", "Three"… */
+  label: string;
+}
+const { players, label } = Astro.props;
+const games = await getGames();
+const best = games.filter((g) => bestAt(g.data, players));
+const other = games.filter((g) => playsAt(g.data, players) && !bestAt(g.data, players));
+---
+
+<BaseLayout title={`${label}-Player Games`}>
+  <div class="container flow">
+    <h1 class="heading-200 m-0">{label}-Player Games</h1>
+    <GameFilter tags={allTags([...best, ...other])}>
+      <hr />
+      <h2 class="heading-300 border-0">Best at {players}:</h2>
+      <GameList entries={best} />
+      <hr />
+      <h2 class="heading-300 border-0">Other {players} Player Games:</h2>
+      <GameList entries={other} />
+    </GameFilter>
+    <p>
+      See <a href={withBase("/tags/")}>all tags</a>.
+    </p>
+  </div>
+</BaseLayout>

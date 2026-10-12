@@ -1,0 +1,13 @@
+---
+import { tagUrl } from "~/lib/slug";
+import { withBase } from "~/lib/url";
+
+interface Props {
+  tag: string;
+}
+const { tag } = Astro.props;
+---
+
+<a href={withBase(tagUrl(tag))} class="tag">
+  {tag}
+</a>

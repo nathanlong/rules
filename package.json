@@ -4,13 +4,15 @@
   "description": "Rules on-the-go",
   "type": "module",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
-    "watch": "npx @11ty/eleventy --watch",
-    "serve": "npx @11ty/eleventy --serve",
-    "start": "npx @11ty/eleventy --serve",
-    "dev": "npx @11ty/eleventy --serve",
-    "debug": "DEBUG=* npx @11ty/eleventy"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "parity": "node scripts/snapshot-urls.mjs dist > tests/parity/astro.json && node scripts/compare-urls.mjs tests/parity/baseline.json tests/parity/astro.json",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -27,15 +29,31 @@
   },
   "homepage": "https://github.com/nathanlong/rules#readme",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.5",
-    "@11ty/eleventy-navigation": "^1.0.5",
-    "@11ty/eleventy-plugin-rss": "^2.0.4",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
-    "luxon": "^3.7.2",
-    "markdown-it": "^14.1.1",
-    "markdown-it-anchor": "^9.2.0",
-    "markdown-it-deflist": "^3.0.0",
-    "markdown-it-mark": "^4.0.0",
-    "qrcode": "^1.5.4"
+    "@astrojs/markdown-satteri": "^0.4.3",
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/svelte": "^9.0.1",
+    "@fontsource/atkinson-hyperlegible": "^5.3.0",
+    "@fontsource/pirata-one": "^5.3.0",
+    "@fontsource/share-tech-mono": "^5.3.0",
+    "astro": "^7.3.8",
+    "qrcode": "^1.5.4",
+    "satteri": "^0.10.5",
+    "slugify": "^1.6.9",
+    "svelte": "^5.57.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.64.0",
+    "@types/qrcode": "^1.5.6",
+    "linkinator": "^8.1.0",
+    "prettier": "^3.9.9",
+    "prettier-plugin-astro": "^1.1.0",
+    "prettier-plugin-svelte": "^4.1.1",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.3"
+  },
+  "engines": {
+    "node": ">=22.12.0"
   }
 }

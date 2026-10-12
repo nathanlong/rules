@@ -1,0 +1,67 @@
+---
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import GameList from "~/components/GameList.astro";
+import { getGames, latest } from "~/lib/games";
+import { withBase } from "~/lib/url";
+
+const games = await getGames();
+const newest = latest(games, 3);
+
+const components = [
+  { href: "/tags/standard-cards/", label: "Standard Playing Cards", note: "Never leave without a deck" },
+  { href: "/tags/dominoes/", label: "Dominoes", note: "Nice and waterproof" },
+  { href: "/tags/dice/", label: "Dice", note: "Roll dem bones" },
+  { href: "/tags/lowno-component/", label: "Nothing on hand", note: "Improvisation!" },
+  { href: "/tags/specialty-components/", label: "Speciality Components", note: "So fancy" },
+];
+const playerCounts = [
+  { href: "/tags/solitaire/", label: "Just Myself (1)", note: "Forever alone" },
+  { href: "/two-player/", label: "Two (2)", note: "Much quality time" },
+  { href: "/three-player/", label: "Three (3)", note: "Such triangle" },
+  { href: "/four-player/", label: "Four (4)", note: "Very dividable by two" },
+  { href: "/tags/party/", label: "Large Group (5+)", note: "Such friends" },
+];
+---
+
+<BaseLayout>
+  <div class="container flow">
+    <h1 class="sr-only">Rules: game rules for quick reference on the go</h1>
+    <blockquote>
+      <strong>I love games.</strong> These are rulesets I've collected for reference on-the-go with a focus on low/no
+      component games and house-ruled/modified versions of other games.
+    </blockquote>
+
+    <h2>Get Started</h2>
+
+    <p id="components-prompt">What do you have on hand?</p>
+    <ul class="chip-grid" aria-labelledby="components-prompt">
+      {components.map((c) => (
+        <li class="chip tag flow flow-1/2">
+          <a class="chip-link after-inset-0" href={withBase(c.href)}>
+            {c.label}
+          </a>{" "}
+          <span class="text-small color-medgray">({c.note})</span>
+        </li>
+      ))}
+    </ul>
+
+    <p id="players-prompt">How many players do you have?</p>
+    <ul class="chip-grid" aria-labelledby="players-prompt">
+      {playerCounts.map((c) => (
+        <li class="chip tag flow flow-1/2">
+          <a class="chip-link after-inset-0" href={withBase(c.href)}>
+            {c.label}
+          </a>{" "}
+          <span class="text-small color-medgray">({c.note})</span>
+        </li>
+      ))}
+    </ul>
+
+    <h2>Latest {newest.length === 1 ? "Addition" : `${newest.length} Additions`}:</h2>
+    <GameList entries={newest} class="postlist flow mbs-1" />
+
+    <p class="flow-3">
+      More games can be found in <a href={withBase("/games/")}>the full list</a>.
+    </p>
+  </div>
+</BaseLayout>

@@ -1,78 +1,87 @@
-# eleventy-base-blog
+# Rules
 
-A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
+Game rules for quick reference on the go, plus small tools for the table. Live at
+[nathan-long.com/rules](https://nathan-long.com/rules/).
 
-[![Build Status](https://travis-ci.org/11ty/eleventy-base-blog.svg?branch=master)](https://travis-ci.org/11ty/eleventy-base-blog)
+Built with [Astro](https://astro.build). Interactive tools are [Svelte](https://svelte.dev) islands.
 
-## Demos
+## Development
 
-* [Netlify](https://eleventy-base-blog.netlify.com/)
-* [GitHub Pages](https://11ty.github.io/eleventy-base-blog/)
-* [Remix on Glitch](https://glitch.com/~11ty-eleventy-base-blog)
+Requires the Node version in `.nvmrc`.
 
-## Deploy this to your own site
-
-These builders are amazing—try them out to get your own Eleventy site in a few clicks!
-
-* [Get your own Eleventy web site on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
-* [Get your own Eleventy web site on Vercel](https://vercel.com/import/project?template=11ty%2Feleventy-base-blog)
-
-## Getting Started
-
-### 1. Clone this Repository
-
-```
-git clone https://github.com/11ty/eleventy-base-blog.git my-blog-name
-```
-
-
-### 2. Navigate to the directory
-
-```
-cd my-blog-name
-```
-
-Specifically have a look at `.eleventy.js` to see if you want to configure any Eleventy options differently.
-
-### 3. Install dependencies
-
-```
+```sh
 npm install
+npm run dev        # local dev server at http://localhost:4321/rules/
+npm run build      # type-check (astro check) and build to dist/
+npm test           # unit tests (Vitest)
+npm run test:e2e   # end-to-end + accessibility tests (Playwright + axe); run `npm run build` first
+npm run parity     # check every URL from the old Eleventy site still exists in dist/
+npm run format     # Prettier
 ```
 
-### 4. Edit _data/metadata.json
+The site is served from `/rules`, so internal links in components go through `withBase()` from
+`src/lib/url.ts`. Root-relative links in Markdown (`/img/…`, `/games/wizard`) are prefixed automatically.
 
-### 5. Run Eleventy
+## Project layout
 
-```
-npx eleventy
+| Path                    | What it is                                                        |
+| ----------------------- | ----------------------------------------------------------------- |
+| `src/content/games/`    | One Markdown file per game                                        |
+| `src/content/tools/`    | Metadata and "How to use" text for each tool                      |
+| `src/content.config.ts` | Schemas for games and tools (the build fails on invalid content)  |
+| `src/data/`             | Site settings, navigation, and the allowed tag list               |
+| `src/lib/`              | Shared helpers (URLs, slugs, player counts, filter, tool storage) |
+| `src/layouts/`          | `BaseLayout`, `GameLayout`, and the standalone `ToolLayout`       |
+| `src/components/`       | Site components; `components/tools/` holds shared tool UI         |
+| `src/tools/<id>/`       | Each tool's island components, logic, styles, and tests           |
+| `src/pages/`            | Routes                                                            |
+| `tests/e2e/`            | Playwright tests                                                  |
+| `tests/parity/`         | URL snapshot of the old Eleventy build                            |
+
+## Adding a game
+
+Create `src/content/games/<slug>.md`. The file name becomes the URL (`/games/<slug>/`).
+
+```yaml
+---
+title: Skull King
+description: Trick-taking on the high seas. Meet your bid to please the Skull King.
+minplayers: 2
+maxplayers: 8
+bestplayers: 4-6 # optional: a number or a range
+time: 30 # optional, in minutes
+equipment: Specialty card deck. # optional
+designer: Brent Beck, Jeffrey Beck # optional
+date: 2024-02-28 # date added; drives "Latest additions" and the feed
+modified: 2024-09-18 # optional
+tags:
+  - Specialty Components
+  - Trick-taking
+tools: # optional: ids of entries in src/content/tools/
+  - skull-king
+---
 ```
 
-Or build and host locally for local development
-```
-npx eleventy --serve
-```
+Tags must come from `src/data/tags.ts`. To add a new tag, add it there first. Tag pages are created
+automatically. Quote any front matter value that contains `: `.
 
-Or build automatically when a template changes:
-```
-npx eleventy --watch
-```
+## Adding a tool
 
-Or in debug mode:
-```
-DEBUG=* npx eleventy
-```
+Tools are standalone, full-screen pages, such as the Skull King scorecard.
 
-### Implementation Notes
+1. **Metadata:** `src/content/tools/<id>.md` with `title`, `description`, `date`, and a "How to use" body.
+2. **Code:** `src/tools/<id>/` holds the island component(s), pure logic with `*.test.ts` tests, and styles.
+   Shared pieces are in `src/components/tools/` (fullscreen toggle, confirm dialog, number stepper) and
+   `src/lib/tools/storage.ts` (safe, namespaced `localStorage`).
+3. **Route:** `src/pages/tools/<id>.astro`. Copy `skull-king.astro` and change the import.
+4. **Link it** from games by adding `tools: [<id>]` to their front matter. The tool's "back to rules" link
+   and the game page's "Tools" entry come from that.
+5. Run `npm test`. A test checks that every tool has both a metadata entry and a route.
 
-* `about/index.md` shows how to add a content page.
-* `posts/` has the blog posts but really they can live in any directory. They need only the `post` tag to be added to this collection.
-* Add the `nav` tag to add a template to the top level site navigation. For example, this is in use on `index.njk` and `about/index.md`.
-* Content can be any template format (blog posts needn’t be markdown, for example). Configure your supported templates in `.eleventy.js` -> `templateFormats`.
-	* Because `css` and `png` are listed in `templateFormats` but are not supported template types, any files with these extensions will be copied without modification to the output (while keeping the same directory structure).
-* The blog post feed template is in `feed/feed.njk`. This is also a good example of using a global data files in that it uses `_data/metadata.json`.
-* This example uses three layouts:
-  * `_includes/layouts/base.njk`: the top level HTML structure
-  * `_includes/layouts/home.njk`: the home page template (wrapped into `base.njk`)
-  * `_includes/layouts/post.njk`: the blog post template (wrapped into `base.njk`)
-* `_includes/postlist.njk` is a Nunjucks include and is a reusable component used to display a list of all the posts. `index.njk` has an example of how to use it.
+`ToolLayout` handles the `<head>`, skip link, `<noscript>` note, help text, and back link.
+
+## Deployment
+
+Pushing to `main` runs `.github/workflows/deploy.yml`. It runs the tests, builds, checks URL parity, and
+publishes `dist/` to the `gh-pages` branch. Pull requests run the same checks plus the Playwright suite
+(`.github/workflows/ci.yml`).

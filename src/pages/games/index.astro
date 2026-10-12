@@ -1,0 +1,18 @@
+---
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import GameFilter from "~/components/GameFilter.astro";
+import GameList from "~/components/GameList.astro";
+import { allTags, getGames } from "~/lib/games";
+
+const games = await getGames();
+---
+
+<BaseLayout title="All Games">
+  <div class="container flow">
+    <h1 class="heading-200 m-0">Games</h1>
+    <GameFilter tags={allTags(games)} showPlayers>
+      <hr />
+      <GameList entries={games} class="postlist flow mbs-1" />
+    </GameFilter>
+  </div>
+</BaseLayout>

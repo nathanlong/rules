@@ -1,0 +1,54 @@
+---
+import TagLink from "~/components/TagLink.astro";
+import { entryUrl, tagsOf, type ListEntry } from "~/lib/games";
+import { formatPlayers } from "~/lib/players";
+import { tagSlug } from "~/lib/slug";
+import { withBase } from "~/lib/url";
+
+interface Props {
+  entry: ListEntry;
+}
+const { entry } = Astro.props;
+const tags = tagsOf(entry);
+const game = entry.collection === "games" ? entry.data : undefined;
+---
+
+<li
+  class="postlist-item"
+  data-filter-entry
+  data-tags={tags.map(tagSlug).join(" ")}
+  data-min={game?.minplayers}
+  data-max={game?.maxplayers}
+>
+  <div class="flex flex-wrap items-baseline space-x">
+    <h3 class="m-0 p-0">
+      <a href={withBase(entryUrl(entry))} class="postlist-link no-decoration" data-filter-entry-text>
+        {entry.data.title}
+      </a>
+    </h3>
+    {game && (
+      <div class="flex space-x">
+        <span class="flex flex-shrink-0">
+          <span aria-hidden="true">👤</span>
+          <span class="sr-only">Players:</span>
+          {formatPlayers(game)}
+        </span>
+        {game.time && (
+          <span class="flex flex-shrink-0">
+            <span aria-hidden="true">⏱&nbsp;</span>
+            <span class="sr-only">Minutes:</span>
+            {game.time}
+          </span>
+        )}
+      </div>
+    )}
+  </div>
+  {entry.collection === "tools" && <p>{entry.data.description}</p>}
+  <div class="space-x">
+    {tags.map((tag) => (
+      <>
+        <TagLink tag={tag} />{" "}
+      </>
+    ))}
+  </div>
+</li>

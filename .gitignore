@@ -1,2 +1,7 @@
 _site/
 node_modules/
+dist/
+.astro/
+test-results/
+playwright-report/
+tests/parity/astro.json

@@ -1,0 +1,32 @@
+---
+import { site } from "~/data/site";
+import { withBase } from "~/lib/url";
+
+interface Props {
+  /** Page name; the site name is appended. Omit on the home page. */
+  title?: string | undefined;
+  description?: string | undefined;
+}
+
+const { title, description = site.description } = Astro.props;
+const fullTitle = title ? `${title} · ${site.title}` : site.title;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{fullTitle}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+<meta name="generator" content={Astro.generator} />
+<meta name="theme-color" content="#210438" />
+<link
+  rel="icon"
+  href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🃏</text></svg>"
+/>
+<link rel="alternate" type="application/rss+xml" href={withBase("/feed/feed.xml")} title={site.title} />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content={site.title} />
+<meta property="og:title" content={title ?? site.title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />

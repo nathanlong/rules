@@ -1,0 +1,42 @@
+---
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import GameFilter from "~/components/GameFilter.astro";
+import GameList from "~/components/GameList.astro";
+import { TOOLS_TAG } from "~/data/tags";
+import { allTags, getGames, getTools, tagsOf, type ListEntry } from "~/lib/games";
+import { tagSlug } from "~/lib/slug";
+import { withBase } from "~/lib/url";
+
+export async function getStaticPaths() {
+  const entries: ListEntry[] = [...(await getGames()), ...(await getTools())];
+  return allTags(entries).map((tag) => ({
+    params: { tag: tagSlug(tag) },
+    props: {
+      tag,
+      entries: entries.filter((e) => tagsOf(e).includes(tag)).sort((a, b) => a.data.title.localeCompare(b.data.title)),
+    },
+  }));
+}
+
+const { tag, entries } = Astro.props;
+const isTools = tag === TOOLS_TAG;
+---
+
+<BaseLayout title={`Tagged “${tag}”`}>
+  <div class="container flow">
+    <h1 class="heading-200 m-0">
+      Tagged <span class="font-monospace color-blue-75">“{tag}”</span>
+    </h1>
+    {isTools ? (
+      <GameList entries={entries} class="postlist flow mbs-1" />
+    ) : (
+      <GameFilter tags={allTags(entries)} showPlayers>
+        <hr />
+        <GameList entries={entries} class="postlist flow mbs-1" />
+      </GameFilter>
+    )}
+    <p>
+      See <a href={withBase("/tags/")}>all tags</a>.
+    </p>
+  </div>
+</BaseLayout>
