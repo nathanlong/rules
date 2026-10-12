@@ -13,7 +13,6 @@
     "test:e2e": "playwright test",
     "parity": "node scripts/snapshot-urls.mjs dist > tests/parity/astro.json && node scripts/compare-urls.mjs tests/parity/baseline.json tests/parity/astro.json",
     "format": "prettier --write .",
-    "clean": "./bin/clean.sh",
     "deploy": "./bin/deploy.sh"
   },
   "repository": {
