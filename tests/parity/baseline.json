@@ -1,0 +1,196 @@
+{
+  "/": {
+    "title": "Rules",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/404.html": {
+    "title": "Rules",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/feed/feed.xml": {},
+  "/four-player/": {
+    "title": "Rules",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/games/": {
+    "title": "Rules",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/games/abandon-ship/": {
+    "title": "Abandon Ship",
+    "description": "Race to make if off a sinking pirate ship with as much treasure as you can."
+  },
+  "/games/all-fives/": {
+    "title": "All Fives",
+    "description": "A"
+  },
+  "/games/bogey/": {
+    "title": "The Bogey",
+    "description": "Race to make if off a sinking pirate ship with as much treasure as you can."
+  },
+  "/games/canadian-salad/": {
+    "title": "Canadian Salad",
+    "description": "Trick-taking with different objectives each hand."
+  },
+  "/games/casino/": {
+    "title": "Casino",
+    "description": "A fishing game."
+  },
+  "/games/chickenfoot/": {
+    "title": "Chickenfoot",
+    "description": "Shed your dominoes and create branching 'chickenfoot' junctions."
+  },
+  "/games/crisps/": {
+    "title": "Crisps",
+    "description": "Shed your cards as fast as you can, as new cards are drawn to help or hinder you."
+  },
+  "/games/dirty-uno/": {
+    "title": "Dirty Uno",
+    "description": "Uno with some extra rules."
+  },
+  "/games/east-west/": {
+    "title": "East-West",
+    "description": "Shed your cards as fast as you can, as new cards are drawn to help or hinder you."
+  },
+  "/games/eat-poop-you-cat/": {
+    "title": "Eat Poop You Cat",
+    "description": "Players doodle and caption a chain of increasingly surreal events."
+  },
+  "/games/euchre/": {
+    "title": "Euchre",
+    "description": "Trick-taking with different objectives each hand."
+  },
+  "/games/farkle/": {
+    "title": "Farkle",
+    "description": "A"
+  },
+  "/games/hearts/": {
+    "title": "Hearts",
+    "description": "Avoid taking Hearts and the Queen of Spades in this classic trick-taking game."
+  },
+  "/games/in-vino-morte/": {
+    "title": "In Vino Morte",
+    "description": "Drink or swap? A game of table-reading and imminent doom."
+  },
+  "/games/insider/": {
+    "title": "Insider",
+    "description": "A twist on 20 questions with secret roles."
+  },
+  "/games/james-bond/": {
+    "title": "James Bond",
+    "description": "Race to fill your briefcases with matching cards."
+  },
+  "/games/lamarckian-poker/": {
+    "title": "Lamarckian Poker",
+    "description": "Evolve poker hands through generations."
+  },
+  "/games/mia/": {
+    "title": "Mia/Meier",
+    "description": "An ancient bluffing game."
+  },
+  "/games/president/": {
+    "title": "President",
+    "description": "Players shed their cards to climb the social ladder."
+  },
+  "/games/schadenfreude/": {
+    "title": "Schadenfreude",
+    "description": "Trick-taking with different objectives each hand."
+  },
+  "/games/scoundrel/": {
+    "title": "Scoundrel",
+    "description": "A single player rogue-like card game"
+  },
+  "/games/shooting-party/": {
+    "title": "Shooting Party",
+    "description": "Make contact with your sources without raising suspicion."
+  },
+  "/games/skull-king/": {
+    "title": "Skull King",
+    "description": "Trick-taking on the high seas. Meet your bid to please the Skull King."
+  },
+  "/games/skull/": {
+    "title": "Skull",
+    "description": "A bluffing game where you push each other mentally to see who can turn over the highest number of cards safely."
+  },
+  "/games/splendor/": {
+    "title": "Splendor",
+    "description": "Renaissance merchants race to grab gems, acquire property, and please nobility."
+  },
+  "/games/struggling-upstream/": {
+    "title": "Struggling Upstream (Zhēng Shàngyóu)",
+    "description": "Players race to shed their cards first in combos."
+  },
+  "/games/texas-demons/": {
+    "title": "Texas Demons",
+    "description": "Trick-taking with different objectives each hand."
+  },
+  "/games/wizard/": {
+    "title": "Wizard",
+    "description": "Predict how many tricks you'll win, with the help of Wizards and Jesters.."
+  },
+  "/sitemap.xml": {},
+  "/tags/": {
+    "title": "Rules",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/tags/climbing-card-game/": {
+    "title": "Tagged “Climbing Card Game”",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/tags/dice/": {
+    "title": "Tagged “Dice”",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/tags/dominoes/": {
+    "title": "Tagged “Dominoes”",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/tags/fishing-card-game/": {
+    "title": "Tagged “Fishing Card Game”",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/tags/kid-friendly/": {
+    "title": "Tagged “Kid-friendly”",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/tags/lowno-component/": {
+    "title": "Tagged “Low/No Component”",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/tags/party/": {
+    "title": "Tagged “Party”",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/tags/solitaire/": {
+    "title": "Tagged “Solitaire”",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/tags/specialty-components/": {
+    "title": "Tagged “Specialty Components”",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/tags/standard-cards/": {
+    "title": "Tagged “Standard Cards”",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/tags/tools/": {
+    "title": "Tagged “Tools”",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/tags/trick-taking/": {
+    "title": "Tagged “Trick-taking”",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/three-player/": {
+    "title": "Rules",
+    "description": "Game rules for quick reference on the go"
+  },
+  "/tools/skull-king/": {
+    "title": "Skull King Scorecard",
+    "description": "Digital scorecard for the trick-taking game Skull King"
+  },
+  "/two-player/": {
+    "title": "Rules",
+    "description": "Game rules for quick reference on the go"
+  }
+}

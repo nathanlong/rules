@@ -1,0 +1,21 @@
+---
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import TagLink from "~/components/TagLink.astro";
+import { allTags, getGames, getTools } from "~/lib/games";
+
+const tags = allTags([...(await getGames()), ...(await getTools())]);
+---
+
+<BaseLayout title="Tags">
+  <div class="container flow">
+    <h1 class="heading-200 m-0">Tags</h1>
+    <p>Sorted alphabetically:</p>
+    <ul class="columns-2 gap-1 p-0" role="list">
+      {tags.map((tag) => (
+        <li class="mbe-1/2 no-list p-0">
+          <TagLink tag={tag} />
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>

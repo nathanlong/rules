@@ -1,0 +1,16 @@
+---
+import GameListItem from "~/components/GameListItem.astro";
+import type { ListEntry } from "~/lib/games";
+
+interface Props {
+  entries: ListEntry[];
+  class?: string;
+}
+const { entries, class: className = "postlist flow" } = Astro.props;
+---
+
+<ul class={className} data-filter-entry-section>
+  {entries.map((entry) => (
+    <GameListItem entry={entry} />
+  ))}
+</ul>

@@ -1,0 +1,14 @@
+---
+import QRCode from "qrcode";
+
+interface Props {
+  url: string;
+}
+const { url } = Astro.props;
+const svg = await QRCode.toString(url, { type: "svg", margin: 2 });
+---
+
+<figure class="qr flow">
+  <div role="img" aria-label={`QR code linking to ${url}`} set:html={svg} />
+  <figcaption class="font-monospace">{url}</figcaption>
+</figure>

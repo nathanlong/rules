@@ -1,0 +1,96 @@
+---
+/**
+ * Standalone, full-viewport shell for interactive tools. Shares <head> with the
+ * site but leaves out the site header so the tool can use the whole screen.
+ * Tool styles are imported by the route, so they don't leak into other pages.
+ */
+import { render } from "astro:content";
+import Head from "~/components/Head.astro";
+import { site } from "~/data/site";
+import { entryUrl, gamesUsingTool, getGames, type Tool } from "~/lib/games";
+import { withBase } from "~/lib/url";
+
+interface Props {
+  tool: Tool;
+}
+const { tool } = Astro.props;
+const { Content } = await render(tool);
+
+// Link back to the game's rules when exactly one game uses this tool.
+const games = gamesUsingTool(await getGames(), tool.id);
+const back =
+  games.length === 1
+    ? { href: entryUrl(games[0]), label: `${games[0].data.title} rules` }
+    : { href: "/games/", label: "All games" };
+---
+
+<!doctype html>
+<html lang={site.lang}>
+  <head>
+    <Head title={tool.data.title} description={tool.data.description} />
+  </head>
+  <body>
+    <a class="sr-only tool-skip" href="#main">
+      Skip to content
+    </a>
+    <main id="main" tabindex="-1">
+      <slot />
+      <noscript>
+        <p class="tool-noscript">This tool needs JavaScript. The instructions below still work without it.</p>
+      </noscript>
+    </main>
+    <footer class="tool-footer">
+      <details>
+        <summary>How to use</summary>
+        <div class="tool-help">
+          <Content />
+        </div>
+      </details>
+      <p>
+        <a href={withBase(back.href)}>← {back.label}</a>
+      </p>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .tool-skip:focus {
+    position: fixed;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: auto;
+    height: auto;
+    padding: 0.5em 1em;
+    clip: auto;
+    background: white;
+    z-index: 1000;
+  }
+  .tool-noscript {
+    margin: 1rem;
+    padding: 1rem;
+    background: white;
+  }
+  .tool-footer {
+    display: grid;
+    gap: 1rem;
+    max-width: 40rem;
+    margin-inline: auto;
+    padding: 2rem 1rem calc(var(--controls-height, 0px) + 2rem);
+  }
+  .tool-footer summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .tool-help {
+    padding-block-start: 0.5rem;
+  }
+  .tool-help :global(ol) {
+    padding-inline-start: 1.5rem;
+  }
+  .tool-help :global(* + *) {
+    margin-block-start: 0.5rem;
+  }
+  .tool-footer a {
+    color: #1a3a8f;
+  }
+</style>

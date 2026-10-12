@@ -1,0 +1,156 @@
+---
+import { tagSlug } from "~/lib/slug";
+
+interface Props {
+  /** Tags offered in the tag dropdown. */
+  tags: string[];
+  showPlayers?: boolean;
+}
+const { tags, showPlayers = false } = Astro.props;
+const playerOptions = ["1", "2", "3", "4", "5"];
+---
+
+<!--
+  Progressive enhancement: the lists in the slot render without JS. The controls
+  stay hidden until the custom element runs.
+-->
+<game-filter class="flow">
+  <div class="filter__control" data-controls hidden>
+    <div class="filter__control__group">
+      <div class="search-input-overlay">
+        <label for="filter-search" class="sr-only">
+          Search by title
+        </label>
+        <input
+          id="filter-search"
+          class="filter__input font-monospace"
+          type="search"
+          placeholder="Search by Title"
+          autocomplete="off"
+          data-search
+        />
+      </div>
+      <label for="filter-tag" class="sr-only">
+        Filter by tag
+      </label>
+      <select id="filter-tag" class="select-overlay__input filter__select__input font-monospace" data-tag>
+        <option value="">Search by Tag</option>
+        {tags.map((tag) => (
+          <option value={tagSlug(tag)}>{tag}</option>
+        ))}
+      </select>
+      {showPlayers && (
+        <>
+          <label for="filter-players" class="sr-only">
+            Filter by player count
+          </label>
+          <select id="filter-players" class="select-overlay__input filter__select__input font-monospace" data-players>
+            <option value="">Player Count</option>
+            {playerOptions.map((n) => (
+              <option value={n}>{n}</option>
+            ))}
+            <option value="6+">6+</option>
+          </select>
+        </>
+      )}
+      <button type="button" class="filter__control__clear" data-clear>
+        Clear
+      </button>
+    </div>
+  </div>
+  <p class="sr-only" role="status" data-status></p>
+  <slot />
+</game-filter>
+
+<script>
+  import { matchesPlayers } from "~/lib/filter";
+
+  const SEARCH_DELAY = 200;
+
+  const fadeOut = [
+    { opacity: 1, transform: "translateY(0)" },
+    { opacity: 0, transform: "translateY(5px)" },
+  ];
+  const fadeIn = [...fadeOut].reverse();
+  const timing: KeyframeAnimationOptions = {
+    duration: 250,
+    fill: "both",
+    easing: "cubic-bezier(0.33, 1, 0.68, 1)",
+  };
+
+  class GameFilter extends HTMLElement {
+    #timer: ReturnType<typeof setTimeout> | undefined;
+    #search!: HTMLInputElement;
+    #tag!: HTMLSelectElement;
+    #players: HTMLSelectElement | null = null;
+    #status!: HTMLElement;
+    #entries: HTMLElement[] = [];
+    #sections: HTMLElement[] = [];
+
+    connectedCallback() {
+      this.#search = this.querySelector("[data-search]")!;
+      this.#tag = this.querySelector("[data-tag]")!;
+      this.#players = this.querySelector("[data-players]");
+      this.#status = this.querySelector("[data-status]")!;
+      this.#entries = [...this.querySelectorAll<HTMLElement>("[data-filter-entry]")];
+      this.#sections = [...this.querySelectorAll<HTMLElement>("[data-filter-entry-section]")];
+
+      this.#search.addEventListener("input", () => {
+        clearTimeout(this.#timer);
+        this.#timer = setTimeout(() => this.#apply(), SEARCH_DELAY);
+      });
+      this.#tag.addEventListener("change", () => this.#apply());
+      this.#players?.addEventListener("change", () => this.#apply());
+      this.querySelector("[data-clear]")!.addEventListener("click", () => this.#clear());
+
+      this.querySelector<HTMLElement>("[data-controls]")!.hidden = false;
+    }
+
+    disconnectedCallback() {
+      clearTimeout(this.#timer);
+    }
+
+    #clear() {
+      this.#search.value = "";
+      this.#tag.value = "";
+      if (this.#players) this.#players.value = "";
+      this.#apply();
+      this.#search.focus();
+    }
+
+    #matches(entry: HTMLElement): boolean {
+      const query = this.#search.value.trim().toLowerCase();
+      const tag = this.#tag.value;
+      const players = this.#players?.value ?? "";
+      const title = entry.querySelector("[data-filter-entry-text]")?.textContent?.toLowerCase() ?? "";
+      const tags = (entry.dataset.tags ?? "").split(" ");
+
+      return (
+        (!query || title.includes(query)) &&
+        (!tag || tags.includes(tag)) &&
+        matchesPlayers(players, Number(entry.dataset.min), Number(entry.dataset.max))
+      );
+    }
+
+    async #apply() {
+      const animate = window.matchMedia("(prefers-reduced-motion: no-preference)").matches;
+      if (animate) {
+        await Promise.all(this.#sections.map((s) => s.animate(fadeOut, timing).finished));
+      }
+
+      let shown = 0;
+      for (const entry of this.#entries) {
+        const match = this.#matches(entry);
+        entry.hidden = !match;
+        if (match) shown++;
+      }
+
+      if (animate) this.#sections.forEach((s) => s.animate(fadeIn, timing));
+
+      const filtered = this.#search.value || this.#tag.value || this.#players?.value;
+      this.#status.textContent = filtered ? `Showing ${shown} of ${this.#entries.length}.` : "";
+    }
+  }
+
+  customElements.define("game-filter", GameFilter);
+</script>

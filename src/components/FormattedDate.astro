@@ -1,0 +1,16 @@
+---
+interface Props {
+  date: Date;
+}
+const { date } = Astro.props;
+
+// "11 October 2022", in UTC so front matter dates don't shift by time zone.
+const formatter = new Intl.DateTimeFormat("en-GB", {
+  day: "2-digit",
+  month: "long",
+  year: "numeric",
+  timeZone: "UTC",
+});
+---
+
+<time datetime={date.toISOString().slice(0, 10)}>{formatter.format(date)}</time>

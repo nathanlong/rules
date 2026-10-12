@@ -1,0 +1,18 @@
+---
+import { getEntry } from "astro:content";
+import ToolLayout from "~/layouts/ToolLayout.astro";
+import Scorecard from "~/tools/skull-king/Scorecard.svelte";
+import "~/tools/skull-king/skull-king.css";
+
+const tool = await getEntry("tools", "skull-king");
+if (!tool) throw new Error("Missing src/content/tools/skull-king.md");
+---
+
+<ToolLayout tool={tool}>
+  <!-- client:only: all state lives in localStorage, so there's nothing useful to server-render. -->
+  <Scorecard client:only="svelte">
+    <p slot="fallback" class="tool-loading">
+      Loading scorecard…
+    </p>
+  </Scorecard>
+</ToolLayout>

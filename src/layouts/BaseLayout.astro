@@ -1,0 +1,37 @@
+---
+import "@fontsource/atkinson-hyperlegible/400.css";
+import "@fontsource/atkinson-hyperlegible/400-italic.css";
+import "@fontsource/atkinson-hyperlegible/700.css";
+import "@fontsource/atkinson-hyperlegible/700-italic.css";
+import "@fontsource/share-tech-mono/400.css";
+import "~/styles/global.css";
+import Head from "~/components/Head.astro";
+import SiteHeader from "~/components/SiteHeader.astro";
+import { site } from "~/data/site";
+
+interface Props {
+  title?: string | undefined;
+  description?: string | undefined;
+  /** "tmpl-home" for listing pages, "tmpl-post" for game pages. */
+  bodyClass?: string;
+}
+
+const { title, description, bodyClass = "tmpl-home" } = Astro.props;
+---
+
+<!doctype html>
+<html lang={site.lang}>
+  <head>
+    <Head title={title} description={description} />
+  </head>
+  <body class={bodyClass}>
+    <a class="skip-link sr-only focus-not-sr-only" href="#main">
+      Skip to content
+    </a>
+    <SiteHeader />
+    <main id="main" class="mbx-5vh" tabindex="-1">
+      <slot />
+    </main>
+    <footer></footer>
+  </body>
+</html>

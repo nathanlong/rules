@@ -1,0 +1,128 @@
+/* Theme for the Skull King scorecard. Component layout lives in each .svelte file. */
+@import "@fontsource/pirata-one/400.css";
+
+:root {
+  --monospace:
+    "JetBrains Mono", "Fira Code", "Source Code Pro", Inconsolata, Consolas, Menlo, Monaco, "DejaVu Sans Mono",
+    "Liberation Mono", monospace;
+  --sans-serif:
+    Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  --accent: "Pirata One", system-ui;
+  --shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.5);
+  --controls-height: 3.5rem;
+  --color-base: #f4f2e5;
+  /* Darker than the original #f45138 so cream button text meets 4.5:1 contrast. */
+  --color-accent: #b8301d;
+  --color-accent-dark: #9c2818;
+  --color-offset: #f8f6e9;
+  --bg: var(--color-base);
+  --btn-bg: var(--color-accent);
+  --btn-text: var(--color-base);
+  --btn-border: var(--color-accent-dark);
+  --btn-bg-active: #ddddff;
+  --btn-border-active: #aaaacc;
+  --btn-shadow-active: 0 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  --btn-bg-offset: var(--color-offset);
+  --btn-border-offset: #e2dfcc;
+  --btn-secondary-bg: #333;
+  --btn-secondary-border: #222;
+  --btn-secondary-text: #fff;
+  --btn-secondary-bg-active: #22a;
+  --btn-secondary-border-active: #229;
+  --btn-calc-text: #000;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 16px;
+}
+
+body {
+  min-height: 100dvh;
+  line-height: 1.6;
+  font-family: var(--sans-serif);
+  text-rendering: optimizeLegibility;
+  color: #111;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--bg);
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input {
+  border: 1px solid var(--btn-border);
+  font-family: var(--monospace);
+  padding: 0.25rem;
+  width: auto;
+}
+
+.btn {
+  background-color: var(--btn-bg);
+  border: 1px solid var(--btn-border);
+  color: var(--btn-text);
+  border-radius: 0;
+  min-height: 44px;
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: var(--btn-shadow-active);
+}
+
+.btn[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+:focus-visible {
+  outline: 3px solid #22a;
+  outline-offset: 2px;
+}
+
+.title {
+  font-family: var(--accent);
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.modal__label {
+  font-family: var(--accent);
+  font-size: 2em;
+  font-weight: normal;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
